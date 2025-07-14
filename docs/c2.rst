@@ -1,26 +1,37 @@
-CHAPTER 2 Basic Theory
+.. _c2:
+
+第2章 基本理论
 ==========================
+CHAPTER 2 Basic Theory
 
-Every discipline has fundamentals that are used to extrapolate all the other, more complex ideas. Basics are the most important thing you can know. It is knowledge of the basics that helps you apply all that stuff in your head correctly. It doesn’t matter if you can handle quadratic equations and calculus in your sleep. If you don’t grasp the basics, you will find yourself constantly chasing a problem in circles without resolution. If you get anything out of this text, make sure that you really understand the basics!
+每一门学科都有用于推导其他更复杂思想的基础。基础知识是你能掌握的最重要的内容。正是这些基础知识能帮助你正确地应用你脑子里的所有东西。你即使能在睡梦中处理二次方程和微积分，如果你不了解基础，就会发现自己不断地在问题的圈子里打转而无法解决。如果你从本书中收获任何东西，那就请务必真正理解这些基础！
+
+.. toggle::
+
+    Every discipline has fundamentals that are used to extrapolate all the other, more complex ideas. Basics are the most important thing you can know. It is knowledge of the basics that helps you apply all that stuff in your head correctly. It doesn’t matter if you can handle quadratic equations and calculus in your sleep. If you don’t grasp the basics, you will find yourself constantly chasing a problem in circles without resolution. If you get anything out of this text, make sure that you really understand the basics!
 
 
-OHM’S LAW STILL WORKS: CONSTANTLY DRILL THE FUNDAMENTALS
+欧姆定律仍然有效：不断练习基础知识
 ----------------------------------------------------------
+OHM’S LAW STILL WORKS: CONSTANTLY DRILL THE FUNDAMENTALS
 
-Ohm’s Law
+欧姆定律
 ~~~~~~~~~~~
+Ohm’s Law
 
-This, I believe, is one of the best-taught principles in school for the budding engineer or technician, and it should be. So why go over it? Well, two reasons come to mind: One, you can’t go over the basics too much, and two, though any engineer can quote Ohm’s Law by heart, I have often seen it ignored in application.
+我认为，对于初学的工程师或技术员来说，这是在学校里教授得最好的原理之一，而且理应如此。那么为什么还要再讲一遍？嗯，我能想到两个原因：第一，基础知识再多也不嫌多；第二，虽然每个工程师都能倒背如流欧姆定律，但我经常看到他们在应用中忽略它。
 
-First, let’s state Ohm’s Law: Voltage equals current multiplied by resistance; it is shown in :ref:`Figure 2.1 <Figure 2.1>`.
+首先，我们来陈述一下欧姆定律：电压等于电流乘以电阻，如 :ref:`图 2.1 <Figure 2.1>` 所示。
 
-It is simple, but do you consider that resistance exists in every part of a circuit? [1]_ It is easy to forget that, especially since many simulators do. I think the best way to drive this point home is to recount the way it was driven home to me.
+这很简单，但你是否考虑过电路中的每个部分都有电阻？[1]_ 这很容易被忽略，尤其是许多仿真器都这么做。我认为最好的说明方式就是讲述它是如何让我铭记于心的。
 
 .. note::
 
-    There I was—a lowly engineering student. I was working as a technician or associate engineer (depending on whom you asked). I was arguing with my boss, who had an MSEE degree, but he just wouldn’t believe me; neither would my lead engineer (who had a BSEE). I couldn’t bring myself to distrust Ohm’s Law, even in light of their “superior”
+    当时我只是一名卑微的工程系学生。我在做技术员或助理工程师的工作（这取决于你问的是谁）。我正和我的老板争论，他拥有电气工程硕士学位，但他就是不相信我；带我的工程师也不信我（他是电气工程学士）。尽管他们“高深”的知识摆在面前，我还是无法违背欧姆定律。
 
-.. [1] Okay, you could be all snitty here and point out that superconductors by definition don’t have resistance. But then my cool story coming up wouldn’t have the impact needed to drive home this point that applies to 99.999999% of all circuits out there!
+.. [1] 好吧，你可以故作挑剔地指出超导体在定义上是没有电阻的。但如果你这么说，接下来我这段精彩的故事就不会产生需要的冲击力了，而这条原则适用于现实中 99.999999% 的电路！
+
+   Okay, you could be all snitty here and point out that superconductors by definition don’t have resistance. But then my cool story coming up wouldn’t have the impact needed to drive home this point that applies to 99.999999% of all circuits out there!
 
 .. _Figure 2.1:
 
@@ -28,13 +39,13 @@ It is simple, but do you consider that resistance exists in every part of a circ
     :scale: 50%
     :align: center
 
-    **FIGURE 2.1 Ohm’s Law, the heart of all things electrical.**
+    **图 2.1 欧姆定律，一切电学之核心。**
 
 .. note::
 
-    knowledge. I’d had less heated debates with rabid dogs. This was the problem: Our department needed to measure the current of a DC motor that could range from 5 A to 15 A at any given time, but our multi-meters had a 10 A fuse in the current measuring circuit.
+    问题是：我们部门需要测量一个直流电动机的电流，电流范围在 5 A 到 15 A 之间，但我们的万用表电流测量档的保险丝是 10 A。
 
-    So, using Ohm’s Law (which was fresh in my mind, being a student and all), I designed a shunt to measure current. I wanted to get a good reading but disturb the circuit as little as possible, so I chose a 0.1 Ω resistor. I built a box to house it and installed banana-jack plugs to provide an easy interface to a voltmeter. The design looked like the one shown in :ref:`Figure 2.2 <Figure 2.2>`.
+    所以，我用刚从课上学的欧姆定律设计了一个分流器来测电流。我希望尽量准确地读取数据，同时又尽量少干扰电路，于是我选用了一个 0.1 Ω 的电阻。我做了一个盒子把它装起来，并安装了香蕉插接口，方便接入电压表。设计看起来如 :ref:`图 2.2 <Figure 2.2>` 所示。
 
     .. _Figure 2.2:
 
@@ -42,11 +53,11 @@ It is simple, but do you consider that resistance exists in every part of a circ
         :scale: 50%
         :align: center
 
-        **FIGURE 2.2 Original design of simple current-measuring circuit.**
+        **图 2.2 简易电流测量电路的原始设计。**
 
-    Everyone thought it was a great idea, so I built a couple of boxes and we started using them right away. After a while, however, we noticed that they were not very accurate. Sometimes they would be off by as much as 50 to 60%. No one could figure out why, so I sat down to analyze what I had created.
+    大家都觉得这是个好主意，于是我做了几个这样的盒子，我们马上开始使用它们。但过了一段时间后，我们发现这些盒子的读数不太准确，有时误差甚至高达 50% 到 60%。没人能搞明白为什么，于是我坐下来分析我做了什么。
 
-    After a few minutes, I said to myself, “Well, duh!” I realized that to make the assembly easy I had soldered the wires from the motor to the banana jacks and then soldered some short 14-gauge jumpers to the shunt resistor. My circuit really looked like the drawing shown in :ref:`Figure 2.3 <Figure 2.3>`.
+    几分钟后，我对自己说：“哎呀！”我意识到，为了便于组装，我把电动机的线焊到了香蕉插头上，然后用几段短的 14 号导线把它们接到了分流电阻上。我的实际电路看起来更像 :ref:`图 2.3 <Figure 2.3>`。
 
     .. _Figure 2.3:
 
@@ -54,16 +65,16 @@ It is simple, but do you consider that resistance exists in every part of a circ
         :scale: 50%
         :align: center
 
-        **FIGURE 2.3 As-built simple current-measuring circuit.**
+        **图 2.3 实际组装的简易电流测量电路。**
 
-    My voltmeter was measuring across a larger resistance value than 0.1 ohms. Wire has resistance, too; even a couple of inches of 14-gauge wire has a few hundredths of an ohm. Remembering Ohm’s Law:
+    我的电压表测量的不是 0.1 欧姆的电阻，而是更大的电阻。导线也是有电阻的；哪怕是几英寸长的 14 号导线也有几百分之几欧姆的电阻。回忆欧姆定律：
 
     .. math::
         :label: equation 2.1
 
         V = I * R
 
-    I realized that this means if you increase R, you get more V for the same amount of current, leading to the errors we were seeing. I had made a simple mistake that fortunately was easy to correct. I redesigned the box on paper to look like the drawing in :ref:`Figure 2.4 <Figure 2.4>`.
+    我意识到，如果 R 增大，在相同电流下，V 也会增大，这就导致了我们看到的误差。我犯了一个简单的错误，但幸好很容易修正。我重新在纸上设计了一个新的盒子，如 :ref:`图 2.4 <Figure 2.4>` 所示。
 
     .. _Figure 2.4:
 
@@ -71,68 +82,180 @@ It is simple, but do you consider that resistance exists in every part of a circ
         :scale: 50%
         :align: center
 
-        **FIGURE 2.4 Redesigned current-measuring circuit.**
+        **图 2.4 重新设计的电流测量电路。**
 
-    I took this to my boss (the one with the MSEE who could do math in his head that I would only attempt with MathCad and a cold drink). His reaction floored me. He reviewed it with the lead engineer and they came to the conclusion that I was completely wrong. They were talking about things like temperature coefficients and phase shifts in current and RMS and a bunch of other topics that were over my head at the time. Thus began the argument. I explained that two points on a schematic had to be connected by a wire and a wire had resistance. Though it is often ignored, it was significant in this case because the shunt resistor was such a small value.
+    我把这个带去给我的老板（那个拥有 MSEE 学位、可以在脑子里心算我只能用 MathCad 加冰饮料才能算出的数学题的人）。他的反应让我震惊。他找来了主导工程师一起看，他们得出的结论是我完全错了。他们谈论的是温度系数、电流的相位移、RMS 以及一堆我当时听不懂的东西。争论就此开始。我解释说，原理图上的两个点必须用导线连接，而导线是有电阻的。尽管通常可以忽略，但在这种情况下非常关键，因为分流电阻的值太小了。
 
-    As they hemmed and hawed over this, I learned that many times it is human nature to ignore what one learned long ago and try to apply more advanced theories just because you know them. Also, all the knowledge in the world isn’t worth jack if it is incorrectly applied. I continued to press my point. I must have written Ohm’s Law on the white board 50 times by then.
+    在他们犹豫不决的时候，我意识到，人们常常会忽略曾经学过的东西，转而使用那些他们“知道”的更高级理论。而且，如果应用不当，即使再多的知识也毫无用处。我继续坚持我的观点。我可能已经在白板上写了 50 次欧姆定律了。
 
+    最终他们终于承认，香蕉插与分流电阻之间的那段额外导线是误差的来源。但争论并未就此结束。他们问，我的新设计只是重新布线，怎么就能解决问题？电阻还在电路里，不是吗？我又写了 100 次欧姆定律并解释说，通过电压表的电流非常小，使得导线中的电阻再次变得可以忽略。看到他们无视显而易见问题的能力，我感到无比震惊。相较之下，最初的争论都不算什么，真正的“烟花”这时才开始上演。
 
-    They finally conceded and agreed that the extra wire between the banana jack and the shunt was the cause of the error. That was not the end of the disagreement, though. How in the world was my new design going to fix the problem by simply repositioning the wires? The resistance was still in the circuit, was it not? I wrote down Ohm’s Law another
+    故事的寓意是什么？Dilbert 的创作者 Scott Adams 曾说过，“每个人都有愚蠢的时候”，他说这话时正看到有人换个电池就修好了他“坏掉的”呼机。我非常赞同他。我大概每六个月就要重新“发现”一次欧姆定律。在你开始寻找更复杂解决方案之前，请务必、务必、务必检查基础！我父亲是个修车工，他有一次把整辆车的电线都重接了，最后发现只是一个保险丝坏了（看上去没问题，但他没用表测）。这就是他学会这课的方式。而我，则是经历了职业生涯中最愚蠢的四小时争论。
 
-    100 times and explained that the current through the meter was very small, making the resistance in the wire insignificant again. My astonishment reached new levels as I observed the human ability to overlook the obvious. The first argument was nothing compared to this one. The fireworks really started to fly then.
+    这场争论的结局？我们从未达成一致，于是我直接用新设计修好了盒子（他们随后花了几周时间验证它确实是对的）。我一句话没再多说，尽快从那个组调走了。这个设计现在已经使用超过十年，文档中明确指出必须正确布线以避免测量误差。那不是我写的，是我以前的老板写的。有趣的是，从那以后我们再也没就欧姆定律争论过。
 
-    What is the moral of this story? Well, Scott Adams, creator of Dilbert, said, “Everyone has moments of stupidity,” as he watched someone fix his “broken” pager by putting in a new battery. I have to agree with him. I rediscover Ohm’s Law about every 6 months. Always, always, always check the basics before you start looking for more complicated solutions! My father, a mechanic, tells a story of rewiring an entire car just to find a bad fuse. (It looked okay, but he didn’t check out with a meter.) That was how he learned this lesson. Me, I just participated in 4 hours of the dumbest argument of my career.
+基础知识最重要；我再说一次，基础知识很重要！欧姆定律是你作为电气工程师会用到的最基本的原理。它是一切其他规则的基础。基本事实是，电阻会阻碍电流的流动。这种阻碍在电阻上产生一个与电流大小成正比的电压降。如果你愿意，也可以把电阻看作是电流到电压的转换器。[2]_
 
-    How did the argument end? We never came to an agreement, so I went ahead and fixed boxes with the new design anyway (which they spent several weeks proving were working correctly). I didn’t say another word but transferred out of that group as soon as possible. The same design has been in use for more than 10 years now, and the documentation notes the need to wire it correctly to avoid inaccurate readings. I didn’t write that document, my old boss did. It’s kind of funny how we didn’t argue about Ohm’s Law after that.
-
-The basics are the most important; let me repeat that, the basics are important! Ohm’s Law is the most basic principle you will use as an electrical engineer. It is the foundation on which all other rules are based. The fundamental fact is that resistance impedes current flow. This impedance creates a voltage drop across the resistor that is proportional to the amount of current flowing through it. If it helps, you can think of a resistor as a current-to-voltage converter. [2]_
-
-With that important point made, let’s consider two other types of impedance that can be found in a circuit. We will get into this in more detail later, but for now consider that inductors and capacitors both can act like resistors, depending on the frequency of the signal. If you take this into account, Ohm’s Law still works when applied to these components as well. You could very well rewrite the equation to:
+既然已经说明了这一点，我们来看看电路中另外两种阻抗类型。我们稍后会更详细地讨论，但现在请记住，电感器和电容器在特定频率下也可以像电阻一样工作。如果你考虑这一点，欧姆定律同样适用于这些元件。你甚至可以将公式改写为：
 
 .. math::
    :label: equation 2.2
 
-    V = I * Z
+   V = I * Z
 
-.. [2] If you don’t get the idea of a current-to-voltage converter, think about it a bit harder, put current through a resistor, get a voltage drop across it out—hopefully deep thought on this will lead to one of those “light-bulb-over-the-head” moments when it all seems to make sense.
+.. [2] 如果你不理解“电流到电压转换器”这个概念，再仔细想一想：电流流过一个电阻，会在其两端产生电压降——希望你深入思考后能迎来那个“脑袋上亮灯泡”的顿悟时刻，一切都豁然开朗。
 
-Think of the impedance Z as resistance at a given frequency. [3]_ As we move on to the other basic equations, keep this in mind. Wherever you see resistance in an equation, you can simply replace it with impedance if you consider the frequency of the signal.
+    If you don’t get the idea of a current-to-voltage converter, think about it a bit harder, put current through a resistor, get a voltage drop across it out—hopefully deep thought on this will lead to one of those “light-bulb-over-the-head” moments when it all seems to make sense.
 
-One final note: Every wire, trace, component, or material in your circuit has these three components in it—resistance, inductance, and capacitance. Everything has resistance, everything has capacitance, and everything has inductance. The most important question you must ask is, “Is it enough to make a difference?” The fact is, in my own experience, if the shunt resistor had been 100 times larger, that would have made the errors we were seeing 100 times less. [4]_ They would have been insignificant in comparison to the measurement we were taking. The impedance equations for capacitors and inductors will help you in a similar way. Consider the frequencies you are operating at and ask yourself, “Is this component making a significant impact on what I am looking at?” By reviewing this significance, you will be able to pinpoint the part of the circuit you are looking for.
+可以把阻抗 Z 看作某一特定频率下的电阻。[3]_ 随着我们继续学习其他基本公式，请牢记这一点。公式中凡是出现电阻的地方，如果你考虑信号的频率，就可以简单地替换为阻抗。
 
-The experience I related earlier happened years ago at the beginning of my career, and I said then that I still rediscover Ohm’s Law every six months. Time and time again, working through a problem or design, the answer can be found by application of Ohm’s Law. So, before you break out all those higher theories trying to solve a problem, first remember: Ohm’s Law still works!
+最后一点说明：你电路中的每一根导线、每一个走线、每一个元件或材料都包含这三种特性——电阻、电感和电容。所有东西都有电阻，所有东西都有电容，所有东西都有电感。你必须问自己最重要的问题是：“这个量是否足够大到会产生影响？” 事实上，根据我的经验，如果那个分流电阻的阻值大 100 倍，那误差也会小 100 倍。[4]_ 相较于我们的测量值，那误差就可以忽略不计了。你会发现，电容和电感的阻抗公式也能以类似方式帮助你。考虑你操作的频率，并问自己：“这个元件是否对我关注的部分产生了显著影响？” 通过评估这个显著性，你就能精准找到你在电路中要定位的部分。
 
-Next on our list of basic formulae is the voltage divider rule. Here is the equation and :ref:`Figure 2.5 <Figure 2.5>` shows a schematic of the circuit:
+我前面讲述的那个经历，是我职业生涯早期发生的，而我当时就说过，我每六个月就会重新“发现”一次欧姆定律。一次又一次，当我在解决问题或设计时，答案往往就在欧姆定律中。所以，在你掏出一大堆高级理论试图解决问题之前，请先记住：欧姆定律仍然有效！
+
+接下来是我们的基本公式列表中的电压分压规则。下面是公式，:ref:`图 2.5 <Figure 2.5>` 显示了电路的原理图：
 
 .. math::
    :label: equation 2.3
 
-    Vo = Vi \frac{Rg}{Rg + Ri}
+   Vo = Vi \frac{Rg}{Rg + Ri}
 
-The most common way you will see this is in terms of R1 and R2. I have changed these to Rg (for R ground) and Ri (for R input) to remind myself which one of these goes to ground and which one is in series. If you get them backward, you get the amount of voltage lost across Ri, not the amount at the output (which is the voltage across Rg). If the gain [5]_ of this circuit just doesn’t seem right, you might have the two values swapped.
-
-.. [3] Okay, this is a bit oversimplified; it acts like resistance in one sense, but it does so by causing a delay in the phase of the signal. I have found that in most cases thinking of it like this will give you a decent idea of what is going on. Just remember it isn’t exactly like a resistor dependent on frequency; it merely acts like one.
-.. [4] Here’s a fun question for you to figure out: If I had used a resistor 100 times larger, what would have been the ramifications of that? What wattage of resistor would I have needed? Would that have affected the operation of the device under measurement? If so, how much, and why? I have found that the brightest engineers will throw a problem like this up on the white board and dig into it, arguing the finer points until their boss comes along and says, “Okay, enough fun, time to get back to work.”
-.. [5] One way I like to think of this is Vo=Vi*H, where H is the gain of the circuit, or H=Rg/ðRg + RiÞ: This is useful when you are breaking a circuit down to components. We will specifically use this when we discuss op-amps later on.
+你最常看到的可能是用 R1 和 R2 表示的形式。我将它们改成了 Rg（接地电阻）和 Ri（输入电阻），以提醒自己哪个接地，哪个串联。如果你弄反了，你就会得到 Ri 上的压降而不是输出电压（即 Rg 上的电压）。如果你觉得这个电路的增益 [5]_ 不太对，可能是两个电阻值写反了。
 
 .. _Figure 2.5:
 
 .. figure:: ./img/f2.5.png
-    :scale: 50%
-    :align: center
+   :scale: 50%
+   :align: center
 
-    **FIGURE 2.5 Input voltage is divided down at the output.**
+   **图 2.5 输入电压在输出处被分压。**
 
-You might also notice that the gain of this circuit is never greater than 1. It approaches 1 as Ri goes to 0, and it approaches 1 as Rg gets very large. (Note that as Rg gets larger, the value of Ri becomes less significant.) Since this is the case, it is easy to think of the voltage divider as a circuit that passes a percentage of the voltage through to the output. When you look at this circuit, try to think of it in terms of percentage. For example, if Rg = Ri, only 50% of the voltage would be present on the output. If you want 10% of the signal, you will need a gain of 1/10. So put 1K in for Rg, and 9K in for Ri, and voilà, you have a voltage divider that leaves 10% of the signal at the output.
+你可能也注意到，这个电路的增益永远不会大于 1。当 Ri 趋近于 0 时它接近 1，当 Rg 趋近于无穷大时它也接近 1。（注意，Rg 越大，Ri 的值就越不重要。）因此，可以将分压器视为一个将电压按比例传递到输出的电路。观察这个电路时，试着用百分比的角度思考。例如，如果 Rg = Ri，那么输出端只有 50% 的电压。如果你想得到 10% 的信号，那么你需要一个 1/10 的增益。所以让 Rg = 1K，Ri = 9K，搞定，一个输出为输入信号 10% 的电压分压器就完成了。
 
-Did you notice that the ratio of the resistors to each other was 1:9 for a gain of 1/10? This is because the denominator is the sum of the two resistor values. I’ll also bet you noticed that if you swap the two resistor values you will get a gain of 9/10, or 90%. This should make intuitive sense to you now if you recognize that, for the same amount of current, the voltage drop across a 9 K Ri will be 9 times larger than the voltage drop across a 1 K Rg. In other words, 90% of the voltage is across Ri, whereas 10% of the voltage is across Rg, where your meter measuring Vo is hooked up. The voltage divider is really just an extension of Ohm’s Law (go figure), but it is so useful that I’ve included it as one of the basic equations that you should commit to memory.
+你是否注意到，为了得到 1/10 的增益，两个电阻的比例是 1:9？这是因为分母是两个电阻之和。我敢打赌你也发现了，如果交换两个电阻的值，你会得到 9/10 的增益，也就是 90%。如果你理解了这一点就会觉得这很直观：在相同电流下，9K 电阻上的电压降将是 1K 电阻的 9 倍。换句话说，90% 的电压降在 Ri 上，10% 的电压降在 Rg 上，而 Vo 的电压就是测量 Rg 上的电压。电压分压器其实只是欧姆定律的延伸（好吧，想想看），但它太实用了，因此我把它列为你必须牢记的基本公式之一。
+
+.. [3] 好吧，这说得有点过于简化了；它在某种意义上像电阻一样，但其实是通过引入信号的相位延迟来实现的。我发现多数情况下这样思考问题会帮助你理解正在发生什么。但请记住它不完全等同于频率依赖的电阻；它只是“表现得像”。
+
+    Okay, this is a bit oversimplified; it acts like resistance in one sense, but it does so by causing a delay in the phase of the signal. I have found that in most cases thinking of it like this will give you a decent idea of what is going on. Just remember it isn’t exactly like a resistor dependent on frequency; it merely acts like one.
+
+.. [4] 给你一个好玩的思考题：如果我用了一个大 100 倍的电阻，会产生什么后果？我会需要多大功率的电阻？这是否会影响被测设备的正常工作？如果会，那影响有多大？为什么？我发现最聪明的工程师会把这种问题写到白板上，然后深入探讨其细节，直到老板走过来说：“好了好了，玩够了，回去干活吧。”
+
+    Here’s a fun question for you to figure out: If I had used a resistor 100 times larger, what would have been the ramifications of that? What wattage of resistor would I have needed? Would that have affected the operation of the device under measurement? If so, how much, and why? I have found that the brightest engineers will throw a problem like this up on the white board and dig into it, arguing the finer points until their boss comes along and says, “Okay, enough fun, time to get back to work.”
+
+.. [5] 我喜欢的思考方式之一是 Vo=Vi*H，其中 H 是电路的增益，即 H=Rg/(Rg + Ri)：在你拆解电路组件时这很有用。我们在后面讲运放时会专门用到这个形式。
+
+    One way I like to think of this is Vo=Vi*H, where H is the gain of the circuit, or H=Rg/ðRg + RiÞ: This is useful when you are breaking a circuit down to components. We will specifically use this when we discuss op-amps later on.
 
 
+.. toggle::
+
+    This, I believe, is one of the best-taught principles in school for the budding engineer or technician, and it should be. So why go over it? Well, two reasons come to mind: One, you can’t go over the basics too much, and two, though any engineer can quote Ohm’s Law by heart, I have often seen it ignored in application.
+
+    First, let’s state Ohm’s Law: Voltage equals current multiplied by resistance; it is shown in :ref:`Figure 2.1 <Figure 2.1>`.
+
+    It is simple, but do you consider that resistance exists in every part of a circuit? [1]_ It is easy to forget that, especially since many simulators do. I think the best way to drive this point home is to recount the way it was driven home to me.
+
+    .. note::
+
+        There I was—a lowly engineering student. I was working as a technician or associate engineer (depending on whom you asked). I was arguing with my boss, who had an MSEE degree, but he just wouldn’t believe me; neither would my lead engineer (who had a BSEE). I couldn’t bring myself to distrust Ohm’s Law, even in light of their “superior”
+
+    .. figure:: ./img/f2.1.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.1 Ohm’s Law, the heart of all things electrical.**
+
+    .. note::
+
+        knowledge. I’d had less heated debates with rabid dogs. This was the problem: Our department needed to measure the current of a DC motor that could range from 5 A to 15 A at any given time, but our multi-meters had a 10 A fuse in the current measuring circuit.
+
+        So, using Ohm’s Law (which was fresh in my mind, being a student and all), I designed a shunt to measure current. I wanted to get a good reading but disturb the circuit as little as possible, so I chose a 0.1 Ω resistor. I built a box to house it and installed banana-jack plugs to provide an easy interface to a voltmeter. The design looked like the one shown in :ref:`Figure 2.2 <Figure 2.2>`.
+
+        .. figure:: ./img/f2.2.png
+            :scale: 50%
+            :align: center
+
+            **FIGURE 2.2 Original design of simple current-measuring circuit.**
+
+        Everyone thought it was a great idea, so I built a couple of boxes and we started using them right away. After a while, however, we noticed that they were not very accurate. Sometimes they would be off by as much as 50 to 60%. No one could figure out why, so I sat down to analyze what I had created.
+
+        After a few minutes, I said to myself, “Well, duh!” I realized that to make the assembly easy I had soldered the wires from the motor to the banana jacks and then soldered some short 14-gauge jumpers to the shunt resistor. My circuit really looked like the drawing shown in :ref:`Figure 2.3 <Figure 2.3>`.
+
+        .. figure:: ./img/f2.3.png
+            :scale: 50%
+            :align: center
+
+            **FIGURE 2.3 As-built simple current-measuring circuit.**
+
+        My voltmeter was measuring across a larger resistance value than 0.1 ohms. Wire has resistance, too; even a couple of inches of 14-gauge wire has a few hundredths of an ohm. Remembering Ohm’s Law:
+
+        .. math::
+            :label: equation 2.1
+
+            V = I * R
+
+        I realized that this means if you increase R, you get more V for the same amount of current, leading to the errors we were seeing. I had made a simple mistake that fortunately was easy to correct. I redesigned the box on paper to look like the drawing in :ref:`Figure 2.4 <Figure 2.4>`.
+
+        .. figure:: ./img/f2.4.png
+            :scale: 50%
+            :align: center
+
+            **FIGURE 2.4 Redesigned current-measuring circuit.**
+
+        I took this to my boss (the one with the MSEE who could do math in his head that I would only attempt with MathCad and a cold drink). His reaction floored me. He reviewed it with the lead engineer and they came to the conclusion that I was completely wrong. They were talking about things like temperature coefficients and phase shifts in current and RMS and a bunch of other topics that were over my head at the time. Thus began the argument. I explained that two points on a schematic had to be connected by a wire and a wire had resistance. Though it is often ignored, it was significant in this case because the shunt resistor was such a small value.
+
+        As they hemmed and hawed over this, I learned that many times it is human nature to ignore what one learned long ago and try to apply more advanced theories just because you know them. Also, all the knowledge in the world isn’t worth jack if it is incorrectly applied. I continued to press my point. I must have written Ohm’s Law on the white board 50 times by then.
+
+
+        They finally conceded and agreed that the extra wire between the banana jack and the shunt was the cause of the error. That was not the end of the disagreement, though. How in the world was my new design going to fix the problem by simply repositioning the wires? The resistance was still in the circuit, was it not? I wrote down Ohm’s Law another
+
+        100 times and explained that the current through the meter was very small, making the resistance in the wire insignificant again. My astonishment reached new levels as I observed the human ability to overlook the obvious. The first argument was nothing compared to this one. The fireworks really started to fly then.
+
+        What is the moral of this story? Well, Scott Adams, creator of Dilbert, said, “Everyone has moments of stupidity,” as he watched someone fix his “broken” pager by putting in a new battery. I have to agree with him. I rediscover Ohm’s Law about every 6 months. Always, always, always check the basics before you start looking for more complicated solutions! My father, a mechanic, tells a story of rewiring an entire car just to find a bad fuse. (It looked okay, but he didn’t check out with a meter.) That was how he learned this lesson. Me, I just participated in 4 hours of the dumbest argument of my career.
+
+        How did the argument end? We never came to an agreement, so I went ahead and fixed boxes with the new design anyway (which they spent several weeks proving were working correctly). I didn’t say another word but transferred out of that group as soon as possible. The same design has been in use for more than 10 years now, and the documentation notes the need to wire it correctly to avoid inaccurate readings. I didn’t write that document, my old boss did. It’s kind of funny how we didn’t argue about Ohm’s Law after that.
+
+    The basics are the most important; let me repeat that, the basics are important! Ohm’s Law is the most basic principle you will use as an electrical engineer. It is the foundation on which all other rules are based. The fundamental fact is that resistance impedes current flow. This impedance creates a voltage drop across the resistor that is proportional to the amount of current flowing through it. If it helps, you can think of a resistor as a current-to-voltage converter. [2]_
+
+    With that important point made, let’s consider two other types of impedance that can be found in a circuit. We will get into this in more detail later, but for now consider that inductors and capacitors both can act like resistors, depending on the frequency of the signal. If you take this into account, Ohm’s Law still works when applied to these components as well. You could very well rewrite the equation to:
+
+    .. math::
+
+        V = I * Z
+
+    Think of the impedance Z as resistance at a given frequency. [3]_ As we move on to the other basic equations, keep this in mind. Wherever you see resistance in an equation, you can simply replace it with impedance if you consider the frequency of the signal.
+
+    One final note: Every wire, trace, component, or material in your circuit has these three components in it—resistance, inductance, and capacitance. Everything has resistance, everything has capacitance, and everything has inductance. The most important question you must ask is, “Is it enough to make a difference?” The fact is, in my own experience, if the shunt resistor had been 100 times larger, that would have made the errors we were seeing 100 times less. [4]_ They would have been insignificant in comparison to the measurement we were taking. The impedance equations for capacitors and inductors will help you in a similar way. Consider the frequencies you are operating at and ask yourself, “Is this component making a significant impact on what I am looking at?” By reviewing this significance, you will be able to pinpoint the part of the circuit you are looking for.
+
+    The experience I related earlier happened years ago at the beginning of my career, and I said then that I still rediscover Ohm’s Law every six months. Time and time again, working through a problem or design, the answer can be found by application of Ohm’s Law. So, before you break out all those higher theories trying to solve a problem, first remember: Ohm’s Law still works!
+
+    Next on our list of basic formulae is the voltage divider rule. Here is the equation and :ref:`Figure 2.5 <Figure 2.5>` shows a schematic of the circuit:
+
+    .. math::
+
+        Vo = Vi \frac{Rg}{Rg + Ri}
+
+    The most common way you will see this is in terms of R1 and R2. I have changed these to Rg (for R ground) and Ri (for R input) to remind myself which one of these goes to ground and which one is in series. If you get them backward, you get the amount of voltage lost across Ri, not the amount at the output (which is the voltage across Rg). If the gain [5]_ of this circuit just doesn’t seem right, you might have the two values swapped.
+
+    .. figure:: ./img/f2.5.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.5 Input voltage is divided down at the output.**
+
+    You might also notice that the gain of this circuit is never greater than 1. It approaches 1 as Ri goes to 0, and it approaches 1 as Rg gets very large. (Note that as Rg gets larger, the value of Ri becomes less significant.) Since this is the case, it is easy to think of the voltage divider as a circuit that passes a percentage of the voltage through to the output. When you look at this circuit, try to think of it in terms of percentage. For example, if Rg = Ri, only 50% of the voltage would be present on the output. If you want 10% of the signal, you will need a gain of 1/10. So put 1K in for Rg, and 9K in for Ri, and voilà, you have a voltage divider that leaves 10% of the signal at the output.
+
+    Did you notice that the ratio of the resistors to each other was 1:9 for a gain of 1/10? This is because the denominator is the sum of the two resistor values. I’ll also bet you noticed that if you swap the two resistor values you will get a gain of 9/10, or 90%. This should make intuitive sense to you now if you recognize that, for the same amount of current, the voltage drop across a 9 K Ri will be 9 times larger than the voltage drop across a 1 K Rg. In other words, 90% of the voltage is across Ri, whereas 10% of the voltage is across Rg, where your meter measuring Vo is hooked up. The voltage divider is really just an extension of Ohm’s Law (go figure), but it is so useful that I’ve included it as one of the basic equations that you should commit to memory.
+
+
+电容器阻碍电压的变化
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Capacitors Impede Changes in Voltage
+
+电容器阻碍电压的变化
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Let’s consider for a moment what might happen to the previous voltage divider circuit if we replace Rg with a capacitor. It is still a voltage divider circuit, is it not? But what is the difference? At this point you should say, “Hey, a cap is just a resistor (or more correctly impedance) whose value changes depending on the frequency; wouldn’t that make this a voltage divider that depends on frequency?” Well, it does, and this is commonly known as an RC circuit. Let’s draw one now, as shown in :ref:`Figure 2.6 <Figure 2.6>`.
+让我们思考一下，如果我们将前面电压分压电路中的 Rg 替换为一个电容器，会发生什么。这仍然是一个电压分压电路，不是吗？但有什么不同呢？此时你应该说：“嘿，电容器只是一个值随频率变化的电阻（更准确地说是阻抗）；这不就意味着这是一个依赖频率的电压分压器吗？”没错，就是这样，这种电路通常被称为 RC 电路。我们现在画出一个，如 :ref:`图 2.6 <Figure 2.6>` 所示。
 
 .. _Figure 2.6:
 
@@ -140,31 +263,35 @@ Let’s consider for a moment what might happen to the previous voltage divider 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.6 Step input is applied to a simple RC circuit.**
+    **图 2.6 向一个简单的 RC 电路施加阶跃输入。**
 
-Using your intuitive understanding of resistors and capacitors, let’s analyze what is going to happen in this circuit. We’ll do this by applying a step input. A step input is by definition a fast change in voltage. The resistor doesn’t care about the change in voltage, but the cap does. This fast change in voltage can be thought of as high frequencies, [6]_ and how does the cap respond to high frequencies? That’s right, it has low impedance. So, now we apply the voltage divider rule. If the impedance of Rg is low (as compared to Ri), the voltage at Vo is low. As frequency drops, the impedance goes up; as the impedance goes up, based on the voltage divider, the output voltage goes up. Where does it all stop?
+利用你对电阻器和电容器的直觉理解，我们来分析这个电路中将会发生什么。我们通过施加一个阶跃输入来完成分析。阶跃输入在定义上是电压的快速变化。电阻器对电压变化并不在意，但电容器在意。这个快速的电压变化可以看作是高频信号，[6]_ 那么电容器如何响应高频？没错，它表现出低阻抗。所以现在我们应用电压分压规则。如果 Rg 的阻抗较低（相较于 Ri），那么 Vo 上的电压也会较低。随着频率降低，电容的阻抗升高；随着阻抗升高，根据电压分压器规则，输出电压也升高。那么这一切最终会停止在哪儿？
 
-Think about it a moment. Based on what you know about a cap, it resists a change in voltage. A quick change in voltage is what happened initially. After that our step input remained at 5 V, not changing anymore. Doesn’t it make sense that the cap will eventually charge to 5 V and stay there? This phenomenon is known as the transient response of an RC circuit. The change in voltage on the output of this circuit has a characteristic curve. It is described by this equation (note t = time):
+稍微想一下。根据你对电容器的了解，它会抵抗电压的变化。最初发生的是一个快速的电压变化。之后，我们的阶跃输入保持在 5V，不再变化。那么电容器最终会充电至 5V 并保持不变，这不是很合理吗？这种现象被称为 RC 电路的暂态响应。这个电路的输出电压变化具有特征曲线。其由下列公式描述（其中 t 表示时间）：
 
 .. math::
    :label: equation 2.4
 
-    Vo = Vi \left ( 1 e^{\frac{t}{rc}}  \right )
+    Vo = Vi \left ( 1 - e^{\frac{-t}{RC}}  \right )
 
-The graph of this output looks like :ref:`Figure 2.7 <Figure 2.7>`. The value of R times C in this equation is also known as tau, or the time constant, often referred to by the Greek letter τ.
+这个输出图形如 :ref:`图 2.7 <Figure 2.7>` 所示。该公式中 R 乘以 C 的值也称为 τ（tau），即时间常数，常用希腊字母 τ 表示。
 
 .. math::
    :label: equation 2.5
 
     RC = \tau
 
-For a step input, this curve is always the same for an RC circuit. The only thing that changes is the amount of time it takes to get to the final value. The shape of the curve is always the same, but the time it takes to happen depends on the value of the time constant [7]_ τ. You can normalize this curve in terms of the time constant and the final value of the voltage. Let’s redraw the curve with multiples of τ along the time axis, as shown in :ref:`Figure 2.8 <Figure 2.8>`.
+对于阶跃输入，这个 RC 电路的曲线始终相同。唯一改变的是达到最终值所需的时间。曲线的形状始终相同，但发生的时间取决于时间常数 τ 的值。[7]_ 你可以使用时间常数和最终电压值对这条曲线进行归一化。我们重新绘制横轴为 τ 倍数的曲线，如 :ref:`图 2.8 <Figure 2.8>` 所示。
 
-At 1 τ the voltage reaches 63.2%, at 2 τ it is at 86.6%, 3 τ is 95%, by 4 τ it is at 98%, and when you reach 5 τ you are close enough to 100% to consider it so.
+在 1τ 时，电压达到 63.2%；在 2τ 时达到 86.6%；3τ 时是 95%；到 4τ 时是 98%；而到 5τ 时就已经足够接近 100%，可以视为已达到稳态。
 
-.. [6] This is something a man named Fourier thought of long ago. The more harmonic frequencies you sum together, the faster the rise time of said step input.
+.. [6] 这是一个名叫傅里叶的人很久以前提出的观点。你叠加的谐波频率越多，阶跃输入的上升沿就越快。
 
-.. [7] If you stop to think about it, it just makes sense that this value RC is called a time constant, since it affects the timing of the response.
+   This is something a man named Fourier thought of long ago. The more harmonic frequencies you sum together, the faster the rise time of said step input.
+
+.. [7] 如果你停下来仔细思考一下，就会觉得把 RC 称作时间常数是很合理的，因为它决定了响应所需的时间。
+
+   If you stop to think about it, it just makes sense that this value RC is called a time constant, since it affects the timing of the response.
 
 .. _Figure 2.7:
 
@@ -172,7 +299,7 @@ At 1 τ the voltage reaches 63.2%, at 2 τ it is at 86.6%, 3 τ is 95%, by 4 τ 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.7 Voltage change over time.**
+    **图 2.7 随时间变化的电压曲线。**
 
 .. _Figure 2.8:
 
@@ -180,31 +307,30 @@ At 1 τ the voltage reaches 63.2%, at 2 τ it is at 86.6%, 3 τ is 95%, by 4 τ 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.8 Voltage change in percentage over time in tau.**
+    **图 2.8 电压随时间（以 τ 为单位）变化的百分比曲线。**
 
-This response curve describes a basic and fundamental principle in electronics. Some years ago I started asking potential job candidates to draw this curve after I gave them the RC circuit shown in Figure 2.6. Over the years I have been dismayed at how many engineers, both fresh out of school and with years of experience, cannot draw this curve. Fewer than 50% of the applicants I have asked can do it. That fact is one of the main reasons I decided to write this book. (The other was that someone was actually willing to pay me to do it! I doubt it would have gotten far otherwise.) So, I implore you to put this to memory once and for all; by doing so I guarantee you will be a better engineer. Plus, if I ever interview you, you will have a 50% better chance of getting a job! If you understand this concept, you will understand inductors, as you will see in the next section.
+这个响应曲线描述了电子学中一个基本且重要的原理。几年前，我开始要求潜在的求职者在我提供图 2.6 所示 RC 电路的基础上画出这条曲线。多年来，我对很多工程师（无论是刚毕业还是有多年经验者）都无法画出这条曲线感到失望。我询问过的申请者中，能画出这条曲线的不到 50%。这个事实是我决定写这本书的主要原因之一。（另一个原因是有人居然愿意付钱让我写！否则我估计根本不会写下去。）所以，我恳请你把它牢记在心；这样做我可以保证你会成为一名更优秀的工程师。而且，如果我以后面试你，你获得工作的几率将提升 50%！如果你理解了这个概念，你就能理解电感器，这将在下一节中看到。
 
-Before we move on, I would like you to consider what happens to the current in this circuit. Remember Ohm’s Law? Apply it to this example to understand what the current does. We know that:
-
+在继续之前，我希望你思考一下这个电路中的电流发生了什么。还记得欧姆定律吗？将它应用于此示例，以理解电流的变化。我们知道：
 
 .. math::
    :label: equation 2.6
 
     V = I * R
 
-A little algebra turns this equation into:
+做一点代数变换可以得到：
 
 .. math::
    :label: equation 2.7
 
     I = \frac{V}{R}
 
-A little common sense reveals that the voltage across R in this circuit is equal to voltage at the output minus voltage at the input. As an equation, you get:
+常识告诉我们，该电路中电阻上的电压等于输入电压减去输出电压。写成公式就是：
 
 .. math::
    :label: equation 2.8
 
-    Vr = Vi Vo
+    Vr = Vi - Vo
 
 .. _Figure 2.9:
 
@@ -212,26 +338,103 @@ A little common sense reveals that the voltage across R in this circuit is equal
     :scale: 50%
     :align: center
 
-    **FIGURE 2.9 Current change in percentage over time in tau.**
+    **图 2.9 电流随时间（以 τ 为单位）变化的百分比曲线。**
 
-We know the voltage at each point in time in terms of tau. At 0 τ, Vo is at 0. So the full 5 V is across the resistor and the maximum current is flowing. For all intents and purposes, the cap is shorting the output to ground at this point in time. At 1 τ, Vo is at 63.2% of Vi. That means Vr is at 36.8% of Vi. Repeat this process, connect the dots, and you get a curve that moves in the opposite direction of the voltage curve, something like what’s shown in :ref:`Figure 2.9 <Figure 2.9>`.
+我们知道，在任意时刻的电压值可以用 τ 表示。在 0τ 时，Vo 为 0。所以 5V 的电压全部加在电阻上，电流为最大值。在这一刻，电容几乎相当于把输出短接到地。在 1τ 时，Vo 为 Vi 的 63.2%。这意味着 Vr 是 Vi 的 36.8%。重复这个过程，将各点连接起来，你就得到一条与电压曲线方向相反的曲线，如 :ref:`图 2.9 <Figure 2.9>` 所示。
 
-Notice how current can change immediately when the step input changes. Also notice how the voltage just doesn’t change that fast. Capacitors impede a change in voltage, as the rule goes. What this also means is that changes in current [8]_ will not be affected at all. Everything has its opposite, and capacitors are no exception, so let’s move on to inductors.
+注意，当阶跃输入发生变化时，电流是可以立刻变化的。而电压则不会那么快地变化。正如这条规则所说，电容器会阻碍电压的变化。这也意味着，电流的变化 [8]_ 将不会受到影响。世间万物都有对立面，电容器也不例外，所以我们接着讲电感器。
+
+.. [8] 另一种思考方式是，电流的快速变化正是电容器所擅长的。 
+   
+   Another way to think of it is that rapid changes in current are what capacitors are very good at.
+
+.. toggle::
+
+    Let’s consider for a moment what might happen to the previous voltage divider circuit if we replace Rg with a capacitor. It is still a voltage divider circuit, is it not? But what is the difference? At this point you should say, “Hey, a cap is just a resistor (or more correctly impedance) whose value changes depending on the frequency; wouldn’t that make this a voltage divider that depends on frequency?” Well, it does, and this is commonly known as an RC circuit. Let’s draw one now, as shown in :ref:`Figure 2.6 <Figure 2.6>`.
+
+    .. figure:: ./img/f2.6.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.6 Step input is applied to a simple RC circuit.**
+
+    Using your intuitive understanding of resistors and capacitors, let’s analyze what is going to happen in this circuit. We’ll do this by applying a step input. A step input is by definition a fast change in voltage. The resistor doesn’t care about the change in voltage, but the cap does. This fast change in voltage can be thought of as high frequencies, [6]_ and how does the cap respond to high frequencies? That’s right, it has low impedance. So, now we apply the voltage divider rule. If the impedance of Rg is low (as compared to Ri), the voltage at Vo is low. As frequency drops, the impedance goes up; as the impedance goes up, based on the voltage divider, the output voltage goes up. Where does it all stop?
+
+    Think about it a moment. Based on what you know about a cap, it resists a change in voltage. A quick change in voltage is what happened initially. After that our step input remained at 5 V, not changing anymore. Doesn’t it make sense that the cap will eventually charge to 5 V and stay there? This phenomenon is known as the transient response of an RC circuit. The change in voltage on the output of this circuit has a characteristic curve. It is described by this equation (note t = time):
+
+    .. math::
+
+        Vo = Vi \left ( 1 e^{\frac{t}{rc}}  \right )
+
+    The graph of this output looks like :ref:`Figure 2.7 <Figure 2.7>`. The value of R times C in this equation is also known as tau, or the time constant, often referred to by the Greek letter τ.
+
+    .. math::
+
+        RC = \tau
+
+    For a step input, this curve is always the same for an RC circuit. The only thing that changes is the amount of time it takes to get to the final value. The shape of the curve is always the same, but the time it takes to happen depends on the value of the time constant [7]_ τ. You can normalize this curve in terms of the time constant and the final value of the voltage. Let’s redraw the curve with multiples of τ along the time axis, as shown in :ref:`Figure 2.8 <Figure 2.8>`.
+
+    At 1 τ the voltage reaches 63.2%, at 2 τ it is at 86.6%, 3 τ is 95%, by 4 τ it is at 98%, and when you reach 5 τ you are close enough to 100% to consider it so.
+
+    .. figure:: ./img/f2.7.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.7 Voltage change over time.**
+
+    .. figure:: ./img/f2.8.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.8 Voltage change in percentage over time in tau.**
+
+    This response curve describes a basic and fundamental principle in electronics. Some years ago I started asking potential job candidates to draw this curve after I gave them the RC circuit shown in Figure 2.6. Over the years I have been dismayed at how many engineers, both fresh out of school and with years of experience, cannot draw this curve. Fewer than 50% of the applicants I have asked can do it. That fact is one of the main reasons I decided to write this book. (The other was that someone was actually willing to pay me to do it! I doubt it would have gotten far otherwise.) So, I implore you to put this to memory once and for all; by doing so I guarantee you will be a better engineer. Plus, if I ever interview you, you will have a 50% better chance of getting a job! If you understand this concept, you will understand inductors, as you will see in the next section.
+
+    Before we move on, I would like you to consider what happens to the current in this circuit. Remember Ohm’s Law? Apply it to this example to understand what the current does. We know that:
 
 
-Inductors Impede Changes in Current
+    .. math::
+
+        V = I * R
+
+    A little algebra turns this equation into:
+
+    .. math::
+
+        I = \frac{V}{R}
+
+    A little common sense reveals that the voltage across R in this circuit is equal to voltage at the output minus voltage at the input. As an equation, you get:
+
+    .. math::
+
+        Vr = Vi Vo
+
+    .. figure:: ./img/f2.9.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.9 Current change in percentage over time in tau.**
+
+    We know the voltage at each point in time in terms of tau. At 0 τ, Vo is at 0. So the full 5 V is across the resistor and the maximum current is flowing. For all intents and purposes, the cap is shorting the output to ground at this point in time. At 1 τ, Vo is at 63.2% of Vi. That means Vr is at 36.8% of Vi. Repeat this process, connect the dots, and you get a curve that moves in the opposite direction of the voltage curve, something like what’s shown in :ref:`Figure 2.9 <Figure 2.9>`.
+
+    Notice how current can change immediately when the step input changes. Also notice how the voltage just doesn’t change that fast. Capacitors impede a change in voltage, as the rule goes. What this also means is that changes in current [8]_ will not be affected at all. Everything has its opposite, and capacitors are no exception, so let’s move on to inductors.
+
+
+电感器阻碍电流的变化
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Inductors Impede Changes in Current
 
-Now that we have thought through the RC circuit, let’s consider the RL circuit shown in :ref:`Figure 2.10 <Figure 2.10>`. Remember that the inductor resists a change in current but not in voltage. Initially, with the same step input, the voltage at the output can jump right to 5 V. Current through the inductor is initially at 0, but now there is a voltage drop across it, so current has to start climbing. The current responds in the RL circuit exactly the same way voltage responds in the RC circuit.
+现在我们已经思考过 RC 电路，让我们来考虑 :ref:`图 2.10 <Figure 2.10>` 中所示的 RL 电路。记住，电感器会阻碍电流的变化，但不会阻碍电压的变化。最初，当施加相同的阶跃输入时，输出端的电压可以立即跳到 5 V。电感器中的电流最初为 0，但现在它两端出现了电压降，因此电流必须开始上升。在 RL 电路中，电流的响应方式与 RC 电路中电压的响应方式完全相同。
 
-Since you committed the RC response to memory, the RL response is easy. It is exactly the same from the viewpoint of current; [9]_ the current graph looks like :ref:`Figure 2.11 <Figure 2.11>`.
+既然你已经将 RC 电路的响应记住了，那么 RL 电路的响应就很容易理解。从电流的角度来看，它与 RC 电路完全相同；[9]_ 电流曲线如 :ref:`图 2.11 <Figure 2.11>` 所示。
 
-.. [8] Another way to think of it is that rapid changes in current are what capacitors are very good at.
-.. [9] Being able to consider a circuit from either a “voltage” viewpoint or a “current” viewpoint is a valuable skill. Try to formulate an understanding of this concept as you develop your skills in this area.
+.. [9] 能够从“电压”或“电流”的角度来考虑电路是一项宝贵的技能。随着你在这个领域技能的提高，试着去理解这个概念。
 
-I hope you are saying to yourself, “What about the voltage response?” At this time, consider Ohm’s Law for a moment and try to graph what the voltage will do. What is the current at time 0? How about a little later? Remember Ohm’s Law—for the current to be low, resistance must be high. So initially the inductor acts like an open circuit. Voltage across the inductor will be at the same value as the input. As time goes on, the impedance of the inductor drops off, becoming a short, so voltage drops as well. :ref:`Figure 2.12 <Figure 2.12>` shows the graph.
+    Being able to consider a circuit from either a “voltage” viewpoint or a “current” viewpoint is a valuable skill. Try to formulate an understanding of this concept as you develop your skills in this area.
 
-The inductor is the exact complement of the capacitor. What it does to current, the cap does to voltage, and vice versa.
+我希望你此刻会问自己：“那么电压响应呢？”现在，请思考一下欧姆定律，并尝试画出电压将如何变化的图像。t=0 时刻电流是多少？稍后又是多少？记住欧姆定律——为了使电流很小，电阻必须很大。所以最初电感器表现得像一个开路。电感器两端的电压将与输入电压相同。随着时间推移，电感器的阻抗会下降，变成一个短路，因此电压也会下降。:ref:`图 2.12 <Figure 2.12>` 显示了该图像。
+
+电感器正好与电容器互为补充。它对电流的作用，就如同电容器对电压的作用，反之亦然。
 
 .. _Figure 2.10:
 
@@ -239,7 +442,7 @@ The inductor is the exact complement of the capacitor. What it does to current, 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.10 The basic RL circuit.**
+    **图 2.10 基本 RL 电路。**
 
 .. _Figure 2.11:
 
@@ -247,7 +450,7 @@ The inductor is the exact complement of the capacitor. What it does to current, 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.11 Current change in percent over time in tau.**
+    **图 2.11 电流随时间以 τ 为单位的变化百分比。**
 
 .. _Figure 2.12:
 
@@ -255,40 +458,69 @@ The inductor is the exact complement of the capacitor. What it does to current, 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.12 Voltage change in percent over time in tau.**
+    **图 2.12 电压随时间以 τ 为单位的变化百分比。**
 
-Series and Parallel Components
+
+.. toggle::
+
+    Now that we have thought through the RC circuit, let’s consider the RL circuit shown in :ref:`Figure 2.10 <Figure 2.10>`. Remember that the inductor resists a change in current but not in voltage. Initially, with the same step input, the voltage at the output can jump right to 5 V. Current through the inductor is initially at 0, but now there is a voltage drop across it, so current has to start climbing. The current responds in the RL circuit exactly the same way voltage responds in the RC circuit.
+
+    Since you committed the RC response to memory, the RL response is easy. It is exactly the same from the viewpoint of current; [9]_ the current graph looks like :ref:`Figure 2.11 <Figure 2.11>`.
+
+    I hope you are saying to yourself, “What about the voltage response?” At this time, consider Ohm’s Law for a moment and try to graph what the voltage will do. What is the current at time 0? How about a little later? Remember Ohm’s Law—for the current to be low, resistance must be high. So initially the inductor acts like an open circuit. Voltage across the inductor will be at the same value as the input. As time goes on, the impedance of the inductor drops off, becoming a short, so voltage drops as well. :ref:`Figure 2.12 <Figure 2.12>` shows the graph.
+
+    The inductor is the exact complement of the capacitor. What it does to current, the cap does to voltage, and vice versa.
+
+    .. figure:: ./img/f2.10.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.10 The basic RL circuit.**
+
+    .. figure:: ./img/f2.11.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.11 Current change in percent over time in tau.**
+
+    .. figure:: ./img/f2.12.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.12 Voltage change in percent over time in tau.**
+
+串联与并联元件
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Series and Parallel Components
 
-There are two ways for components to be configured in a circuit: series and parallel. Series components line up one after another; parallel components are hooked up next to each other. Let’s go over the formulas to simplify these component arrangements.
+电路中有两种元件连接方式：串联和并联。串联元件一个接一个排列；并联元件彼此并排连接。让我们来回顾一下简化这些元件排列的公式。
 
-Series resistors, shown :ref:`Figure 2.13 <Figure 2.13>`, are easy; you simply add them up, no multiplication needed!
-
+如 :ref:`图 2.13 <Figure 2.13>` 所示的串联电阻很简单；你只需将它们相加，不需要乘法！
 
 .. math::
    :label: equation 2.9
 
    Rt = R1 + R2 + R3
 
-The inductors shown in :ref:`Figure 2.14 <Figure 2.14>` are like resistors—you sum series inductors the same way.
+如 :ref:`图 2.14 <Figure 2.14>` 所示的串联电感器与电阻相似——你以同样方式对串联电感求和。
 
 .. math::
    :label: equation 2.10
 
     Lt = L1 + L2 + L3
 
-Remember that capacitors are the opposite of inductors. For this reason, capacitors must be in parallel to be summed up the way resistors and inductors are in series; see :ref:`Figure 2.15 <Figure 2.15>`.
+记住电容器与电感器相反。因此，要像对待串联电阻和电感那样求和，电容器必须是并联的；见 :ref:`图 2.15 <Figure 2.15>`。
 
 .. math::
    :label: equation 2.11
 
     Ct = C1 + C2 + C3
 
-Remember the equivalences shown in :ref:`Figure 2.16 <Figure 2.16>`.
+记住 :ref:`图 2.16 <Figure 2.16>` 中显示的等效关系。
 
-Parallel resistors, shown in :ref:`Figure 2.17 <Figure 2.17>`, are a little trickier. The equivalent resistance of any two components is determined by the product of the values divided by the sum of the values. [10]_
+如 :ref:`图 2.17 <Figure 2.17>` 所示的并联电阻稍微麻烦一点。任意两个元件的等效电阻由它们值的乘积除以它们值的和确定。 [10]_
 
-Keep in mind, however, that this works for any two resistors! In the case of three resistors or more, solve any two and repeat until done. (The ``//`` means **in parallel with**.)
+但请记住，这种方法对任意两个电阻都适用！对于三个或更多电阻的情况，先求出任意两个的等效电阻，再重复此过程直至完成。（``//`` 表示 **与……并联**。）
 
 .. math::
    :label: equation 2.12
@@ -300,9 +532,11 @@ Keep in mind, however, that this works for any two resistors! In the case of thr
 
     L1 // L2 = \frac{L1 * L2}{L1 + L2}  \space\space\space\space Lt = \frac{L1 // L2 * L3}{L1 // L2 + L3}
 
-Parallel inductors are the same as resistors; you can reduce them in the same way—see :ref:`Figure 2.18 <Figure 2.18>`.
+并联电感器与电阻相同；你可以以同样的方式进行化简——见 :ref:`图 2.18 <Figure 2.18>`。
 
-.. [10] Another way to remember this idea is to sum all the inverses: ``1/Rt = 1/R1 + 1/R2 + 1/R3``, and so on. If this works better for you, that is fine, just commit one or the other to memory.
+.. [10] 记住这个方法的另一种方式是对所有倒数求和：``1/Rt = 1/R1 + 1/R2 + 1/R3`` 等等。如果这种方式对你更有效，那就很好，只需记住其中一种方法即可。
+
+    Another way to remember this idea is to sum all the inverses: ``1/Rt = 1/R1 + 1/R2 + 1/R3``, and so on. If this works better for you, that is fine, just commit one or the other to memory.
 
 .. _Figure 2.13:
 
@@ -310,7 +544,7 @@ Parallel inductors are the same as resistors; you can reduce them in the same wa
     :scale: 50%
     :align: center
 
-    **FIGURE 2.13 Series resistors.**
+    **图 2.13 串联电阻。**
 
 .. _Figure 2.14:
 
@@ -318,7 +552,7 @@ Parallel inductors are the same as resistors; you can reduce them in the same wa
     :scale: 50%
     :align: center
 
-    **FIGURE 2.14 Series inductors.**
+    **图 2.14 串联电感器。**
 
 .. _Figure 2.15:
 
@@ -326,7 +560,7 @@ Parallel inductors are the same as resistors; you can reduce them in the same wa
     :scale: 50%
     :align: center
 
-    **FIGURE 2.15 Parallel capacitors.**
+    **图 2.15 并联电容器。**
 
 .. _Figure 2.16:
 
@@ -334,7 +568,7 @@ Parallel inductors are the same as resistors; you can reduce them in the same wa
     :scale: 50%
     :align: center
 
-    **FIGURE 2.16 Component equivalents.**
+    **图 2.16 元件等效关系。**
 
 .. _Figure 2.17:
 
@@ -342,7 +576,7 @@ Parallel inductors are the same as resistors; you can reduce them in the same wa
     :scale: 50%
     :align: center
 
-    **FIGURE 2.17 Parallel resistors.**
+    **图 2.17 并联电阻。**
 
 .. _Figure 2.18:
 
@@ -350,7 +584,7 @@ Parallel inductors are the same as resistors; you can reduce them in the same wa
     :scale: 50%
     :align: center
 
-    **FIGURE 2.18 Parallel inductors.**
+    **图 2.18 并联电感器。**
 
 .. _Figure 2.19:
 
@@ -358,7 +592,7 @@ Parallel inductors are the same as resistors; you can reduce them in the same wa
     :scale: 50%
     :align: center
 
-    **FIGURE 2.19 Series capacitors.**
+    **图 2.19 串联电容器。**
 
 .. _Figure 2.20:
 
@@ -366,26 +600,125 @@ Parallel inductors are the same as resistors; you can reduce them in the same wa
     :scale: 50%
     :align: center
 
-    **FIGURE 2.20 Component equivalents.**
+    **图 2.20 元件等效关系。**
 
-For capacitors the same equation applies, but only if they are in series, as shown in :ref:`Figure 2.19 <Figure 2.19>`. These are the circuits that use the product-over-the-sum, or the sum-of-the-inverses, rule; [11]_ see :ref:`Figure 2.20 <Figure 2.20>`.
+对于电容器也适用相同的公式，但前提是它们为串联，如 :ref:`图 2.19 <Figure 2.19>` 所示。这些电路使用乘积除以和，或倒数求和规则；[11]_ 见 :ref:`图 2.20 <Figure 2.20>`。
 
 .. math::
    :label: equation 2.14
 
     C1 // C2 = \frac{C1 * C2}{C1 + C2}  \space\space\space\space Ct = \frac{C1 // C2 * C3}{C1 // C2 + C3}
 
-In dealing with parallel and series circuits, you can see that there are only two types of equations. One is simple addition, and the other is the product over the sum (or the sum of inverses). The only trick is to know which to use when. Remember that the resistor and inductor are part of the “in” crowd and the cap is the outcast wallflower who is the opposite of those other guys. I’ll bet most engineers can relate to being the “capacitor” at a party, so this shouldn’t be too hard to remember!
+在处理串并联电路时，你可以看到只有两类公式。一类是简单的加法，另一类是乘积除以和（或倒数求和）。唯一的诀窍是知道在何时使用哪一种。记住，电阻和电感是“主流”成员，而电容器是与众不同的“边缘人”。我敢打赌，大多数工程师在聚会时都能体会到当“电容器”的感觉，所以这个比喻应该不难记住！
 
-.. [11] You can sum the inverses of the capacitors or inductors in the same way as the resistors. Just put impedance in place of resistance: ``1/Zt = 1/Z1 + 1/Z2 + 1/Z3``, and so on. Truth be told, I committed the product-over-the-sum rule to memory many years ago. That’s why I like it. You can be just as effective with the sum of the inverses rule, as so many astute readers have pointed out. I hope you have realized by now that if there are two equivalent routes to get to a destination, I don’t particularly care which one you use so long as you get to the right place. I do believe that it is important to find what works for you and focus on that. Don’t worry about going a different way unless it gives you new insight or understanding. Wow, this just might be the longest footnote in the whole book! Maybe I should add just a few more words to make sure. If you do read this and make it all the way to the end without nodding off, drop me a line at dashby@raddd.com and let me know. I answer every piece of fan mail I get, so I will surely reply. If you inspire a profound thought in our exchange I will tweet it out into the nether regions of the Internet and see if I can inspire anyone to follow sparkyguru. :D BTW, I really like to hear pyromanic stories so if you send me a really good one it will end up on my Facebook pyromanics = engineers group. Whew! There, did I hit all the new media outlets a guy has to these days just to be in the know? LOL!
+.. [11] 你可以像对电阻那样，对电容器或电感器的倒数求和。只需将阻抗代替电阻：``1/Zt = 1/Z1 + 1/Z2 + 1/Z3`` 等等。说实话，我在很多年前就把“乘积除以和”的规则记住了，这就是我喜欢它的原因。正如许多聪明的读者指出的那样，使用“倒数求和”规则同样有效。我希望你现在已经意识到，如果有两条等效的路径可以到达目的地，我并不在乎你选哪一条，只要你能到达正确的地方。我确实相信，找到适合自己的方法并专注于它是很重要的。除非换一条路能带来新的洞见或理解，否则不用担心走不同的路。哇，这也许是整本书最长的脚注了！也许我应该再多写几句以确认这一点。如果你真的读到了这里并坚持读完没有睡着，给我发封邮件 dashby@raddd.com 告诉我。我会回复我收到的每一封读者来信。如果我们的交流中你激发了某个深刻想法，我会把它发到网上看看是否能启发某位追随 sparkyguru 的人。:D 顺便说一句，我真的很喜欢听关于纵火的故事，所以如果你发给我一个非常精彩的，我会把它放到我 Facebook 上的“纵火狂 = 工程师”群组中。呼！好了，我是不是把一个人为了跟上时代需要触及的所有新媒体平台都提到了？哈哈！
+
+    You can sum the inverses of the capacitors or inductors in the same way as the resistors. Just put impedance in place of resistance: ``1/Zt = 1/Z1 + 1/Z2 + 1/Z3``, and so on. Truth be told, I committed the product-over-the-sum rule to memory many years ago. That’s why I like it. You can be just as effective with the sum of the inverses rule, as so many astute readers have pointed out. I hope you have realized by now that if there are two equivalent routes to get to a destination, I don’t particularly care which one you use so long as you get to the right place. I do believe that it is important to find what works for you and focus on that. Don’t worry about going a different way unless it gives you new insight or understanding. Wow, this just might be the longest footnote in the whole book! Maybe I should add just a few more words to make sure. If you do read this and make it all the way to the end without nodding off, drop me a line at dashby@raddd.com and let me know. I answer every piece of fan mail I get, so I will surely reply. If you inspire a profound thought in our exchange I will tweet it out into the nether regions of the Internet and see if I can inspire anyone to follow sparkyguru. :D BTW, I really like to hear pyromanic stories so if you send me a really good one it will end up on my Facebook pyromanics = engineers group. Whew! There, did I hit all the new media outlets a guy has to these days just to be in the know? LOL!
 
 
-Thevenin’s Theorem
+.. toggle::
+
+    There are two ways for components to be configured in a circuit: series and parallel. Series components line up one after another; parallel components are hooked up next to each other. Let’s go over the formulas to simplify these component arrangements.
+
+    Series resistors, shown :ref:`Figure 2.13 <Figure 2.13>`, are easy; you simply add them up, no multiplication needed!
+
+    .. math::
+
+        Rt = R1 + R2 + R3
+
+    The inductors shown in :ref:`Figure 2.14 <Figure 2.14>` are like resistors—you sum series inductors the same way.
+
+    .. math::
+
+        Lt = L1 + L2 + L3
+
+    Remember that capacitors are the opposite of inductors. For this reason, capacitors must be in parallel to be summed up the way resistors and inductors are in series; see :ref:`Figure 2.15 <Figure 2.15>`.
+
+    .. math::
+
+        Ct = C1 + C2 + C3
+
+    Remember the equivalences shown in :ref:`Figure 2.16 <Figure 2.16>`.
+
+    Parallel resistors, shown in :ref:`Figure 2.17 <Figure 2.17>`, are a little trickier. The equivalent resistance of any two components is determined by the product of the values divided by the sum of the values. [10]_
+
+    Keep in mind, however, that this works for any two resistors! In the case of three resistors or more, solve any two and repeat until done. (The ``//`` means **in parallel with**.)
+
+    .. math::
+
+        R1 // R2 = \frac{R1 * R2}{R1 + R2}  \space\space\space\space Rt = \frac{R1 // R2 * R3}{R1 // R2 + R3}
+
+    .. math::
+
+        L1 // L2 = \frac{L1 * L2}{L1 + L2}  \space\space\space\space Lt = \frac{L1 // L2 * L3}{L1 // L2 + L3}
+
+    Parallel inductors are the same as resistors; you can reduce them in the same way—see :ref:`Figure 2.18 <Figure 2.18>`.
+
+    .. figure:: ./img/f2.13.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.13 Series resistors.**
+
+    .. figure:: ./img/f2.14.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.14 Series inductors.**
+
+    .. figure:: ./img/f2.15.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.15 Parallel capacitors.**
+
+    .. figure:: ./img/f2.16.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.16 Component equivalents.**
+
+    .. figure:: ./img/f2.17.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.17 Parallel resistors.**
+
+    .. figure:: ./img/f2.18.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.18 Parallel inductors.**
+
+    .. figure:: ./img/f2.19.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.19 Series capacitors.**
+
+    .. figure:: ./img/f2.20.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.20 Component equivalents.**
+
+    For capacitors the same equation applies, but only if they are in series, as shown in :ref:`Figure 2.19 <Figure 2.19>`. These are the circuits that use the product-over-the-sum, or the sum-of-the-inverses, rule; [11]_ see :ref:`Figure 2.20 <Figure 2.20>`.
+
+    .. math::
+    :label: equation 2.14
+
+        C1 // C2 = \frac{C1 * C2}{C1 + C2}  \space\space\space\space Ct = \frac{C1 // C2 * C3}{C1 // C2 + C3}
+
+    In dealing with parallel and series circuits, you can see that there are only two types of equations. One is simple addition, and the other is the product over the sum (or the sum of inverses). The only trick is to know which to use when. Remember that the resistor and inductor are part of the “in” crowd and the cap is the outcast wallflower who is the opposite of those other guys. I’ll bet most engineers can relate to being the “capacitor” at a party, so this shouldn’t be too hard to remember!
+
+
+戴维南定理
 ~~~~~~~~~~~~~~~~~~~
+Thevenin’s Theorem
 
-Thevenizing is based on the idea of using superposition to analyze a circuit. When you have two different variables affecting an equation, making it difficult to analyze, you can use the technique of superposition to solve the equation, provided that you are dealing with linear equations (by luck all these basic components are linear; even if you might not think it when looking at the curve of an RC time response, it actually is a linear equation). [12]_
+戴维南等效变换（Thevenizing）是基于叠加原理来分析电路的思想。当你面对一个受两个不同变量影响、难以分析的方程时，只要你处理的是线性方程（幸运的是，这些基本元件都是线性的；即便你看到 RC 时间响应的曲线时可能不这么想，其实它确实是线性方程） [12]_，你就可以使用叠加法来求解。
 
-The idea of superposition is simple: When you have multiple inputs affecting an output, you can analyze the effects of each input independently and add them together when you are all done to see what the output does. One idea that comes from superposition is *Thevenin’s theorem*.
+叠加原理的思想很简单：当你有多个输入共同作用于一个输出时，可以分别独立地分析每个输入的影响，最后将所有的结果加总起来，得出输出的表现。从叠加原理中衍生出了一个思想，即 *戴维南定理*。
 
 .. _Figure 2.21:
 
@@ -393,17 +726,25 @@ The idea of superposition is simple: When you have multiple inputs affecting an 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.21 Circuit with two voltage sources.**
+    **图 2.21 含有两个电压源的电路。**
 
-Using Thevenin’s theorem allows you to reduce basically any circuit into a voltage divider. And we know how to solve a voltage divider, don’t we! There is a sister theorem called Norton’s, which does the same thing but is based on current rather than voltage. Since you can solve any electrical problem with either equation, I suggest you focus on one or the other. Since I like to think in terms of voltage, I prefer Thevenizing a circuit to the Norton equivalent. So to be true to the idea that you should only learn a few fundamentals and learn those well, we will focus on Thevenin equivalents.
+使用戴维南定理，你几乎可以将任意电路简化为一个分压器。而我们已经知道如何解决分压器问题了，对吧！还有一个姊妹定理叫诺顿定理，它做的是相同的事情，但基于电流而非电压。因为你可以用任一方法来解决电路问题，我建议你专注于其中一个。因为我更习惯以电压的角度思考问题，所以我更喜欢将电路戴维南化，而不是用诺顿等效。为了遵循“只学好少数几个基础概念”的理念，我们将专注于戴维南等效。
 
-The most important rule when Thevenizing is this: Voltage sources [13]_ are shorted, current sources are opened. Consider the circuit shown in :ref:`Figure 2.21 <Figure 2.21>`. [14]_
+戴维南化时最重要的规则是：电压源 [13]_ 要短路，电流源要开路。参考 :ref:`图 2.21 <Figure 2.21>` 所示电路。[14]_
 
-Once all the voltage sources are shorted and all the current sources are opened, all the components will be in series or parallel. That makes it very convenient for those of us who only want to memorize a few equations! Apply those basic parallel and series rules we just learned and voilà, you have a circuit that is much easier to understand. Once you have reduced the resistors, inductors, and caps to a more controllable number, you replace each source one at a time to see the effects of each source on the component in question.
+一旦所有的电压源都短路、所有电流源都开路，所有元件就会变成串联或并联。这对那些只想记住几个公式的人来说非常方便！应用我们刚刚学到的串并联规则，voilà（瞧），你就得到了一个更容易理解的电路。当你将电阻、电感、电容的数目简化为可控范围后，你就可以逐个替换电源，查看每个电源对所关注元件的影响。
 
-.. [12] When I see the term linear equation, I think line, so an RC curve seems counterintuitive, but linear equations are a type of formula that allows certain rules such as superposition to be used.
-.. [13] Note the use of the word source; a voltage source is a device that keeps the voltage constant as a load varies. A current source keeps the current constant in the face of a changing load.
-.. [14] This circuit sparked a competition in the last edition of this book (since I didn’t bother to include a solution). Rather than try to show you how smart I am by including a solution in this edition, I am going to change a few values (or maybe not) and invite you as readers to solve this circuit. Drop me a note with your solution; I promise you will win an all-expense-paid email back from me congratulating you on your engineering prowess!
+.. [12] 每当我看到“线性方程”这个词时，我会想到直线，因此 RC 曲线看起来似乎违反直觉，但线性方程是一类允许使用诸如叠加法等规则的公式。
+
+    When I see the term linear equation, I think line, so an RC curve seems counterintuitive, but linear equations are a type of formula that allows certain rules such as superposition to be used.
+
+.. [13] 注意这里使用的是“源”这个词；电压源是一种即使负载变化也能保持电压恒定的装置。电流源则是在负载变化时保持电流恒定。
+
+    Note the use of the word source; a voltage source is a device that keeps the voltage constant as a load varies. A current source keeps the current constant in the face of a changing load.
+
+.. [14] 上一版教材中这个电路引发了一场竞赛（因为我懒得给出答案）。这次我不会试图通过附上解答来炫耀我的聪明，而是改变一些数值（或者不变），邀请你来解这个电路。欢迎把你的解答发给我；我保证你会收到一封我为你的工程才能而送上的——全费用已付——电子邮件祝贺信！
+
+    This circuit sparked a competition in the last edition of this book (since I didn’t bother to include a solution). Rather than try to show you how smart I am by including a solution in this edition, I am going to change a few values (or maybe not) and invite you as readers to solve this circuit. Drop me a note with your solution; I promise you will win an all-expense-paid email back from me congratulating you on your engineering prowess!
 
 .. _Figure 2.22:
 
@@ -411,21 +752,25 @@ Once all the voltage sources are shorted and all the current sources are opened,
     :scale: 50%
     :align: center
 
-    **FIGURE 2.22 Circuit with two voltage sources.**
+    **图 2.22 含有两个电压源的电路。**
 
-I find it helps when Thevenizing a circuit to try to imagine that you are looking back into the circuit from the output. This means that you imagine what the circuit looks like in terms of the output. We often think in terms of stuff that goes in the input. Something goes in, something happens, and then it comes out the output. Try flipping that notion on its head. Think, “Here is the output, what exactly is it hooked up to? What are the impedances that the cap in this case ’sees’ connected to it?” Once you are able to adjust your point of view, Thevenizing will become an even more powerful tool. Consider the circuit shown in :ref:`Figure 2.22 <Figure 2.22>`.
+我发现在戴维南化电路时，如果能想象自己是从输出端“回看”电路，会很有帮助。这意味着你要从输出端的角度来看电路。我们通常会从输入角度思考：某物输入，某些事情发生，接着某物输出。现在尝试将这个概念颠倒过来。思考，“这是输出端，它到底接到了什么？这个电容‘看到’了哪些阻抗？”一旦你能够调整你的思维视角，戴维南化将成为一个更强大的工具。参考 :ref:`图 2.22 <Figure 2.22>` 所示电路。
 
-This circuit comes from a real, live application. I would tell you what, but it is secret. [15]_ So we won’t say this is anything more than a voltage divider with a capacitive filter on it. (Values might have been changed to protect the innocent.)
+这个电路来源于一个真实的实际应用。我本可以告诉你它是什么，但这是机密。[15]_ 所以我们只说这是一个带电容滤波的分压器。（为了保护无辜者，某些数值可能已被修改。）
 
-This circuit’s job is to lower a voltage at the input terminals varying from 0 to 100 V to something with a range of 0 to 5 V. The input voltage also has an AC component that is filtered out by the capacitor. The question is, what is the time constant of the RC filter in this circuit?
+这个电路的任务是将输入端 0 到 100 V 的电压降低到 0 到 5 V 的范围。输入电压中还包含一个交流分量，该分量通过电容器被滤除。问题是，这个 RC 滤波器的时间常数是多少？
 
-Is it 500 K*0.1 μf? That’s what I would have thought before I understood Thevenin’s theorem. The output in this case is the voltage across the cap, so let’s look back into the circuit to figure out what is hooked up to this cap. Now remember, I said there was a voltage source on the input of this circuit. Let’s short that on our drawing and Thevenize it. Take a look at the Thevenized circuit shown in :ref:`Figure 2.23 <Figure 2.23>`.
+是 500 K*0.1 μF 吗？在理解戴维南定理之前我也是这么想的。此处的输出是电容两端的电压，所以我们回看电路，弄清这个电容到底接到了什么。请记住，我之前说这个电路的输入是一个电压源。我们在图中将其短路并戴维南化。看看 :ref:`图 2.23 <Figure 2.23>` 中的戴维南化电路。
 
-Hopefully at this point something really jumped out at you. The 10 K and the 500 K resistors are in parallel as far as the cap is concerned. Applying the rule of parallel resistors we find that the resistance hooked up to this cap is 9.8 K. Wow, that is a lot less than 500 K, isn’t it! Thevenizing showed us that our first assumption was incorrect. In fact, the time constant [16]_ of this circuit is much, much lower than it would be without the 10 K resistor.
+希望此时你会突然意识到一些问题。对于电容来说，10 K 和 500 K 电阻是并联的。应用并联电阻的规则，我们发现连接到电容上的等效电阻是 9.8 K。哇，这比 500 K 小很多，不是吗！戴维南化告诉我们，之前的假设是错误的。实际上，这个电路的时间常数 [16]_ 要比没有 10 K 电阻时小得多。
 
-.. [15] If you haven’t already, you will soon find out that every corporation wants you to sign away every idea you have or ever had as their intellectual property. Some day, those individuals who have all the good ideas must rise up and say, “Enough is enough!” After which we will all likely end up being consultants.
+.. [15] 如果你还没遇到，你很快就会发现，几乎每家公司都希望你将你所拥有的或曾经拥有的所有创意都签署为它们的知识产权。有一天，那些拥有好主意的人们必须站出来说：“够了！”然后我们很可能都变成顾问。
 
-.. [16] If you want a more in-depth lesson on time constants, you will need to jump ahead a few chapters. For now, though, it is sufficient to understand the basic idea behind good ol’ Thevenin’s proposition.
+    If you haven’t already, you will soon find out that every corporation wants you to sign away every idea you have or ever had as their intellectual property. Some day, those individuals who have all the good ideas must rise up and say, “Enough is enough!” After which we will all likely end up being consultants.
+
+.. [16] 如果你想更深入学习时间常数，可以跳到后面几章。但目前，理解戴维南定理的基本概念已经足够。
+
+    If you want a more in-depth lesson on time constants, you will need to jump ahead a few chapters. For now, though, it is sufficient to understand the basic idea behind good ol’ Thevenin’s proposition.
 
 .. _Figure 2.23:
 
@@ -433,9 +778,9 @@ Hopefully at this point something really jumped out at you. The 10 K and the 500
     :scale: 50%
     :align: center
 
-    **FIGURE 2.23 Thevenized real, live secret circuit.**
+    **图 2.23 戴维南化的真实秘密电路。**
 
-There are other ways this theorem can be useful. Here is a case in point. You might have a circuit like the one shown in :ref:`Figure 2.24 <Figure 2.24>`.
+这个定理还有其他有用之处。例如，如 :ref:`图 2.24 <Figure 2.24>` 所示的电路。
 
 .. _Figure 2.24:
 
@@ -443,7 +788,7 @@ There are other ways this theorem can be useful. Here is a case in point. You mi
     :scale: 50%
     :align: center
 
-    **FIGURE 2.24 AC switched power to an inductor.**
+    **图 2.24 给电感器提供交流开关电源。**
 
 .. _Figure 2.25:
 
@@ -451,9 +796,9 @@ There are other ways this theorem can be useful. Here is a case in point. You mi
     :scale: 50%
     :align: center
 
-    **FIGURE 2.25 AC switched power to an inductor with snubber.**
+    **图 2.25 加装吸收器的交流开关电感器电源。**
 
-You need to switch AC power through this inductor (which was actually one winding of an AC motor in this case). Trouble is, when you let off the switch, a whole bunch of electrical noise is generated when this switch is opened. (We will discuss why when we cover magnetic fields later in the book.) A standard way to deal with this situation is with an RC circuit commonly known as a snubber. The point of a snubber is to snub this voltage spike and dissipate it as heat on the resistor. This makes the most sense if it is across the inductor, as shown in :ref:`Figure 2.25 <Figure 2.25>`.
+你需要通过这个电感器（实际是交流电机的一组绕组）切换交流电源。问题是，当你松开开关时，会产生大量电气噪声。（本书后面讨论磁场时我们会解释原因。）一个标准的应对方式是使用一个 RC 电路，也叫吸收器（snubber）。吸收器的目的是吸收这个电压尖峰并将其在电阻器上转化为热量消耗掉。如 :ref:`图 2.25 <Figure 2.25>` 所示，将其并联在电感器上最为合理。
 
 .. _Figure 2.26:
 
@@ -461,26 +806,107 @@ You need to switch AC power through this inductor (which was actually one windin
     :scale: 50%
     :align: center
 
-    **FIGURE 2.26 These are equivalent circuits when Thevenized.**
+    **图 2.26 戴维南化后等效的电路。**
 
-Now let’s apply Thevenin’s theorem to take a different look at this circuit, as shown in :ref:`Figure 2.26 <Figure 2.26>`. By shorting the AC voltage source, we quickly see that hooking the snubber up to the other side of the switch, to the AC hot line, would have exactly the same effect as hooking across the inductor. This fact once saved a company I worked for tens of thousands of dollars [17]_ using the alternate location of the snubber circuit. I would say that makes Thevenizing a pretty powerful tool, wouldn’t you?
+现在我们来用戴维南定理以不同的角度来看这个电路，如 :ref:`图 2.26 <Figure 2.26>` 所示。通过短路交流电压源，我们可以快速看出，将吸收器接在开关另一端，即交流火线，会与将其并联在电感器上产生完全相同的效果。这个发现曾经为我所在的一家公司节省了数万美元 [17]_，仅仅是通过改变吸收器电路的位置。我想你会同意，戴维南化确实是个很强大的工具，不是吗？
 
-.. [17] No, I didn’t get any bonus for my discovery and work in this case. Alas, that too is a sad fact of the corporate world we live and work in these days. On the flip side, the corporate world has made cartoons like Dilbert quite successful. Someday I predict corporations will come to realize that the best way to keep people happy while working hard is simply slipping them a few extra dollars.
+.. [17] 不，我没有因为这个发现和工作获得任何奖金。唉，这正是我们今天所处的企业世界的一个悲哀现实。换个角度看，这个企业世界也让像《呆伯特》这样的漫画大获成功。有朝一日，我预测企业会意识到，让人们在努力工作的同时保持快乐的最好方式就是悄悄地多发点钱。
 
-.. admonition:: Thumb Rules
+    No, I didn’t get any bonus for my discovery and work in this case. Alas, that too is a sad fact of the corporate world we live and work in these days. On the flip side, the corporate world has made cartoons like Dilbert quite successful. Someday I predict corporations will come to realize that the best way to keep people happy while working hard is simply slipping them a few extra dollars.
 
-    - The basics are the most important!
-    - For a basic understanding, think of impedance as similar to resistance at a given frequency.
-    - ``V = I * Z``.
-    - Voltage divider rule, ``Vo = Vi(Rg /(Rg + Rs))``.
-    - A capacitor resists a change in voltage, but current can change immediately (the inverse of the inductor).
-    - An inductor resists a change in current, but voltage can change immediately (the inverse of the capacitor).
-    - A capacitor is to voltage as an inductor is to current.
-    - Series resistors, series inductors, and parallel caps add up.
-    - Parallel resistors, parallel inductors, and series caps use the product-over-the-sums, or the sum-of-the-inverse, rule.
-    - When Thevenizing: short voltage sources, open current sources.
-    - Consider the circuit from the output point of view.
-    - Insight can be gained by Thevenizing a circuit.
+.. admonition:: 拇指规则
+
+    - 基础最重要！
+    - 为了基本理解，可将阻抗视为在某一频率下的电阻。
+    - ``V = I * Z``。
+    - 电压分压规则，``Vo = Vi(Rg /(Rg + Rs))``。
+    - 电容器阻碍电压的变化，但电流可以立即变化（电感器的反义）。
+    - 电感器阻碍电流的变化，但电压可以立即变化（电容器的反义）。
+    - 电容之于电压，如电感之于电流。
+    - 串联电阻、串联电感器和并联电容器可以直接相加。
+    - 并联电阻、并联电感器和串联电容器使用乘积除以和或求倒数再求和的规则。
+    - 戴维南化时：电压源短路，电流源开路。
+    - 从输出端角度考虑电路。
+    - 戴维南化可以带来洞察力。
+
+.. toggle::
+
+    Thevenizing is based on the idea of using superposition to analyze a circuit. When you have two different variables affecting an equation, making it difficult to analyze, you can use the technique of superposition to solve the equation, provided that you are dealing with linear equations (by luck all these basic components are linear; even if you might not think it when looking at the curve of an RC time response, it actually is a linear equation). [12]_
+
+    The idea of superposition is simple: When you have multiple inputs affecting an output, you can analyze the effects of each input independently and add them together when you are all done to see what the output does. One idea that comes from superposition is *Thevenin’s theorem*.
+
+    .. figure:: ./img/f2.21.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.21 Circuit with two voltage sources.**
+
+    Using Thevenin’s theorem allows you to reduce basically any circuit into a voltage divider. And we know how to solve a voltage divider, don’t we! There is a sister theorem called Norton’s, which does the same thing but is based on current rather than voltage. Since you can solve any electrical problem with either equation, I suggest you focus on one or the other. Since I like to think in terms of voltage, I prefer Thevenizing a circuit to the Norton equivalent. So to be true to the idea that you should only learn a few fundamentals and learn those well, we will focus on Thevenin equivalents.
+
+    The most important rule when Thevenizing is this: Voltage sources [13]_ are shorted, current sources are opened. Consider the circuit shown in :ref:`Figure 2.21 <Figure 2.21>`. [14]_
+
+    Once all the voltage sources are shorted and all the current sources are opened, all the components will be in series or parallel. That makes it very convenient for those of us who only want to memorize a few equations! Apply those basic parallel and series rules we just learned and voilà, you have a circuit that is much easier to understand. Once you have reduced the resistors, inductors, and caps to a more controllable number, you replace each source one at a time to see the effects of each source on the component in question.
+
+    .. figure:: ./img/f2.22.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.22 Circuit with two voltage sources.**
+
+    I find it helps when Thevenizing a circuit to try to imagine that you are looking back into the circuit from the output. This means that you imagine what the circuit looks like in terms of the output. We often think in terms of stuff that goes in the input. Something goes in, something happens, and then it comes out the output. Try flipping that notion on its head. Think, “Here is the output, what exactly is it hooked up to? What are the impedances that the cap in this case ’sees’ connected to it?” Once you are able to adjust your point of view, Thevenizing will become an even more powerful tool. Consider the circuit shown in :ref:`Figure 2.22 <Figure 2.22>`.
+
+    This circuit comes from a real, live application. I would tell you what, but it is secret. [15]_ So we won’t say this is anything more than a voltage divider with a capacitive filter on it. (Values might have been changed to protect the innocent.)
+
+    This circuit’s job is to lower a voltage at the input terminals varying from 0 to 100 V to something with a range of 0 to 5 V. The input voltage also has an AC component that is filtered out by the capacitor. The question is, what is the time constant of the RC filter in this circuit?
+
+    Is it 500 K*0.1 μf? That’s what I would have thought before I understood Thevenin’s theorem. The output in this case is the voltage across the cap, so let’s look back into the circuit to figure out what is hooked up to this cap. Now remember, I said there was a voltage source on the input of this circuit. Let’s short that on our drawing and Thevenize it. Take a look at the Thevenized circuit shown in :ref:`Figure 2.23 <Figure 2.23>`.
+
+    Hopefully at this point something really jumped out at you. The 10 K and the 500 K resistors are in parallel as far as the cap is concerned. Applying the rule of parallel resistors we find that the resistance hooked up to this cap is 9.8 K. Wow, that is a lot less than 500 K, isn’t it! Thevenizing showed us that our first assumption was incorrect. In fact, the time constant [16]_ of this circuit is much, much lower than it would be without the 10 K resistor.
+
+    .. figure:: ./img/f2.23.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.23 Thevenized real, live secret circuit.**
+
+    There are other ways this theorem can be useful. Here is a case in point. You might have a circuit like the one shown in :ref:`Figure 2.24 <Figure 2.24>`.
+
+    .. figure:: ./img/f2.24.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.24 AC switched power to an inductor.**
+
+    .. figure:: ./img/f2.25.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.25 AC switched power to an inductor with snubber.**
+
+    You need to switch AC power through this inductor (which was actually one winding of an AC motor in this case). Trouble is, when you let off the switch, a whole bunch of electrical noise is generated when this switch is opened. (We will discuss why when we cover magnetic fields later in the book.) A standard way to deal with this situation is with an RC circuit commonly known as a snubber. The point of a snubber is to snub this voltage spike and dissipate it as heat on the resistor. This makes the most sense if it is across the inductor, as shown in :ref:`Figure 2.25 <Figure 2.25>`.
+
+    .. figure:: ./img/f2.26.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.26 These are equivalent circuits when Thevenized.**
+
+    Now let’s apply Thevenin’s theorem to take a different look at this circuit, as shown in :ref:`Figure 2.26 <Figure 2.26>`. By shorting the AC voltage source, we quickly see that hooking the snubber up to the other side of the switch, to the AC hot line, would have exactly the same effect as hooking across the inductor. This fact once saved a company I worked for tens of thousands of dollars [17]_ using the alternate location of the snubber circuit. I would say that makes Thevenizing a pretty powerful tool, wouldn’t you?
+
+    .. admonition:: Thumb Rules
+
+        - The basics are the most important!
+        - For a basic understanding, think of impedance as similar to resistance at a given frequency.
+        - ``V = I * Z``.
+        - Voltage divider rule, ``Vo = Vi(Rg /(Rg + Rs))``.
+        - A capacitor resists a change in voltage, but current can change immediately (the inverse of the inductor).
+        - An inductor resists a change in current, but voltage can change immediately (the inverse of the capacitor).
+        - A capacitor is to voltage as an inductor is to current.
+        - Series resistors, series inductors, and parallel caps add up.
+        - Parallel resistors, parallel inductors, and series caps use the product-over-the-sums, or the sum-of-the-inverse, rule.
+        - When Thevenizing: short voltage sources, open current sources.
+        - Consider the circuit from the output point of view.
+        - Insight can be gained by Thevenizing a circuit.
 
 IT’S ABOUT TIME
 ------------------
