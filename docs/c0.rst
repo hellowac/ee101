@@ -42,7 +42,7 @@ Atoms [4]_ are made up of three types of particles: protons, neutrons, and elec-
    :align: center
    :scale: 30%
 
-**FIGURE 0.1 Very basic symbol of an atom.**
+   **FIGURE 0.1 Very basic symbol of an atom.**
 
 Now, don’t let the simple circles of my diagram lead you to believe that this is the path that electrons move in. They actually scoot around in a more energetic 3D motion that physicists refer to as a shell. There are many types and shapes of shells, but the specifics are beyond the scope of this text. You do need to under- stand that when you dump enough energy into an atom, you can get an electron to pop off and move fancy free. When this happens the rest of the atom has a net positive charge [5] and the electron a net negative charge. [6]_ Actually, they have these charges when they are part of the atom. They simply cancel each other out so that when you look at the atom as a whole the net charge is zero.
 
@@ -58,7 +58,7 @@ Now, atoms don’t like having electrons missing from their shells, so as soon a
    :align: center
    :scale: 30%
 
-**FIGURE 0.2 Electrons are “stuck” in these shells in an insulator; they can’t really leave and move fancy free.**
+   **FIGURE 0.2 Electrons are “stuck” in these shells in an insulator; they can’t really leave and move fancy free.**
 
 .. _Figure 0.3:
 
@@ -66,7 +66,7 @@ Now, atoms don’t like having electrons missing from their shells, so as soon a
    :align: center
    :scale: 30%
 
-**FIGURE 0.3 An electron sea.**
+   **FIGURE 0.3 An electron sea.**
 
 In an insulator, these electron charges are “stuck” in place, orbiting the nucleus of the atom—similar to water frozen in a pipe. [7]_ Do take note that there are just as many positive charges as there are negative charges.
 
@@ -116,7 +116,7 @@ In our electron pump, when you turn the crank, one side gets a surplus of electr
    :align: center
    :scale: 30%
 
-**FIGURE 0.4 Hypothetical electron pump.**
+   **FIGURE 0.4 Hypothetical electron pump.**
 
 If you want to carry forward the water analogy, think of this as a pump hooked up to a pipe full of water and sealed at both ends. As you turn the pump, you build up pressure in the pipe—positive pressure on one side of the pump and negative pressure on the other. In the same way, as you turn the crank you build up charges on either side of the pump, and then these charges push out into the wire and sit there because they have no place to go. If you hook up a meter to either end you would measure a potential (think difference in charge) between the two wires. That potential is what we call voltage.
 
@@ -138,7 +138,7 @@ Remember that opposite charges attract? When you hook up the bulb, on one side y
    :align: center
    :scale: 30%
 
-**FIGURE 0.5 Electron pump with light bulb.**
+   **FIGURE 0.5 Electron pump with light bulb.**
 
 So, to recap, if we have a bunch of charges hanging out, we call it voltage, and when we keep these charges in motion we call that current. Some typical water analogies look at voltage as pressure and current as flow. These are helpful to grasp the concept, but keep in mind that a key thing with these charges and their movements is the seemingly magical fields they produce. Voltage generates an electrostatic field (it is this field repelling or attracting other charges that creates the voltage “pressure” in the conductor). Current or flow or movement of the charges generates a magnetic field around the conductor. It is very important to grasp these concepts to enhance your understanding of what is going on. When you get down to it, it is these fields that actually move the work or energy from one end of a circuit to another.
 
@@ -158,7 +158,7 @@ Fundamentally, we can think of the concept as shown in the drawing in :ref:`Figu
    :align: center
    :scale: 30%
 
-**FIGURE 0.6 The electromagnetic and electronic fields transmit the work from the crank to the light bulb.**
+   **FIGURE 0.6 The electromagnetic and electronic fields transmit the work from the crank to the light bulb.**
 
 .. _Figure 0.7:
 
@@ -166,7 +166,7 @@ Fundamentally, we can think of the concept as shown in the drawing in :ref:`Figu
    :align: center
    :scale: 30%
 
-**FIGURE 0.7 The belt transmits the work from the crank to the load.**
+   **FIGURE 0.7 The belt transmits the work from the crank to the load.**
 
 Even if the movement of the belt is slow, [17]_ we see the effects on the pulley immediately, at the moment the crank is turned. It is the same way with the light bulb. However, the belt is replaced by the circuit, and it is actually the electromagnetic [18]_ fields pushing charges around that transmit the work to the bulb. Without the effects of both of these fields, we couldn’t move the energy input at the crank to be output at the light bulb. It just wouldn’t happen.
 
@@ -180,7 +180,7 @@ Even if the movement of the belt is slow, [17]_ we see the effects on the pulley
    :align: center
    :scale: 30%
 
-**FIGURE 0.8 The cool magical fields act like the belt transmitting what we call energy, work, or power.**
+   **FIGURE 0.8 The cool magical fields act like the belt transmitting what we call energy, work, or power.**
 
 Like the belt on the pulleys, the charges move around in a loop. But the work that is being done at the crank moves out to the light bulb, where it is used up making the light shine. Charges weren’t used up; current wasn’t used up. They all make the loop (just like the belt in the pulley example). It is energy that is used up. Energy is work; you turning the crank is work. The light bulb takes energy to shine. In the bulb, energy is converted into heat on the filament that makes it glow so bright that you get light. But remember, it is energy that it takes to make this happen. You need both voltage and current (along with their associated fields) to transfer energy from one point to another in an electric circuit.
 

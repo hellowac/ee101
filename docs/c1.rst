@@ -89,7 +89,7 @@ Before we move on to the physical equivalents, let’s understand voltage, curre
 .. figure:: ./img/23-0.png
    :align: center
 
-**FIGURE 1.1 Very basic symbol of an atom.**
+   **FIGURE 1.1 Very basic symbol of an atom.**
 
 .. [1] Grok means to understand at a deep and personal level. I highly recommend reading Robert Heinlein’s Stranger in a Strange Land for a deeper understanding of the word grok.
 .. [2] Or moving as we learned in :ref:`Chapter 0 <c0>`.
@@ -114,14 +114,14 @@ Think about what happens when you drag a heavy box across the floor, as shown in
    :align: center
    :scale: 50%
 
-(a)
+   **FIGURE 1.2 a) Friction resists smiley stick boy’s efforts. **
 
 .. figure:: ./img/24-0.png
    :align: center
 
-(b)
+   (b)
 
-**FIGURE 1.2 a) Friction resists smiley stick boy’s efforts. b) A resistor.**
+   **FIGURE 1.2 b) A resistor.**
 
 Furthermore, the friction dissipates the energy loss in the system with heat. Let me rephrase that. Friction makes things get warm. Don’t believe me? Try rubbing your hands together right now. Did you feel the heat? That is caused by friction. The function of a resistor in an electrical circuit is equal to friction. The resistor resists the flow of electricity [3]_ just like friction resists the speed of the box. And, guess what? It heats up as it does so. An equation called Ohm’s Law describes this relationship:
 
@@ -155,14 +155,12 @@ Let’s stay with the box example for now. First, let’s eliminate friction, so
    :align: center
    :scale: 50%
 
-(a)
+   **FIGURE 1.3 a) Wheels eliminate friction, but smiley has a hard time getting it up to speed and stopping it. **
 
 .. figure:: ./img/25-0.png
    :align: center
 
-(b)
-
-**FIGURE 1.3 a) Wheels eliminate friction, but smiley has a hard time getting it up to speed and stopping it. b) An inductor.**
+   **FIGURE 1.3 b) An inductor.**
 
 The Capacitor Is Analogous to a Spring
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -177,7 +175,7 @@ So what does a spring do? Take hold of a spring in your mind’s eye. Stretch it
 
 .. figure:: ./img/25-1.png
 
-**FIGURE 1.4 Energy/potential is stored when you stretch the spring, a capacitor stores potential.**
+   **FIGURE 1.4 Energy/potential is stored when you stretch the spring, a capacitor stores potential.**
 
 .. math::
    :label: equation 1.6
@@ -208,7 +206,7 @@ LC circuit? It dampens the oscillation.
    :scale: 50%
    :align: center
 
-**FIGURE 1.5 Energy/potential is stored when you stretch the spring, a capacitor stores potential.**
+   **FIGURE 1.5 Energy/potential is stored when you stretch the spring, a capacitor stores potential.**
 
 There you have it—the world of electricity reduced to everyday items. Since these components are so similar, all the math tricks you might have learned apply as well to one system as they do to the other. Remember Fourier’s theorems? They were discovered for mechanical systems long before anyone realized that they work for electrical circuits as well. Remember all that higher math you used to know or are just now learning about—Laplace transforms, integrals, derivatives, etc.? It all works the same in both worlds. You can solve a mechanical system using Laplace methods just the same as an electrical circuit.
 
@@ -250,7 +248,7 @@ There are three underlying principles needed to apply intuitive signal analysis.
    :scale: 50%
    :align: center
 
-**FIGURE 1.6 Energy/potential is stored when you stretch the spring, a capacitor stores potential.**
+   **FIGURE 1.6 Energy/potential is stored when you stretch the spring, a capacitor stores potential.**
 
 Spending a lot of time in the lab will help immensely in developing this skill. If you look at the response of a lot of different circuits many, many times, you will learn how they should act. When this knowledge is integrated, a wonderful thing happens: Your head becomes a circuit simulator. You will be able to sum up the effects caused by the various components in the circuit and intuitively understand what is happening. Let me show you an example.
 
