@@ -17,10 +17,10 @@ As we look at some pictures of typical parts please note that the pin-out and
 actual parts may vary. [2]_
 
 PARTIALLY CONDUCTING ELECTRICITY
-==================================
+------------------------------------
 
 Semiconductors
----------------
+~~~~~~~~~~~~~~~~~~
 
 Texts are available that can give you the quantum mechanical principles on which
 a semiconductor works. However, in this context I think the better thing to do is
