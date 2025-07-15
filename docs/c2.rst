@@ -905,45 +905,70 @@ Thevenin’s Theorem
         - Consider the circuit from the output point of view.
         - Insight can be gained by Thevenizing a circuit.
 
-IT’S ABOUT TIME
+关于时间
 ------------------
+IT’S ABOUT TIME
 
-AC/DC and a Dirty Little Secret
+交流/直流和一个肮脏的小秘密
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+AC/DC and a Dirty Little Secret
 
-AC/DC—it isn’t a rock band; it’s one of those lovable engineering acronyms. It means alternating current and direct current. These terms came into being to describe a couple of different modes of electricity. A firm understanding of these two modes will help you in all aspects of engineering. Before we move on to these two modes, we need to establish an understanding of something called *conventional flow and electron flow*.
+AC/DC——它不是一支摇滚乐队，而是一个令人喜爱的工程术语缩写。它代表交流电（Alternating Current）和直流电（Direct Current）。这些术语的产生是为了描述电的两种不同模式。牢固理解这两种模式将在工程的各个方面对你有所帮助。在继续讨论这两种模式之前，我们需要先了解一个概念，叫做 *常规电流方向和电子流方向*。
 
-Way back before we even knew that electrons existed, electricity was thought of as a flow of something. Benjamin Franklin picked a direction for that flow, labeling one side positive and the other negative. (The reason is a whole other story involving wax, wool, and a lot of rubbing. [18]_) The presumptions made sense, but it turned out later, as we came to understand what electrons are, that electricity wasn’t really a flow and that the electrons actually move in the other direction.
+早在我们还不知道电子存在的时候，电被认为是一种“东西”的流动。本杰明·富兰克林为这种流动选择了一个方向，将一边标记为正，另一边为负。（其背后的故事涉及蜡、羊毛和大量摩擦。[18]_）这些假设当时看起来很合理，但后来我们逐渐明白电子的本质后发现，电其实并不是一种持续流动的“汁液”，电子实际上是向相反的方向运动的。
 
-The truth is that the little electrons that produce what we call electricity aren’t really a continuous flow of juice; they sort of bump around in these little packets (we learned to call them charges in :ref:`Chapter 0 <c0>`). From an aggregate level, though, these packets of quanta [19]_ act like a flow. It also turned out that these charges moved in the opposite direction of what was previously assumed.
+事实上，那些产生我们所称之为“电”的小电子，并不是真正地连续流动；它们更像是在这些小包中碰撞（我们在 :ref:`第 0 章 <c0>` 中学会称它们为“电荷”）。不过从整体上看，这些量子包 [19]_ 表现得像是一种流动。而且结果表明，这些电荷的运动方向与我们之前所假定的是相反的。
 
-.. [18] When you have an evening with nothing better to do, I suggest you Google this topic; it is very interesting.
-.. [19] Ahh, quantum mechanics, an interesting and entirely other topic that we will have to reserve for another book at another time.
+.. [18] 如果某天晚上你闲得无聊，我建议你搜索一下这个话题；非常有趣。
 
-By the time all this was figured out, the conventional flow positive-to-negative nomenclature was pretty well established. Since all the basic equations work either way, no one has bothered to change this idea. Instead, another term, **electron flow**, is used to describe the way electrons actually move in a circuit.
+   When you have an evening with nothing better to do, I suggest you Google this topic; it is very interesting.
 
-This seemed like a dirty little secret to me when I first found it out, and I’ve often wondered whether we haven’t missed an important discovery along the way due to thinking of electricity in the manner that we do. Considering the world to be flat doesn’t cause significant errors with geometry till you are trying to fly a plane to China and discover that what you thought was a straight line is really a curve. So, as long as we keep things in perspective, the accepted jargon will do fine. [20]_ For our discussion, we will use conventional flow terminology. We will also consider the effects from an aggregate level, preserving the idea of flow.
+.. [19] 啊，量子力学，一个有趣的、完全不同的话题，我们得留到另一本书再讨论。
 
-Now that you know the dirty little secret of electron flow, let’s talk about current and voltage and where they come from.
+   Ahh, quantum mechanics, an interesting and entirely other topic that we will have to reserve for another book at another time.
 
-Constant Voltage Sources vs. Constant Current Sources
+当这些都被搞清楚的时候，常规的正到负的电流流向命名法已经深入人心了。因为所有基本公式在任意流向下都有效，所以没人费劲去改变这个观念。相反，我们使用另一个术语，**电子流方向**，来描述电子在电路中的实际运动方式。
+
+我第一次发现这一点时感觉像是揭示了一个肮脏的小秘密，我经常在想，我们是否因为以这种方式看待电而错过了一些重要的发现。就像把地球当作平面一样，在搞几何时没啥问题，但当你试图飞到中国才发现所谓的“直线”其实是曲线。所以，只要我们能保持视角正确，这种公认的术语是没问题的。[20]_ 在我们的讨论中，我们将使用常规电流流向的术语，并从整体角度考虑其效果，保持流动的概念。
+
+既然你已经了解了电子流动这个小秘密，现在我们来谈谈电流、电压以及它们的来源。
+
+.. toggle::
+
+    AC/DC—it isn’t a rock band; it’s one of those lovable engineering acronyms. It means alternating current and direct current. These terms came into being to describe a couple of different modes of electricity. A firm understanding of these two modes will help you in all aspects of engineering. Before we move on to these two modes, we need to establish an understanding of something called *conventional flow and electron flow*.
+
+    Way back before we even knew that electrons existed, electricity was thought of as a flow of something. Benjamin Franklin picked a direction for that flow, labeling one side positive and the other negative. (The reason is a whole other story involving wax, wool, and a lot of rubbing. [18]_) The presumptions made sense, but it turned out later, as we came to understand what electrons are, that electricity wasn’t really a flow and that the electrons actually move in the other direction.
+
+    The truth is that the little electrons that produce what we call electricity aren’t really a continuous flow of juice; they sort of bump around in these little packets (we learned to call them charges in :ref:`Chapter 0 <c0>`). From an aggregate level, though, these packets of quanta [19]_ act like a flow. It also turned out that these charges moved in the opposite direction of what was previously assumed.
+
+    By the time all this was figured out, the conventional flow positive-to-negative nomenclature was pretty well established. Since all the basic equations work either way, no one has bothered to change this idea. Instead, another term, **electron flow**, is used to describe the way electrons actually move in a circuit.
+
+    This seemed like a dirty little secret to me when I first found it out, and I’ve often wondered whether we haven’t missed an important discovery along the way due to thinking of electricity in the manner that we do. Considering the world to be flat doesn’t cause significant errors with geometry till you are trying to fly a plane to China and discover that what you thought was a straight line is really a curve. So, as long as we keep things in perspective, the accepted jargon will do fine. [20]_ For our discussion, we will use conventional flow terminology. We will also consider the effects from an aggregate level, preserving the idea of flow.
+
+    Now that you know the dirty little secret of electron flow, let’s talk about current and voltage and where they come from.
+
+恒压源 vs 恒流源
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Constant Voltage Sources vs. Constant Current Sources
 
-Devices that cause electrons to move are called sources since they are the source of electron or charge flow. The two typical types of sources are voltage and current sources. Remember two important things when dealing with them.
+
+促使电子移动的装置被称为“源”，因为它们是电子或电荷流的来源。源通常分为电压源和电流源两种类型。在处理它们时记住两件重要的事：
 
 .. important::
 
-    **Important Thing 1**
-        When you’re dealing with a voltage source, the output will try to maintain the voltage across the load. That is, the voltage at the source will be constant. This means in terms of Ohm’s Law that V remains the same at the source. I and R can change, but in the end it must always equal V in terms of Ohm’s Law. ``V = IR``.
+    **重点一**
+        当你使用电压源时，输出会试图维持负载两端的电压恒定。也就是说，源端的电压是恒定的。根据欧姆定律，这意味着 V 是固定的，I 和 R 可以变化，但结果必须始终满足欧姆定律 ``V = IR``。
 
-    **Important Thing 2**
-        When you’re dealing with a current source, the output will try to maintain the current through the load. That is, the current from the source will be constant. These are less common, but they do exist and can be used in many situations. Current from the source will remain constant, allowing V to change as R varies, still following Ohm’s Law as obediently as any other circuit,  ``I = V/R``.
+    **重点二**
+        当你使用电流源时，输出会试图维持流过负载的电流恒定。也就是说，源端的电流是恒定的。虽然这些较为少见，但确实存在，并可用于许多场景。源端电流保持不变，允许 V 随 R 变化，同时仍然忠实地遵循欧姆定律 ``I = V/R``。
 
-The world of electronics is very voltage-centric, so you will see voltage sources much more often than current sources. This being the case, I will concentrate more on these types of sources.
+电子世界非常以电压为中心，因此你会更常见到电压源而不是电流源。鉴于此，我将更侧重讲解电压源。
 
-Sources can come in two different types: AC or DC. Let’s take a closer look.
+源又可以分为两种类型：AC 或 DC。我们来仔细看看。
 
-.. [20] Don’t let that stop you from wondering, though; maybe you will discover something new!
+.. [20] 不过不要因此停止思考；或许你会发现点什么新东西！
+
+   Don’t let that stop you from wondering, though; maybe you will discover something new!
 
 .. _Figure 2.27:
 
@@ -951,29 +976,71 @@ Sources can come in two different types: AC or DC. Let’s take a closer look.
     :scale: 50%
     :align: center
 
-    **FIGURE 2.27 DC current and voltage from a battery.**
+    **图 2.27 电池提供的直流电流和电压。**
 
-Direct Current
+.. toggle::
+
+    Devices that cause electrons to move are called sources since they are the source of electron or charge flow. The two typical types of sources are voltage and current sources. Remember two important things when dealing with them.
+
+    .. important::
+
+        **Important Thing 1**
+            When you’re dealing with a voltage source, the output will try to maintain the voltage across the load. That is, the voltage at the source will be constant. This means in terms of Ohm’s Law that V remains the same at the source. I and R can change, but in the end it must always equal V in terms of Ohm’s Law. ``V = IR``.
+
+        **Important Thing 2**
+            When you’re dealing with a current source, the output will try to maintain the current through the load. That is, the current from the source will be constant. These are less common, but they do exist and can be used in many situations. Current from the source will remain constant, allowing V to change as R varies, still following Ohm’s Law as obediently as any other circuit,  ``I = V/R``.
+
+    The world of electronics is very voltage-centric, so you will see voltage sources much more often than current sources. This being the case, I will concentrate more on these types of sources.
+
+    Sources can come in two different types: AC or DC. Let’s take a closer look.
+
+    .. figure:: ./img/f2.27.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.27 DC current and voltage from a battery.**
+
+直流电
 ~~~~~~~~~~~~~~~~~
+Direct Current
 
-The term *direct current* is used to describe current that flows in only one direction. I think this makes direct current the simplest to understand, so we should start there.
+术语 *直流电* 用于描述只朝一个方向流动的电流。我认为直流电是最容易理解的，所以我们先从这里开始。
 
-Direct current moves only one way, from positive to negative. [21]_ A battery is a common direct-current device. Hooked up to a load such as a resistor, the current will go something like what’s shown in :ref:`Figure 2.27 <Figure 2.27>`.
+直流电只朝一个方向流动，从正极到负极。[21]_ 电池是一种常见的直流电设备。连接到如电阻这样的负载时，电流的表现如 :ref:`图 2.27 <Figure 2.27>` 所示。
 
-A battery [22]_ is also a constant-voltage device, so it will apply whatever current is needed to maintain its output voltage. So, we have 12 V hooked up to 1 Ω of resistance—hey, we just learned how to figure out current on a circuit like that! (More scribbling on a napkin ... .) That would be 12 amps of current.
+电池 [22]_ 也是一种恒压设备，所以它会提供维持其输出电压所需的电流。因此，如果我们用 12 V 电压连接到 1 Ω 电阻——嘿，我们刚学过如何在这种电路中计算电流！（又在餐巾纸上写写画画……）那将是 12 安培电流。
 
-A DC source will always try to move current in the same direction. One thing to note is that the current coming out of the source always needs to get back to the source somehow. The ground connection on the schematic should be thought of as a label that connects the signal back to the source. If the signal does not get back to the source, then there is no current flow. [23]_
+直流电源总是试图让电流保持同一方向流动。需要注意的是，从电源流出的电流最终必须回到电源。原理图中的地线连接应被看作是一个标签，它将信号连接回源。如果信号无法回到源，那就不会有电流流动。[23]_
 
-.. [21] Conventional flow considered here.
-.. [22] You can think of a battery as a chemically powered version of the “electron pump” discussed in the Introduction.
-.. [23] There are those that would argue this point. If you want to know more, do a search for free energy on the Internet, but beware—much of it is complete bunk. That doesn’t make it a bad read, though; it can be humorous and quite thought provoking.
+.. [21] 此处采用常规电流方向。
 
-Alternating Current
+   [21] Conventional flow considered here.
+
+.. [22] 你可以把电池想成是一种化学驱动版本的“电子泵”，详见前言中讨论。
+    
+   You can think of a battery as a chemically powered version of the “electron pump” discussed in the Introduction.
+
+.. [23] 有人会对此提出异议。如果你想了解更多，可以在网上搜索“自由能源”，但要小心——很多都是胡说八道。不过阅读这些内容也不是坏事；有时候它们很有趣，还能引发一些思考。
+    
+   There are those that would argue this point. If you want to know more, do a search for free energy on the Internet, but beware—much of it is complete bunk. That doesn’t make it a bad read, though; it can be humorous and quite thought provoking.
+
+.. toggle::
+
+    The term *direct current* is used to describe current that flows in only one direction. I think this makes direct current the simplest to understand, so we should start there.
+
+    Direct current moves only one way, from positive to negative. [21]_ A battery is a common direct-current device. Hooked up to a load such as a resistor, the current will go something like what’s shown in :ref:`Figure 2.27 <Figure 2.27>`.
+
+    A battery [22]_ is also a constant-voltage device, so it will apply whatever current is needed to maintain its output voltage. So, we have 12 V hooked up to 1 Ω of resistance—hey, we just learned how to figure out current on a circuit like that! (More scribbling on a napkin ... .) That would be 12 amps of current.
+
+    A DC source will always try to move current in the same direction. One thing to note is that the current coming out of the source always needs to get back to the source somehow. The ground connection on the schematic should be thought of as a label that connects the signal back to the source. If the signal does not get back to the source, then there is no current flow. [23]_
+
+交流电
 ~~~~~~~~~~~~~~~~~~~~~
+Alternating Current
 
-AC or alternating current came about as the interaction of magnets and electricity were discovered. In an AC circuit, the current repetitively changes direction every so often. That means current increases in flow to a peak, then decreases to zero current flow, then increases in flow in the opposite direction to a peak, then back to zero, and the whole process repeats. The current alternates the direction of flow in a sinusoidal fashion, so of course it is called *alternating current*. This type of current most commonly comes from big AC generators at your local hydroelectric dam.
+AC 或交流电，是在发现磁与电之间的相互作用之后产生的。在交流电路中，电流会周期性地改变方向。这意味着电流会增加到峰值，然后降到零，再反方向增加到另一个峰值，然后再回到零，整个过程不断重复。电流以正弦形式交替变化方向，因此称之为 *交流电*。这种电流通常来自你所在地区水电站的大型交流发电机。
 
-AC power came into being due to this ease of generation—see :ref:`Figure 2.28 <Figure 2.28>`. When you move a coil of wire past a magnet, the current first climbs as the strength of the field increases, then as the field decreases and switches polarity, the current also decreases and switches polarity. The voltage and current change in a sinusoidal fashion naturally as the coil passes by the magnets.
+交流电之所以被采用，是因为它容易产生——见 :ref:`图 2.28 <Figure 2.28>`。当你将一圈导线线圈在磁体前移动时，随着磁场强度增加，电流上升；然后随着磁场减弱并极性反转，电流也相应减弱并反转。当线圈经过磁铁时，电压和电流自然以正弦形式变化。
 
 .. _Figure 2.28:
 
@@ -981,11 +1048,11 @@ AC power came into being due to this ease of generation—see :ref:`Figure 2.28 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.28 Simple AC generator.**
+    **图 2.28 简单的交流发电机。**
 
-As long as you keep moving the coil, AC power will continue to be generated. You will see an AC source on a schematic represented by a sine wave squiggle like the one shown in :ref:`Figure 2.29 <Figure 2.29>`.
+只要你持续移动线圈，就会持续生成交流电。你会在原理图上看到交流源的表示，是类似于 :ref:`图 2.29 <Figure 2.29>` 中那样的正弦波线条。
 
-An interesting side note is that there was some argument when plans were being drawn up to distribute electricity across the United States. Edison (yeah, the famous light bulb guy) wanted to put small DC generators in everybody’s home. Another lesser-known genius by the name of Tesla was pitching for AC distribution by wires from a central location. AC made some sense because the voltage could be easily transformed (yeah, you guessed it, with a transformer) from one level to another. That made it possible to jack up the voltage so high that the resistance of the distribution wires had little loss over long distances. There was much debate over the best setup.
+一个有趣的附带故事是，当美国准备铺设全国电力网络时，曾爆发了一场争论。爱迪生（是的，就是那个灯泡的家伙）希望在每家每户安装小型直流发电机。而另一个不太知名的天才特斯拉，则主张通过电线从集中地点分发交流电。交流电很有优势，因为电压可以很容易地变换（是的，靠变压器）。这使得我们可以把电压升得很高，从而在长距离传输中减少线缆电阻造成的损耗。当时对此方案有很多争论。
 
 .. _Figure 2.29:
 
@@ -993,34 +1060,61 @@ An interesting side note is that there was some argument when plans were being d
     :scale: 50%
     :align: center
 
-    **FIGURE 2.29 AC voltage and current source.**
+    **图 2.29 交流电压和电流源。**
 
-One thing that tipped the scales in the direction we have today was the invention of the AC motor by Tesla. Until then only DC motors had been developed, and since this was before the diode, it wasn’t so easy to make AC into DC. So being able to run a motor was a big deal. Although not as famous as Edison, Tesla [24]_ left a huge legacy in terms of AC power distributions and AC motors. Just look around your house and count up the AC motors in use. (Of course, there are a few light bulbs around, too.)
+决定性因素之一是特斯拉发明了交流电动机。在那之前只有直流电动机，因为那时候还没有二极管，所以将交流转换为直流并不容易。而能驱动电动机是件大事。虽然特斯拉没有爱迪生那么出名，但他在交流配电和交流电机方面留下了巨大的遗产。看看你家里就知道了，有多少交流电机正在工作。（当然，还有一些灯泡在发光。）
 
-Back to Capacitors and Inductors Again
+.. [24] 尼古拉·特斯拉（Nikola Tesla，1856–1943）实际上转让了交流电力分配的专利，而这些专利在多年后价值数万亿美元。如果他没有这样做，我们今天的电力系统可能会与现在大不相同。想要了解这位天才颇为悲伤的故事，我建议阅读玛格丽特·切尼（Margaret Cheney）所著的《特斯拉：超越时代的人》（Tesla: Man Out of Time）。
+
+    Nikola Tesla (1856–1943) actually signed over patents for AC power distribution that years later were worth trillions of dollars. If he hadn’t done so, our power systems might have been very different than they are today. To learn more about the somewhat sad story of this genius, I suggest reading Tesla: Man Out of Time, by Margaret Cheney.
+
+.. toggle::
+
+    AC or alternating current came about as the interaction of magnets and electricity were discovered. In an AC circuit, the current repetitively changes direction every so often. That means current increases in flow to a peak, then decreases to zero current flow, then increases in flow in the opposite direction to a peak, then back to zero, and the whole process repeats. The current alternates the direction of flow in a sinusoidal fashion, so of course it is called *alternating current*. This type of current most commonly comes from big AC generators at your local hydroelectric dam.
+
+    AC power came into being due to this ease of generation—see :ref:`Figure 2.28 <Figure 2.28>`. When you move a coil of wire past a magnet, the current first climbs as the strength of the field increases, then as the field decreases and switches polarity, the current also decreases and switches polarity. The voltage and current change in a sinusoidal fashion naturally as the coil passes by the magnets.
+
+    .. figure:: ./img/f2.28.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.28 Simple AC generator.**
+
+    As long as you keep moving the coil, AC power will continue to be generated. You will see an AC source on a schematic represented by a sine wave squiggle like the one shown in :ref:`Figure 2.29 <Figure 2.29>`.
+
+    An interesting side note is that there was some argument when plans were being drawn up to distribute electricity across the United States. Edison (yeah, the famous light bulb guy) wanted to put small DC generators in everybody’s home. Another lesser-known genius by the name of Tesla was pitching for AC distribution by wires from a central location. AC made some sense because the voltage could be easily transformed (yeah, you guessed it, with a transformer) from one level to another. That made it possible to jack up the voltage so high that the resistance of the distribution wires had little loss over long distances. There was much debate over the best setup.
+
+    .. figure:: ./img/f2.29.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.29 AC voltage and current source.**
+
+    One thing that tipped the scales in the direction we have today was the invention of the AC motor by Tesla. Until then only DC motors had been developed, and since this was before the diode, it wasn’t so easy to make AC into DC. So being able to run a motor was a big deal. Although not as famous as Edison, Tesla [24]_ left a huge legacy in terms of AC power distributions and AC motors. Just look around your house and count up the AC motors in use. (Of course, there are a few light bulbs around, too.)
+
+回到电容器和电感器
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Back to Capacitors and Inductors Again
 
-What was the rule of thumb for a capacitor? Capacitors impede a change in voltage. Do you remember the rule for inductors? Inductors impede a change in current. The flip side of these rules is that the cap will let current change all it wants and the inductor will let voltage change all it wants. One fact you can’t ignore when it comes to AC sources is that current and voltage are always changing. How fast they change is a function of a term known as frequency. Frequency is the number of cycles of change per second; it has a unit called hertz. The higher the frequency, the faster the change in voltage and current. Now extrapolate for a moment what might happen to a capacitor in an AC circuit. It follows that a cap will block currents that have zero frequency (like a DC battery) and pass currents that change. The opposite applies to an inductor.
+电容器的经验法则是什么？电容器会阻碍电压的变化。你还记得电感器的规则吗？电感器会阻碍电流的变化。这些规则的反面是：电容器会允许电流随意变化，而电感器会允许电压随意变化。在涉及交流电源（AC）时有一个无法忽视的事实，那就是电流和电压总是在变化。它们变化的快慢取决于一个叫做频率的术语。频率是每秒钟变化周期的数量，其单位为赫兹。频率越高，电压和电流的变化就越快。现在尝试推测一下电容器在交流电路中可能会发生什么。由此可以推断，电容器会阻止零频率的电流（比如直流电池），而会通过变化的电流。对于电感器而言，情况则正好相反。
 
-I like to think of it this way: The cap is an infinite resistor at DC or zero frequency. As frequency increases, the “resistance” (technically known as reactance) of the cap gets lower and lower, approaching zero. This capacitive reactance is known as XC and is described by :eq:`equation 2.15`. The unit is ohms, just as for a resistor.
+我喜欢这样思考：电容器在直流或零频率下是一个无限大的电阻。随着频率的增加，电容器的“电阻”（技术上称为电抗）越来越低，趋近于零。这种电容电抗被称为 XC，其定义如下所示的 :eq:`equation 2.15`。单位仍为欧姆，就像电阻器一样。
 
 .. math::
    :label: equation 2.15
 
    X_c = \frac{1}{2\pi * f * c}
 
-The inductor is just the opposite. It starts with 0 Ω of resistance at a zero frequency and then increases to infinity along with the frequency. Inductive reactance is called XL and follows this equation:
+而电感器则正好相反。它在零频率时电阻为 0 Ω，随后随着频率升高其电阻也升高，趋向无穷大。电感电抗称为 XL，并遵循下列公式：
 
 .. math::
    :label: equation 2.16
 
    X_L = 2\pi * f * L
 
-Let’s hook them up to an AC source and vary the frequency to see how current flow is affected. This is easy enough to do in a spreadsheet. Simply plug the reactance equation into Ohm’s Law. The schematic is shown in :ref:`Figure 2.30 <Figure 2.30>`.
+现在我们将它们连接到一个交流电源上，并改变频率，以观察电流流动的变化情况。这在电子表格中很容易实现。只需将电抗公式代入欧姆定律即可。原理图如 :ref:`Figure 2.30 <Figure 2.30>` 所示。
 
-:ref:`Figure 2.31 <Figure 2.31>` shows what happens to current as frequency varies from zero (DC) to really fast (AC) when hooked up to a voltage source.
-
-.. [24] Nikola Tesla (1856–1943) actually signed over patents for AC power distribution that years later were worth trillions of dollars. If he hadn’t done so, our power systems might have been very different than they are today. To learn more about the somewhat sad story of this genius, I suggest reading Tesla: Man Out of Time, by Margaret Cheney.
+:ref:`Figure 2.31 <Figure 2.31>` 显示了当频率从零（直流）变为很高（交流）时，连接到电压源时电流的变化情况。
 
 .. _Figure 2.30:
 
@@ -1028,7 +1122,7 @@ Let’s hook them up to an AC source and vary the frequency to see how current f
     :scale: 50%
     :align: center
 
-    **FIGURE 2.30 AC source hooked up to cap and inductor.**
+    **图 2.30 连接至电容器和电感器的交流电源。**
 
 .. _Figure 2.31:
 
@@ -1036,23 +1130,69 @@ Let’s hook them up to an AC source and vary the frequency to see how current f
     :scale: 50%
     :align: center
 
-    **FIGURE 2.31 Graph of current over frequency for a cap and an inductor.**
+    **图 2.31 电容器与电感器中电流随频率变化的图表。**
 
-So to repeat, the higher the frequency, the easier the current will pass through a capacitor and the harder it becomes for it to get through an inductor.
+所以重申一下，频率越高，电流越容易通过电容器，而通过电感器则越困难。
 
-You might be thinking, “What about that step input we put into the RC circuit before? How is it AC?” Actually, as weird as it might sound, it is AC. A really smart guy by the name of Fourier figured out some time ago that hidden in fast-changing signals are all sorts of high frequencies. He proved that the more abrupt the change in the signal, the more high frequencies that are present. An in-depth study of this topic is somewhat beyond the scope of this book, so let it suffice to say that the step input in the previous discussion has a sharp square corner, hidden in which are a whole bunch of high frequencies. These can’t get through the cap, so the corner is knocked off, so to speak, leaving the characteristic curve that we saw as the transient response of the RC circuit.
+你可能会想：“我们之前在 RC 电路中输入的阶跃信号又如何？它算交流吗？”实际上，尽管听起来有些奇怪，它确实是交流信号。一位名叫傅里叶的聪明人早在很久以前就发现，在快速变化的信号中隐藏着各种高频。他证明，信号变化越突然，其中所含的高频就越多。这个主题的深入研究超出了本书的范围，但你只需要知道，前面讨论的阶跃输入有一个非常陡峭的方角，在这个角落里隐藏着大量的高频。这些高频无法通过电容器，因此这个角落会被“削掉”，这就形成了我们在 RC 电路瞬态响应中看到的特征曲线。
 
-Before we move on, we should touch on the topic of *phase shifts*. When both voltage and current are in sync, they are in phase. As we have discussed numerous times, inductors impede a change in current, but voltage is not affected, so if you graph the relationship between voltage and current, you will see that the change in current is a little out of sync with the change in voltage. It is said to be lagging behind. The capacitor has the opposite effect (as always), so the voltage is delayed relative to the current. In this case the change in current leads [25]_ the change in voltage. The current isn’t magically jumping ahead of the voltage; the voltage is getting behind, but from the voltage point of view it looks like the current is changing first.
+在继续之前，我们应当触及一下 *相位移* 的主题。当电压和电流同步时，我们称它们是同相的。如我们多次讨论的，电感器阻碍电流变化，但电压不受影响，因此如果你将电压和电流的关系绘图，会看到电流的变化略滞后于电压的变化。这就是所谓的“滞后”。而电容器的效果正好相反（一如既往），所以电压相对于电流是延迟的。在这种情况下，电流的变化“领先”于电压的变化。并不是电流神奇地提前发生了，而是电压滞后了；从电压的角度看，电流好像先变化了。
 
-Capacitors and inductors are components that impede [26]_ a signal, the amount of which depends on the frequency of the signal. The cap delays voltage changes, and the inductor delays current changes. They are opposite in the way they react to the frequency of a signal. Capacitors block lower frequencies while letting higher ones through, whereas inductors pass lower frequencies while blocking higher ones. Let’s see what happens when we hook them up to a resistor.
+电容器和电感器是会阻碍信号的元件，其阻碍程度取决于信号的频率。电容器延迟电压变化，电感器延迟电流变化。它们在对信号频率的响应方式上是相反的。电容器阻挡低频而允许高频通过，而电感器则是通过低频而阻挡高频。现在让我们看看将它们与电阻器连接会发生什么。
 
-.. [25] I may just be a slow learner, but it took me a while to understand this leading vs. lagging terminology and what it really means. There isn’t a magical time machine in a cap that makes the current change before the voltage; it is merely delaying the current change. Of course, if there were a time machine in there, we’d have to call it a “flux” capacitor!
-.. [26] Like resistance, but not exactly; keep in mind that it is an analogy, a very close one, but an analogy nonetheless. This behavior is the result of the phase delay we discussed earlier. Think way back to Chapter 1: The mass doesn’t have friction, but it feels the same as friction when you start to move it. If you were to move it back and forth at the right rate, you could get it to feel exactly like friction. The shifting phases in voltage and current create the same resistance effect when dealing with caps and inductors.
+.. [25] 我可能只是学得慢，但我花了很长时间才真正理解“领先”与“滞后”的术语含义。电容器里并没有一个神奇的时间机器让电流变化早于电压；它只是延迟了电压的变化。当然，如果里面真的有时间机器，那我们就得称它为“通量电容器”了！
 
-Low-Pass Filters
+   I may just be a slow learner, but it took me a while to understand this leading vs. lagging terminology and what it really means. There isn’t a magical time machine in a cap that makes the current change before the voltage; it is merely delaying the current change. Of course, if there were a time machine in there, we’d have to call it a “flux” capacitor!
+
+.. [26] 类似于电阻，但并不完全相同；请记住这只是一个类比，非常接近但仍是类比。这种行为是我们之前讨论的相位延迟造成的。想想 :ref:`第 1 章 <c1>` ：质量没有摩擦力，但在你试图移动它时却感觉像是有摩擦。如果你以正确的速率来回移动它，它的感觉就会像是摩擦力。在处理电容和电感时，电压和电流的相位变化会产生相似的电阻效应。
+
+   Like resistance, but not exactly; keep in mind that it is an analogy, a very close one, but an analogy nonetheless. This behavior is the result of the phase delay we discussed earlier. Think way back to Chapter 1: The mass doesn’t have friction, but it feels the same as friction when you start to move it. If you were to move it back and forth at the right rate, you could get it to feel exactly like friction. The shifting phases in voltage and current create the same resistance effect when dealing with caps and inductors.
+
+.. toggle::
+
+    What was the rule of thumb for a capacitor? Capacitors impede a change in voltage. Do you remember the rule for inductors? Inductors impede a change in current. The flip side of these rules is that the cap will let current change all it wants and the inductor will let voltage change all it wants. One fact you can’t ignore when it comes to AC sources is that current and voltage are always changing. How fast they change is a function of a term known as frequency. Frequency is the number of cycles of change per second; it has a unit called hertz. The higher the frequency, the faster the change in voltage and current. Now extrapolate for a moment what might happen to a capacitor in an AC circuit. It follows that a cap will block currents that have zero frequency (like a DC battery) and pass currents that change. The opposite applies to an inductor.
+
+    I like to think of it this way: The cap is an infinite resistor at DC or zero frequency. As frequency increases, the “resistance” (technically known as reactance) of the cap gets lower and lower, approaching zero. This capacitive reactance is known as XC and is described by :eq:`equation 2.15`. The unit is ohms, just as for a resistor.
+
+    .. math::
+
+        X_c = \frac{1}{2\pi * f * c}
+
+    The inductor is just the opposite. It starts with 0 Ω of resistance at a zero frequency and then increases to infinity along with the frequency. Inductive reactance is called XL and follows this equation:
+
+    .. math::
+
+        X_L = 2\pi * f * L
+
+    Let’s hook them up to an AC source and vary the frequency to see how current flow is affected. This is easy enough to do in a spreadsheet. Simply plug the reactance equation into Ohm’s Law. The schematic is shown in :ref:`Figure 2.30 <Figure 2.30>`.
+
+    :ref:`Figure 2.31 <Figure 2.31>` shows what happens to current as frequency varies from zero (DC) to really fast (AC) when hooked up to a voltage source.
+
+    .. figure:: ./img/f2.30.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.30 AC source hooked up to cap and inductor.**
+
+    .. figure:: ./img/f2.31.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.31 Graph of current over frequency for a cap and an inductor.**
+
+    So to repeat, the higher the frequency, the easier the current will pass through a capacitor and the harder it becomes for it to get through an inductor.
+
+    You might be thinking, “What about that step input we put into the RC circuit before? How is it AC?” Actually, as weird as it might sound, it is AC. A really smart guy by the name of Fourier figured out some time ago that hidden in fast-changing signals are all sorts of high frequencies. He proved that the more abrupt the change in the signal, the more high frequencies that are present. An in-depth study of this topic is somewhat beyond the scope of this book, so let it suffice to say that the step input in the previous discussion has a sharp square corner, hidden in which are a whole bunch of high frequencies. These can’t get through the cap, so the corner is knocked off, so to speak, leaving the characteristic curve that we saw as the transient response of the RC circuit.
+
+    Before we move on, we should touch on the topic of *phase shifts*. When both voltage and current are in sync, they are in phase. As we have discussed numerous times, inductors impede a change in current, but voltage is not affected, so if you graph the relationship between voltage and current, you will see that the change in current is a little out of sync with the change in voltage. It is said to be lagging behind. The capacitor has the opposite effect (as always), so the voltage is delayed relative to the current. In this case the change in current leads [25]_ the change in voltage. The current isn’t magically jumping ahead of the voltage; the voltage is getting behind, but from the voltage point of view it looks like the current is changing first.
+
+    Capacitors and inductors are components that impede [26]_ a signal, the amount of which depends on the frequency of the signal. The cap delays voltage changes, and the inductor delays current changes. They are opposite in the way they react to the frequency of a signal. Capacitors block lower frequencies while letting higher ones through, whereas inductors pass lower frequencies while blocking higher ones. Let’s see what happens when we hook them up to a resistor.
+
+低通滤波器
 ~~~~~~~~~~~~~~~~~~~~
+Low-Pass Filters
 
-Consider the circuit shown in :ref:`Figure 2.32 <Figure 2.32>`. Note similarities to the RC circuit that we used to first understand the effects of a capacitor. The difference is that now we are going to apply an AC signal to the input rather than the step input we applied before.
+请看 :ref:`Figure 2.32 <Figure 2.32>` 所示电路。注意它与我们用来理解电容器作用的 RC 电路之间的相似之处。不同的是，现在我们将对输入施加一个交流信号，而不是之前的阶跃输入。
 
 .. _Figure 2.32:
 
@@ -1060,17 +1200,17 @@ Consider the circuit shown in :ref:`Figure 2.32 <Figure 2.32>`. Note similaritie
     :scale: 50%
     :align: center
 
-    **FIGURE 2.32 Cap-based low-pass filter.**
+    **图 2.32 基于电容器的低通滤波器。**
 
-This circuit is known as a *low-pass filter*, and all you really need to know to understand it is the voltage-divider rule and how a capacitor reacts to frequency. If this were a simple voltage divider, you could figure out, based on the ratio of the resistors, how much voltage would appear at the output. Remember that the cap is like a resistor that depends on frequency and try to extrapolate what will happen as frequency sweeps from zero to infinity.
+这个电路被称为 *低通滤波器*，而你要理解它只需要了解电压分压器规则和电容器对频率的反应。如果这是一个简单的电压分压器，你可以根据电阻的比值来确定输出端的电压有多少。记住，电容器就像一个取决于频率的电阻器，然后推断当频率从零扫到无穷大时会发生什么。
 
-At low frequencies the cap doesn’t pass much current, so the signal isn’t affected much. As frequency increases, the cap will pass more and more current, shorting the output of the resistor to ground and dividing the output voltage to smaller and smaller levels. There is a magic point at which the output is half the input. [27]_ It is when the frequency equals ``1/(2π RC)``. You might have noticed that this is the same time constant that we used earlier when we first looked at caps. Kind of cool when it all comes together, isn’t it?
+在低频时，电容器不会通过太多电流，因此信号几乎不受影响。随着频率升高，电容器会通过越来越多的电流，将电阻器的输出短接到地，从而将输出电压分得越来越小。有一个“魔法点”会使得输出为输入的一半。 [27]_ 那就是频率等于 ``1/(2π RC)`` 的时候。你可能注意到这与我们之前讨论电容时用到的时间常数是一样的。当一切连贯起来时，感觉是不是挺酷的？
 
-This is known as a *low-pass filter* because it passes low frequencies while reducing or attenuating high frequencies. You can make a low-pass filter with an inductor and resistor, too. Given that the inductor behaves in a way that is opposite of a capacitor, can you imagine what that might look like? Have a look at :ref:`Figure 2.33 <Figure 2.33>`.
+它之所以叫做 *低通滤波器*，是因为它允许低频通过，而降低或衰减高频。你也可以用电感器和电阻器做一个低通滤波器。考虑到电感器的行为与电容器相反，你能想象那会是什么样子吗？请看 :ref:`Figure 2.33 <Figure 2.33>`。
 
-That’s right; you swap the position of the components. That’s because the inductor (being the opposite of a cap) passes the lower frequencies and blocks the higher frequencies. It performs the same function as the low-pass RC circuit but in a slightly different manner. You still have a voltage-divider circuit, but instead of the resistor-to-ground changing, the input resistor is changing. At low frequencies the inductor is a short, making the ground resistor of little effect. As frequencies increase, the inductor chokes [28]_ off the current, reacting in a way that makes the input element of the voltage divider seem like an increasingly large resistance. This in turn makes the resistor to ground have a much bigger say in the ratio of the voltage-divider circuit.
+没错；你需要交换元件的位置。这是因为电感器（作为电容器的反面）允许低频通过，而阻挡高频。它实现了与低通 RC 电路相同的功能，只是方式略有不同。你依然是一个电压分压器电路，只不过现在输入端的“电阻”在变化。低频时，电感器是短路，接地电阻几乎不起作用。随着频率升高，电感器开始“阻塞”电流，其反应使得电压分压器的输入端看起来像一个越来越大的电阻。这使得接地电阻在电压分压器比值中的作用变得越来越大。
 
-To summarize, in the low-pass filter circuits, as the frequencies sweep from low to high, the cap starts out as an open and moves to a short while the inductor starts out as a short and becomes an open. By positioning these components in opposite locations in the voltage-divider circuit, you create the same filtering effect. The ratio of the voltage divider in both types of filters decreases the output voltage as frequencies increase. All this lets the low frequencies pass and blocks the high frequencies. Now, what do you suspect might happen if we swap the position of the components in these circuits?
+总结一下，在低通滤波器电路中，随着频率从低到高的扫描，电容器从开路变为短路，而电感器从短路变为开路。通过将这些元件放置在电压分压器电路中的相对位置，你可以实现相同的滤波效果。两种类型的滤波器中，电压分压器的比值都会随着频率升高而降低输出电压。这一切都让低频通过，而阻挡高频。现在，你猜如果我们在这些电路中交换元件的位置会发生什么？
 
 .. _Figure 2.33:
 
@@ -1078,16 +1218,45 @@ To summarize, in the low-pass filter circuits, as the frequencies sweep from low
     :scale: 50%
     :align: center
 
-    **FIGURE 2.32 Inductor-based low-pass filter.**
+    **图 2.32 基于电感器的低通滤波器。**
 
-.. [28] Without any proof whatsoever, I assert that inductors are sometimes called chokes because they choke off high frequencies.
+.. [28] 虽然没有任何证据支持，但我断言电感器有时候被称为“扼流圈”，是因为它能“扼杀”高频信号。
 
-High-Pass Filters
+   Without any proof whatsoever, I assert that inductors are sometimes called chokes because they choke off high frequencies.
+
+.. toggle::
+
+    Consider the circuit shown in :ref:`Figure 2.32 <Figure 2.32>`. Note similarities to the RC circuit that we used to first understand the effects of a capacitor. The difference is that now we are going to apply an AC signal to the input rather than the step input we applied before.
+
+    .. figure:: ./img/f2.32.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.32 Cap-based low-pass filter.**
+
+    This circuit is known as a *low-pass filter*, and all you really need to know to understand it is the voltage-divider rule and how a capacitor reacts to frequency. If this were a simple voltage divider, you could figure out, based on the ratio of the resistors, how much voltage would appear at the output. Remember that the cap is like a resistor that depends on frequency and try to extrapolate what will happen as frequency sweeps from zero to infinity.
+
+    At low frequencies the cap doesn’t pass much current, so the signal isn’t affected much. As frequency increases, the cap will pass more and more current, shorting the output of the resistor to ground and dividing the output voltage to smaller and smaller levels. There is a magic point at which the output is half the input. [27]_ It is when the frequency equals ``1/(2π RC)``. You might have noticed that this is the same time constant that we used earlier when we first looked at caps. Kind of cool when it all comes together, isn’t it?
+
+    This is known as a *low-pass filter* because it passes low frequencies while reducing or attenuating high frequencies. You can make a low-pass filter with an inductor and resistor, too. Given that the inductor behaves in a way that is opposite of a capacitor, can you imagine what that might look like? Have a look at :ref:`Figure 2.33 <Figure 2.33>`.
+
+    That’s right; you swap the position of the components. That’s because the inductor (being the opposite of a cap) passes the lower frequencies and blocks the higher frequencies. It performs the same function as the low-pass RC circuit but in a slightly different manner. You still have a voltage-divider circuit, but instead of the resistor-to-ground changing, the input resistor is changing. At low frequencies the inductor is a short, making the ground resistor of little effect. As frequencies increase, the inductor chokes [28]_ off the current, reacting in a way that makes the input element of the voltage divider seem like an increasingly large resistance. This in turn makes the resistor to ground have a much bigger say in the ratio of the voltage-divider circuit.
+
+    To summarize, in the low-pass filter circuits, as the frequencies sweep from low to high, the cap starts out as an open and moves to a short while the inductor starts out as a short and becomes an open. By positioning these components in opposite locations in the voltage-divider circuit, you create the same filtering effect. The ratio of the voltage divider in both types of filters decreases the output voltage as frequencies increase. All this lets the low frequencies pass and blocks the high frequencies. Now, what do you suspect might happen if we swap the position of the components in these circuits?
+
+    .. figure:: ./img/f2.33.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.32 Inductor-based low-pass filter.**
+
+高通滤波器
 ~~~~~~~~~~~~~~~~~~~~~
+High-Pass Filters
 
-Swapping the cap and the resistor in the low-pass circuit creates another type of circuit called a high-pass filter. Using your now supreme powers of deduction and intuition, you are thinking to yourself, “I’ll bet that means the circuit passes high frequencies while blocking low ones.” You are correct, and the circuit looks like the one in :ref:`Figure 2.34 <Figure 2.34>`.
+在低通电路中交换电容器和电阻器的位置会生成另一种电路，称为高通滤波器。凭借你现在卓越的推理与直觉能力，你可能会想到：“我敢打赌这个电路允许高频通过而阻挡低频。”你猜对了，该电路如 :ref:`Figure 2.34 <Figure 2.34>` 所示。
 
-Hopefully, after our discussion of the low-pass circuit, the operation of this one is clear. The cap acts like a larger resistor at low frequencies, making the voltage divider knock down the output. At higher frequencies the cap passes more cur- rent as it becomes a short, causing a higher voltage at the output. The inductor version of this circuit looks like :ref:`Figure 2.35 <Figure 2.35>`.
+希望在我们讨论完低通电路之后，这个电路的工作原理已经很清楚了。电容器在低频时表现为较大的电阻，使电压分压器降低输出电压。在高频时，电容器变成短路，允许更多电流通过，从而在输出端产生更高的电压。这个电路的电感器版本如 :ref:`Figure 2.35 <Figure 2.35>` 所示。
 
 .. _Figure 2.34:
 
@@ -1095,7 +1264,7 @@ Hopefully, after our discussion of the low-pass circuit, the operation of this o
     :scale: 50%
     :align: center
 
-    **FIGURE 2.34 Cap-based high-pass filter.**
+    **图 2.34 基于电容器的高通滤波器。**
 
 .. _Figure 2.35:
 
@@ -1103,18 +1272,43 @@ Hopefully, after our discussion of the low-pass circuit, the operation of this o
     :scale: 50%
     :align: center
 
-    **FIGURE 2.35 Inductor-based high-pass filter.**
+    **图 2.35 基于电感器的高通滤波器。**
 
-As you might have suspected, this filter is the inverse, circuit-wise, of the RC high-pass filter. Another little bit of serendipity is the fact that the half-voltage output point [29]_ is also at ``1/2π * τ`` (*tau* means time constant generically, whether referring to an RC or an RL circuit), just like the low-pass filters.
+正如你所料，从电路结构上看，这种滤波器正好是 RC 高通滤波器的反转版本。另一个小小的巧合是，这种滤波器的半电压输出点 [29]_ 也出现在 ``1/2π * τ`` 处（*tau* 表示时间常数，无论是 RC 还是 RL 电路），就像低通滤波器一样。
 
-To sum up, the high-pass and low-pass filters take advantage of the frequency response of either a capacitor or an inductor. This is done by combining them with a resistor to create a voltage divider that attenuates the unwanted frequen- cies while allowing the desired ones to pass. Some cool things happen when we put the two reactive elements together. You can create notch- and band-pass fil- ters where a specific band of frequencies is knocked out, or a specific band is passed while all others are blocked. The phenomenon of resonance also occurs in what is called a tank circuit, where you have a capacitor combined with an inductor. Just like the spring-mass example in Chapter 1 current and voltage in the tank circuit will oscillate current back and forth from one component to the other.
+总结一下，高通和低通滤波器利用了电容器或电感器的频率响应特性。这是通过将它们与电阻器组合，创建一个电压分压器电路，来衰减不需要的频率同时让需要的频率通过。当我们将这两个有反应特性的元件结合在一起时，一些很酷的事情会发生。你可以创建陷波器和带通滤波器，在这些电路中，特定频段的频率被滤除，或仅允许一个频带通过而阻挡其他所有频率。共振现象也会出现在所谓的谐振电路中，在这种电路中电容器与电感器组合在一起。就像第 1 章中的弹簧-质量例子那样，谐振电路中的电流与电压会在两个元件之间来回振荡。
 
-.. [29] This point is also known as the rolloff or 3 db down point.
+.. [29] 这个点也被称为滚降点或 3 dB 降点。
 
-Active Filters
+   This point is also known as the rolloff or 3 db down point.
+
+.. toggle::
+
+    Swapping the cap and the resistor in the low-pass circuit creates another type of circuit called a high-pass filter. Using your now supreme powers of deduction and intuition, you are thinking to yourself, “I’ll bet that means the circuit passes high frequencies while blocking low ones.” You are correct, and the circuit looks like the one in :ref:`Figure 2.34 <Figure 2.34>`.
+
+    Hopefully, after our discussion of the low-pass circuit, the operation of this one is clear. The cap acts like a larger resistor at low frequencies, making the voltage divider knock down the output. At higher frequencies the cap passes more cur- rent as it becomes a short, causing a higher voltage at the output. The inductor version of this circuit looks like :ref:`Figure 2.35 <Figure 2.35>`.
+
+    .. figure:: ./img/f2.34.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.34 Cap-based high-pass filter.**
+
+    .. figure:: ./img/f2.35.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.35 Inductor-based high-pass filter.**
+
+    As you might have suspected, this filter is the inverse, circuit-wise, of the RC high-pass filter. Another little bit of serendipity is the fact that the half-voltage output point [29]_ is also at ``1/2π * τ`` (*tau* means time constant generically, whether referring to an RC or an RL circuit), just like the low-pass filters.
+
+    To sum up, the high-pass and low-pass filters take advantage of the frequency response of either a capacitor or an inductor. This is done by combining them with a resistor to create a voltage divider that attenuates the unwanted frequen- cies while allowing the desired ones to pass. Some cool things happen when we put the two reactive elements together. You can create notch- and band-pass fil- ters where a specific band of frequencies is knocked out, or a specific band is passed while all others are blocked. The phenomenon of resonance also occurs in what is called a tank circuit, where you have a capacitor combined with an inductor. Just like the spring-mass example in Chapter 1 current and voltage in the tank circuit will oscillate current back and forth from one component to the other.
+
+有源滤波器
 ~~~~~~~~~~~~~~~~
+Active Filters
 
-So far we have been studying passive filters. A passive component is one that is not powered externally. Being passive, these components are subject to an effect known as loading. This means that anything you hook up to the output can affect the performance of the filter. Take a low-pass RC filter, for example, and hook a resistor up to it, as shown in :ref:`Figure 2.36 <Figure 2.36>`.
+到目前为止，我们一直在研究无源滤波器。无源元件是指不需外部供电的元件。由于其无源性，这些元件受到一个称为负载效应的影响。也就是说，任何连接到输出的东西都可能影响滤波器的性能。例如，考虑一个低通 RC 滤波器，并连接一个电阻作为负载，如 :ref:`Figure 2.36 <Figure 2.36>` 所示。
 
 .. _Figure 2.36:
 
@@ -1122,9 +1316,9 @@ So far we have been studying passive filters. A passive component is one that is
     :scale: 50%
     :align: center
 
-    **FIGURE 2.36 Filter with load.**
+    **图 2.36 带负载的滤波器。**
 
-This resistor on the output is a load. It could be another part of the circuit or any number of things, but the point is that it acts like a resistor to ground. How does this affect the RC filter performance? To understand, let’s Thevenize it to “see” how the load affects the output. We start by shorting the voltage source to ground. This is done with AC sources the same as DC, so the circuit would look like :ref:`Figure 2.37 <Figure 2.37>`.
+这个连接在输出端的电阻就是负载。它可能是电路的其他部分，也可能是其他东西，但重点在于它表现为一个接地电阻。这会如何影响 RC 滤波器的性能？为了理解这一点，我们用戴维南等效电路来“观察”负载对输出的影响。首先，我们将电压源短接至地。对于交流电源与直流相同处理，因此电路将如 :ref:`Figure 2.37 <Figure 2.37>` 所示。
 
 .. _Figure 2.37:
 
@@ -1132,15 +1326,15 @@ This resistor on the output is a load. It could be another part of the circuit o
     :scale: 50%
     :align: center
 
-    **FIGURE 2.37 Thevenized circuit shows effect of load.**
+    **图 2.37 戴维南等效电路展示负载效应。**
 
-Because I like my examples to use real numbers, [30]_ let’s make up some values. Let ``R=10K`` and let ``Rload=10K`` and ``C=0.1μf``.
+因为我喜欢使用真实数值的例子 [30]_，我们假设 ``R=10K``，``Rload=10K``，``C=0.1μf``。
 
-When you Thevenize a circuit, you reduce all the parts into one, where possible. In this case the resistors are in parallel, so apply the parallel rule to the resistors and you get a value of ``5 KΩ``. Did you notice that the R value has changed con- siderably due to the load on the circuit? What might seem counterintuitive at first is the fact that the time constant of this circuit is a function of the Theve- nized version that we just derived. So, without the load, tau would have been 10K*0.1μs, or 1ms.
+当你对电路进行戴维南等效化时，会尽可能将所有部分简化为一个元件。在这个例子中，两个电阻并联，因此我们应用并联公式，得到一个 ``5 KΩ`` 的等效值。你有没有注意到，由于负载的存在，R 值发生了显著变化？乍看之下可能违反直觉的一个事实是，该电路的时间常数实际上是由我们刚才推导出的戴维南电路决定的。所以在没有负载的情况下，τ 应该是 10K*0.1μs，即 1ms。
 
-With the load, it is 0.5 ms, half of what it was before! Since the output of this filter depends on τ, we can see that the load has affected it significantly. A way to avoid this problem is to add an active component to the design, making it into an “active” filter. In adding such a component, the basic idea is to mini- mize this loading effect to a point that you get a nice, predictable response. The output of the active filter is such that no matter what load you put on it, it does not affect the response of the filter—see :ref:`Figure 2.38 <Figure 2.38>`.
+而有了负载后，它变为 0.5ms，是原来的一半！由于该滤波器的输出依赖于 τ，我们可以看到负载对其产生了显著影响。解决这个问题的一种方法是向设计中加入有源元件，从而构成一个“有源”滤波器。添加这种元件的基本思想是最小化负载效应，以获得良好且可预测的响应。有源滤波器的输出具有这样的特点：无论你在其输出端连接什么负载，它都不会影响滤波器的响应——参见 :ref:`Figure 2.38 <Figure 2.38>`。
 
-The input of this active device (known as an op-amp) has a very high impedance. In this case it is comparable to a 10-meg resistor. Hooking that up to the RC filter will have little effect on the time constant of this circuit as long is it is significantly larger [31]_ than the R value in the circuit. The buffer in this circuit will output a voltage that matches the voltage on the input. It will *buffer* the signal; no matter what you hook up to the output, the filter will not be affected. This is one of the simplest active filters, but the principle with all of them is the same—include an active element to preserve or enhance the integrity of the filter.
+这种有源器件（称为运算放大器）的输入端具有非常高的阻抗。在这个例子中，它相当于一个 10 兆欧电阻。将其连接到 RC 滤波器时，只要它显著大于电路中的 R 值 [31]_，就不会对电路的时间常数产生太大影响。该电路中的缓冲器会输出一个与输入电压一致的电压。它会对信号进行 *缓冲*；无论你在输出端连接什么，有源滤波器都不会受到影响。这是最简单的有源滤波器之一，但所有有源滤波器的原理都相同——引入有源元件以保持或增强滤波器的完整性。
 
 .. _Figure 2.38:
 
@@ -1148,34 +1342,91 @@ The input of this active device (known as an op-amp) has a very high impedance. 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.38 Active buffer eliminates the effect of the load.**
+    **图 2.38 有源缓冲器消除了负载效应。**
 
-.. admonition:: Thumb Rules
+.. admonition:: 经验法则
 
-   - Electrons move from negative to positive.
-   - Direct current flows in one direction; it has a zero frequency component.
-   - Alternating current changes direction of flow repetitively.
-   - Direct current has a frequency component of zero.
-   - Inductors and capacitors can make both low-pass and high-pass filters when combined with a resistor.
-   - Inductors and caps in the same circuit will oscillate.
-   - Active filters add components to preserve or enhance the integrity of the filter.
+   - 电子从负极流向正极。
+   - 直流电只朝一个方向流动；它具有零频率分量。
+   - 交流电会重复改变流动方向。
+   - 直流电的频率分量为零。
+   - 电感器和电容器结合电阻器可构成低通或高通滤波器。
+   - 在同一电路中，电感器和电容器会发生振荡。
+   - 有源滤波器通过添加元件来保持或增强滤波器的完整性。
 
-.. [30] To understand how something works, I suggest plugging in real numbers. Even when your final goal is an algebraic equation, running some real numbers through will help you get a genuine understanding of how the thing is really working.
-.. [31] Here is a good place to use those estimation skills that we discussed back in Chapter 1. Particularly ratios, if the load on the circuit is 100 times larger (or a 100:1 ratio) than the resistance used in the filter, you can see that the effect of this device won’t do much to the circuit it is hooked up to.
+.. [30] 为了理解某样东西如何工作，我建议代入真实数值。即使你的最终目标是得到代数方程，通过一些真实数值运行，会帮助你真正理解其工作原理。
 
-BEAM ME UP?
+   To understand how something works, I suggest plugging in real numbers. Even when your final goal is an algebraic equation, running some real numbers through will help you get a genuine understanding of how the thing is really working.
+
+.. [31] 这里是运用我们在第 1 章中讨论过的估算技巧的好地方。特别是比率，如果电路负载比滤波器中的电阻大 100 倍（或 100:1 的比率），你就可以知道这个器件对所连接电路的影响是非常小的。
+   
+   Here is a good place to use those estimation skills that we discussed back in Chapter 1. Particularly ratios, if the load on the circuit is 100 times larger (or a 100:1 ratio) than the resistance used in the filter, you can see that the effect of this device won’t do much to the circuit it is hooked up to.
+
+.. toggle::
+
+    So far we have been studying passive filters. A passive component is one that is not powered externally. Being passive, these components are subject to an effect known as loading. This means that anything you hook up to the output can affect the performance of the filter. Take a low-pass RC filter, for example, and hook a resistor up to it, as shown in :ref:`Figure 2.36 <Figure 2.36>`.
+
+    .. figure:: ./img/f2.36.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.36 Filter with load.**
+
+    This resistor on the output is a load. It could be another part of the circuit or any number of things, but the point is that it acts like a resistor to ground. How does this affect the RC filter performance? To understand, let’s Thevenize it to “see” how the load affects the output. We start by shorting the voltage source to ground. This is done with AC sources the same as DC, so the circuit would look like :ref:`Figure 2.37 <Figure 2.37>`.
+
+    .. figure:: ./img/f2.37.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.37 Thevenized circuit shows effect of load.**
+
+    Because I like my examples to use real numbers, [30]_ let’s make up some values. Let ``R=10K`` and let ``Rload=10K`` and ``C=0.1μf``.
+
+    When you Thevenize a circuit, you reduce all the parts into one, where possible. In this case the resistors are in parallel, so apply the parallel rule to the resistors and you get a value of ``5 KΩ``. Did you notice that the R value has changed con- siderably due to the load on the circuit? What might seem counterintuitive at first is the fact that the time constant of this circuit is a function of the Theve- nized version that we just derived. So, without the load, tau would have been 10K*0.1μs, or 1ms.
+
+    With the load, it is 0.5 ms, half of what it was before! Since the output of this filter depends on τ, we can see that the load has affected it significantly. A way to avoid this problem is to add an active component to the design, making it into an “active” filter. In adding such a component, the basic idea is to mini- mize this loading effect to a point that you get a nice, predictable response. The output of the active filter is such that no matter what load you put on it, it does not affect the response of the filter—see :ref:`Figure 2.38 <Figure 2.38>`.
+
+    The input of this active device (known as an op-amp) has a very high impedance. In this case it is comparable to a 10-meg resistor. Hooking that up to the RC filter will have little effect on the time constant of this circuit as long is it is significantly larger [31]_ than the R value in the circuit. The buffer in this circuit will output a voltage that matches the voltage on the input. It will *buffer* the signal; no matter what you hook up to the output, the filter will not be affected. This is one of the simplest active filters, but the principle with all of them is the same—include an active element to preserve or enhance the integrity of the filter.
+
+    .. figure:: ./img/f2.38.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.38 Active buffer eliminates the effect of the load.**
+
+    .. admonition:: Thumb Rules
+
+    - Electrons move from negative to positive.
+    - Direct current flows in one direction; it has a zero frequency component.
+    - Alternating current changes direction of flow repetitively.
+    - Direct current has a frequency component of zero.
+    - Inductors and capacitors can make both low-pass and high-pass filters when combined with a resistor.
+    - Inductors and caps in the same circuit will oscillate.
+    - Active filters add components to preserve or enhance the integrity of the filter.
+
+"带我出去?"
 -------------
+BEAM ME UP?
 
-Electrons are everywhere, or maybe it is better said that the effects of electrons are everywhere. There are invisible fields of force all around us that are caused by those pesky little devils. These fields warrant discussion because they are a factor in the way we deal with electricity. They can store energy and affect the world around them in various ways, so it is good to build an intimate knowl- edge of these fields and how they interact. These are the same fields that we talked about in Chapter 0 of this edition. If you elected to skip it when you started reading and you feel a little lost here, I suggest going back to read it.
+电子无处不在，或者说，电子的效应无处不在。我们周围充满了由这些顽皮小东西引起的无形力场。这些力场值得我们加以讨论，因为它们在我们处理电的方式中扮演着重要角色。它们可以储存能量，并以各种方式影响周围的世界，因此了解这些力场及其相互作用非常重要。我们在本书第 0 章中也曾提到过这些力场。如果你在开始阅读时跳过了这一章，现在感到有些迷惑，我建议你回去读一下。
 
-Now, we can’t beam people [32]_ on and off the planet like they do on Star Trek, but there are couple of invisible fields that are what actually create all the effects that we see in electric circuits. It is these fields that make the water, ping-pong ball, and many other analogies not quite match what is really going on in a cir- cuit. So understanding these fields will definitely help develop the intuitive skills we are working on.
+现在，我们无法像《星际迷航》那样将人 [32]_ 传送进出地球，但确实有几种无形的力场制造出了我们在电路中看到的所有效应。正是这些力场，使得水流、乒乓球等许多类比方式无法完全贴合电路中的真实情况。所以，理解这些力场，绝对有助于我们培养正在努力建立的直觉能力。
 
-.. [32] Note I said people; physicists have “beamed” a quantum bit from one point to another. Some say teleporting an atom could happen in just a few years. Update to this, photons have been teleported over 600 meters, is it just me or is that just dang cool?!!
+.. [32] 注意我说的是“人”；物理学家已经把一个量子比特“传送”到了另一个点。有些人说，几乎很快就能传送原子了。最新的消息是，光子已经被传送了超过 600 米——是不是很酷？！！
 
-The Magnetic Field
+    Note I said people; physicists have “beamed” a quantum bit from one point to another. Some say teleporting an atom could happen in just a few years. Update to this, photons have been teleported over 600 meters, is it just me or is that just dang cool?!!
+
+.. toggle::
+
+    Electrons are everywhere, or maybe it is better said that the effects of electrons are everywhere. There are invisible fields of force all around us that are caused by those pesky little devils. These fields warrant discussion because they are a factor in the way we deal with electricity. They can store energy and affect the world around them in various ways, so it is good to build an intimate knowl- edge of these fields and how they interact. These are the same fields that we talked about in Chapter 0 of this edition. If you elected to skip it when you started reading and you feel a little lost here, I suggest going back to read it.
+
+    Now, we can’t beam people [32]_ on and off the planet like they do on Star Trek, but there are couple of invisible fields that are what actually create all the effects that we see in electric circuits. It is these fields that make the water, ping-pong ball, and many other analogies not quite match what is really going on in a cir- cuit. So understanding these fields will definitely help develop the intuitive skills we are working on.
+
+磁场
 ~~~~~~~~~~~~~~~~~~~~~~~
+The Magnetic Field
 
-This is the most well-known of the two fields that we are going to discuss. Who hasn’t experienced the force of a magnet sticking a note to the fridge or felt the power of two repelling magnets? Back in the 1820s, a man by the name of Hans Oersted noticed his compass read strangely every time he switched on a current in a wire. Eventually it was discovered that a moving electron (such as the cur- rent in a wire) creates a magnetic field perpendicular to the direction of electron movement, as shown in :ref:`Figure 2.39 <Figure 2.39>`.
+这是我们将要讨论的两个力场中最为人熟知的一个。谁没有体验过用磁铁把便条贴在冰箱上的力量，或是感受两个磁铁互相排斥的作用？早在 1820 年代，一个叫汉斯·奥斯特的男人注意到，每次他打开导线中的电流时，他的指南针读数就变得异常。最终人们发现，运动的电子（比如导线中的电流）会在电子运动方向的垂直方向上产生一个磁场，如 :ref:`Figure 2.39 <Figure 2.39>` 所示。
 
 .. _Figure 2.39:
 
@@ -1183,11 +1434,13 @@ This is the most well-known of the two fields that we are going to discuss. Who 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.39 Magnetic field caused by current in a wire.**
+    **图 2.39 导线中电流产生的磁场。**
 
-This field is identical to the field surrounding a permanent magnet. In fact, if you coil the wire like what’s shown in :ref:`Figure 2.40 <Figure 2.40>`, the magnetic field lines align and reinforce each other, making it even more like a permanent magnet. [33]_
+这个磁场与永久磁铁周围的磁场相同。实际上，如果你将导线缠绕成线圈，如 :ref:`Figure 2.40 <Figure 2.40>` 所示，磁场线就会对齐并相互增强，使其更像一个永久磁铁。 [33]_
 
-.. [33] As mentioned earlier in Chapter 0, in a permanent magnet you have a whole bunch of electrons spinning around in the same direction. This is kind of like the way the flow in the wires reinforces the field using a coil of wire.
+.. [33] 如第 0 章中提到的，在一个永久磁铁中，有大量电子朝同一方向旋转。这有点类似于电流在导线中流动，通过线圈增强磁场的方式。
+
+    As mentioned earlier in Chapter 0, in a permanent magnet you have a whole bunch of electrons spinning around in the same direction. This is kind of like the way the flow in the wires reinforces the field using a coil of wire.
 
 .. _Figure 2.40:
 
@@ -1195,9 +1448,9 @@ This field is identical to the field surrounding a permanent magnet. In fact, if
     :scale: 50%
     :align: center
 
-    **FIGURE 2.40 Coils change direction of field and reinforce.**
+    **图 2.40 线圈改变磁场方向并增强磁场。**
 
-Electromagnets, as they are called, are pretty cool since they can be switched on and off, unlike permanent magnets. Another important fact is that not only does a current moving through a wire create a magnetic field, but the oppo- site is also true. A changing magnetic field can create or induce a current in a wire. A coil of wire is known as an inductor for this reason. Energy is stored in an inductor as a magnetic field. It is like a rubber band that is stretched as you apply current. When the current is shut off it snaps back, and energy is given up as the magnetic field collapses (it is changing as it goes away). This collapse induces a current in the wire. Consider the circuit shown in :ref:`Figure 2.41 <Figure 2.41>`.
+所谓电磁铁，就是这种可以开关控制的磁铁，它非常酷，因为它不像永久磁铁那样是持续性的。另一个重要的事实是，不仅导线中的电流会产生磁场，反过来也是成立的。变化的磁场可以在导线中产生或感应电流。正因为如此，线圈被称为电感器。电感器中的能量是以磁场形式储存的。它就像一根橡皮筋，当你对其施加电流时，它会被拉伸。当电流关闭时，它会回弹，随着磁场的消失释放出能量（也就是说磁场在变化）。这种坍塌会在导线中感应出电流。考虑如 :ref:`Figure 2.41 <Figure 2.41>` 所示的电路。
 
 .. _Figure 2.41:
 
@@ -1205,13 +1458,15 @@ Electromagnets, as they are called, are pretty cool since they can be switched o
     :scale: 50%
     :align: center
 
-    **FIGURE 2.41 Building a magnetic field resists current change.**
+    **图 2.41 建立磁场时会抵抗电流变化。**
 
-When the switch is closed, current flows and a magnetic field is created. It is the creation of the magnetic field (stretching the rubber band, so to speak) that causes the inductor to “resist” [34]_ the change in current, as we learned it does earlier. The flip side of that also happens. If we open the switch, the change in the field as it collapses would like to keep the current flowing in the inductor—see :ref:`Figure 2.42 <Figure 2.42>`.
+当开关闭合时，电流流动，磁场被建立。正是磁场的建立（也可以说是拉伸橡皮筋）导致电感器“抵抗”电流变化，正如我们之前所学。而反过来也是成立的。如果我们打开开关，磁场坍塌时的变化将试图维持电感器中的电流流动——见 :ref:`Figure 2.42 <Figure 2.42>`。
 
-If there is no place for this current to go, the voltage across the inductor will increase instantaneously and then dissipate as the induced current drops off with the drop of the magnetic field. Take a look at the graph shown in :ref:`Figure 2.43 <Figure 2.43>` of the current and voltage changing in this inductor circuit as the switch opens and closes.
+如果这个电流没有出路，电感器两端的电压将瞬间升高，随后随着感应电流随磁场消失而减弱而逐渐衰减。看看 :ref:`Figure 2.43 <Figure 2.43>` 所示的图表，它展示了在开关闭合与断开过程中，该电感电路中电流和电压的变化。
 
-.. [34] Here is where the reactive components (caps and inductors) aren’t exactly like a frequency-dependent resistor. The creation of these fields takes energy, and the dissipation of these fields releases this stored energy. In a resistor this energy is converted to heat; not so in a cap or inductor (albeit a perfect one). In these components the storing and releasing of energy is what causes them to seem like a resistor as they “impede” current or voltage changes in a circuit.
+.. [34] 这就是为什么有源元件（电容和电感）并不完全像频率相关的电阻器。建立这些力场需要能量，而这些力场的消散会释放储存的能量。在电阻器中，这些能量被转化为热量；但在电容器或电感器中（假设是理想元件）则不是。正是能量的储存与释放，使它们在“阻碍”电路中的电流或电压变化时看起来像电阻。
+
+    Here is where the reactive components (caps and inductors) aren’t exactly like a frequency-dependent resistor. The creation of these fields takes energy, and the dissipation of these fields releases this stored energy. In a resistor this energy is converted to heat; not so in a cap or inductor (albeit a perfect one). In these components the storing and releasing of energy is what causes them to seem like a resistor as they “impede” current or voltage changes in a circuit.
 
 .. _Figure 2.42:
 
@@ -1219,7 +1474,7 @@ If there is no place for this current to go, the voltage across the inductor wil
     :scale: 50%
     :align: center
 
-    **FIGURE 2.42 Collapsing magnetic field generates a current.**
+    **图 2.42 磁场坍塌会产生电流。**
 
 .. _Figure 2.43:
 
@@ -1227,11 +1482,11 @@ If there is no place for this current to go, the voltage across the inductor wil
     :scale: 50%
     :align: center
 
-    **FIGURE 2.43 Voltage and current changes as an inductor is switched in and out of circuit.**
+    **图 2.43 电感器切入或切出电路时电压和电流的变化。**
 
-Induction is also the fundamental principle that a transformer uses. The magnetic field—as it is created on one side of the transformer as is shown in :ref:`Figure 2.44 <Figure 2.44>`— induces a current on the other side of the transformer. When the field reduces, and it switches direction, a corresponding current is induced at the output.
+感应原理也是变压器工作的基本原理。如 :ref:`Figure 2.44 <Figure 2.44>` 所示，变压器一侧的磁场建立，会在变压器的另一侧感应出电流。当该磁场减弱并反向变化时，输出端也会感应出相应的电流。
 
-The ratio of turns on each side of the transformer controls the ratio of voltage from input to output. A 10:1 ratio will take 120 V on one side and create 12 V on the other. Note also that though voltage goes down, current goes up, making a transformer kind of like a gear train or lever in the mechanical world. Power into it is the same as power out of it (minus losses, of course). Voltage times cur- rent in equals voltage times current out. This is akin to the rule that force times distance on one side of a lever equals force times distance on the other side.
+变压器两侧线圈匝数的比例决定了输入与输出电压的比例。例如一个 10:1 的比率会将一侧的 120V 变为另一侧的 12V。还要注意，虽然电压降低了，但电流增加了，使变压器在机械世界中有点类似于齿轮或杠杆。进入变压器的功率等于其输出功率（当然要减去损耗）。输入端的电压乘以电流 = 输出端的电压乘以电流。这就类似于杠杆中一侧的力乘以距离等于另一侧的力乘以距离这一规则。
 
 .. _Figure 2.44:
 
@@ -1239,21 +1494,85 @@ The ratio of turns on each side of the transformer controls the ratio of voltage
     :scale: 50%
     :align: center
 
-    **FIGURE 2.44 A transformer uses changing current on the input to induce current on the output.**
+    **图 2.44 变压器利用输入端变化的电流在输出端感应电流。**
 
-The fundamental component of a transformer is an inductor. An inductor is simply a coil of wire, as we learned earlier. The number of turns of wire controls the concentration of the magnetic field. The core of the inductor also has the effect of concentrating the field. The material in the core can become saturated, [35]_ meaning that it cannot concentrate the field any more tightly than it has.
+变压器的基本元件是电感器。正如我们之前所学，电感器就是一个线圈。线圈匝数的多少控制了磁场的强度。电感器的铁芯也能增强磁场集中。铁芯中的材料可能会饱和 [35]_，也就是说它不能再进一步增强磁场的集中。
 
-The important things to remember are that current creates a magnetic field, and a changing magnetic field creates a current. The changing field can be externally applied from a moving magnet, the input side of a transformer, or from the collapse of the field just created by the current. Current and magnetic fields are closely connected.
+需要记住的重要事实是：电流会产生磁场，而变化的磁场会产生电流。这个变化的磁场可以由运动中的磁铁提供，或由变压器输入侧提供，也可以是由电流刚刚产生的磁场坍塌所引起。电流与磁场密切相关。
+
+.. [35] 饱和的主题超出了本书的范围，但确实存在这种现象。你可以将其类比为海绵：正如海绵只能吸收一定量的水，电感器的铁芯也只能聚焦有限的磁场。
+
+    The topic of saturation is beyond the scope of this text, but it does occur and you can think of it like a sponge; in the same way that a sponge can soak up only so much water, the core of an inductor can help focus only so much magnetic field.
+
+
+.. toggle::
+
+    This is the most well-known of the two fields that we are going to discuss. Who hasn’t experienced the force of a magnet sticking a note to the fridge or felt the power of two repelling magnets? Back in the 1820s, a man by the name of Hans Oersted noticed his compass read strangely every time he switched on a current in a wire. Eventually it was discovered that a moving electron (such as the cur- rent in a wire) creates a magnetic field perpendicular to the direction of electron movement, as shown in :ref:`Figure 2.39 <Figure 2.39>`.
+
+    .. figure:: ./img/f2.39.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.39 Magnetic field caused by current in a wire.**
+
+    This field is identical to the field surrounding a permanent magnet. In fact, if you coil the wire like what’s shown in :ref:`Figure 2.40 <Figure 2.40>`, the magnetic field lines align and reinforce each other, making it even more like a permanent magnet. [33]_
+
+    .. figure:: ./img/f2.40.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.40 Coils change direction of field and reinforce.**
+
+    Electromagnets, as they are called, are pretty cool since they can be switched on and off, unlike permanent magnets. Another important fact is that not only does a current moving through a wire create a magnetic field, but the oppo- site is also true. A changing magnetic field can create or induce a current in a wire. A coil of wire is known as an inductor for this reason. Energy is stored in an inductor as a magnetic field. It is like a rubber band that is stretched as you apply current. When the current is shut off it snaps back, and energy is given up as the magnetic field collapses (it is changing as it goes away). This collapse induces a current in the wire. Consider the circuit shown in :ref:`Figure 2.41 <Figure 2.41>`.
+
+    .. figure:: ./img/f2.41.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.41 Building a magnetic field resists current change.**
+
+    When the switch is closed, current flows and a magnetic field is created. It is the creation of the magnetic field (stretching the rubber band, so to speak) that causes the inductor to “resist” [34]_ the change in current, as we learned it does earlier. The flip side of that also happens. If we open the switch, the change in the field as it collapses would like to keep the current flowing in the inductor—see :ref:`Figure 2.42 <Figure 2.42>`.
+
+    If there is no place for this current to go, the voltage across the inductor will increase instantaneously and then dissipate as the induced current drops off with the drop of the magnetic field. Take a look at the graph shown in :ref:`Figure 2.43 <Figure 2.43>` of the current and voltage changing in this inductor circuit as the switch opens and closes.
+
+    .. figure:: ./img/f2.42.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.42 Collapsing magnetic field generates a current.**
+
+    .. figure:: ./img/f2.43.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.43 Voltage and current changes as an inductor is switched in and out of circuit.**
+
+    Induction is also the fundamental principle that a transformer uses. The magnetic field—as it is created on one side of the transformer as is shown in :ref:`Figure 2.44 <Figure 2.44>`— induces a current on the other side of the transformer. When the field reduces, and it switches direction, a corresponding current is induced at the output.
+
+    The ratio of turns on each side of the transformer controls the ratio of voltage from input to output. A 10:1 ratio will take 120 V on one side and create 12 V on the other. Note also that though voltage goes down, current goes up, making a transformer kind of like a gear train or lever in the mechanical world. Power into it is the same as power out of it (minus losses, of course). Voltage times current in equals voltage times current out. This is akin to the rule that force times distance on one side of a lever equals force times distance on the other side.
+
+    .. figure:: ./img/f2.44.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.44 A transformer uses changing current on the input to induce current on the output.**
+
+    The fundamental component of a transformer is an inductor. An inductor is simply a coil of wire, as we learned earlier. The number of turns of wire controls the concentration of the magnetic field. The core of the inductor also has the effect of concentrating the field. The material in the core can become saturated, [35]_ meaning that it cannot concentrate the field any more tightly than it has.
+
+    The important things to remember are that current creates a magnetic field, and a changing magnetic field creates a current. The changing field can be externally applied from a moving magnet, the input side of a transformer, or from the collapse of the field just created by the current. Current and magnetic fields are closely connected.
 
 The Electric Field
 ~~~~~~~~~~~~~~~~~~~
+电场
+~~~~~~~~~~~~~~~~~~~
 
-Also called the *electrostatic field*, the electric field [36]_ is not as commonly known per se as the magnetic field. In the same way that current is connected to the magnetic field, voltage is connected to the electric field. That leads to a good rule of thumb to remember: *Current is magnetic* and *voltage is electric*.
+电场（也称为 *静电场*）[36]_ 并不像磁场那样广为人知。正如电流与磁场相关联一样，电压与电场相关联。这就引出了一个值得记住的经验法则：*电流产生磁场*，*电压产生电场*。
 
-The electric field comes from electric charges, both positive and negative. In a way that is analogous to the way like poles on magnets repel and opposite poles attract, like charges repel and opposite charges attract. Any molecule or atom can be neutral (no net charge), positively charged, or negatively charged. The accumulation of these charges is what is known as voltage. One way to think of it is that the charges are the voltage making the electric field, and move- ment of those charges is called current and creates the magnetic field.
+电场来自电荷，包括正电荷和负电荷。类似于磁铁中同性相斥、异性相吸的规律，同种电荷相互排斥，异种电荷相互吸引。任何分子或原子都可以是中性的（无净电荷）、带正电或带负电。这些电荷的累积就是我们所说的电压。可以这样理解：电荷就是产生电场的电压，而电荷的移动称为电流，进而产生磁场。
 
-.. [35] The topic of saturation is beyond the scope of this text, but it does occur and you can think of it like a sponge; in the same way that a sponge can soak up only so much water, the core of an inductor can help focus only so much magnetic field.
-.. [36] I discuss the magnetic field first because it is better known to the average person. However, one can argue (as is pointed out in Chapter 0) that the electric field is more fundamental. The electric field happens because charge is there, whereas you get the magnetic field when you “move” the charge.
+.. [36] 我之所以先讨论磁场，是因为它对普通人来说更为熟悉。然而，有人认为（正如第 0 章指出的那样）电场更加基础。电场是因为电荷的存在而出现，而磁场则是在你“移动”电荷时才会产生。
+
+    I discuss the magnetic field first because it is better known to the average person. However, one can argue (as is pointed out in Chapter 0) that the electric field is more fundamental. The electric field happens because charge is there, whereas you get the magnetic field when you “move” the charge.
 
 .. _Figure 2.45:
 
@@ -1261,15 +1580,15 @@ The electric field comes from electric charges, both positive and negative. In a
     :scale: 50%
     :align: right
 
-    **FIGURE 2.45 Capacitor symbol.**
+    **图 2.45 电容器符号。**
 
-Similar to the way an inductor is a way of concentrating a magnetic field, a capacitor is a way of concentrating an electric field. Capacitors are made by two collectors or plates separated by a material that will not conduct electricity, also known as a dielectric. The symbol of a capacitor mimics the construction, as shown in :ref:`Figure 2.45 <Figure 2.45>`.
+就像电感器是聚焦磁场的一种方式，电容器则是聚焦电场的一种方式。电容器由两个收集器或极板构成，中间隔着一种不会导电的材料，也称为介电质。电容器的符号模仿了其构造，如 :ref:`Figure 2.45 <Figure 2.45>` 所示。
 
-Because of the dielectric, current or actual charges cannot flow or move across the capacitor, and all the charges build up on one side of the cap, kind of like a 50-car pileup on the freeway, as shown in :ref:`Figure 2.46 <Figure 2.46>`.
+由于存在介电质，电流或实际电荷无法穿越电容器流动，所有电荷会积聚在电容器的一侧，就像高速公路上发生的 50 辆车连环相撞一样，如 :ref:`Figure 2.46 <Figure 2.46>` 所示。
 
-As the charges pile up on one side, the electrostatic field builds up, causing all the like charges on the other side of the cap to go rushing away (remember how like charges repel). Once it all comes to rest, there is an equal number of oppo- site charges on the other side of the cap. In this way the capacitor stores a charge of voltage on the plates of the capacitor.
+当电荷在一侧堆积时，静电场逐渐建立，导致电容器另一侧的同种电荷迅速离开（记住同种电荷相斥）。一旦系统达到稳定状态，电容器另一侧就会出现数量相等的异种电荷。通过这种方式，电容器在其极板上存储电压电荷。
 
-How much charge a cap can store in an electric field is a function of the area of the plates. The amount of voltage it can store is dependent on the strength of the dielectric. If you exceed the capability of the insulation, the dielectric will break down and a charge will cross the gap. The same thing happens on a stormy day. During a thunderstorm charges build up in the clouds and the ground in the same way they do on either side of a capacitor. A lightning strike is a large-scale version of what happens when the insulation or dielectric in a capacitor breaks down.
+一个电容器能够在电场中存储多少电荷，取决于极板的面积。它能承受多大电压，取决于介电质的强度。如果超过绝缘材料的能力，介电质会被击穿，电荷就会穿越间隙。这与雷雨天的情形类似。在雷雨中，云层和地面之间会像电容器两端一样积聚电荷。闪电就是电容器绝缘或介电质击穿时所发生的宏观版本。
 
 .. _Figure 2.46:
 
@@ -1277,35 +1596,76 @@ How much charge a cap can store in an electric field is a function of the area o
     :scale: 50%
     :align: center
 
-    **FIGURE 2.46 Behavior of charges in a capacitor.**
+    **图 2.46 电容器中电荷的行为。**
 
-In the same way current creates a magnetic field, voltage creates an electric field. Just as the magnetic field can store energy, the electric field can also store energy. As the magnetic field dissipates, it tries to maintain current. As the elec- tric field dissipates, it tries to maintain voltage. Voltage and electric fields are closely connected.
+就像电流会产生磁场一样，电压会产生电场。正如磁场可以储存能量，电场也可以储存能量。当磁场消散时，它会试图维持电流；当电场消散时，它会试图维持电压。电压与电场密切相关。
 
-.. admonition:: Thumb Rules
+.. toggle::
 
-   - An inductor stores energy in a magnetic field.
-   - A capacitor stores energy in an electric field.
-   - Current is magnetic.
-   - Voltage is electric.
+    Also called the *electrostatic field*, the electric field [36]_ is not as commonly known per se as the magnetic field. In the same way that current is connected to the magnetic field, voltage is connected to the electric field. That leads to a good rule of thumb to remember: *Current is magnetic* and *voltage is electric*.
 
-KEEP IT UNDER CONTROL
+    The electric field comes from electric charges, both positive and negative. In a way that is analogous to the way like poles on magnets repel and opposite poles attract, like charges repel and opposite charges attract. Any molecule or atom can be neutral (no net charge), positively charged, or negatively charged. The accumulation of these charges is what is known as voltage. One way to think of it is that the charges are the voltage making the electric field, and move- ment of those charges is called current and creates the magnetic field.
+
+    .. figure:: ./img/f2.45.png
+        :scale: 50%
+        :align: right
+
+        **FIGURE 2.45 Capacitor symbol.**
+
+    Similar to the way an inductor is a way of concentrating a magnetic field, a capacitor is a way of concentrating an electric field. Capacitors are made by two collectors or plates separated by a material that will not conduct electricity, also known as a dielectric. The symbol of a capacitor mimics the construction, as shown in :ref:`Figure 2.45 <Figure 2.45>`.
+
+    Because of the dielectric, current or actual charges cannot flow or move across the capacitor, and all the charges build up on one side of the cap, kind of like a 50-car pileup on the freeway, as shown in :ref:`Figure 2.46 <Figure 2.46>`.
+
+    As the charges pile up on one side, the electrostatic field builds up, causing all the like charges on the other side of the cap to go rushing away (remember how like charges repel). Once it all comes to rest, there is an equal number of oppo- site charges on the other side of the cap. In this way the capacitor stores a charge of voltage on the plates of the capacitor.
+
+    How much charge a cap can store in an electric field is a function of the area of the plates. The amount of voltage it can store is dependent on the strength of the dielectric. If you exceed the capability of the insulation, the dielectric will break down and a charge will cross the gap. The same thing happens on a stormy day. During a thunderstorm charges build up in the clouds and the ground in the same way they do on either side of a capacitor. A lightning strike is a large-scale version of what happens when the insulation or dielectric in a capacitor breaks down.
+
+    .. figure:: ./img/f2.46.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.46 Behavior of charges in a capacitor.**
+
+    In the same way current creates a magnetic field, voltage creates an electric field. Just as the magnetic field can store energy, the electric field can also store energy. As the magnetic field dissipates, it tries to maintain current. As the elec- tric field dissipates, it tries to maintain voltage. Voltage and electric fields are closely connected.
+
+.. admonition:: 经验法则(Thumb Rules)
+
+   - 电感器在磁场中储存能量。
+   - 电容器在电场中储存能量。
+   - 电流是磁性的。
+   - 电压是电性的。
+ 
+   .. toggle::
+
+      - An inductor stores energy in a magnetic field.
+      - A capacitor stores energy in an electric field.
+      - Current is magnetic.
+      - Voltage is electric.
+
+保持控制
 ----------------------
+KEEP IT UNDER CONTROL
 
-The topic of control theory is typically left until later in most education programs because it is considered a more advanced topic. Control systems, however, are a very common application in the electronic realm. Think about it; I’ll bet most of the time you design a device to control something you don’t want to think about, something that automatically does what it should without intervention. On top of that, control theory turns out to be useful in more than just clear-cut control applications—understanding op-amps and designing power supplies, for exam- ple. Since a basic knowledge of this concept will help you in many aspects of your career, it seems prudent to dedicate a few pages to it.
+控制理论通常在大多数教育项目中被安排在后期讲授，因为它被认为是一个更高级的主题。然而，控制系统在电子领域中是一种非常常见的应用。想想看；大多数时候你设计一个设备，是为了控制一些你不想思考的事情，让它自动完成任务而无需干预。此外，控制理论不仅对明确的控制应用有用，在理解运算放大器和设计电源等方面也同样有帮助。既然对这一概念的基本了解将对你职业生涯的许多方面都有帮助，那么花几页篇幅来讲解它是值得的。
 
-The System Concept
+.. toggle::
+
+    The topic of control theory is typically left until later in most education programs because it is considered a more advanced topic. Control systems, however, are a very common application in the electronic realm. Think about it; I’ll bet most of the time you design a device to control something you don’t want to think about, something that automatically does what it should without intervention. On top of that, control theory turns out to be useful in more than just clear-cut control applications—understanding op-amps and designing power supplies, for exam- ple. Since a basic knowledge of this concept will help you in many aspects of your career, it seems prudent to dedicate a few pages to it.
+
+系统概念
 ~~~~~~~~~~~~~~~~~~~~~
+The System Concept
 
-A system is anything with an input and an output. The idea is simple—take the input, shake it, squeeze it, do whatever, and then send it to the output. It can be represented with a block diagram, something like the one shown in :ref:`Figure 2.47 <Figure 2.47>`.
+一个系统就是任何具有输入和输出的东西。其基本思路很简单——输入进来，摇一摇、挤一挤、做点什么处理，然后送到输出。可以用框图来表示，如 :ref:`Figure 2.47 <Figure 2.47>` 所示。
 
-All the magic happens inside the box. This magic is called the transfer function. The transfer function is equal to the output over the input. It is the equation that you process the input through to get the output, so the following is true:
+所有的魔法都发生在这个方框内部。这个魔法称为传递函数。传递函数等于输出除以输入。它是你将输入进行处理以得到输出的等式，因此如下关系成立：
 
 .. math::
    :label: equation 2.17
 
     Output = Magic * Input 
 
-A little algebra yields:
+简单的代数变换得到：
 
 .. math::
    :label: equation 2.18
@@ -1318,7 +1678,7 @@ A little algebra yields:
     :scale: 50%
     :align: center
 
-    **FIGURE 2.47 The magic box inside a system.**
+    **图 2.47 系统中的魔法盒子。**
 
 .. _Figure 2.48:
 
@@ -1326,27 +1686,27 @@ A little algebra yields:
     :scale: 50%
     :align: center
 
-    **FIGURE 2.48 The magic revealed.**
+    **图 2.48 魔法揭秘。**
 
-Now you know how to find what the magic inside the box is, and sometimes it is just that easy. Let’s try a simple example to see how. You put 12 miles into the input, wait—chugga, chugga, ding!—and out pops 19.32 km. As you might have guessed, the magic in this box is a metric converter, but what is the transfer function? According to the preceding equation, we simply divide the output by the input. That would be:
+现在你知道如何找出盒子中的魔法了，有时候它确实就是这么简单。我们尝试一个简单的例子来看看效果。你输入 12 英里，等待——咔哒、咔哒，叮！——输出为 19.32 千米。你可能已经猜到，这个盒子的魔法是一个公制单位转换器，但它的传递函数是什么？根据前面的公式，我们只需将输出除以输入即可。也就是：
 
 .. math::
    :label: equation 2.19
 
     \frac{19.32 km }{ 12 miles} = 1.61 \frac{km}{mile} 
 
-The magic in our converter box looks like the one in :ref:`Figure 2.48 <Figure 2.48>`.
+我们的转换器盒子的魔法如 :ref:`Figure 2.48 <Figure 2.48>` 所示。
 
-Note that the units made it into the box. This helps identify the type of units that will work at the input and what you will get at the output. Hopefully a little voice in your head is saying, “Isn’t this a rehash of the unit math chapter?” It is, but this is a more formalized concept with some neat touches such as the cool little boxes [37]_ you draw to help you understand the system. The next question you should ask is, “How does this apply to electronics?” Well, from the most basic to the most complex, you can represent any circuit with one of these magic (okay, some texts call them black) boxes.
+注意，单位也进入了盒子。这有助于明确输入需要什么单位，输出将会得到什么单位。希望你脑海中有个小声音在说：“这不是单位数学那章的内容吗？”确实是，但这是一个更正式的概念，并且加入了一些很酷的小技巧，比如你画的那些小盒子 [37]_，它们可以帮助你理解系统。你接下来应该问的问题是：“这如何应用到电子学中？”其实从最基本的到最复杂的电路，你都可以用这些魔法（有些教材称之为黑）盒子来表示。
 
-We’d better do another example. Take a resistor. A resistor can be thought of as a current-to-voltage converter. Put current into the input, apply magic, and get voltage at the output. What would be the transfer function of that? If you mumbled a phrase with the words “Ohm’s Law” anywhere in it, you are probably right.
+我们最好再看一个例子。以电阻为例。电阻可以被看作是电流到电压的转换器。将电流输入，施加魔法，输出电压。那它的传递函数是什么？如果你喃喃自语时提到了“欧姆定律”，那你可能是对的。
 
 .. math::
    :label: equation 2.20
 
     R = \frac{V}{I}
 
-That would make the block diagram of the resistor look something what :ref:`Figure 2.49 <Figure 2.49>` shows.
+那么电阻的框图将如 :ref:`Figure 2.49 <Figure 2.49>` 所示。
 
 .. _Figure 2.49:
 
@@ -1354,27 +1714,29 @@ That would make the block diagram of the resistor look something what :ref:`Figu
     :scale: 50%
     :align: center
 
-    **FIGURE 2.49 System diagram of a resistor.**
+    **图 2.49 电阻的系统图。**
 
-.. [37] Drawing cool little boxes is fun! Why else do we represent what we think with schematics and flow charts and the like? I suggest that way back when we were all apes around a campfire, somehow drawing lines in the dirt gave us an evolutionary advantage. It must be important to the survival of the species, because I will say this: I loved to get out the crayons as a kid, and a good time sketching on the white board is still pretty darn satisfying!
+.. [37] 画这些酷酷的小方框很有趣！我们为什么用原理图、流程图来表达我们的想法？我建议你回想一下，很久以前我们还在篝火边当猴子的时候，在地上画线可能就给了我们生存优势。它一定对人类物种的生存至关重要，因为我要说：小时候我喜欢拿蜡笔涂鸦，现在在白板上画图仍然非常令人满足！
 
-In this transfer function, R is the value of the resistor in ohms, just in case you didn’t guess. (Note that 1 unit of ohms equals 1 unit of volts divided by 1 unit of amps, like good old Ohm’s Law says it does.)
+    Drawing cool little boxes is fun! Why else do we represent what we think with schematics and flow charts and the like? I suggest that way back when we were all apes around a campfire, somehow drawing lines in the dirt gave us an evolutionary advantage. It must be important to the survival of the species, because I will say this: I loved to get out the crayons as a kid, and a good time sketching on the white board is still pretty darn satisfying!
 
-Let’s step up the idea to something a little more complex, like a voltage divider. We already know the equation for this. It is:
+在这个传递函数中，R 是电阻的值，单位是欧姆（以防你没猜到）。注意，1 欧姆等于 1 伏除以 1 安培，就像我们熟悉的欧姆定律所说的那样。
+
+让我们将这个概念推进一步，看看稍微复杂一点的电压分压器。我们已经知道它的公式：
 
 .. math::
    :label: equation 2.21
 
     Vo = Vi \frac{Rg}{Rg + Ri}
 
-Do you remember what Vo stands for? How about Vi? They are voltage output and voltage input. So let’s just use a little algebra to figure this out. The transfer function is equal to the output over the input, like this:
+你还记得 Vo 是什么吗？Vi 又是什么？它们分别是输出电压和输入电压。那么我们只需进行一点代数运算来搞清楚传递函数。传递函数等于输出除以输入，如下所示：
 
 .. math::
    :label: equation 2.22
 
     \frac{Vo}{Vi} = \frac{Rg}{Rg + Ri}
 
-The block diagram would look like :ref:`Figure 2.50 <Figure 2.50>`.
+这个电路的框图如 :ref:`Figure 2.50 <Figure 2.50>` 所示。
 
 .. _Figure 2.50:
 
@@ -1382,16 +1744,96 @@ The block diagram would look like :ref:`Figure 2.50 <Figure 2.50>`.
     :scale: 50%
     :align: center
 
-    **FIGURE 2.50 System diagram of a voltage divider.**
+    **图 2.50 电压分压器的系统图。**
 
-This same concept can be used to describe all the circuits that we have seen so far. You might see block diagrams of this type where C or L has a little s by it. This is a mathematical trick known as a Laplace transform. It is used to sim- plify problem solving. If you transform all that time constant and frequency stuff using Laplace pairs, you can treat the transformed equations with simple algebra and then transform it all back when you are done. Laplace transforms are beyond the scope of this text, but do take note that the s rolls up all the frequency response of capacitors and inductors into a domain that can be handled easily when the equations get complex.
+这个相同的概念可以用来描述我们迄今为止看到的所有电路。你可能会看到这种类型的框图中，C 或 L 旁边有一个小写的 s。这是一个叫做拉普拉斯变换的数学技巧。它用于简化问题的求解过程。如果你将所有的时间常数和频率特性使用拉普拉斯对转换，那么你就可以用简单代数处理这些变换后的公式，等到完成后再把它们转换回来。拉普拉斯变换超出了本书的范围，但请注意，s 表示了电容器和电感器的所有频率响应，便于在公式复杂时处理。
 
-We can describe any system as a magic box with an input and an output. One way to determine what is in the magic box is to put a known signal into the input. Let’s take a look at what is probably the most important stimulus you can apply to the input of the magic box.
+我们可以将任何系统描述为一个带有输入和输出的魔法盒子。确定魔法盒子中内容的一种方式是向输入端施加一个已知信号。现在我们来看看可能是你能施加给魔法盒子输入端的最重要的激励信号。
 
-The Step Input
+.. toggle::
+
+    A system is anything with an input and an output. The idea is simple—take the input, shake it, squeeze it, do whatever, and then send it to the output. It can be represented with a block diagram, something like the one shown in :ref:`Figure 2.47 <Figure 2.47>`.
+
+    All the magic happens inside the box. This magic is called the transfer function. The transfer function is equal to the output over the input. It is the equation that you process the input through to get the output, so the following is true:
+
+    .. math::
+
+        Output = Magic * Input 
+
+    A little algebra yields:
+
+    .. math::
+
+        \frac{Output}{Input} = Magic 
+
+    .. figure:: ./img/f2.47.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.47 The magic box inside a system.**
+
+    .. figure:: ./img/f2.48.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.48 The magic revealed.**
+
+    Now you know how to find what the magic inside the box is, and sometimes it is just that easy. Let’s try a simple example to see how. You put 12 miles into the input, wait—chugga, chugga, ding!—and out pops 19.32 km. As you might have guessed, the magic in this box is a metric converter, but what is the transfer function? According to the preceding equation, we simply divide the output by the input. That would be:
+
+    .. math::
+    :label: equation 2.19
+
+        \frac{19.32 km }{ 12 miles} = 1.61 \frac{km}{mile} 
+
+    The magic in our converter box looks like the one in :ref:`Figure 2.48 <Figure 2.48>`.
+
+    Note that the units made it into the box. This helps identify the type of units that will work at the input and what you will get at the output. Hopefully a little voice in your head is saying, “Isn’t this a rehash of the unit math chapter?” It is, but this is a more formalized concept with some neat touches such as the cool little boxes [37]_ you draw to help you understand the system. The next question you should ask is, “How does this apply to electronics?” Well, from the most basic to the most complex, you can represent any circuit with one of these magic (okay, some texts call them black) boxes.
+
+    We’d better do another example. Take a resistor. A resistor can be thought of as a current-to-voltage converter. Put current into the input, apply magic, and get voltage at the output. What would be the transfer function of that? If you mumbled a phrase with the words “Ohm’s Law” anywhere in it, you are probably right.
+
+    .. math::
+
+        R = \frac{V}{I}
+
+    That would make the block diagram of the resistor look something what :ref:`Figure 2.49 <Figure 2.49>` shows.
+
+    .. figure:: ./img/f2.49.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.49 System diagram of a resistor.**
+
+    In this transfer function, R is the value of the resistor in ohms, just in case you didn’t guess. (Note that 1 unit of ohms equals 1 unit of volts divided by 1 unit of amps, like good old Ohm’s Law says it does.)
+
+    Let’s step up the idea to something a little more complex, like a voltage divider. We already know the equation for this. It is:
+
+    .. math::
+
+        Vo = Vi \frac{Rg}{Rg + Ri}
+
+    Do you remember what Vo stands for? How about Vi? They are voltage output and voltage input. So let’s just use a little algebra to figure this out. The transfer function is equal to the output over the input, like this:
+
+    .. math::
+
+        \frac{Vo}{Vi} = \frac{Rg}{Rg + Ri}
+
+    The block diagram would look like :ref:`Figure 2.50 <Figure 2.50>`.
+
+    .. figure:: ./img/f2.50.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.50 System diagram of a voltage divider.**
+
+    This same concept can be used to describe all the circuits that we have seen so far. You might see block diagrams of this type where C or L has a little s by it. This is a mathematical trick known as a Laplace transform. It is used to sim- plify problem solving. If you transform all that time constant and frequency stuff using Laplace pairs, you can treat the transformed equations with simple algebra and then transform it all back when you are done. Laplace transforms are beyond the scope of this text, but do take note that the s rolls up all the frequency response of capacitors and inductors into a domain that can be handled easily when the equations get complex.
+
+    We can describe any system as a magic box with an input and an output. One way to determine what is in the magic box is to put a known signal into the input. Let’s take a look at what is probably the most important stimulus you can apply to the input of the magic box.
+
+阶跃输入
 ~~~~~~~~~~~~~~~~~~
+The Step Input
 
-The idea behind the step input is to understand the output of a system by its response to a given input. The step input is an instantaneous change of state from a value of zero to another predetermined value. It looks like the one shown in :ref:`Figure 2.51 <Figure 2.51>`.
+阶跃输入的理念是通过系统对特定输入的响应来理解其输出。阶跃输入是从零值到另一个预定值的瞬时状态变化。它看起来如 :ref:`Figure 2.51 <Figure 2.51>` 所示。
 
 .. _Figure 2.51:
 
@@ -1399,24 +1841,23 @@ The idea behind the step input is to understand the output of a system by its re
     :scale: 50%
     :align: center
 
-    **FIGURE 2.51 The step input.**
+    **图 2.51 阶跃输入。**
 
-The output will change in some manner predictable (one hopes!) by an equation. This is known as the response. The better you know the response of various com- ponents to this step input, the better you will be able to apply intuitive signal ana- lysis. Let’s go over the RC circuit again. The equation we learned earlier is:
-
+输出会以某种方式发生变化，希望是由一个公式所预测的方式。这被称为响应。你对各种元件对该阶跃输入的响应了解得越多，就越能运用直觉进行信号分析。我们再来回顾一下 RC 电路。我们之前学到的公式是：
 
 .. math::
    :label: equation 2.23
 
     Vo = Vi \left ( 1 - e^{-\frac{t}{rc}} \right )
 
-To turn that into the transfer function for the magic box, all we have to do is move Vi to the other side of the equal sign, like this:
+要将其变为魔法盒的传递函数，我们只需将 Vi 移到等式右侧，如下所示：
 
 .. math::
    :label: equation 2.24
 
     \frac{Vo}{Vi} = \left ( 1 - e^{-\frac{t}{rc}} \right )
 
-We now plug that into the box. When we put the step input into one side, we get the familiar RC curve on the output, as shown in :ref:`Figure 2.52 <Figure 2.52>`.
+现在我们将其放入盒中。当我们将阶跃输入输入到一侧时，在输出端会得到熟悉的 RC 曲线，如 :ref:`Figure 2.52 <Figure 2.52>` 所示。
 
 .. _Figure 2.52:
 
@@ -1424,53 +1865,133 @@ We now plug that into the box. When we put the step input into one side, we get 
     :scale: 50%
     :align: center
 
-    **FIGURE 2.52 Step input into magic box with RC circuit inside.**
+    **图 2.52 将阶跃输入送入含有 RC 电路的魔法盒中。**
 
-Though it is nice to see the same conclusion from a different approach, where the system concept really comes into its own is when we create a feedback loop.
+虽然从不同的方法得出相同的结论很不错，但系统概念真正体现其优势的地方在于我们创建反馈回路时。
 
-Feedback
+.. toggle::
+
+    The idea behind the step input is to understand the output of a system by its response to a given input. The step input is an instantaneous change of state from a value of zero to another predetermined value. It looks like the one shown in :ref:`Figure 2.51 <Figure 2.51>`.
+
+    .. figure:: ./img/f2.51.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.51 The step input.**
+
+    The output will change in some manner predictable (one hopes!) by an equation. This is known as the response. The better you know the response of various com- ponents to this step input, the better you will be able to apply intuitive signal ana- lysis. Let’s go over the RC circuit again. The equation we learned earlier is:
+
+    .. math::
+
+        Vo = Vi \left ( 1 - e^{-\frac{t}{rc}} \right )
+
+    To turn that into the transfer function for the magic box, all we have to do is move Vi to the other side of the equal sign, like this:
+
+    .. math::
+
+        \frac{Vo}{Vi} = \left ( 1 - e^{-\frac{t}{rc}} \right )
+
+    We now plug that into the box. When we put the step input into one side, we get the familiar RC curve on the output, as shown in :ref:`Figure 2.52 <Figure 2.52>`.
+
+    .. figure:: ./img/f2.52.png
+        :scale: 50%
+        :align: center
+
+        **FIGURE 2.52 Step input into magic box with RC circuit inside.**
+
+    Though it is nice to see the same conclusion from a different approach, where the system concept really comes into its own is when we create a feedback loop.
+
+反馈
 ~~~~~~~~~~~~~
+Feedback
 
-One of the neatest applications of control theory occurs when we implement feedback. Feedback is the process of using the output of the “magic box” as some portion of the input. Feedback comes in two flavors: positive and negative. They can be thought of in terms of interaction.
+控制理论中最巧妙的应用之一是实现反馈。反馈是指将“魔法盒”输出的一部分作为输入的一种过程。反馈有两种类型：正反馈和负反馈。它们可以从交互的角度来理解。
 
+.. toggle::
+
+    One of the neatest applications of control theory occurs when we implement feedback. Feedback is the process of using the output of the “magic box” as some portion of the input. Feedback comes in two flavors: positive and negative. They can be thought of in terms of interaction.
+
+正反馈
+''''''''''''''''''''
 POSITIVE FEEDBACK
+
+正反馈鼓励或强化某种行为；负反馈则是纠正或控制某种行为。例如，如果你的儿子在足球比赛中表现出色，你为他加油鼓劲，从而鼓励他更加努力，这就是正反馈。正反馈强化你期望的行为。在上述情况下，它会鼓励他尽最大努力去表现。事实上，在一个完美的世界里，他会不断努力，直到全力以赴。在控制理论中，正反馈也是如此。输出反馈到正输入端，这会使输出增加，从而反馈回输入，进而进一步增加输出，如此循环（强化该行为），直到输出达到最大值。
+
+由于正反馈会强化信号，输出常常会“锁定”在电源轨上。 [38]_ 因此，正反馈的使用通常受到严格限制，只允许对输入进行微小的更改。这些小变化可以引入一个称为迟滞的特性。
+
+另一个由于这种强化行为而可能发生的有趣现象是，在正反馈回路中引入延迟。想象一下：如果这个信号有一点延迟会发生什么？如果时机把握得好，改变输出的信号可以在输出已经朝相反方向运动时出现在输入端。当这种情况发生时，你就创建了一个振荡器。
+
+虽然正反馈对控制小孩非常有用，但在电路中，如果你想控制某种行为，你需要使用负反馈。
+
+.. toggle::
+
+    Positive feedback encourages or reinforces a behavior; negative feedback corrects or controls a behavior. For example, if your son is doing a good job in a soccer game and you cheer him on, which encourages him to try even harder, this is positive feedback. Positive feedback reinforces the behavior you desire. In the preceding case, it will encourage him to try as hard as possible. In fact, in a perfect world he will keep trying until he is giving it all he can. The same thing happens with positive feedback in control theory. Output is fed back to the positive input. This has the effect of increasing the output, which is fed back to the input, which will increase the output and so on (reinforcing the behavior) until the output is as high as it can go.
+
+    Since positive feedback reinforces the signal, the output can often “stick” at the rail. [38]_ For this reason the amount of positive feedback allowed is typically very limited, allowing only small changes to the input. These small changes can create a feature called hysteresis.
+
+    Another interesting thing that can happen due to this reinforcing behavior occurs when delays are created in the positive feedback loop. Think about it for a moment: What will happen if this signal is delayed a bit? If you time it right, the signal to change the output can be made to occur at the input when the output is already moving in the opposite direction. When this happens you have created an oscillator.
+
+    Now, though positive feedback is great for controlling toddlers, when it comes to circuits, if you want to control something you need negative feedback.
+
+负反馈
 ''''''''''''''''''''
-
-Positive feedback encourages or reinforces a behavior; negative feedback corrects or controls a behavior. For example, if your son is doing a good job in a soccer game and you cheer him on, which encourages him to try even harder, this is positive feedback. Positive feedback reinforces the behavior you desire. In the preceding case, it will encourage him to try as hard as possible. In fact, in a perfect world he will keep trying until he is giving it all he can. The same thing happens with positive feedback in control theory. Output is fed back to the positive input. This has the effect of increasing the output, which is fed back to the input, which will increase the output and so on (reinforcing the behavior) until the output is as high as it can go.
-
-Since positive feedback reinforces the signal, the output can often “stick” at the rail. [38]_ For this reason the amount of positive feedback allowed is typically very limited, allowing only small changes to the input. These small changes can create a feature called hysteresis.
-
-Another interesting thing that can happen due to this reinforcing behavior occurs when delays are created in the positive feedback loop. Think about it for a moment: What will happen if this signal is delayed a bit? If you time it right, the signal to change the output can be made to occur at the input when the output is already moving in the opposite direction. When this happens you have created an oscillator.
-
-Now, though positive feedback is great for controlling toddlers, when it comes to circuits, if you want to control something you need negative feedback.
-
 NEGATIVE FEEDBACK
-''''''''''''''''''''
 
-Negative feedback is a control situation. Let’s go back to the soccer analogy for a moment. In this case, your son kicks the ball too far ahead of the player he is passing it to. You tell him to shorten up his pass. If he is not passing far enough, you tell him to lengthen it out. Based on how close the actual result is to the desired result, a corrective signal is fed back to the input. This corrective signal has a negative impact on the output, hence the term negative feedback.
+负反馈是一种控制机制。我们再次回到足球的类比。这一次，你的儿子把球传得太远，超过了接球球员。你告诉他要缩短传球距离。如果他传得不够远，你告诉他要传远一些。根据实际结果与期望结果的接近程度，一个纠正信号会反馈回输入端。这个纠正信号对输出有负面影响，因此称为负反馈。
 
-Humans have an innate ability to handle negative feedback. [39]_ You probably experienced it this morning as you drove your car to work. If you drifted too close to the edge of the lane on the freeway, you processed a little negative feedback, resulting in a corrective signal to bring the car back to the center of the road. If you didn’t, you are probably reading this in the passenger seat of the tow truck as your mangled car is hauled home!
+人类天生就能处理负反馈。 [39]_ 你今天早上开车去上班时可能就经历过它。如果你在高速公路上偏离车道边缘，你会处理一个小小的负反馈信号，从而发出纠正信号将车开回车道中央。如果你没有这样做，那你现在可能正坐在拖车的副驾驶上，眼睁睁看着你的破车被拖回家！
 
-Negative feedback is often used to create controlled amplifiers and filters. We will get into some details of negative and positive feedback and how they work using op-amps a bit later in the book.
+负反馈常用于创建受控放大器和滤波器。我们将在本书后面详细介绍如何使用运算放大器实现正负反馈及其工作原理。
 
-Open-Loop Gain vs. Closed-Loop Gain
+.. toggle::
+
+    Negative feedback is a control situation. Let’s go back to the soccer analogy for a moment. In this case, your son kicks the ball too far ahead of the player he is passing it to. You tell him to shorten up his pass. If he is not passing far enough, you tell him to lengthen it out. Based on how close the actual result is to the desired result, a corrective signal is fed back to the input. This corrective signal has a negative impact on the output, hence the term negative feedback.
+
+    Humans have an innate ability to handle negative feedback. [39]_ You probably experienced it this morning as you drove your car to work. If you drifted too close to the edge of the lane on the freeway, you processed a little negative feedback, resulting in a corrective signal to bring the car back to the center of the road. If you didn’t, you are probably reading this in the passenger seat of the tow truck as your mangled car is hauled home!
+
+    Negative feedback is often used to create controlled amplifiers and filters. We will get into some details of negative and positive feedback and how they work using op-amps a bit later in the book.
+
+开环增益与闭环增益
 ---------------------------------------
+Open-Loop Gain vs. Closed-Loop Gain
 
-When you cut the feedback signals out of the “loop,” the gain of the system is known as the open-loop gain. This is to distinguish it from the closed-loop gain, or the gain of the system when the feedback is in place. High open-loop gains in conjunction with negative feedback will minimize errors in amplifier and filter circuits.
+当你将反馈信号从“回路”中切断时，系统的增益称为开环增益。这样做是为了与闭环增益（即当反馈接入时系统的增益）区分开。高开环增益配合负反馈可最大限度减少放大器和滤波器电路中的误差。
 
-.. [38] If you don’t understand this term, I refer you to the glossary, where I promise if you read the whole thing you will get at least a few chuckles (so long as my editor doesn’t take out all the jokes this time). 
-.. [39] Unless, of course, it is coming from your significant other; then we tend to have serious system-wide erratic behavior.
+.. [38] 如果你不理解这个术语，请参考术语表。我保证如果你通读一遍，你至少会笑几次（前提是我的编辑这次没有把所有笑话都删掉）。
 
-.. admonition:: Thumb Rules
+    If you don’t understand this term, I refer you to the glossary, where I promise if you read the whole thing you will get at least a few chuckles (so long as my editor doesn’t take out all the jokes this time). 
 
-   - Lump everything into one magic box.
-   - The gain or magic equals the output over the input.
-   - Feedback loops can be added to these systems to create different results.
-   - Positive feedback tends to latch up or go to an output rail.
-   - Positive feedback delays can create oscillations.
-   - Negative feedback signals are corrective in nature.
-   - Negative feedback creates a controlled output.
-   - The gain of the system from input to output when the feedback is disconnected is known as the open-loop gain.
-   - The gain of the system when feedback is in place is known as the closed-loop gain.
+.. [39] 除非，这种反馈来自你的另一半；那我们往往会产生严重的系统性异常行为。
+
+    Unless, of course, it is coming from your significant other; then we tend to have serious system-wide erratic behavior.
+
+.. admonition:: 经验法则
+
+   - 将所有内容归入一个魔法盒中。
+   - 增益或魔法等于输出除以输入。
+   - 可以为这些系统添加反馈回路以产生不同结果。
+   - 正反馈趋于锁定或使输出达到电源轨。
+   - 正反馈延迟可能会引发振荡。
+   - 负反馈信号具有纠正性质。
+   - 负反馈可创建受控输出。
+   - 当反馈断开时，输入到输出的系统增益称为开环增益。
+   - 当反馈接入时，系统的增益称为闭环增益。
+
+
+.. toggle::
+
+    When you cut the feedback signals out of the “loop,” the gain of the system is known as the open-loop gain. This is to distinguish it from the closed-loop gain, or the gain of the system when the feedback is in place. High open-loop gains in conjunction with negative feedback will minimize errors in amplifier and filter circuits.
+
+    .. admonition:: Thumb Rules
+
+        - Lump everything into one magic box.
+        - The gain or magic equals the output over the input.
+        - Feedback loops can be added to these systems to create different results.
+        - Positive feedback tends to latch up or go to an output rail.
+        - Positive feedback delays can create oscillations.
+        - Negative feedback signals are corrective in nature.
+        - Negative feedback creates a controlled output.
+        - The gain of the system from input to output when the feedback is disconnected is known as the open-loop gain.
+        - The gain of the system when feedback is in place is known as the closed-loop gain.
 
 
