@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "电气工程101"
+project = "电气工程(Electrical Engineering)101"
 copyright = "2013, Darren Ashby"
 author = "Darren Ashby"
 release = "3.0"
@@ -45,7 +45,7 @@ html_theme_options = {
 }
 html_static_path = ["_static"]
 html_css_files = []
-html_title = "电气工程101"
+html_title = "电气工程(Electrical Engineering)101"
 
 highlight_language = "python"  # 默认语言（可选）
 pygments_style = "sphinx"  # Sphinx 默认样式

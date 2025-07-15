@@ -1,0 +1,40 @@
+.. _c6:
+
+CHAPTER 6 Troubleshooting
+===============================
+
+The perfect design approach doesn’t guarantee that everything will go flawlessly
+in production. One engineer I worked with was fond of saying,“I’m not happy
+’til ten thousand pieces have gone down the line okay.” I’ve seen tolerance problems appear in production after half a million pieces have been run. It is very
+difficult to predict and prevent something like that.
+
+The fact is, the more thoroughly you try to analyze a design, the longer you will
+be waiting to produce it, but if a product never gets into production, no one
+gets paid (except in government work, of course). So, a balance needs to be
+struck among design analysis, testing, and production runs. This being the case,
+you will likely be faced with trying to determine a production problem at some
+point in your career. How will you go about it? What approach will you take?
+Hopefully this chapter will give you some ideas.
+
+GETTING READY FOR THE HUNT
+---------------------------
+
+As we discuss the topic of finding trouble and shooting it, I will often refer to
+my own experiences. I am sure you will have unique and often completely different results. The idea here isn’t to tell you what the problem is in your design
+but to give you some guidelines you can use to troubleshoot the problem
+yourself.
+
+Shotgun Wedding
+~~~~~~~~~~~~~~~~~
+
+We will get into the interesting section header a bit later. Though it might seem
+a little out of order, I think we should cover one item first because it is so
+important to the rest of the process. The first rule of thumb is: Don’t discount
+a theory (no matter how obvious or ridiculous it might seem). Try to prove it
+right or wrong by experiment and then move on to the next idea. Too often
+you will be carrying an assumption that you won’t even realize can lead you
+to a wrong conclusion. It is vitally important that you have a process to check
+and validate a theory. Without that, you will be forever jumping from one idea
+to another without ever coming to a conclusion. With that said, let’
+s move on.
+

@@ -1,0 +1,34 @@
+.. _c7:
+
+CHAPTER 7 Touchy-Feely Stuff
+==============================
+
+This is the touchy-feely part of the book. Before you say,“Ick!” and chuck it as
+far away as you can, please read on. Most“
+average” people find the people who
+gravitate to the world of electrical engineering a strange lot. If it weren’t true,
+*Dilbert* simply wouldn’t be funny. From the point of view of the EE, the rest
+of the world often doesn’t seem to “get it.” If you want to be the most successful engineer you can, there are some touchy-feely things you ought to chalk up
+on your list of acquired skills. Yes, it is extremely likely that these are going to
+be acquired skills; the engineer who comes by these capabilities naturally is a
+rare breed. [1]_
+
+PEOPLE SKILLS
+---------------
+
+One difficulty engineers often have in dealing with people is the fact that
+interactions between us human beings can’t be described by slick mathematical
+formulae like the various circuits they are working with. I personally think this
+is why you often see engineering groups managed by non-engineering majors. [2]_
+So, what should you do? One thing I have found is that, though there is no
+perfect equation to describe people, there are some categories into which you
+can sort people to help you understand how to interact with them.
+
+In any business organization there are levels of hierarchy—there is no round
+table. Someone sits at the head and it goes down from there. There is always
+a pecking order, even if it isn’t on the org chart. Let’s sort the personality
+categories into various levels of interaction, since that will definitely affect
+how you should react. We might as well start at the top.
+
+.. [1] I might venture that these are the people like Steve Jobs, Bill Gates, and other famous and now very rich self-avowed techno-nerds. Maybe if you can grasp these skills, that type of success will be in your future. Trust me, it is much easier for you to develop socially than it is to teach those other types how to pick apart a circuit!
+.. [2] If you dig deeper, you will find that these types of managers can somehow interpret typical“sparky speak” into language that is less analytical and somehow more socially skilled types can handle.
