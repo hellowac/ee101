@@ -406,7 +406,10 @@ Glossary
 
         The little green lines you see on a PCB. They are made of copper and are the wires that connect the parts. Trace can also refer to a method of trouble- shooting software.
 
-    Vcc, Vdd 
+    Vcc
+    Vdd
+    电源
+    电压源
         电路中的电压源。按照传统电流方向的说法，这是所有正电洞的来源；按照电子流动的说法，这是所有电子试图到达的地方。
 
         The voltage source in the circuit. In conventional flow terms, it is the place all the positive holes come from. In electron flow terms, it is the place all the electrons try to get to.

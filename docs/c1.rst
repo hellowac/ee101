@@ -327,7 +327,7 @@ The Capacitor Is Analogous to a Spring
 
 .. figure:: ./img/f1.4.png
    :scale: 50%
-   :align: left
+   :align: center
 
 .. figure:: ./img/25-1.png
 
@@ -353,7 +353,7 @@ The Capacitor Is Analogous to a Spring
 
    .. figure:: ./img/f1.4.png
       :scale: 50%
-      :align: left
+      :align: center
 
    .. figure:: ./img/25-1.png
 
