@@ -269,9 +269,9 @@ NOW WHAT?
 
 即使皮带移动得很慢， [17]_ 一旦转动曲柄，皮带轮上的效果就立刻显现。灯泡也是如此。不过在这里，皮带被电路取代，真正传递能量的是电磁场 [18]_ 推动电荷移动。如果没有这两个场的共同作用，我们无法将曲柄输入的能量传递到灯泡端，它根本不会亮。
 
-.. [17] 导线中的电荷移动速度比你想象的慢得多。实际上，直流电流的流速大约为每小时8厘米。（在典型导线中，具体速度受多种因素影响，但总比你想的慢得多。）交流电甚至不是持续流动的，它只是来回摆动一个非常小的距离。如果你思考一下，可能会疑惑为什么一按开关灯就亮了。这也正是电机和皮带类比的意义所在；正是因为电线“管道”中充满了电荷（就像皮带已经连接到了皮带轮上），才造成了灯泡瞬间点亮的效果。
+.. [17] 导线中的电荷移动速度比你想象的慢得多。实际上，直流电流的流速大约为每小时8厘米。（在典型导线中，具体速度受多种因素影响，但总比你想的慢得多。） :term:`交流电` 甚至不是持续流动的，它只是来回摆动一个非常小的距离。如果你思考一下，可能会疑惑为什么一按开关灯就亮了。这也正是电机和皮带类比的意义所在；正是因为电线“管道”中充满了电荷（就像皮带已经连接到了皮带轮上），才造成了灯泡瞬间点亮的效果。
 
-        The charges in the wire are moving much more slowly than one might think. In fact, DC current moves at about 8 CM per hour. (In a typical wire that is, the exact speed depends on several factors, but it is much slower than you might think.) AC doesn’t even keep flowing, it just kind of bounces back and forth over a very small distance. If you think about it, you might wonder how flipping a switch can get a light to turn on so quickly. Thus the motor and belt analogy; it is the fact that the wire “pipe” is filled (in the same way the belt is connected to the pulley) with these charges that creates the instantaneous effect of a light turning on. 
+        The charges in the wire are moving much more slowly than one might think. In fact, DC current moves at about 8 CM per hour. (In a typical wire that is, the exact speed depends on several factors, but it is much slower than you might think.) :term:`AC` doesn’t even keep flowing, it just kind of bounces back and forth over a very small distance. If you think about it, you might wonder how flipping a switch can get a light to turn on so quickly. Thus the motor and belt analogy; it is the fact that the wire “pipe” is filled (in the same way the belt is connected to the pulley) with these charges that creates the instantaneous effect of a light turning on. 
 
 .. [18] 我在这里说的“电磁”，是指我们所讨论的静电场和磁场的综合效应。
 

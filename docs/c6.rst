@@ -349,7 +349,7 @@ hooking a computer up to a circuit board, both at the audio output of the
 sound card as well as the serial port. There was an annoying buzz in the speakers that changed tone in sync with the displays on the board. When I unplugged
 the serial connection, the buzz went away. We had what’s known as a ground
 loop. This is a specific type of conducted EMI. I usually try to detect whether
-the problem is conducted EMI first, since this is the easiest to check. Don’t overlook the connection to a wall outlet if the AC line powers your device. I once
+the problem is conducted EMI first, since this is the easiest to check. Don’t overlook the connection to a wall outlet if the :term:`AC` line powers your device. I once
 saw a design disrupted every time an overhead projector was plugged in.
 
 Radiated EMI
@@ -364,10 +364,10 @@ fields induce current fluctuations into a circuit and electric fields produce vo
 
 Here is a simple test with a piece of equipment that you are likely to have on
 your bench. Take your oscilloscope probe and leave the ground dangling as
-shown in :ref:`Figure 6.1 <Figure 6.1>`. Now move it near an AC outlet. Adjust the voltage range
+shown in :ref:`Figure 6.1 <Figure 6.1>`. Now move it near an :term:`AC` outlet. Adjust the voltage range
 and quickly you will see a nice 60 Hz sine wave. This scope configuration is
 basically a dipole antenna and it responds well to electric fields. :ref:`Figure 6.2 <Figure 6.2>` is
-an example where I bring it near the AC input of a battery charger. You can
+an example where I bring it near the :term:`AC` input of a battery charger. You can
 see the sine wave as well as other frequencies most likely due to the switching
 power supply inside this charger.
 
@@ -483,13 +483,13 @@ might try throwing everything you’ve got at it at once. If you solve it, then 
 removing one piece at a time. EMI problems are often combinations of various
 things. If you try one fix at a time, you might overlook a combination of fixes
 that would have solved your dilemma. You might need that 0.1 μf cap on the
-AC line and the ferrite clamp on the data harness. As often as not, you will need
+:term:`AC` line and the ferrite clamp on the data harness. As often as not, you will need
 more than one fix to solve the case.
 
 BE PREPARED FOR SURPRISES
 -----------------------
 
-An across-the-line AC cap will do great things to filter out noise coming into
+An across-the-line :term:`AC` cap will do great things to filter out noise coming into
 your system. That’s why they put them in surge suppressors. That was an absolute truth for me until a while back when I was tracking down a noise problem
 on a communications harness and I noticed something funny. I was observing
 the noise on the communication lines when I asked one of my engineers to
@@ -587,8 +587,8 @@ Again, you can purchase a static gun for a lot less than you can get the whole
 humidity-controlled room with a grounded floor, and you’ll get 80% of the
 controllability that you need.
 
-Line surges can be created by switching AC motors on and off with a simple
-switch. An AC fan from Wal-Mart is a common source of this type of noise.
+Line surges can be created by switching :term:`AC` motors on and off with a simple
+switch. An :term:`AC` fan from Wal-Mart is a common source of this type of noise.
 Again, you won’t be able to control the level, but you will get an idea of
 whether or not your design can handle EMI at all.
 

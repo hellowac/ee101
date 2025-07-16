@@ -854,7 +854,7 @@ Thevenin’s Theorem
 
     This circuit comes from a real, live application. I would tell you what, but it is secret. [15]_ So we won’t say this is anything more than a voltage divider with a capacitive filter on it. (Values might have been changed to protect the innocent.)
 
-    This circuit’s job is to lower a voltage at the input terminals varying from 0 to 100 V to something with a range of 0 to 5 V. The input voltage also has an AC component that is filtered out by the capacitor. The question is, what is the time constant of the RC filter in this circuit?
+    This circuit’s job is to lower a voltage at the input terminals varying from 0 to 100 V to something with a range of 0 to 5 V. The input voltage also has an :term:`AC` component that is filtered out by the capacitor. The question is, what is the time constant of the RC filter in this circuit?
 
     Is it 500 K*0.1 μf? That’s what I would have thought before I understood Thevenin’s theorem. The output in this case is the voltage across the cap, so let’s look back into the circuit to figure out what is hooked up to this cap. Now remember, I said there was a voltage source on the input of this circuit. Let’s short that on our drawing and Thevenize it. Take a look at the Thevenized circuit shown in :ref:`Figure 2.23 <Figure 2.23>`.
 
@@ -880,7 +880,7 @@ Thevenin’s Theorem
 
         **FIGURE 2.25 AC switched power to an inductor with snubber.**
 
-    You need to switch AC power through this inductor (which was actually one winding of an AC motor in this case). Trouble is, when you let off the switch, a whole bunch of electrical noise is generated when this switch is opened. (We will discuss why when we cover magnetic fields later in the book.) A standard way to deal with this situation is with an RC circuit commonly known as a snubber. The point of a snubber is to snub this voltage spike and dissipate it as heat on the resistor. This makes the most sense if it is across the inductor, as shown in :ref:`Figure 2.25 <Figure 2.25>`.
+    You need to switch :term:`AC` power through this inductor (which was actually one winding of an :term:`AC` motor in this case). Trouble is, when you let off the switch, a whole bunch of electrical noise is generated when this switch is opened. (We will discuss why when we cover magnetic fields later in the book.) A standard way to deal with this situation is with an RC circuit commonly known as a snubber. The point of a snubber is to snub this voltage spike and dissipate it as heat on the resistor. This makes the most sense if it is across the inductor, as shown in :ref:`Figure 2.25 <Figure 2.25>`.
 
     .. figure:: ./img/f2.26.png
         :scale: 50%
@@ -888,7 +888,7 @@ Thevenin’s Theorem
 
         **FIGURE 2.26 These are equivalent circuits when Thevenized.**
 
-    Now let’s apply Thevenin’s theorem to take a different look at this circuit, as shown in :ref:`Figure 2.26 <Figure 2.26>`. By shorting the AC voltage source, we quickly see that hooking the snubber up to the other side of the switch, to the AC hot line, would have exactly the same effect as hooking across the inductor. This fact once saved a company I worked for tens of thousands of dollars [17]_ using the alternate location of the snubber circuit. I would say that makes Thevenizing a pretty powerful tool, wouldn’t you?
+    Now let’s apply Thevenin’s theorem to take a different look at this circuit, as shown in :ref:`Figure 2.26 <Figure 2.26>`. By shorting the :term:`AC` voltage source, we quickly see that hooking the snubber up to the other side of the switch, to the :term:`AC` hot line, would have exactly the same effect as hooking across the inductor. This fact once saved a company I worked for tens of thousands of dollars [17]_ using the alternate location of the snubber circuit. I would say that makes Thevenizing a pretty powerful tool, wouldn’t you?
 
     .. admonition:: Thumb Rules
 
@@ -913,7 +913,7 @@ IT’S ABOUT TIME
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 AC/DC and a Dirty Little Secret
 
-AC/DC——它不是一支摇滚乐队，而是一个令人喜爱的工程术语缩写。它代表交流电（Alternating Current）和直流电（Direct Current）。这些术语的产生是为了描述电的两种不同模式。牢固理解这两种模式将在工程的各个方面对你有所帮助。在继续讨论这两种模式之前，我们需要先了解一个概念，叫做 *常规电流方向和电子流方向*。
+:term:`AC`/:term:`DC`——它不是一支摇滚乐队，而是一个令人喜爱的工程术语缩写。它代表交流电（Alternating Current）和直流电（Direct Current）。这些术语的产生是为了描述电的两种不同模式。牢固理解这两种模式将在工程的各个方面对你有所帮助。在继续讨论这两种模式之前，我们需要先了解一个概念，叫做 *常规电流方向和电子流方向*。
 
 早在我们还不知道电子存在的时候，电被认为是一种“东西”的流动。本杰明·富兰克林为这种流动选择了一个方向，将一边标记为正，另一边为负。（其背后的故事涉及蜡、羊毛和大量摩擦。[18]_）这些假设当时看起来很合理，但后来我们逐渐明白电子的本质后发现，电其实并不是一种持续流动的“汁液”，电子实际上是向相反的方向运动的。
 
@@ -935,7 +935,7 @@ AC/DC——它不是一支摇滚乐队，而是一个令人喜爱的工程术语
 
 .. toggle::
 
-    AC/DC—it isn’t a rock band; it’s one of those lovable engineering acronyms. It means alternating current and direct current. These terms came into being to describe a couple of different modes of electricity. A firm understanding of these two modes will help you in all aspects of engineering. Before we move on to these two modes, we need to establish an understanding of something called *conventional flow and electron flow*.
+    :term:`AC`/:term:`DC`—it isn’t a rock band; it’s one of those lovable engineering acronyms. It means alternating current and direct current. These terms came into being to describe a couple of different modes of electricity. A firm understanding of these two modes will help you in all aspects of engineering. Before we move on to these two modes, we need to establish an understanding of something called *conventional flow and electron flow*.
 
     Way back before we even knew that electrons existed, electricity was thought of as a flow of something. Benjamin Franklin picked a direction for that flow, labeling one side positive and the other negative. (The reason is a whole other story involving wax, wool, and a lot of rubbing. [18]_) The presumptions made sense, but it turned out later, as we came to understand what electrons are, that electricity wasn’t really a flow and that the electrons actually move in the other direction.
 
@@ -992,7 +992,7 @@ Constant Voltage Sources vs. Constant Current Sources
 
     The world of electronics is very voltage-centric, so you will see voltage sources much more often than current sources. This being the case, I will concentrate more on these types of sources.
 
-    Sources can come in two different types: AC or DC. Let’s take a closer look.
+    Sources can come in two different types: :term:`AC` or :term:`DC`. Let’s take a closer look.
 
     .. figure:: ./img/f2.27.png
         :scale: 50%
@@ -1038,7 +1038,7 @@ Direct Current
 ~~~~~~~~~~~~~~~~~~~~~
 Alternating Current
 
-AC 或交流电，是在发现磁与电之间的相互作用之后产生的。在交流电路中，电流会周期性地改变方向。这意味着电流会增加到峰值，然后降到零，再反方向增加到另一个峰值，然后再回到零，整个过程不断重复。电流以正弦形式交替变化方向，因此称之为 *交流电*。这种电流通常来自你所在地区水电站的大型交流发电机。
+:term:`AC` 或交流电，是在发现磁与电之间的相互作用之后产生的。在交流电路中，电流会周期性地改变方向。这意味着电流会增加到峰值，然后降到零，再反方向增加到另一个峰值，然后再回到零，整个过程不断重复。电流以正弦形式交替变化方向，因此称之为 *交流电*。这种电流通常来自你所在地区水电站的大型交流发电机。
 
 交流电之所以被采用，是因为它容易产生——见 :ref:`图 2.28 <Figure 2.28>`。当你将一圈导线线圈在磁体前移动时，随着磁场强度增加，电流上升；然后随着磁场减弱并极性反转，电流也相应减弱并反转。当线圈经过磁铁时，电压和电流自然以正弦形式变化。
 
@@ -1066,13 +1066,13 @@ AC 或交流电，是在发现磁与电之间的相互作用之后产生的。�
 
 .. [24] 尼古拉·特斯拉（Nikola Tesla，1856–1943）实际上转让了交流电力分配的专利，而这些专利在多年后价值数万亿美元。如果他没有这样做，我们今天的电力系统可能会与现在大不相同。想要了解这位天才颇为悲伤的故事，我建议阅读玛格丽特·切尼（Margaret Cheney）所著的《特斯拉：超越时代的人》（Tesla: Man Out of Time）。
 
-    Nikola Tesla (1856–1943) actually signed over patents for AC power distribution that years later were worth trillions of dollars. If he hadn’t done so, our power systems might have been very different than they are today. To learn more about the somewhat sad story of this genius, I suggest reading Tesla: Man Out of Time, by Margaret Cheney.
+    Nikola Tesla (1856–1943) actually signed over patents for :term:`AC` power distribution that years later were worth trillions of dollars. If he hadn’t done so, our power systems might have been very different than they are today. To learn more about the somewhat sad story of this genius, I suggest reading Tesla: Man Out of Time, by Margaret Cheney.
 
 .. toggle::
 
-    AC or alternating current came about as the interaction of magnets and electricity were discovered. In an AC circuit, the current repetitively changes direction every so often. That means current increases in flow to a peak, then decreases to zero current flow, then increases in flow in the opposite direction to a peak, then back to zero, and the whole process repeats. The current alternates the direction of flow in a sinusoidal fashion, so of course it is called *alternating current*. This type of current most commonly comes from big AC generators at your local hydroelectric dam.
+    :term:`AC` or alternating current came about as the interaction of magnets and electricity were discovered. In an :term:`AC` circuit, the current repetitively changes direction every so often. That means current increases in flow to a peak, then decreases to zero current flow, then increases in flow in the opposite direction to a peak, then back to zero, and the whole process repeats. The current alternates the direction of flow in a sinusoidal fashion, so of course it is called *alternating current*. This type of current most commonly comes from big :term:`AC` generators at your local hydroelectric dam.
 
-    AC power came into being due to this ease of generation—see :ref:`Figure 2.28 <Figure 2.28>`. When you move a coil of wire past a magnet, the current first climbs as the strength of the field increases, then as the field decreases and switches polarity, the current also decreases and switches polarity. The voltage and current change in a sinusoidal fashion naturally as the coil passes by the magnets.
+    :term:`AC` power came into being due to this ease of generation—see :ref:`Figure 2.28 <Figure 2.28>`. When you move a coil of wire past a magnet, the current first climbs as the strength of the field increases, then as the field decreases and switches polarity, the current also decreases and switches polarity. The voltage and current change in a sinusoidal fashion naturally as the coil passes by the magnets.
 
     .. figure:: ./img/f2.28.png
         :scale: 50%
@@ -1080,9 +1080,9 @@ AC 或交流电，是在发现磁与电之间的相互作用之后产生的。�
 
         **FIGURE 2.28 Simple AC generator.**
 
-    As long as you keep moving the coil, AC power will continue to be generated. You will see an AC source on a schematic represented by a sine wave squiggle like the one shown in :ref:`Figure 2.29 <Figure 2.29>`.
+    As long as you keep moving the coil, :term:`AC` power will continue to be generated. You will see an :term:`AC` source on a schematic represented by a sine wave squiggle like the one shown in :ref:`Figure 2.29 <Figure 2.29>`.
 
-    An interesting side note is that there was some argument when plans were being drawn up to distribute electricity across the United States. Edison (yeah, the famous light bulb guy) wanted to put small DC generators in everybody’s home. Another lesser-known genius by the name of Tesla was pitching for AC distribution by wires from a central location. AC made some sense because the voltage could be easily transformed (yeah, you guessed it, with a transformer) from one level to another. That made it possible to jack up the voltage so high that the resistance of the distribution wires had little loss over long distances. There was much debate over the best setup.
+    An interesting side note is that there was some argument when plans were being drawn up to distribute electricity across the United States. Edison (yeah, the famous light bulb guy) wanted to put small DC generators in everybody’s home. Another lesser-known genius by the name of Tesla was pitching for :term:`AC` distribution by wires from a central location. :term:`AC` made some sense because the voltage could be easily transformed (yeah, you guessed it, with a transformer) from one level to another. That made it possible to jack up the voltage so high that the resistance of the distribution wires had little loss over long distances. There was much debate over the best setup.
 
     .. figure:: ./img/f2.29.png
         :scale: 50%
@@ -1090,7 +1090,7 @@ AC 或交流电，是在发现磁与电之间的相互作用之后产生的。�
 
         **FIGURE 2.29 AC voltage and current source.**
 
-    One thing that tipped the scales in the direction we have today was the invention of the AC motor by Tesla. Until then only DC motors had been developed, and since this was before the diode, it wasn’t so easy to make AC into DC. So being able to run a motor was a big deal. Although not as famous as Edison, Tesla [24]_ left a huge legacy in terms of AC power distributions and AC motors. Just look around your house and count up the AC motors in use. (Of course, there are a few light bulbs around, too.)
+    One thing that tipped the scales in the direction we have today was the invention of the :term:`AC` motor by Tesla. Until then only DC motors had been developed, and since this was before the diode, it wasn’t so easy to make :term:`AC` into DC. So being able to run a motor was a big deal. Although not as famous as Edison, Tesla [24]_ left a huge legacy in terms of :term:`AC` power distributions and :term:`AC` motors. Just look around your house and count up the :term:`AC` motors in use. (Of course, there are a few light bulbs around, too.)
 
 回到电容器和电感器
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1150,7 +1150,7 @@ Back to Capacitors and Inductors Again
 
 .. toggle::
 
-    What was the rule of thumb for a capacitor? Capacitors impede a change in voltage. Do you remember the rule for inductors? Inductors impede a change in current. The flip side of these rules is that the cap will let current change all it wants and the inductor will let voltage change all it wants. One fact you can’t ignore when it comes to AC sources is that current and voltage are always changing. How fast they change is a function of a term known as frequency. Frequency is the number of cycles of change per second; it has a unit called hertz. The higher the frequency, the faster the change in voltage and current. Now extrapolate for a moment what might happen to a capacitor in an AC circuit. It follows that a cap will block currents that have zero frequency (like a DC battery) and pass currents that change. The opposite applies to an inductor.
+    What was the rule of thumb for a capacitor? Capacitors impede a change in voltage. Do you remember the rule for inductors? Inductors impede a change in current. The flip side of these rules is that the cap will let current change all it wants and the inductor will let voltage change all it wants. One fact you can’t ignore when it comes to :term:`AC` sources is that current and voltage are always changing. How fast they change is a function of a term known as frequency. Frequency is the number of cycles of change per second; it has a unit called hertz. The higher the frequency, the faster the change in voltage and current. Now extrapolate for a moment what might happen to a capacitor in an :term:`AC` circuit. It follows that a cap will block currents that have zero frequency (like a DC battery) and pass currents that change. The opposite applies to an inductor.
 
     I like to think of it this way: The cap is an infinite resistor at DC or zero frequency. As frequency increases, the “resistance” (technically known as reactance) of the cap gets lower and lower, approaching zero. This capacitive reactance is known as XC and is described by :eq:`equation 2.15`. The unit is ohms, just as for a resistor.
 
@@ -1164,9 +1164,9 @@ Back to Capacitors and Inductors Again
 
         X_L = 2\pi * f * L
 
-    Let’s hook them up to an AC source and vary the frequency to see how current flow is affected. This is easy enough to do in a spreadsheet. Simply plug the reactance equation into Ohm’s Law. The schematic is shown in :ref:`Figure 2.30 <Figure 2.30>`.
+    Let’s hook them up to an :term:`AC` source and vary the frequency to see how current flow is affected. This is easy enough to do in a spreadsheet. Simply plug the reactance equation into Ohm’s Law. The schematic is shown in :ref:`Figure 2.30 <Figure 2.30>`.
 
-    :ref:`Figure 2.31 <Figure 2.31>` shows what happens to current as frequency varies from zero (DC) to really fast (AC) when hooked up to a voltage source.
+    :ref:`Figure 2.31 <Figure 2.31>` shows what happens to current as frequency varies from zero (DC) to really fast (:term:`AC`) when hooked up to a voltage source.
 
     .. figure:: ./img/f2.30.png
         :scale: 50%
@@ -1182,7 +1182,7 @@ Back to Capacitors and Inductors Again
 
     So to repeat, the higher the frequency, the easier the current will pass through a capacitor and the harder it becomes for it to get through an inductor.
 
-    You might be thinking, “What about that step input we put into the RC circuit before? How is it AC?” Actually, as weird as it might sound, it is AC. A really smart guy by the name of Fourier figured out some time ago that hidden in fast-changing signals are all sorts of high frequencies. He proved that the more abrupt the change in the signal, the more high frequencies that are present. An in-depth study of this topic is somewhat beyond the scope of this book, so let it suffice to say that the step input in the previous discussion has a sharp square corner, hidden in which are a whole bunch of high frequencies. These can’t get through the cap, so the corner is knocked off, so to speak, leaving the characteristic curve that we saw as the transient response of the RC circuit.
+    You might be thinking, “What about that step input we put into the RC circuit before? How is it :term:`AC`?” Actually, as weird as it might sound, it is :term:`AC`. A really smart guy by the name of Fourier figured out some time ago that hidden in fast-changing signals are all sorts of high frequencies. He proved that the more abrupt the change in the signal, the more high frequencies that are present. An in-depth study of this topic is somewhat beyond the scope of this book, so let it suffice to say that the step input in the previous discussion has a sharp square corner, hidden in which are a whole bunch of high frequencies. These can’t get through the cap, so the corner is knocked off, so to speak, leaving the characteristic curve that we saw as the transient response of the RC circuit.
 
     Before we move on, we should touch on the topic of *phase shifts*. When both voltage and current are in sync, they are in phase. As we have discussed numerous times, inductors impede a change in current, but voltage is not affected, so if you graph the relationship between voltage and current, you will see that the change in current is a little out of sync with the change in voltage. It is said to be lagging behind. The capacitor has the opposite effect (as always), so the voltage is delayed relative to the current. In this case the change in current leads [25]_ the change in voltage. The current isn’t magically jumping ahead of the voltage; the voltage is getting behind, but from the voltage point of view it looks like the current is changing first.
 
@@ -1230,7 +1230,7 @@ Low-Pass Filters
 
 .. toggle::
 
-    Consider the circuit shown in :ref:`Figure 2.32 <Figure 2.32>`. Note similarities to the RC circuit that we used to first understand the effects of a capacitor. The difference is that now we are going to apply an AC signal to the input rather than the step input we applied before.
+    Consider the circuit shown in :ref:`Figure 2.32 <Figure 2.32>`. Note similarities to the RC circuit that we used to first understand the effects of a capacitor. The difference is that now we are going to apply an :term:`AC` signal to the input rather than the step input we applied before.
 
     .. figure:: ./img/f2.32.png
         :scale: 50%
@@ -1376,7 +1376,7 @@ Active Filters
 
         **FIGURE 2.36 Filter with load.**
 
-    This resistor on the output is a load. It could be another part of the circuit or any number of things, but the point is that it acts like a resistor to ground. How does this affect the RC filter performance? To understand, let’s Thevenize it to “see” how the load affects the output. We start by shorting the voltage source to ground. This is done with AC sources the same as DC, so the circuit would look like :ref:`Figure 2.37 <Figure 2.37>`.
+    This resistor on the output is a load. It could be another part of the circuit or any number of things, but the point is that it acts like a resistor to ground. How does this affect the RC filter performance? To understand, let’s Thevenize it to “see” how the load affects the output. We start by shorting the voltage source to ground. This is done with :term:`AC` sources the same as DC, so the circuit would look like :ref:`Figure 2.37 <Figure 2.37>`.
 
     .. figure:: ./img/f2.37.png
         :scale: 50%

@@ -673,7 +673,7 @@ things the outside world throws at it. In the electronic realm all sorts of inte
 ference can disrupt your design. I once read an article that described something
 called a rusty file test. After the engineer was done with the part, he would plug
 it into the wall and plug in a home-built test fixture next to it. It consisted of a
-wire from AC neutral connected to a file. The hot wire had a bare end that he
+wire from :term:`AC` neutral connected to a file. The hot wire had a bare end that he
 would proceed to rub up and down the rusty old file, sparks flying everywhere. [12]_
 If the circuit passed this test without a hitch, he figured it was good to go. This is
 known as EMI, or electromagnetic interference. It really is a whole topic unto itself,
@@ -922,7 +922,7 @@ DC Level Shifter
 
 This is really the high-pass filter that we have already studied but with a slight
 twist, as shown in :ref:`Figure 4.13 <Figure 4.13>`. Instead of ground, we hook the resistor to a refer-
-ence voltage. Since DC has a frequency of zero, only the AC component will pass
+ence voltage. Since DC has a frequency of zero, only the :term:`AC` component will pass
 and in the process a DC bias will be applied to the signal. Make sure that you
 don’t size the cap and resistor so that the signal you want is attenuated.
 
@@ -938,7 +938,7 @@ Virtual Ground
 
 Using the voltage divider as a reference, the op-amp becomes a voltage source
 with the output matching the voltage at the divider—see :ref:`Figure 4.14 <Figure 4.14>`. This can
-be very useful when you are trying to handle AC signals with only a single-ended
+be very useful when you are trying to handle :term:`AC` signals with only a single-ended
 supply circuit.
 
 .. _Figure 4.14:
@@ -965,11 +965,11 @@ all, thanks to the buffering effect of the op-amp.
 AC-Only Amplifier
 ~~~~~~~~~~~~~~~~~
 
-:ref:`Figure 4.16 <Figure 4.16>` shows another great circuit that works nicely in amplifying AC
+:ref:`Figure 4.16 <Figure 4.16>` shows another great circuit that works nicely in amplifying :term:`AC`
 signals with a single-ended supply. It also has the benefit of not amplifying
 any DC signal components, keeping things like DC offsets from making your
 signal rail. This happens because of the cap in the feedback circuit. Since the
-cap only passes AC current, DC signals see that point as disconnected. When
+cap only passes :term:`AC` current, DC signals see that point as disconnected. When
 the resistor to ground is disconnected, the op-amp acts like the voltage follower
 in the previous circuit.
 
@@ -1147,31 +1147,31 @@ It’s All About the Voltage, Baby!
 Most devices today want to keep the voltage constant. This means that current can
 vary as needed. In the world of power, particularly as it relates to the ubiquitous
 IC, it often seems that you never have the exact voltage you want.
-A huge number of products run off 120 V AC out of a wall socket. Another huge
+A huge number of products run off 120 V :term:`AC` out of a wall socket. Another huge
 group runs off batteries that are charged from those wall sockets, and another
 significant number runs off batteries that you can buy by the caseload at any
 super-duper-mart. Just ask yourself, how many batteries did you buy last Christmas?
 The problem is that most ICs these days want 5, 3.3, or even 1.5 V DC. This is
-nowhere near 120 V, and definitely not AC! Enter the power supply. They come
+nowhere near 120 V, and definitely not :term:`AC`! Enter the power supply. They come
 in two flavors, linear and switcher.
 
 Linear Power Supplies
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-AC rules! It is everywhere. It might seem like the world runs on batteries these
-days, but AC still has the majority foothold. Back when Edison and Tesla
+:term:`AC` rules! It is everywhere. It might seem like the world runs on batteries these
+days, but :term:`AC` still has the majority foothold. Back when Edison and Tesla
 argued over what type of electrical power distribution we should have, I’ll bet
 they had no idea of the type of integration that would occur in the world of
 electricity over the next 100 years. [19]_
 One thing they did know about was the transformer. The basis of the transformer
-is AC current. Put AC into one side of the transformer and, depending on the
-ratio of windings, you get AC out the other side. So, put 120 V AC into a 10-
-to-1 ratio transformer and you will get 12 V AC out (minus heat losses due to
+is :term:`AC` current. Put :term:`AC` into one side of the transformer and, depending on the
+ratio of windings, you get :term:`AC` out the other side. So, put 120 V :term:`AC` into a 10-
+to-1 ratio transformer and you will get 12 V :term:`AC` out (minus heat losses due to
 the resistance of the windings).
 
 The basic transformer is a very simple design. It is coils of wire on hunks of
 metal. That makes it robust. A transformer is a perfectly acceptable way to
-change the voltage of an AC signal. Transformers are used to jack the voltage
+change the voltage of an :term:`AC` signal. Transformers are used to jack the voltage
 way up to minimize losses over long wires, and then they are used again to
 bring the voltage back down to something safer to bring into your house.
 
@@ -1180,7 +1180,7 @@ details but point the reader to Margaret Cheney’s great biography of Tesla, ca
 (Touchstone, 2001).
 
 They further knock the voltage down again in millions of products, but at that
-point they still output an AC signal. However, most of our chips want a DC signal,
+point they still output an :term:`AC` signal. However, most of our chips want a DC signal,
 so what happens next? It goes through a rectifier. There are two commonly used
 options: a bridge rectifier, shown in :ref:`Figure 4.26 <Figure 4.26>`, and a center tap rectifier, shown
 in :ref:`Figure 4.27 <Figure 4.27>`. Note how this uses two fewer diodes and another wire to the transformer, yet the rectified output is the same. Notice the“bumpy” DC output?
@@ -1219,7 +1219,7 @@ rectifier in this circuit will contribute to an increased ripple voltage on the
 output as load increases.
 
 So, two important things affect the voltage on the output of this circuit: the
-voltage going into it (which on most AC circuits can vary 10% or more)
+voltage going into it (which on most :term:`AC` circuits can vary 10% or more)
 and the amount of current being drawn, increasing voltage drop and voltage
 ripple.
 
@@ -1244,7 +1244,7 @@ There are a couple of important things to know about linear regulators.
 They have a minimum input voltage. If the input voltage falls below this
 rating due to circumstances described earlier, the output will fall out of regulation. If this happens you can get ripple on the power supply to your
 chip. If it is small enough, you might never notice it, but if you have some
-high-gain circuits picking up AC noise, check out the power supply for problems first.
+high-gain circuits picking up :term:`AC` noise, check out the power supply for problems first.
 
 The other often-overlooked important spec is the power rating of the regulator.
 A regulator can only handle so much power, even with a heat sink. The power
@@ -1276,11 +1276,11 @@ constant as well.
 DC IS WHAT WE START WITH
 ''''''''''''''''''''''''''
 
-Switching power supplies are DC-to-DC converters. Even those that have an AC
+Switching power supplies are DC-to-DC converters. Even those that have an :term:`AC`
 input create a DC bus, using a rectifier circuit before implementing a switcher.
 You will see switchers replacing just the regulator in our earlier circuit working
 off a DC bus voltage that has already been stepped down by a transformer. You
-will also see switchers that use rectified voltage right off the AC line and drop
+will also see switchers that use rectified voltage right off the :term:`AC` line and drop
 and regulate all in one step from 120 V down to 5 V.
 
 The most basic current-switching supply I know of is the buck converter.
@@ -1993,32 +1993,32 @@ AC and Universal Motors
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 As we mentioned earlier, long ago a smart guy by the name of Tesla helped us
-all by convincing the powers that be that we should have an AC means of
+all by convincing the powers that be that we should have an :term:`AC` means of
 power distribution (vs. the local DC generators that Edison wanted). One key
-factor that helped with this debate was Tesla’s invention of the AC motor.
+factor that helped with this debate was Tesla’s invention of the :term:`AC` motor.
 
-.. [30] Somewhere between an AC motor and a brushless DC PM motor lies the switched reluctance design. It is rare enough that the reader is left to his or her own resources to find out how this unique design works.
+.. [30] Somewhere between an :term:`AC` motor and a brushless DC PM motor lies the switched reluctance design. It is rare enough that the reader is left to his or her own resources to find out how this unique design works.
 
-There are many types of AC motors. One of the most common and the one we
-are going to review here is the AC *induction motor*.
+There are many types of :term:`AC` motors. One of the most common and the one we
+are going to review here is the :term:`AC` *induction motor*.
 
-An AC induction motor induces a current in the armature by varying the magnetic field in the stator. This induced current in turn creates a magnetic field
+An :term:`AC` induction motor induces a current in the armature by varying the magnetic field in the stator. This induced current in turn creates a magnetic field
 that causes the rotor to turn, pushing against the first magnetic field. When
-I first learned this, it seemed to me that an AC motor can pick itself up by its
+I first learned this, it seemed to me that an :term:`AC` motor can pick itself up by its
 bootstraps, so to speak. One result is that the motor tends to have a“sweet
 spot” where the rotational speed is just right, generating maximum speed and
 torque. At lower speeds the torque drops off pretty fast. This leads to the fact
-that AC motors are not known for low-speed torque (unlike the DC versions
-we just discussed). For this reason and the fact that AC motors run off a sinusoidal alternating signal, a huge percentage of AC motors are fixed-speed outputs where the speed depends on the frequency of the AC signal. There are
+that :term:`AC` motors are not known for low-speed torque (unlike the DC versions
+we just discussed). For this reason and the fact that :term:`AC` motors run off a sinusoidal alternating signal, a huge percentage of :term:`AC` motors are fixed-speed outputs where the speed depends on the frequency of the :term:`AC` signal. There are
 variable frequency drives or controls, similar in architecture to DC brushless
-drives. They can vary the frequency into an AC motor, creating a variable-speed
-AC drive. Since AC motors do not have such a simple torque speed curve, these
+drives. They can vary the frequency into an :term:`AC` motor, creating a variable-speed
+:term:`AC` drive. Since :term:`AC` motors do not have such a simple torque speed curve, these
 controls can be fairly complex, often using DSP chips to handle all the math
 needed to get what you want out of one of them.
 
-AC motors have been around for years, making them relatively inexpensive,
+:term:`AC` motors have been around for years, making them relatively inexpensive,
 and their lack of brushes makes them last a long time. They can be built synchronously, like a stepper motor, so that you know they have moved a set
-distance every cycle of the AC wave. You will see them in all sorts of places:
+distance every cycle of the :term:`AC` wave. You will see them in all sorts of places:
 running compressors in a refrigerator to timing the icemaker circuit in the
 same fridge. Back before the“day of the diode,” they were used in millions
 of clocks.
@@ -2026,7 +2026,7 @@ of clocks.
 Universal motors are like PM motors without the permanent magnet. They use
 windings with current flowing through them in the outer field instead of said
 magnets. What makes them universal is the ability to wire them to work with
-an AC or DC source. I shocked myself more than once rewiring the motor
+an :term:`AC` or DC source. I shocked myself more than once rewiring the motor
 down in the old milking barn trying to figure this out.
 
 Motors of all shapes, sizes, types, and voltage preferences are out there. Hopefully
@@ -2133,8 +2133,8 @@ robot folding laundry that I saw there! The room cleaner will soon be a reality!
 .. admonition:: Thumb Rules
 
    - When the thumb rules go on and on, break them into smaller, more digestible pieces.
-   - AC induction motors induce a current in the core, which in turn creates a magnetic field that turns the shaft.
-   - Universal motors can be wired for AC or DC.
+   - :term:`AC` induction motors induce a current in the core, which in turn creates a magnetic field that turns the shaft.
+   - Universal motors can be wired for :term:`AC` or :term:`DC`.
    - Solenoids are reluctant to leave the cozy coil cave when current is on.
    - Pay attention to the minimum switching current on relays.
    - Catch your flies with diodes to keep voltage spikes out of your circuits unless you are trying to make a shock box to surprise your buddy.

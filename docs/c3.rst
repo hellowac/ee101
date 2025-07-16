@@ -204,9 +204,9 @@ NPN 晶体管需要向基极注入电流才能导通，而 PNP 晶体管则需�
 
     Like the diode, charges from the base connection fill up the depletion region and thus current can begin flowing.
 
-.. [8] 这里我采用的是所谓的 *常规电流方向*。关于这一点的更多信息，请参阅 :ref:`第2章 <c2>` 中的 AC/DC 与一个小秘密。
+.. [8] 这里我采用的是所谓的 *常规电流方向*。关于这一点的更多信息，请参阅 :ref:`第2章 <c2>` 中的 :term:`AC`/:term:`DC` 与一个小秘密。
 
-    In this case I am referring to *conventional flow*, as it is called. For more about this, read the AC/DC and a dirty little secret section in :ref:`Chapter 2 <c2>`.
+    In this case I am referring to *conventional flow*, as it is called. For more about this, read the :term:`AC`/:term:`DC` and a dirty little secret section in :ref:`Chapter 2 <c2>`.
 
 .. _Figure 3.4:
 
@@ -567,7 +567,7 @@ Random List of Additional Parts
             This type of transistor consists of two transistors hooked together to increase the gain, as can be seen by the symbol used to represent it. Note that the base emitter diode drop is basically doubled in a Darlington transistor.
 
         **SCR**. 
-            This is what you get when you create a PNPN junction, called a silicon- controlled rectifier. Basically the combination of a diode and a transistor, it can switch large currents easily. But one caveat—you can turn it on but not off. The current through the SCR must get below the holding current (very small) before it turns itself off. The SCR is part of the thyristor family. TRIAC. This is a cousin to the SCR and also is in the thyristor family. Think of it as two SCRs back to back, making it an effective AC switch. It is often found in solid-state relays and the like.
+            This is what you get when you create a PNPN junction, called a silicon- controlled rectifier. Basically the combination of a diode and a transistor, it can switch large currents easily. But one caveat—you can turn it on but not off. The current through the SCR must get below the holding current (very small) before it turns itself off. The SCR is part of the thyristor family. TRIAC. This is a cousin to the SCR and also is in the thyristor family. Think of it as two SCRs back to back, making it an effective :term:`AC` switch. It is often found in solid-state relays and the like.
 
         **IGBT**. 
             The isolated gate bipolar transistor is best thought of as a combination between a transistor and an FET. An FET is used to push a load of current through a big transistor.
@@ -4066,7 +4066,7 @@ SWITCHES
 
 .. [37] 当你看到“高阻抗”一词时，请理解为对直流和交流信号都具有高电阻。
 
-    When you see the words high impedance, think high resistance to both DC and AC signals.
+    When you see the words high impedance, think high resistance to both :term:`DC` and :term:`AC` signals.
 
 .. [38] 上拉或下拉电阻的阻值需要权衡。阻值越高，信号越容易被噪声干扰；阻值越低，开关闭合时电流越大。需要平衡这些因素以优化性能。一般建议从约 10KΩ 开始。
 

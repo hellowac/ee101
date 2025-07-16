@@ -28,7 +28,7 @@ for electrical engineering excellence. Most meters you will encounter today fall
 into the DMM (digital multimeter) category (see :ref:`Figure 5.1 <Figure 5.1>`).
 The first rule of thumb in using a meter (and this applies generally to all the tools
 you use) is to have some idea of what you are looking for. For example, if you
-are trying to read an AC signal, don’t set your meter to DC. This might sound
+are trying to read an :term:`AC` signal, don’t set your meter to DC. This might sound
 overly simplistic, but I believe that poor tool setup is the most common mistake
 made by the average engineer. You can extrapolate from this rule to solve other
 misreading problems. This leads to a second rule and a case in point. The rule:
@@ -124,10 +124,10 @@ line are magnified or reduced by using the time per division or the voltage
 per division controls. To reiterate these controls are handling this “zoom” feature independently.
 
 The next most important control is the capture mode, whether you are seeing a
-DC or an AC signal. Unfortunately, this control is usually somewhat hidden.
+DC or an :term:`AC` signal. Unfortunately, this control is usually somewhat hidden.
 This control is important because it can affect the way a signal looks on the
-screen. (Just take a 0 to 5 V logic signal and read it with your scope in AC mode
-and you will see what I mean.) In AC mode, the inputs are connected via a series capacitor to the guts of the scope. This removes any DC offset the signal
+screen. (Just take a 0 to 5 V logic signal and read it with your scope in :term:`AC` mode
+and you will see what I mean.) In :term:`AC` mode, the inputs are connected via a series capacitor to the guts of the scope. This removes any DC offset the signal
 might have. In DC mode, the voltage level of the signal relative to the ground
 lead of the scope is maintained.
 
@@ -152,9 +152,9 @@ For example, say you want to measure a 5 V signal that switches to ground
 when you press a button. You hook up the scope, press auto set, and then press
 the button. The most likely scenario in this case is the scope sees a 5 V DC
 signal and starts hunting for some frequency to look at. So it zooms in until
-you see a 10 mV AC ripple from the power supply at 60 Hz. Now you have a
+you see a 10 mV :term:`AC` ripple from the power supply at 60 Hz. Now you have a
 scope set to 10 mV per division vertically and 10 ms per division horizontally
-in AC mode. Remember, you were trying to measure a 5 V DC as it switched
+in :term:`AC` mode. Remember, you were trying to measure a 5 V DC as it switched
 to ground on a button press. The auto set totally missed what you were looking
 for. You probably won’t even see the switch action at this setting and, to top it
 off, there will be a 60 Hz ripple on the screen to confuse you.

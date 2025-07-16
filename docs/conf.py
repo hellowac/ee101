@@ -18,6 +18,7 @@ release = "3.0"
 # extensions
 # https://www.sphinx-doc.org/en/master/usage/extensions/index.html
 extensions = [
+    "sphinx.ext.autosectionlabel",
     "sphinx.ext.mathjax",
     "sphinx.ext.intersphinx",
     "sphinx.ext.autodoc",
@@ -29,10 +30,12 @@ extensions = [
     "sphinx_togglebutton",
 ]
 
+source_encoding = 'utf-8'
+language = "zh_CN"
+
 templates_path = ["_templates"]
 exclude_patterns = []
 
-language = "zh_CN"
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
