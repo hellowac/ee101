@@ -54,6 +54,7 @@ Glossary
 
         A large-value capacitor, usually 1 μf or bigger, commonly 100 μf to 0.1 f. Usually an electrolytic cap, not typically good at fast frequencies but has plenty of current capability.
 
+    电容
     电容器
     Cap 
         电容器，一种盘状结构，两个电极板中间夹着不导电的材料。电容器能够以电场的形式储存能量。
