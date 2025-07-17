@@ -1,1419 +1,2172 @@
 .. _c7:
 
-CHAPTER 7 Touchy-Feely Stuff
+第7章 感人至深的东西
 ==============================
+CHAPTER 7 Touchy-Feely Stuff
 
-This is the touchy-feely part of the book. Before you say,“Ick!” and chuck it as
-far away as you can, please read on. Most“
-average” people find the people who
-gravitate to the world of electrical engineering a strange lot. If it weren’t true,
-*Dilbert* simply wouldn’t be funny. From the point of view of the EE, the rest
-of the world often doesn’t seem to “get it.” If you want to be the most successful engineer you can, there are some touchy-feely things you ought to chalk up
-on your list of acquired skills. Yes, it is extremely likely that these are going to
-be acquired skills; the engineer who comes by these capabilities naturally is a
-rare breed. [1]_
+这是本书中偏重"人情世故"的部分。在你喊出"呃！"并把它扔得越远越好之前，请继续读下去。大多数"普通"人会觉得投身电气工程领域的人很奇怪。如果这不是事实，《呆伯特》漫画根本不会好笑。从电气工程师的角度看，外界往往似乎"不明白"我们。如果你想成为最成功的工程师，有些"人情世故"方面的技能应该列入你的学习清单。是的，这些极有可能是需要后天习得的技能——天生具备这些能力的工程师实属罕见。[1]_
 
-PEOPLE SKILLS
+.. toggle::
+
+   This is the touchy-feely part of the book. Before you say,“Ick!” and chuck it as
+   far away as you can, please read on. Most“
+   average” people find the people who
+   gravitate to the world of electrical engineering a strange lot. If it weren’t true,
+   *Dilbert* simply wouldn’t be funny. From the point of view of the EE, the rest
+   of the world often doesn’t seem to “get it.” If you want to be the most successful engineer you can, there are some touchy-feely things you ought to chalk up
+   on your list of acquired skills. Yes, it is extremely likely that these are going to
+   be acquired skills; the engineer who comes by these capabilities naturally is a
+   rare breed. [1]_
+
+人际交往技巧
 ---------------
+PEOPLE SKILLS
 
-One difficulty engineers often have in dealing with people is the fact that
-interactions between us human beings can’t be described by slick mathematical
-formulae like the various circuits they are working with. I personally think this
-is why you often see engineering groups managed by non-engineering majors. [2]_
-So, what should you do? One thing I have found is that, though there is no
-perfect equation to describe people, there are some categories into which you
-can sort people to help you understand how to interact with them.
+工程师在人际交往中常遇到的一个难题是：人类之间的互动无法用像他们研究的电路那样简洁的数学公式来描述。我个人认为这就是为什么工程团队通常由非工程专业的管理者领导的原因。[2]_ 那么，你该怎么办？我发现虽然不存在完美的人际关系公式，但你可以将人群分类来帮助理解如何与他们互动。
 
-In any business organization there are levels of hierarchy—there is no round
-table. Someone sits at the head and it goes down from there. There is always
-a pecking order, even if it isn’t on the org chart. Let’s sort the personality
-categories into various levels of interaction, since that will definitely affect
-how you should react. We might as well start at the top.
+任何商业组织都存在层级结构——没有圆桌会议。总有人坐在顶端，权力由此向下延伸。即使组织结构图上没有标明，也总是存在等级秩序。让我们将人格类型按互动层级分类，因为这绝对会影响你的应对方式。不妨从顶层开始。
 
-.. [1] I might venture that these are the people like Steve Jobs, Bill Gates, and other famous and now very rich self-avowed techno-nerds. Maybe if you can grasp these skills, that type of success will be in your future. Trust me, it is much easier for you to develop socially than it is to teach those other types how to pick apart a circuit!
-.. [2] If you dig deeper, you will find that these types of managers can somehow interpret typical“sparky speak” into language that is less analytical and somehow more socially skilled types can handle.
+.. [1] 我敢说这些人就像史蒂夫·乔布斯、比尔·盖茨和其他著名且现在非常富有的自称技术宅。也许掌握这些技能后，那种成功也会属于你。相信我，培养社交能力比教那些人分析电路容易多了！
 
-Note that I am using masculine pronouns in these people descriptions for
-convenience only. Of course, all these people can be either male or female.
-Maybe someday we’ll invent some effective gender-neutral pronouns. Until then,
-please feel free to use the pronoun that offends you the least or makes you laugh
-the most!
+   I might venture that these are the people like Steve Jobs, Bill Gates, and other famous and now very rich self-avowed techno-nerds. Maybe if you can grasp these skills, that type of success will be in your future. Trust me, it is much easier for you to develop socially than it is to teach those other types how to pick apart a circuit!
 
-Those Over You
+.. [2] 深入了解后你会发现，这类管理者总能以某种方式将典型的"技术宅语言"翻译成不那么分析化、更符合社交达人处理方式的语言。
+
+   If you dig deeper, you will find that these types of managers can somehow interpret typical“sparky speak” into language that is less analytical and somehow more socially skilled types can handle.
+
+注意：在这些人物描述中我仅为了方便使用了男性代词。当然，这些人可以是男性也可以是女性。也许有一天我们会发明出有效的性别中立代词。在此之前，请随意使用最不冒犯你或让你发笑最多的代词！
+
+.. toggle::
+
+   One difficulty engineers often have in dealing with people is the fact that
+   interactions between us human beings can’t be described by slick mathematical
+   formulae like the various circuits they are working with. I personally think this
+   is why you often see engineering groups managed by non-engineering majors. [2]_
+   So, what should you do? One thing I have found is that, though there is no
+   perfect equation to describe people, there are some categories into which you
+   can sort people to help you understand how to interact with them.
+
+   In any business organization there are levels of hierarchy—there is no round
+   table. Someone sits at the head and it goes down from there. There is always
+   a pecking order, even if it isn’t on the org chart. Let’s sort the personality
+   categories into various levels of interaction, since that will definitely affect
+   how you should react. We might as well start at the top.
+
+   Note that I am using masculine pronouns in these people descriptions for
+   convenience only. Of course, all these people can be either male or female.
+   Maybe someday we’ll invent some effective gender-neutral pronouns. Until then,
+   please feel free to use the pronoun that offends you the least or makes you laugh
+   the most!
+
+那些在你之上的人
 ~~~~~~~~~~~~~~~~~~
+Your Superiors
 
-This means your boss, the person you report to, and the person who takes
-responsibility for what you do. Of course, that is in a perfect world. [3]_ First, some
-general rules:
+这指的是你的上司、你汇报的对象以及对你工作负责的人。当然，这是在理想世界中的情况。[3]_ 首先是一些基本原则：
 
-- *Avoid talking smack about your boss*. Even if he deserves it, constant griping and complaining will usually hurt you more than him.
-- *Maintain integrity*. Sometimes lying and deception can get you ahead in the short run, but in virtually every case it will come back to haunt you.
-- *Help your boss succeed*. This can be hard sometimes, especially if your boss never gives you credit, but even if that is the case, be a great employee. Someone will notice.
+- *避免说上司坏话*。即使他罪有应得，持续的抱怨通常对你伤害比对大。
+- *保持正直*。有时撒谎和欺骗能让你短期获利，但几乎每次都会反噬。
+- *帮助上司成功*。这有时很难，特别是当上司从不给你功劳时，但即便如此，也要做个优秀员工。总会有人注意到的。
 
-The following sections contain descriptions of some boss types.
+以下部分描述了几种上司类型。
 
+.. toggle::
+
+   This means your boss, the person you report to, and the person who takes
+   responsibility for what you do. Of course, that is in a perfect world. [3]_ First, some
+   general rules:
+
+   - *Avoid talking smack about your boss*. Even if he deserves it, constant griping and complaining will usually hurt you more than him.
+   - *Maintain integrity*. Sometimes lying and deception can get you ahead in the short run, but in virtually every case it will come back to haunt you.
+   - *Help your boss succeed*. This can be hard sometimes, especially if your boss never gives you credit, but even if that is the case, be a great employee. Someone will notice.
+
+   The following sections contain descriptions of some boss types.
+
+无能型
+''''''''''''''''''''
 THE DILBERT BOSS
+
+这是那种无能的上司。他根本不懂你在做什么，更关心自己的地位而非公司成功。他随时准备牺牲下属来美化自己形象。这种人会把你的所有功劳据为己有，把所有错误归咎于你。首先，尽你所能做好工作。如果你是有价值的员工，上司的自私会让他留你在身边。其次，寻找能让其他管理层看到你能力的机会。这能抵消上司试图埋没你的影响。如果可能，调离这个部门，因为跟着这种上司很难有发展。[4]_
+
+.. toggle::
+
+   This is the clueless boss. He has no idea what you do, and he is more concerned
+   with his position than with the success of the company. He is more than willing
+   to sacrifice one of his employees to make himself look good. This is the type to
+   take credit for everything you do right and blame you for everything that goes
+   wrong. First, do the best job you can. Your boss’s own self-interest will keep
+   you around if you are a valuable employee. Second, look for opportunities
+   where others in management can see your skills. This will counter the fact that
+   your boss tries to hide you away. Transfer out of this group if you can, since it
+   will be difficult to get far with this boss. [4]_
+
+谈判型
 ''''''''''''''''''''
-
-This is the clueless boss. He has no idea what you do, and he is more concerned
-with his position than with the success of the company. He is more than willing
-to sacrifice one of his employees to make himself look good. This is the type to
-take credit for everything you do right and blame you for everything that goes
-wrong. First, do the best job you can. Your boss’s own self-interest will keep
-you around if you are a valuable employee. Second, look for opportunities
-where others in management can see your skills. This will counter the fact that
-your boss tries to hide you away. Transfer out of this group if you can, since it
-will be difficult to get far with this boss. [4]_
-
 NEGOTIATOR BOSS
+
+这是销售员类型，终极谈判专家。他总会设定超出合理范围的目标，认为这样能激励你超越自我极限。首先，不要被这些要求吓倒。然后你有两种应对方式：自己也成为谈判专家——高估完成任务所需的时间和资金，为自己争取谈判空间（就像《星际迷航》里史考蒂对柯克船长做的那样）。另一种选择是明确说出你能做什么并坚持立场。但别低估谈判专家——当你达不到他设定的目标时，他会非常失望。这种上司未必是坏老板。你可能遇到更糟的。"宁可瞄准太阳失误，也别瞄准牛粪命中"是这类上司的信条。
+
+.. [3] 我很清楚确实存在这样的上司：你表现好时独占功劳，你犯错时全部归咎于你。真心希望你永远不会遇到这种上司，但请继续阅读，这些规则在你遇到时会有帮助。
+
+   I am well aware that there are plenty of boss types who will take all the credit when you do good and lay all the blame at your feet when you screw up. I truly hope you are never saddled with such a boss, but read on for some rules that will help if you are.
+
+.. [4] 这就是你稍后会了解到的那种莫名其妙被提拔到管理层的"庸才"。是的，这种情况确实存在，如果在你公司很普遍，你最好开始另谋高就。
+
+   This is the“dud” that you will learn about later who was somehow promoted to management. Yes, that happens, and if it is prevalent in your company, it’s best that you start looking elsewhere for employment.
+
+.. toggle::
+
+   This is the salesman type, the supreme negotiator. He will always set the goal
+   beyond any reasonable point, figuring that somehow this will encourage you to
+   go further than you think you can. First, don’t be discouraged by these requests.
+   After that, you have two approaches you can take. Be a negotiator yourself--overestimate the time and money it will take to get the job done so that you have
+   room to negotiate (like Scotty does for Captain Kirk on *Star Trek*). The other
+   option is to say what you can do and stick by your guns. Don’t underestimate with
+   the negotiator, though—he will be disappointed when you don’t meet the goal
+   you said you would. The negotiator is not necessarily a bad boss to have. You
+   could do much worse.“Better to aim for the sun and miss than aim for a cow
+   pie and hit it,” is the creed of this boss.
+
+"好好先生"型
 ''''''''''''''''''''
-
-This is the salesman type, the supreme negotiator. He will always set the goal
-beyond any reasonable point, figuring that somehow this will encourage you to
-go further than you think you can. First, don’t be discouraged by these requests.
-After that, you have two approaches you can take. Be a negotiator yourself--overestimate the time and money it will take to get the job done so that you have
-room to negotiate (like Scotty does for Captain Kirk on *Star Trek*). The other
-option is to say what you can do and stick by your guns. Don’t underestimate with
-the negotiator, though—he will be disappointed when you don’t meet the goal
-you said you would. The negotiator is not necessarily a bad boss to have. You
-could do much worse.“Better to aim for the sun and miss than aim for a cow
-pie and hit it,” is the creed of this boss.
-
-.. [3] I am well aware that there are plenty of boss types who will take all the credit when you do good and lay all the blame at your feet when you screw up. I truly hope you are never saddled with such a boss, but read on for some rules that will help if you are.
-.. [4] This is the“dud” that you will learn about later who was somehow promoted to management. Yes, that happens, and if it is prevalent in your company, it’s best that you start looking elsewhere for employment.
-
 THE“YES MAN” BOSS
+
+"好好先生"型上司是唯命是从的老板。他只对上级领导言听计从，却常常不维护下属权益。这种上司经常给你设定不可能的最后期限和任务目标。但要注意别犯这样的错误——对"好好先生"型上司也当"好好先生"，这种组合堪称灾难。要让这类上司清楚知道完成任务的实际所需条件。如果你个性强势，可以在他对上级陈述真实情况时挺身相助。通常这类上司会把你的成败都算在自己头上。
+
+.. toggle::
+
+   The“yes man” is the submissive boss. He tells his boss anything he wants
+   to hear and will often not defend his employees. It is not unusual for this boss
+   to commit you to impossible deadlines and tasks. Don’t make the mistake
+   of being a yes man to a yes man, though—that is a disastrous combination.
+   Let this type of boss know what it is really going to take to get the job done.
+   If you have a strong personality, you can help this boss by standing up for
+   him if he does say what it’s going to take to get the job done to his boss.
+   Generally, this boss will give you the credit for both your successes and
+   failures.
+
+微观管理型
 ''''''''''''''''''''
-
-The“yes man” is the submissive boss. He tells his boss anything he wants
-to hear and will often not defend his employees. It is not unusual for this boss
-to commit you to impossible deadlines and tasks. Don’t make the mistake
-of being a yes man to a yes man, though—that is a disastrous combination.
-Let this type of boss know what it is really going to take to get the job done.
-If you have a strong personality, you can help this boss by standing up for
-him if he does say what it’s going to take to get the job done to his boss.
-Generally, this boss will give you the credit for both your successes and
-failures.
-
 THE MICROMANAGER
+
+微观管理型上司试图掌控每个细节。尽量快速处理他的状态报告要求和定期更新，这样才能尽快回归正常工作。他甚至可能固执到当你试图自主决策时就大发雷霆。
+
+我认为应对这类上司的最佳方式就是确保按时提交那些报告和更新。努力让自己变得如此可靠，以至于这位上司能对你建立信任。你通常可以轻松与他交流（毕竟会有足够多的会议机会）。经常与他沟通你的工作优先级，保持与部门目标的一致性。只要他不过分极端，比起"呆伯特"型上司，这位还算是不错的选择。所以不必太自怨自艾。
+
+.. toggle::
+
+   The micromanager tries to manage every detail. Try to handle his status report
+   requests and required updates as quickly as possible so that you can get back to
+   business. He might even be so obstinate as to be upset when you try to make a
+   decision for yourself.
+
+   I think the best way to deal with this type is to simply make sure you get those
+   reports and updates in on time. Try to be so reliable that this boss will gain
+   trust in you. Often you can talk to this boss easily (there will certainly be
+   enough meetings with this guy). Talk to him about your priorities often, and
+   stay in sync with his goals for the department. As long as he doesn’t carry it
+   to extremes, you are better off with this guy than the Dilbert boss. So don’t feel
+   too bad for yourself.
+
+宏观管理型
 ''''''''''''''''''''
-
-The micromanager tries to manage every detail. Try to handle his status report
-requests and required updates as quickly as possible so that you can get back to
-business. He might even be so obstinate as to be upset when you try to make a
-decision for yourself.
-
-I think the best way to deal with this type is to simply make sure you get those
-reports and updates in on time. Try to be so reliable that this boss will gain
-trust in you. Often you can talk to this boss easily (there will certainly be
-enough meetings with this guy). Talk to him about your priorities often, and
-stay in sync with his goals for the department. As long as he doesn’t carry it
-to extremes, you are better off with this guy than the Dilbert boss. So don’t feel
-too bad for yourself.
-
 THE MACRO MANAGER
 ''''''''''''''''''''
 
-The opposite of the micromanager, the macro manager is the boss who is never
-there when you really need some help. He is hard to get hold of and often
-difficult to talk to. This leaves you making a lot of decisions that you might
-not feel comfortable with. You might even be criticized for decisions you’ve made after you asked repetitively for some feedback on that particular issue
-without response.
+与微观管理型相反，宏观管理型上司是你真正需要帮助时永远不在场的老板。他很难联系上，交流起来也常常很困难。这导致你必须做出许多自己都不太放心的决策。甚至可能因为你反复寻求反馈却得不到回应，最终做出的决定还会遭到批评。
 
-The best thing to do in this situation is to take advantage of the opportunity to
-learn to make decisions on your own. You might screw up, but that is a risk
-you take in any decision situation, so don’t be afraid of making a mistake. If your
-boss does question your reasoning, try to explain your decision process. Remem-
-ber, he wasn’t there for all the things that led to your choice. Don’t assume that
-he has the background on the issue that you do. The best thing about this boss is
-the opportunity you will have to shine. You will be given plenty of rope; try not
-to hang yourself!
+这种情况下最好的做法是利用机会学会自主决策。你可能会犯错，但任何决策都存在风险，所以不必害怕犯错。如果上司质疑你的决策理由，试着解释你的决策过程。记住，他并不了解促成你选择的所有背景信息。不要假设他对问题的认知和你一样全面。这类上司最大的好处是能给你施展才华的机会。他会给你足够的发挥空间——尽量不要玩砸了！
 
+.. toggle::
+
+   The opposite of the micromanager, the macro manager is the boss who is never
+   there when you really need some help. He is hard to get hold of and often
+   difficult to talk to. This leaves you making a lot of decisions that you might
+   not feel comfortable with. You might even be criticized for decisions you’ve made after you asked repetitively for some feedback on that particular issue
+   without response.
+
+   The best thing to do in this situation is to take advantage of the opportunity to
+   learn to make decisions on your own. You might screw up, but that is a risk
+   you take in any decision situation, so don’t be afraid of making a mistake. If your
+   boss does question your reasoning, try to explain your decision process. Remem-
+   ber, he wasn’t there for all the things that led to your choice. Don’t assume that
+   he has the background on the issue that you do. The best thing about this boss is
+   the opportunity you will have to shine. You will be given plenty of rope; try not
+   to hang yourself!
+
+完美的上司
+''''''''''''''''''''
 THE PERFECT BOSS
+
+最理想的上司会在为你挡错的同时给予适当肯定，给你学习成长的机会。如果你遇到这样的上司，请全力以赴争取成功——你一定能行！你应该珍惜这样的机会。他通常会给你很大的发挥空间。他明白自己的成功取决于你的成功，并会帮助你达成目标。即使这位上司因你的成绩获得赞誉也不必介怀。如果是位好上司，他创造了让你成功的环境，理应获得认可。通常随着这位上司的成功，你也会一同进步，因为他会带着你一起成长。
+
+.. toggle::
+
+   The best boss gives you some credit while buffering you against mistakes,
+   giving you a chance to learn and grow. If you have this type of boss, do your
+   best to succeed and you will! You should hang on for the ride. Often he
+   will give you plenty of leeway to succeed. He will recognize that his success
+   depends on yours, and he will help you succeed. Don’t be upset if this boss
+   gets some credit for something you did. If he is a good boss, he created the
+   environment that allowed you to be a success and deserves a nod for that.
+   Often, as this boss succeeds, you will as well because he will bring you along
+   with him.
+
+你上司的上司
 ''''''''''''''''''''
-
-The best boss gives you some credit while buffering you against mistakes,
-giving you a chance to learn and grow. If you have this type of boss, do your
-best to succeed and you will! You should hang on for the ride. Often he
-will give you plenty of leeway to succeed. He will recognize that his success
-depends on yours, and he will help you succeed. Don’t be upset if this boss
-gets some credit for something you did. If he is a good boss, he created the
-environment that allowed you to be a success and deserves a nod for that.
-Often, as this boss succeeds, you will as well because he will bring you along
-with him.
-
 YOUR BOSS’S BOSS
+
+你可能与上司的上司接触不多，但每次互动都要格外谨慎。这是你作为员工最受瞩目的时刻。尽量不要过度紧张。记得我曾处理过第一份工作时CEO视察生产线的情况。由于电力问题导致产线停工，当时只是质检部门兼职学生技术员的我刚找出故障原因，CEO就到现场查看情况。向他展示故障原因时我紧张得发抖。起初他不相信我的判断，于是我先展示损坏的部件，修复后再故意破坏重现故障，他才满意并恢复生产。仅再经历两三次类似情况，CEO就记住了我的名字。如果当时惊慌失措，无论判断多么正确，结果都会对我更糟。
+
+.. toggle::
+
+   You might not get a lot of interaction with your boss’s boss, but take care when
+   you do. This is the most visible you will get as an employee. Try not to be too
+   nervous. I remember one time I was dealing with the CEO of the first company
+   I worked for. Our production line was shut down because of an electronic
+   power problem. I was a lowly part-time student tech in the QC department.
+   I had just figured out the problem when he came to the line to see what was
+   up. I was shaking in my shoes as I showed him the cause of failure. He didn’t
+   believe me at first, so I showed him a broken one, fixed it, then broke it again.
+   He was satisfied, and production started back up. It only took two or three
+   more of those situations and the CEO knew my name. If I had panicked in that
+   position, no matter how right I had been, the results for me would have been a
+   lot worse.
+
+上司概要
 ''''''''''''''''''''
-
-You might not get a lot of interaction with your boss’s boss, but take care when
-you do. This is the most visible you will get as an employee. Try not to be too
-nervous. I remember one time I was dealing with the CEO of the first company
-I worked for. Our production line was shut down because of an electronic
-power problem. I was a lowly part-time student tech in the QC department.
-I had just figured out the problem when he came to the line to see what was
-up. I was shaking in my shoes as I showed him the cause of failure. He didn’t
-believe me at first, so I showed him a broken one, fixed it, then broke it again.
-He was satisfied, and production started back up. It only took two or three
-more of those situations and the CEO knew my name. If I had panicked in that
-position, no matter how right I had been, the results for me would have been a
-lot worse.
-
 THOSE OVER YOU SUMMARY
-''''''''''''''''''''
 
-A point to consider with these categories is that it is possible to find variations
-of these types. After all, as we said originally, this people stuff isn’t an exact
-science. If your boss is a blend of these types, you will probably have to blend
-your response as well. If it helps, make up your own boss type; figure out his or
-her attributes and what seems to make him tick. [5]_ Use what you figure out to
-guide your choices.
+需要考虑的是，这些类型可能存在变体。毕竟最初我们就说过，人际相处这门学问不是精确科学。如果你的上司是这些类型的混合体，你可能也需要混合应对策略。如果觉得有帮助，不妨自创一种上司类型——分析其特质和行为动机。[5]_ 运用你的分析结果来指导应对选择。
 
-Those at Your Level
+.. [5] 注意：不要期待这类人每次都表现一致。记住，人不像电路那样可预测。不过这种防范意识非常有用，通常能让你在职场受益匪浅。
+
+   Take caution to not expect the same behavior every time. Remember, people aren’t as predictable as circuits. Even so, this can be a very effective exercise. It will help your career more often than not.
+
+.. toggle::
+
+   A point to consider with these categories is that it is possible to find variations
+   of these types. After all, as we said originally, this people stuff isn’t an exact
+   science. If your boss is a blend of these types, you will probably have to blend
+   your response as well. If it helps, make up your own boss type; figure out his or
+   her attributes and what seems to make him tick. [5]_ Use what you figure out to
+   guide your choices.
+
+和你同级别的人
 ~~~~~~~~~~~~~~~~~~~~~~
+Those at Your Level
 
-Ah, your coworkers, your fellow peons, and sometimes your enemies. This level
-of interaction with your network of peers is the best place to create future
-opportunities. The following subsections describe some peer types.
+与你平级的同事们——他们既是你的战友，也是你的竞争对手。这个层级的互动关系最能创造未来机遇。以下小节将描述几种常见的同事类型。
 
+.. toggle::
+
+   Ah, your coworkers, your fellow peons, and sometimes your enemies. This level
+   of interaction with your network of peers is the best place to create future
+   opportunities. The following subsections describe some peer types.
+
+"潜伏者"型
+''''''''''''''''''''
 THE SNEAK
+
+警惕"潜伏者"型同事。他们总是试图试探规则的边界，只在老板眼皮底下才装模作样地工作。千万别卷入他们利用公司的任何阴谋——这种行为往往没有好下场，还会让你也被贴上"潜伏者"的标签。
+
+.. toggle::
+
+   Watch out for the sneak. He is always trying to see what he can get away with.
+   He will only work hard when the boss is watching. Don’t get caught in any of
+   his schemes to take advantage of the company. That usually turns out badly
+   and gets you branded as a sneak as well.
+
+权力贩子
 ''''''''''''''''''''
-
-Watch out for the sneak. He is always trying to see what he can get away with.
-He will only work hard when the boss is watching. Don’t get caught in any of
-his schemes to take advantage of the company. That usually turns out badly
-and gets you branded as a sneak as well.
-
-.. [5] Take caution to not expect the same behavior every time. Remember, people aren’t as predictable as circuits. Even so, this can be a very effective exercise. It will help your career more often than not.
-
 THE POWER MONGER
+
+这类职场政治家深信权力和声望至高无上。可悲的是，他们可能通过抹黑你来抬高自己。尽量不要给他任何可以攻击你的把柄，避免让他借机显得比你优秀。虽然可以与这类人结成"互相帮助"的联盟，但务必信守承诺——毕竟你是在利用他的私心来确保他履行约定。
+
+.. toggle::
+
+   A true political figure at work, the power monger believes it is very important to
+   build power and reputation. What is sad is that he might try to make you look
+   bad to make himself look good. Try not to give him any ammunition that he
+   can use to prove how badly you are doing, thus making him look better. You
+   can make alliances with this guy pretty reliably, but it will be an“I scratch your
+   back, you scratch mine” type of relationship. If you make deals with this per-
+   son, you will need to hold up your end of the bargain, since you will be relying
+   on his self-interest to hold up his end.
+
+"獾式"同事
 ''''''''''''''''''''
-
-A true political figure at work, the power monger believes it is very important to
-build power and reputation. What is sad is that he might try to make you look
-bad to make himself look good. Try not to give him any ammunition that he
-can use to prove how badly you are doing, thus making him look better. You
-can make alliances with this guy pretty reliably, but it will be an“I scratch your
-back, you scratch mine” type of relationship. If you make deals with this per-
-son, you will need to hold up your end of the bargain, since you will be relying
-on his self-interest to hold up his end.
-
 THE BADGER
+
+"獾式"同事容易情绪化应对问题。当他感到被冒犯时，会像被逼入绝境的獾一样充满攻击性。最佳策略是暂时退让，给他冷静的时间。如果能帮助他平复情绪（或耐心等待），通常就能理性沟通。这类人往往也是工作狂，或许这正是他们脾气暴躁的原因。
+
+.. toggle::
+
+   The badger will tend to respond emotionally to situations. If he feels he is being
+   attacked, he will likely get defensive and angry like a badger when cornered.
+   The best thing to do is back down and give him a chance to calm down. If
+   you can help this person get past the emotion (or just wait it out), you can
+   usually reason with him. It is not unusual that the badger is also a workaholic.
+   Maybe that is why badgers are so ornery.
+
+普通人
 ''''''''''''''''''''
-
-The badger will tend to respond emotionally to situations. If he feels he is being
-attacked, he will likely get defensive and angry like a badger when cornered.
-The best thing to do is back down and give him a chance to calm down. If
-you can help this person get past the emotion (or just wait it out), you can
-usually reason with him. It is not unusual that the badger is also a workaholic.
-Maybe that is why badgers are so ornery.
-
 THE AVERAGE JOE (OR JANE)
+
+每个公司都充斥着"普通员工"。他们工作表现平平但可靠稳定。如果没有这些"普通员工"，公司根本无法组建和维系。他们喜欢依赖他人做决策，常来征求你的意见。这类人往往寻求领导者指引。若能赢得他们的尊重，众人都会看在眼里——这可能为你带来晋升机会。
+
+.. toggle::
+
+   Companies are filled with average Joes. These people do a decent job, nothing
+   stellar, but are fairly reliable. I believe that if it weren’t for average Joes, compa-
+   nies could never be formed and kept together. These people like the security of
+   someone else making the tough decisions. They will often ask you what they
+   should do. Average Joes like to look to a leader. If you can gain their respect,
+   others will notice and it could lead to a promotion.
+
+职场新星
 ''''''''''''''''''''
-
-Companies are filled with average Joes. These people do a decent job, nothing
-stellar, but are fairly reliable. I believe that if it weren’t for average Joes, compa-
-nies could never be formed and kept together. These people like the security of
-someone else making the tough decisions. They will often ask you what they
-should do. Average Joes like to look to a leader. If you can gain their respect,
-others will notice and it could lead to a promotion.
-
 THE SHOOTING STAR
-''''''''''''''''''''
 
-These are the guys (or gals) who get it. They work hard but don’t make them-
-selves into badgers. They are reliable and often correct in their decisions. True
-shooting stars possess integrity and a desire for the company to succeed. They
-often get promoted as these skills are recognized. This is a good friend to have
-in a company, but hopefully after reading this book you will be the shooting
-star that everyone else wants as a compatriot!
+这些"职场新星"（无论男女）深谙职场之道。他们努力工作却不会变成"獾式"同事，既可靠又善于决策。真正的职场新星兼具正直品格和公司成功欲，这种能力往往会被上级赏识从而获得晋升。在公司里拥有这样的朋友很好，但希望读完本书后，你能成为别人都想追随的那颗新星！
 
-Often the shooting star is a leader and a true mentor; even if the organization
-chart doesn’t show it, you should listen to the star’s advice whenever you can.
+职场新星通常具备领导才能和导师潜质——即使组织架构图上没有体现，你也应该尽可能听取他们的建议。
 
+.. toggle::
+
+   These are the guys (or gals) who get it. They work hard but don’t make them-
+   selves into badgers. They are reliable and often correct in their decisions. True
+   shooting stars possess integrity and a desire for the company to succeed. They
+   often get promoted as these skills are recognized. This is a good friend to have
+   in a company, but hopefully after reading this book you will be the shooting
+   star that everyone else wants as a compatriot!
+
+   Often the shooting star is a leader and a true mentor; even if the organization
+   chart doesn’t show it, you should listen to the star’s advice whenever you can.
+
+与你同级的人小结
+''''''''''''''''''''''''''''''
 THOSE AT YOUR LEVEL SUMMARY
-''''''''''''''''''''''''''''''
 
-One of the most important things to have at this level is respect, for yourself
-and for the others you deal with. You gain respect for yourself by following
-through with what you say you will do. Stick to your word. If you make a mis-
-take, say so, correct it, and move on. Give others a chance to build respect at the
-same time as you. This mutual respect is a way to build a network of contacts
-that is synergistic in nature. Here is where you and your colleagues can help
-each other out, do each other favors, and be more successful than you would
-be on your own.
+在这个层级最重要的品质就是相互尊重——包括自尊和尊重他人。通过兑现承诺来赢得自尊，犯错时勇于承认并改正。同时给予他人建立尊重的机会，这种相互尊重的关系能构建起协同效应的人脉网络。在这里，你和同事可以互相帮助、彼此扶持，最终取得远超个人能力的成就。
 
-Those Under You
+.. toggle::
+
+   One of the most important things to have at this level is respect, for yourself
+   and for the others you deal with. You gain respect for yourself by following
+   through with what you say you will do. Stick to your word. If you make a mis-
+   take, say so, correct it, and move on. Give others a chance to build respect at the
+   same time as you. This mutual respect is a way to build a network of contacts
+   that is synergistic in nature. Here is where you and your colleagues can help
+   each other out, do each other favors, and be more successful than you would
+   be on your own.
+
+你的下级
 ~~~~~~~~~~~~~~~~~
+Those Under You
 
-You might be looking for a chance to lead, or you have had it forced on you.
-Either way, you ended up with some subordinates who answer to you. This
-is commonly the hardest adjustment for the true engineer type. As these
-people below you on the org chart interact, you might be baffled at the
-behaviors and personality traits that come out. Here are a few buckets to
-sort them into.
+你可能正在寻求领导机会，或是被迫承担管理职责。无论哪种情况，最终你都会拥有一些需要向你汇报的下属。这对纯粹的技术型工程师来说通常是最难适应的角色转变。当你观察组织架构图下方这些人的互动时，可能会对他们展现的行为模式和个性特征感到困惑。以下是几种常见的下属类型分类。
 
+.. toggle:: 
+
+   You might be looking for a chance to lead, or you have had it forced on you.
+   Either way, you ended up with some subordinates who answer to you. This
+   is commonly the hardest adjustment for the true engineer type. As these
+   people below you on the org chart interact, you might be baffled at the
+   behaviors and personality traits that come out. Here are a few buckets to
+   sort them into.
+
+聪明的偷懒者
+''''''''''''''''''''''''''''''
 THE SMART SLACKER
+
+"聪明偷懒者"通常智商很高，能比团队其他人更快完成工作。正因如此，当别人还在忙碌时，他们可能已经提前完成任务。但他们不会主动寻找更多工作——而是偷闲摸鱼，上网冲浪或做些与工作无关的事。通常他们打字速度足够快，当你经过时能迅速装出忙碌的样子。给他们安排满满的工作任务。如果他们的懈怠行为变得严重，你可能需要单独约谈解决。
+
+.. toggle:: 
+
+   Smart slackers are usually pretty smart and can get a job done more quickly than
+   most others in the group. For this reason they might get some free time when
+   others don’t. But they don’t go looking for anymore work—they goof off or spend
+   the time surfing the’Net or other such things. Usually they are quick enough on
+   the keyboard to get back to looking busy when you walk by. Keep their plates
+   loaded to the brim. If their slacking becomes a big problem, you might need to
+   call them in and discuss it.
+
+缺乏表扬
 ''''''''''''''''''''''''''''''
-
-Smart slackers are usually pretty smart and can get a job done more quickly than
-most others in the group. For this reason they might get some free time when
-others don’t. But they don’t go looking for anymore work—they goof off or spend
-the time surfing the’Net or other such things. Usually they are quick enough on
-the keyboard to get back to looking busy when you walk by. Keep their plates
-loaded to the brim. If their slacking becomes a big problem, you might need to
-call them in and discuss it.
-
 THE PRAISE DEPRIVED
+
+缺乏表扬的员工往往需要每日工作反馈。他们渴望积极强化和些许赞赏。务必在他们表现良好时及时肯定。如果他们犯错或需要尝试新方法，也不要害怕给出建设性意见。通常他们完成任务后会主动告知你需要更多工作。
+
+有时作为上司，你可能希望他们别来烦你，因为他们看起来有些依赖性强。但如果是优秀员工，不妨花几分钟满足他们的需求。这点投入会换来他们极大的忠诚度。如果他们能力平平，忽视他们就好——他们会另谋高就，问题自然解决。
+
+.. toggle:: 
+
+   Praise-deprived employees often need daily feedback on how they are doing.
+   They are looking for positive reinforcement and need a little praise. Be sure
+   to let them know when they are doing a good job. Don’t be afraid to be constructive if they make a mistake or should try a different approach. They will
+   usually let you know if they are done with a task and need more to do.
+
+   Sometimes as a boss, you will wish they would just leave you alone, since they
+   can seem a little needy. If they are valuable employees, spend a few minutes
+   with them as needed. They will be very loyal for that little time you spend. If
+   they aren’t so good, ignore them and they will find a job elsewhere, solving
+   the problem for you.
+
+庸才
 ''''''''''''''''''''''''''''''
-
-Praise-deprived employees often need daily feedback on how they are doing.
-They are looking for positive reinforcement and need a little praise. Be sure
-to let them know when they are doing a good job. Don’t be afraid to be constructive if they make a mistake or should try a different approach. They will
-usually let you know if they are done with a task and need more to do.
-
-Sometimes as a boss, you will wish they would just leave you alone, since they
-can seem a little needy. If they are valuable employees, spend a few minutes
-with them as needed. They will be very loyal for that little time you spend. If
-they aren’t so good, ignore them and they will find a job elsewhere, solving
-the problem for you.
-
 THE DUD
-''''''''''''''''''''''''''''''
 
-The dud is the person who doesn’t bring a lot to the table. You have to put
-more work into him than you are getting out of him. That said, I am a firm
-believer that people can change and improve. I prefer to give a dud a chance,
-but be firm in laying out the expectations. Let him know what is needed from
-him to keep him employed.
+"庸才"是指那些贡献有限的人。你为他们付出的精力远超过他们产出的价值。虽然我坚信人是可以改变和进步的，但必须明确设定期望值。让他清楚知道留任所需达到的标准。
 
-This, however, is not a situation that you can keep dealing with forever without
-draining resources from the company. If he doesn’t change, he is the person
-that you have to make a hard choice with, the one you have to let go. Don’t
-run your group with a drain on resources indefinitely. It will hurt all of you
-in the long run.
+不过，长期容忍这种状况会持续消耗公司资源。如果他毫无改进，你就必须做出艰难决定——让他离开。不要让团队长期背负这种资源黑洞。长远来看，这对所有人都有害。
 
-THE AVERAGE JOE (OR JANE)
+.. toggle:: 
+
+   The dud is the person who doesn’t bring a lot to the table. You have to put
+   more work into him than you are getting out of him. That said, I am a firm
+   believer that people can change and improve. I prefer to give a dud a chance,
+   but be firm in laying out the expectations. Let him know what is needed from
+   him to keep him employed.
+
+   This, however, is not a situation that you can keep dealing with forever without
+   draining resources from the company. If he doesn’t change, he is the person
+   that you have to make a hard choice with, the one you have to let go. Don’t
+   run your group with a drain on resources indefinitely. It will hurt all of you
+   in the long run.
+
+普通员工
 '''''''''''''''''''''''''''
+THE AVERAGE JOE (OR JANE)
 
-This is the same guy we talked about earlier. Be a leader for him, show him how
-to excel, and you just might turn him into a shooting star.
+这就是我们之前提到的普通员工。成为他们的领导者，展示如何脱颖而出，你或许能将他们培养成职场新星。
 
-THE SHOOTING STAR
+.. toggle:: 
+
+   This is the same guy we talked about earlier. Be a leader for him, show him how
+   to excel, and you just might turn him into a shooting star.
+
+职场新星
 ''''''''''''''''''''
+THE SHOOTING STAR
 
-The shooting star is the same kind of person we already discussed. Most impor-
-tant: The more of these you have in your group, the better you will perform!
-Don’t be afraid of giving them credit, and don’t try to suppress any one of them
-into being your peons. It will backfire on you. Share the credit and hook your
-wagon to these people; they will get you to the finish line!
+职场新星就是我们讨论过的那种优秀人才。最重要的是：团队中这类人越多，整体表现就越好！不要吝啬给予表扬，也别试图压制他们的才能。这样做只会适得其反。分享荣誉，让这些人才与你同行——他们会带你到达终点！
 
-FINALLY
+.. toggle:: 
+
+   The shooting star is the same kind of person we already discussed. Most impor-
+   tant: The more of these you have in your group, the better you will perform!
+   Don’t be afraid of giving them credit, and don’t try to suppress any one of them
+   into being your peons. It will backfire on you. Share the credit and hook your
+   wagon to these people; they will get you to the finish line!
+
+最后
 ''''''''''
+FINALLY
 
-Can a truly effective manager get an average Joe or Jane to become a shooting
-star? Or make a dud into something more? I think so, and I believe it is the
-mark of a good manager to do just that. Anyone can yell and intimidate people
-into doing what they want. The manager who persuades and edifies is much
-rarer and also more valuable. His or her team will be more efficient, have less
-turnover, and just get more stuff done. It doesn’t mean you should be an old
-softy. You might need to be firm at times, but if you truly care about your
-employees, it will show and make a difference.
+一个真正有效的管理者能否将普通员工培养成职场新星？或是让庸才蜕变为可用之才？我认为可以，这也是优秀管理者的标志。任何人都能靠吼叫和威吓驱使他人，但能说服和激励员工的经理却凤毛麟角，这种管理者也更有价值。他们的团队效率更高、人员流动更少、产出更多。这并不意味着你要当老好人——必要时必须强硬，但如果你真心关怀下属，这种态度会产生深远影响。
 
-Administrative Assistants
+.. toggle:: 
+
+   Can a truly effective manager get an average Joe or Jane to become a shooting
+   star? Or make a dud into something more? I think so, and I believe it is the
+   mark of a good manager to do just that. Anyone can yell and intimidate people
+   into doing what they want. The manager who persuades and edifies is much
+   rarer and also more valuable. His or her team will be more efficient, have less
+   turnover, and just get more stuff done. It doesn’t mean you should be an old
+   softy. You might need to be firm at times, but if you truly care about your
+   employees, it will show and make a difference.
+
+行政助理
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Administrative Assistants
 
-Every organization has an underground method of communication. In most
-companies it flows through the assistants. Building a good rapport with the
-receptionists and assistants is a good idea. It will allow you to tap into a whole
-other communication structure. If they think well of you, you will have a better
-reputation with those above you. Help the assistants whenever you can, and treat
-them with respect. A lot of unsung greatness lies with the assistants in an organi-
-zation. This applies to your assistant if you have one. Don’t ever degrade them; it
-will come back to bite you. If they respect you, it will proliferate through the net-
-work and help you. If they don’t respect you, that will travel the network and hurt
-you. This doesn’t mean you just let them goof off all day. As individuals they will
-fit into the categories we’ve described and can be dealt with similarly, with
-respect.
+每个组织都有非正式沟通渠道。多数公司中，信息通过助理们流动。与接待员和助理建立良好关系是明智之举。这能让你接入另一套沟通网络。如果他们对你评价良好，你在上级眼中的声誉也会提升。尽可能帮助助理们，并给予尊重。组织中许多未被颂扬的伟大贡献都来自助理群体。如果你有自己的助理，同样适用这条原则。永远不要贬低他们——这种行为终将反噬。如果他们尊重你，这种好感会在网络中传播助你成功；反之则会损害你的声誉。这并非意味着放任他们偷懒——作为个体，他们仍会符合我们之前描述的类型，可以相应应对，但务必保持尊重。
 
-.. admonition:: Thumb Rules
+.. toggle:: 
 
-   - Work for the perfect boss when you can; work with what you get when you can’t.
-   - Gain the respect of the average Joes.
-   - Hook up with the shooting star.
-   - Be a shooting star yourself.
-   - Blend your response to blended personality types.
-   - Give the dud a chance; let him go if he doesn’t step up.
-   - Make the average Joe into a shooting star.
-   - Treat the administrative assistants with respect.
+   Every organization has an underground method of communication. In most
+   companies it flows through the assistants. Building a good rapport with the
+   receptionists and assistants is a good idea. It will allow you to tap into a whole
+   other communication structure. If they think well of you, you will have a better
+   reputation with those above you. Help the assistants whenever you can, and treat
+   them with respect. A lot of unsung greatness lies with the assistants in an organi-
+   zation. This applies to your assistant if you have one. Don’t ever degrade them; it
+   will come back to bite you. If they respect you, it will proliferate through the net-
+   work and help you. If they don’t respect you, that will travel the network and hurt
+   you. This doesn’t mean you just let them goof off all day. As individuals they will
+   fit into the categories we’ve described and can be dealt with similarly, with
+   respect.
 
-BECOMING AN EXTROVERTED INTROVERT
+.. admonition:: 经验法则(Thumb Rules)
+
+   - 能遇到完美上司就为之效力；遇不到就做好当下。
+   - 赢得普通员工的尊重。
+   - 与职场新星结盟。
+   - 自己成为职场新星。
+   - 对混合型性格采取灵活应对。
+   - 给庸才机会；不改进就放弃。
+   - 将普通员工培养成明星。
+   - 尊重行政助理人员。
+
+   .. toggle:: 
+
+      - Work for the perfect boss when you can; work with what you get when you can’t.
+      - Gain the respect of the average Joes.
+      - Hook up with the shooting star.
+      - Be a shooting star yourself.
+      - Blend your response to blended personality types.
+      - Give the dud a chance; let him go if he doesn’t step up.
+      - Make the average Joe into a shooting star.
+      - Treat the administrative assistants with respect.
+
+成为一个外向的内向者
 ----------------------------------
+BECOMING AN EXTROVERTED INTROVERT
 
-It seems to me that, generally speaking, the personality types that do well in
-engineering seem to be naturally shy. I would have to say that electrical engi-
-neers are probably the most introverted of the bunch. I was once asked,
-“How do you tell whether you are talking to an extroverted engineer?” The
-answer:
+在我看来，从事工程技术工作的人大多天生性格内向。必须承认，电气工程师可能是其中最内向的群体。曾有人问我："如何判断你正在与一位外向的工程师交谈？"答案是：
 
-“He is looking at your shoes, not his own.” It’s funny because it’s true.
-It is also true that the EE can benefit by overcoming this tendency. Here are a
-few ways to do just that.
+"因为他盯着的是你的鞋，而不是自己的鞋。" 这个回答之所以好笑，是因为它一针见血地反映了现实。
+不过工程师确实可以通过克服这种天性获益。以下是几种可行的方法。
+
+.. toggle::
+
+   It seems to me that, generally speaking, the personality types that do well in
+   engineering seem to be naturally shy. I would have to say that electrical engi-
+   neers are probably the most introverted of the bunch. I was once asked,
+   “How do you tell whether you are talking to an extroverted engineer?” The
+   answer:
+
+   “He is looking at your shoes, not his own.” It’s funny because it’s true.
+   It is also true that the EE can benefit by overcoming this tendency. Here are a
+   few ways to do just that.
 
 It All Depends on Your Point of View
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+这取决于你的视角
 
-A wise man once said (and I’m paraphrasing),“You will find that right or
-wrong often depends on your point of view.” [6]_ Given that, I will try giving
-you an idea of the way things are seen from the most common sides of the
-fence. For this discussion we will call the engineer the peon and the manager
-the pointy hair. [7]_
+一位智者曾说过（我稍作转述）："你会发现对错往往取决于观察角度。" [6]_ 基于此，我将尝试从最常见的两个对立视角来阐释这个问题。在接下来的讨论中，我们把工程师称为"普通员工"，经理称为"尖头发的家伙"。 [7]_
 
-.. [6] Obi Wan Kenobi said this; some great life lessons can be learned from Star Wars!
+.. [6] 欧比旺·克诺比说过这句话；《星球大战》里蕴含着许多人生哲理！
 
-.. [7] Yeah, I keep lifting phraseology from Dilbert. What can I say! Scott Adams struck a chord that rang true throughout the corporate universe!
+   Obi Wan Kenobi said this; some great life lessons can be learned from Star Wars!
+
+.. [7] 没错，我又在借用《呆伯特》的用语了。有什么办法呢！斯科特·亚当斯道出了整个企业界的共鸣！
+
+   Yeah, I keep lifting phraseology from Dilbert. What can I say! Scott Adams struck a chord that rang true throughout the corporate universe!
+
+.. toggle::
+
+   A wise man once said (and I’m paraphrasing),“You will find that right or
+   wrong often depends on your point of view.” [6]_ Given that, I will try giving
+   you an idea of the way things are seen from the most common sides of the
+   fence. For this discussion we will call the engineer the peon and the manager
+   the pointy hair. [7]_
 
 THE PEON POINT OF VIEW
 ''''''''''''''''''''''
+普通员工的视角
 
-The decisions and directions of management are often as undecipherable to the
-typical engineering peon as ancient Egyptian hieroglyphics are to the average
-person. Here are some insights into the thoughts that go through a typical
-EE’s head when dealing with a pointy hair:“Why in the world is this the most
-important thing now when just yesterday it was the last thing on the list?” Or
-maybe,“Why can’t you understand things like the word *impossible*?”
+管理层做出的决策和指示，对普通工程师来说就像古埃及象形文字对普通人一样难以理解。以下是典型电气工程师在与"尖头发家伙"打交道时内心的真实想法："为什么昨天还排在待办事项最后的事情，今天突然成了头等大事？"或者"为什么你就是无法理解'不可能'这个词的含义？"
 
-In my early years as a peon I coined the phrase,“Management is an unnecessary
-evil.” It accurately summed up my thoughts on the topic. If your manager
-couldn’t help you with fixing that circuit that wouldn’t work right or the code
-that just didn’t execute the way it should, what good was he? I mean, sure,
-he could keep buggin’ me all the time about status reports and the like, but
-couldn’t I manage my own time?
+在我当普通员工的早期，我发明了这样一句话："管理层是种不必要的邪恶存在。"这句话准确概括了我当时的想法。如果你的经理既不能帮你解决电路故障，也无法解释代码为何不能正常运行，那他还有什么用？当然，他可以不停地催促你提交状态报告之类，但难道我不能自己管理时间吗？
 
-Even if you find engineers with a manager that they like and think is very
-helpful, they are still at a loss to understand management decisions. This is
-often due to a lack of background on the decision process. Good managers
-will often help this situation with some explanation as to the way they came
-to the decision. Engineers, though usually a little underdeveloped in the
-social skills area, still understand numbers and reasons. It helps them to
-know why.
+即使你遇到喜欢且认为很有帮助的经理，工程师们仍然难以理解管理决策。这通常源于对决策过程缺乏了解。优秀的经理通常会解释决策背后的思考过程。虽然工程师在社交技能方面可能稍显欠缺，但他们能理解数字和逻辑。知道原因对他们很有帮助。
 
-There is a natural angst in the role of the engineer verus the manager. After all,
-he is the peon in the relationship. At the end of the day the manager is his
-boss, not the other way around. Remember, engineers spend their whole lives
-asking themselves,“Why this?” and“Why that?” It is what they are trained to
-do; it makes them good engineers. Help them answer that question if you are a
-manager!
+工程师与经理的角色关系中天然存在一种焦虑感。毕竟，在这段关系中工程师处于从属地位。归根结底，经理才是他的上司，而不是相反。记住，工程师终其一生都在问自己"为什么这样？"和"为什么那样？"这是他们的训练方式，也是他们成为优秀工程师的原因。如果你是经理，请帮助他们找到这些问题的答案！
+
+.. toggle::
+
+   The decisions and directions of management are often as undecipherable to the
+   typical engineering peon as ancient Egyptian hieroglyphics are to the average
+   person. Here are some insights into the thoughts that go through a typical
+   EE’s head when dealing with a pointy hair:“Why in the world is this the most
+   important thing now when just yesterday it was the last thing on the list?” Or
+   maybe,“Why can’t you understand things like the word *impossible*?”
+
+   In my early years as a peon I coined the phrase,“Management is an unnecessary
+   evil.” It accurately summed up my thoughts on the topic. If your manager
+   couldn’t help you with fixing that circuit that wouldn’t work right or the code
+   that just didn’t execute the way it should, what good was he? I mean, sure,
+   he could keep buggin’ me all the time about status reports and the like, but
+   couldn’t I manage my own time?
+
+   Even if you find engineers with a manager that they like and think is very
+   helpful, they are still at a loss to understand management decisions. This is
+   often due to a lack of background on the decision process. Good managers
+   will often help this situation with some explanation as to the way they came
+   to the decision. Engineers, though usually a little underdeveloped in the
+   social skills area, still understand numbers and reasons. It helps them to
+   know why.
+
+   There is a natural angst in the role of the engineer verus the manager. After all,
+   he is the peon in the relationship. At the end of the day the manager is his
+   boss, not the other way around. Remember, engineers spend their whole lives
+   asking themselves,“Why this?” and“Why that?” It is what they are trained to
+   do; it makes them good engineers. Help them answer that question if you are a
+   manager!
 
 THE POINTY-HAIR POINT OF VIEW
 ''''''''''''''''''''''''''''''''
+尖头发家伙的视角
 
-First, understand the first and foremost goal of a manager: It is to make the business successful. It’s either that or to make the department he is managing look
-good, which coincides with the first unless it is sacrificed for the second. (This
-can happen with bad managers. Hopefully their bosses will notice and correct
-that before it is too late.)
+首先，要明白经理的首要目标：让公司成功。要么是这样，要么是让他管理的部门看起来很出色——这两者通常是统一的，除非为了后者牺牲了前者。（糟糕的经理会出现这种情况。希望他们的上级能及时发现并纠正。）
 
-The good manager wants a successful company; how do you do that? It is pretty
-simple really; you make more money than you spend.
+优秀的经理希望公司成功；如何实现？其实很简单：赚的钱比花的多。
 
-While the engineer is more focused on accomplishing the task at hand, the
-pointy hair worries about getting it done on time and on budget. This often puts
-the peon and the pointy hair on opposite sides of the fence. It is difficult for
-a manager to understand that unknown things can come up that mess up the
-estimated schedule the peon gave him. Here’s an actual quote from a manager:
-“We need to figure out a way to predict unknown problems from happening
-and avoid them.” He was completely serious. [8]_ To him, that is how to get from
-point A to point B. To the engineer who is trained to think logically, this phrase
-will cause his brain to strip a few gears, leaving him generally speechless and
-unable to respond.
+当工程师专注于完成手头任务时，"尖头发家伙"却在担心能否按时且在预算内完成。这常常使普通员工和经理站在对立面。经理很难理解未知问题会打乱普通员工给出的时间预估。这里有位经理的原话："我们需要找到预测未知问题并避免它们的方法。"他是完全认真的。[8]_ 对他来说，这就是从A点到B点的方式。而对受过逻辑训练的工程师来说，这句话会让他的思维齿轮打滑，陷入暂时性失语。
 
-It is not a bad thing to think so far out of the box. [9]_ If you can shift your head back
-into gear after such a phrase and look at it as a problem to solve, you will be
-surprised at what you think up. It is logically true that you can’t predict things
-you don’t know. However, you might come up with a way to find out some things
-you didn’t know before, and avoid those. Which is what that“pointy speak” really
-means.
+跳出固有思维框架并非坏事。 [9]_ 如果你在听到这种话后能重新调整思路，把它当作待解决的问题，你会惊讶于自己能想出什么解决方案。确实无法预测未知事物，但你可以想办法发现之前不知道的信息来规避风险。这其实就是"尖头发的言论"真正想表达的意思。
 
-.. [8] I was personally flabbergasted at the time; this was before I developed my personal understanding of the pointy-hair point of view.
+.. [8] 当时我简直目瞪口呆；那是在我形成对"尖头发家伙"视角的独立理解之前。
 
-.. [9] I’ve seen pointy hairs so far out of the box that I wasn’t sure there was even a box around!
+   I was personally flabbergasted at the time; this was before I developed my personal understanding of the pointy-hair point of view.
 
-When two engineers start talking, you will often see pointy-hair eyes glaze over
-as if you were speaking a language they don’t understand, which you are. To
-keep them interested, use words like schedule and budget a lot. Managers like
-to speak in absolutes, as in,“This will be done in such and such time and cost
-so much.” Engineers like to have some fudge factor. They have seen too many
-failed lab experiments to believe it will always go right the first time.
+.. [9] 我见过有些"尖头发家伙"的想法如此天马行空，我都不确定他们是否还生活在同一个现实框架里！
 
-In my experience, if you tell the pointy hair it will cost between 10 and 15
-bucks, the only price he hears is 10 bucks. This being the case, if you aren’t
-sure you can get to the low price, you’d better not say it, no matter how often
-he tells you not to sandbag your numbers. If you have some confidence,
-though, go for it—it is also the mark of a good engineer to get to the com-
-mitted price and schedule, even if it takes some extra effort. Take caution,
-however—you don’t want to sandbag a number so high that you never
-build anything because it is always too expensive. Remember, the goal of a
-business is to make money, and you can’t do that unless you make stuff
-and sell it. [10]_
+   I’ve seen pointy hairs so far out of the box that I wasn’t sure there was even a box around!
 
-.. [10] Unless you are doing government work, which is a whole other philosophy!
+当两个工程师交谈时，"尖头发家伙"的眼神往往会变得茫然，就像在听一门完全不懂的语言——事实也确实如此。为了保持他们的兴趣，请多使用"时间表"和"预算"这类词汇。经理们喜欢用绝对化表述，比如"这项工作将在特定时间内以特定成本完成"。而工程师则喜欢保留一定弹性空间。他们见过太多失败的实验，不会相信事情总能第一次就成功。
+
+根据我的经验，如果你告诉"尖头发家伙"某件事的成本在10到15美元之间，他唯一能听进去的就是10美元这个数字。因此，如果你不确定能否达到低价目标，最好不要给出这个范围——无论他多少次告诫你不要虚报数字。但如果你有把握，不妨大胆尝试——优秀工程师的标志之一就是能在承诺的时间和预算内完成任务，即使需要额外努力。不过要注意分寸：别把报价定得过高导致项目永远无法启动，因为成本总是超出预期。记住，企业的目标是盈利，而实现盈利必须通过制造和销售产品。[10]_
+
+.. [10] 除非你做的是政府项目，那又是另一套完全不同的逻辑了！
+
+   Unless you are doing government work, which is a whole other philosophy!
+
+
+.. toggle::
+
+   First, understand the first and foremost goal of a manager: It is to make the business successful. It’s either that or to make the department he is managing look
+   good, which coincides with the first unless it is sacrificed for the second. (This
+   can happen with bad managers. Hopefully their bosses will notice and correct
+   that before it is too late.)
+
+   The good manager wants a successful company; how do you do that? It is pretty
+   simple really; you make more money than you spend.
+
+   While the engineer is more focused on accomplishing the task at hand, the
+   pointy hair worries about getting it done on time and on budget. This often puts
+   the peon and the pointy hair on opposite sides of the fence. It is difficult for
+   a manager to understand that unknown things can come up that mess up the
+   estimated schedule the peon gave him. Here’s an actual quote from a manager:
+   “We need to figure out a way to predict unknown problems from happening
+   and avoid them.” He was completely serious. [8]_ To him, that is how to get from
+   point A to point B. To the engineer who is trained to think logically, this phrase
+   will cause his brain to strip a few gears, leaving him generally speechless and
+   unable to respond.
+
+   It is not a bad thing to think so far out of the box. [9]_ If you can shift your head back
+   into gear after such a phrase and look at it as a problem to solve, you will be
+   surprised at what you think up. It is logically true that you can’t predict things
+   you don’t know. However, you might come up with a way to find out some things
+   you didn’t know before, and avoid those. Which is what that“pointy speak” really
+   means.
+
+   When two engineers start talking, you will often see pointy-hair eyes glaze over
+   as if you were speaking a language they don’t understand, which you are. To
+   keep them interested, use words like schedule and budget a lot. Managers like
+   to speak in absolutes, as in,“This will be done in such and such time and cost
+   so much.” Engineers like to have some fudge factor. They have seen too many
+   failed lab experiments to believe it will always go right the first time.
+
+   In my experience, if you tell the pointy hair it will cost between 10 and 15
+   bucks, the only price he hears is 10 bucks. This being the case, if you aren’t
+   sure you can get to the low price, you’d better not say it, no matter how often
+   he tells you not to sandbag your numbers. If you have some confidence,
+   though, go for it—it is also the mark of a good engineer to get to the com-
+   mitted price and schedule, even if it takes some extra effort. Take caution,
+   however—you don’t want to sandbag a number so high that you never
+   build anything because it is always too expensive. Remember, the goal of a
+   business is to make money, and you can’t do that unless you make stuff
+   and sell it. [10]_
 
 TALK IT OUT
 ''''''''''''
+开诚布公地交流
 
-If the engineer makes an effort to lay off the acronyms and the manager tries to
-explain some of the reasons behind his decisions, it will do wonders for your
-mutual understanding. The most important thing you need is a desire to under-
-stand each other. We’ll get into the skills a little later.
+如果工程师能克制使用专业术语，而经理也尝试解释决策背后的原因，这将极大促进相互理解。最重要的是双方都要有了解对方的意愿。具体的沟通技巧我们稍后会详细讨论。
 
-Visualization
+.. toggle::
+
+   If the engineer makes an effort to lay off the acronyms and the manager tries to
+   explain some of the reasons behind his decisions, it will do wonders for your
+   mutual understanding. The most important thing you need is a desire to under-
+   stand each other. We’ll get into the skills a little later.
+
+可视化
 ~~~~~~~~~~~~~~~
+Visualization
 
-A few years ago, as I watched an interview with Michael Jordan, I realized that
-we have something in common. No, it is not a 40-inch vertical leap or the
-ability to dunk the ball. I realized that for years I had been using a method
-for success that Miracle Mike also used, a technique called *visualization*.
+几年前，当我观看迈克尔·乔丹的访谈时，我发现我们有一个共同点。不，不是40英寸的垂直弹跳高度，也不是扣篮能力。我意识到多年来我一直在使用"奇迹迈克尔"也曾用过的成功方法——一种叫做"可视化"的技巧。
 
-Everyone who works for a living experiences difficult and stressful situations. It
-might be dealing with an irate boss, a lazy employee, or a fellow manager who
-just doesn’t seem sane. Have you ever left a difficult situation in which you
-were trying to argue your case when you suddenly thought,“I should have said
-’blah, blah, blah’ or ’yada, yada, yada’?” You might be saying to yourself,
-“Hindsight is 20/20,” but what I am about to tell you is how to turn that
-hindsight into foresight.
+每个职场人士都会遇到困难和压力情境。可能是与暴躁的老板、懒散的员工，或是行事疯狂的同事打交道。你是否曾在艰难的争论后突然想："我当时应该说'某某某'才对"？你可能会说"事后诸葛亮容易"，但我要告诉你如何将事后反思转化为事前预判。
 
-I remember one of the first conversations I ever had with a CEO. I was a lowly
-engineering student; he was the boss of a $700 million company. He hit me
-with a couple of questions that I was not prepared to answer. I still remember
-how my mind drew a total blank. Afterward, as I thought about it, I knew
-exactly what I should have said. I decided that I would not go into such a situa-
-tion unprepared again. But how do you prepare for something like that? This is
-what I did.
+记得我第一次与CEO交谈的经历。当时我只是个卑微的工程系学生，而对方掌管着一家7亿美元的公司。他问了几个我毫无准备的问题，我大脑一片空白。事后回想，我明明知道该说什么。我决定再也不打无准备之仗。但如何准备呢？我的方法是：
 
-I started to imagine myself in the situation beforehand. I would imagine how
-the conversation might go. He would say“this” and I would respond with
-“that.” In my imaginary situation I would try out several different approaches
-and then imagine a response. I would visualize the person understanding my
-point and a resolution to the case at hand that I desired. I found that when
-I did this, the real conversation, when it occurred, followed my imaginary
-one so closely that I always knew what to say. And better yet, I usually got what
-I wanted out of it.
+我会提前想象整个场景。预演可能的对话走向："他会说这个，我就这样回应"。在想象中尝试不同应对方式，预判对方反应。我会想象对方理解我的观点，并达成理想解决方案。神奇的是，真实对话几乎总是按照我的预演展开，我总能对答如流，多数情况下还能达成目标。
 
-You might think I am full of it, but I have used this technique to visualize
-getting raises and promotions, and I can honestly say that I got what I asked for
-in nearly every situation. It actually amazes me when I look back at it. I was pro-
-moted into engineering positions when I was still a student. Later, I worked with
-several people, including a former boss, as an equal or superior. I could hardly
-believe this happened to a naturally shy person from a hick town in Utah, a person
-who doesn’t like confrontation.
+你可能觉得我在吹牛，但用这招成功争取过加薪和晋升。回想起来仍觉得不可思议——学生时代就获得工程师职位晋升，后来还能与包括前老板在内的多人平起平坐甚至担任更高级别职位。很难相信这一切发生在一个来自犹他州小镇、天性害羞且厌恶冲突的人身上。
 
-There are no set rules for how to do visualization other than the more often you
-do it, the more successful you will be with the technique. If you imagine the
-ball going in 1,000 times, the next time you have to shoot that clutch shot, it
-will go in. It works for Mike, and it works for me. Give it a try.
+可视化没有固定规则，唯有多练见效。就像投篮练习一千次，关键时刻自然投得进。这招对乔丹有用，对我也有效，不妨一试。
+ 
+.. toggle::
 
-Affirmations
+   A few years ago, as I watched an interview with Michael Jordan, I realized that
+   we have something in common. No, it is not a 40-inch vertical leap or the
+   ability to dunk the ball. I realized that for years I had been using a method
+   for success that Miracle Mike also used, a technique called *visualization*.
+
+   Everyone who works for a living experiences difficult and stressful situations. It
+   might be dealing with an irate boss, a lazy employee, or a fellow manager who
+   just doesn’t seem sane. Have you ever left a difficult situation in which you
+   were trying to argue your case when you suddenly thought,“I should have said
+   ’blah, blah, blah’ or ’yada, yada, yada’?” You might be saying to yourself,
+   “Hindsight is 20/20,” but what I am about to tell you is how to turn that
+   hindsight into foresight.
+
+   I remember one of the first conversations I ever had with a CEO. I was a lowly
+   engineering student; he was the boss of a $700 million company. He hit me
+   with a couple of questions that I was not prepared to answer. I still remember
+   how my mind drew a total blank. Afterward, as I thought about it, I knew
+   exactly what I should have said. I decided that I would not go into such a situa-
+   tion unprepared again. But how do you prepare for something like that? This is
+   what I did.
+
+   I started to imagine myself in the situation beforehand. I would imagine how
+   the conversation might go. He would say“this” and I would respond with
+   “that.” In my imaginary situation I would try out several different approaches
+   and then imagine a response. I would visualize the person understanding my
+   point and a resolution to the case at hand that I desired. I found that when
+   I did this, the real conversation, when it occurred, followed my imaginary
+   one so closely that I always knew what to say. And better yet, I usually got what
+   I wanted out of it.
+
+   You might think I am full of it, but I have used this technique to visualize
+   getting raises and promotions, and I can honestly say that I got what I asked for
+   in nearly every situation. It actually amazes me when I look back at it. I was pro-
+   moted into engineering positions when I was still a student. Later, I worked with
+   several people, including a former boss, as an equal or superior. I could hardly
+   believe this happened to a naturally shy person from a hick town in Utah, a person
+   who doesn’t like confrontation.
+
+   There are no set rules for how to do visualization other than the more often you
+   do it, the more successful you will be with the technique. If you imagine the
+   ball going in 1,000 times, the next time you have to shoot that clutch shot, it
+   will go in. It works for Mike, and it works for me. Give it a try.
+
+肯定句
 ~~~~~~~~~~~~~~~~
+Affirmations
 
-One of my favorite Saturday Night Live recurring sketches featured the Stuart
-Smalley character who repeatedly said,“I’m good enough, I’m smart enough,
-and doggone it, people like me!” He mocked a technique similar to that of
-visualization. It is called affirmation.
+我最喜欢的《周六夜现场》经典桥段之一，是斯图尔特·斯莫利反复念叨："我足够优秀，我足够聪明，而且老天保佑，人们都喜欢我！"他戏仿的正是与可视化异曲同工的"肯定宣言"技巧。
 
-If you get into quantum mechanics, there is a rule called the Heisenberg uncertainty
-principle. It was developed to understand some interesting experimental results in
-which quantum particles (everyday light being one of these particles) act like a
-wave in one experiment and like a particle in another. The problem is, they can’t
-be both all the time; the behaviors are mutually exclusive. Anyway, a general conclusion of this principle says that when you measure something at the quantum
-level, the very act of observation affects the outcome of the measurement. You,
-the observer, basically get what you are looking for.
+量子力学中有个海森堡不确定性原理，解释量子粒子在不同实验中既表现出波动性又呈现粒子性——这两种状态本应互斥。该原理有个推论：量子层面的观测行为本身会影响测量结果。换句话说，观察者往往会得到自己期待的结果。
 
-Please bear with me for a moment while I digress into very un-engineering-like metaphysical rumination. If you get what you look for, can you affect
-the outcome by looking for what you want? This is what affirmations
-basically say you can do. Affirmations are a lot like the visualization technique we discussed but taken to the next level. You not only imagine what
-you are going to say or do in a given situation, you imagine the outcome
-you want.
+请容我暂时偏离工程思维，进行些形而上的思考：既然观测影响结果，那通过期待特定结果能否影响现实？肯定宣言正是基于这个理念。它比可视化更进一步——不仅想象言行，还要预想理想结果。
 
-I know it sounds hokey, and I admit that it is not a perfect process, but I also
-believe it works. Take any goal you want to achieve and write it down 30 times
-every day, such as“I will get a book published,” or “I will get a raise,” for
-example. Give it six months and see what happens. My experience is that it
-does work; you’re reading this book, aren’t you? Guess how I started that ball
-rolling. [11]_
+我知道这听来玄乎，承认这并非完美方法，但我深信有效。每天写下目标30遍，比如"我会出版一本书"或"我要加薪"。坚持半年看看效果。以我的经验确实奏效——你正在读这本书就是证明，猜猜我是如何迈出第一步的？[11]_
 
-.. [11] It is no coincidence, in my opinion, that the techniques of visualization and affirmation mirror that of faith and prayer so closely. I think they are principles that simply work.
+.. [11] 在我看来，可视化和肯定宣言与信仰祈祷如此相似绝非巧合。这些原则确实行之有效。
 
-One thing that definitely happens when you use affirmations is that your
-mind spends considerable time pondering what you are looking for. This, I
-believe, leads to recognizing opportunities when they come your way so that
-you act on them. Several years ago I had on my long-term goal list a desire to
-publish a book; it was a goal I affirmed regularly. I thought about it a lot.
-Then, while reading an electronics magazine, I saw an ad for writers. I sent
-in a reply and they asked for a copy of my work. I sat down and wrote my first
-column. It was a success and I began writing. One opportunity led to another
-and here I am achieving the goal I had set out to do. Imagine, however, if I
-hadn’t had this on my mind when I saw that first ad? Would all of this have
-happened? I don’t think so.
+   It is no coincidence, in my opinion, that the techniques of visualization and affirmation mirror that of faith and prayer so closely. I think they are principles that simply work.
 
-You get what you look for, so control your destiny. Say to yourself,“I’m good
-enough, I’m smart enough, [Insert your desire here], and doggone it, people like
-me!” Works for Stuart, works for me, and it will work for you, too.
+使用肯定宣言必然会让大脑持续思考目标。我认为这能培养把握机遇的能力。几年前我的长期目标清单上有"出版书籍"这一项，经常自我肯定。后来在电子杂志上看到征稿广告，投稿后被要求提交作品样例。我坐下来写了第一篇专栏，大获成功后持续创作。机遇就这样接踵而至。试想如果当时没把出版书籍放在心上，这一切还会发生吗？恐怕不会。
 
-Breaking Out of Your Shell
+你得到的是你所追寻的，所以掌控命运吧！对自己说："我足够优秀，我足够聪明，[插入你的目标]，而且老天保佑，人们都喜欢我！"这对斯图尔特有用，对我有用，对你也会有效。
+ 
+.. toggle::
+
+   One of my favorite Saturday Night Live recurring sketches featured the Stuart
+   Smalley character who repeatedly said,“I’m good enough, I’m smart enough,
+   and doggone it, people like me!” He mocked a technique similar to that of
+   visualization. It is called affirmation.
+
+   If you get into quantum mechanics, there is a rule called the Heisenberg uncertainty
+   principle. It was developed to understand some interesting experimental results in
+   which quantum particles (everyday light being one of these particles) act like a
+   wave in one experiment and like a particle in another. The problem is, they can’t
+   be both all the time; the behaviors are mutually exclusive. Anyway, a general conclusion of this principle says that when you measure something at the quantum
+   level, the very act of observation affects the outcome of the measurement. You,
+   the observer, basically get what you are looking for.
+
+   Please bear with me for a moment while I digress into very un-engineering-like metaphysical rumination. If you get what you look for, can you affect
+   the outcome by looking for what you want? This is what affirmations
+   basically say you can do. Affirmations are a lot like the visualization technique we discussed but taken to the next level. You not only imagine what
+   you are going to say or do in a given situation, you imagine the outcome
+   you want.
+
+   I know it sounds hokey, and I admit that it is not a perfect process, but I also
+   believe it works. Take any goal you want to achieve and write it down 30 times
+   every day, such as“I will get a book published,” or “I will get a raise,” for
+   example. Give it six months and see what happens. My experience is that it
+   does work; you’re reading this book, aren’t you? Guess how I started that ball
+   rolling. [11]_
+
+   One thing that definitely happens when you use affirmations is that your
+   mind spends considerable time pondering what you are looking for. This, I
+   believe, leads to recognizing opportunities when they come your way so that
+   you act on them. Several years ago I had on my long-term goal list a desire to
+   publish a book; it was a goal I affirmed regularly. I thought about it a lot.
+   Then, while reading an electronics magazine, I saw an ad for writers. I sent
+   in a reply and they asked for a copy of my work. I sat down and wrote my first
+   column. It was a success and I began writing. One opportunity led to another
+   and here I am achieving the goal I had set out to do. Imagine, however, if I
+   hadn’t had this on my mind when I saw that first ad? Would all of this have
+   happened? I don’t think so.
+
+   You get what you look for, so control your destiny. Say to yourself,“I’m good
+   enough, I’m smart enough, [Insert your desire here], and doggone it, people like
+   me!” Works for Stuart, works for me, and it will work for you, too.
+
+打破你的外壳
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Breaking Out of Your Shell
 
-These techniques work very well in helping the naturally shy person to break
-out of his shell. If you can overcome the natural shyness so common to engineers and learn a bit about the people around you, it will give you career
-opportunities you might never get otherwise.
+这些技巧对帮助天生内向者突破自我非常有效。只要克服工程师常见的羞怯心理，多了解周围人，就能获得意想不到的职业机遇。
 
-The hardest part of breaking out of your shell is taking that first step toward
-doing it. You have to make the first step. After that each one becomes easier.
-For example, you need to make a phone call that you really don’t want to
-make. You have already spent plenty of time visualizing it; you have thought
-through all the possible things that might happen. Now you are stuck—you
-simply don’t want to make the call. It is not uncommon to feel apprehension
-at this point. Don’t give up hope, though; there is a way through it.
+突破自我的最大障碍就是迈出第一步。必须主动开始，之后就会越来越容易。比如必须打某个不想打的电话——你已经充分预演各种可能，现在却临阵退缩。这种忐忑很正常，但别放弃希望，总有解决办法。
 
-First, clear your head and stop thinking about what is going to happen; concentrate on one thing—picking up the phone. Once the phone is to your ear, worry
-only about dialing the number, nothing else. After someone answers, worry only
-about initiating the conversation. Once it starts, the preparation you did with
-visualization will kick in and from there on things will get progressively easier.
+首先清空思绪，停止担忧结果，专注一件事：拿起电话。电话接通后只需考虑拨号。对方应答后只需开启对话。一旦开始，之前的可视化准备就会自然发挥作用，后续会越来越顺畅。
+ 
+.. toggle::
 
-Repeat
+   These techniques work very well in helping the naturally shy person to break
+   out of his shell. If you can overcome the natural shyness so common to engineers and learn a bit about the people around you, it will give you career
+   opportunities you might never get otherwise.
+
+   The hardest part of breaking out of your shell is taking that first step toward
+   doing it. You have to make the first step. After that each one becomes easier.
+   For example, you need to make a phone call that you really don’t want to
+   make. You have already spent plenty of time visualizing it; you have thought
+   through all the possible things that might happen. Now you are stuck—you
+   simply don’t want to make the call. It is not uncommon to feel apprehension
+   at this point. Don’t give up hope, though; there is a way through it.
+
+   First, clear your head and stop thinking about what is going to happen; concentrate on one thing—picking up the phone. Once the phone is to your ear, worry
+   only about dialing the number, nothing else. After someone answers, worry only
+   about initiating the conversation. Once it starts, the preparation you did with
+   visualization will kick in and from there on things will get progressively easier.
+
+重复
 ~~~~~~~~~
+Repeat
 
-Though it will get easier each time you go into a specific situation, these are not
-skills you can learn once and then forget about. They require repetition, a lot of
-repetition, not unlike learning to play an instrument or speak a different
-language. The more you use them, the better you will become at them. Find
-out the way these skills work best for you and practice them.
+虽然每次应对特定情境会越来越轻松，但这些技能需要反复练习，就像学乐器或外语。使用越频繁就越熟练。找到最适合自己的运用方式并坚持训练。
 
-I still encounter situations today where I use these skills that are more than
-20 years old for me. They still work, and I keep finding new ways to apply
-them. And yes, I still get nervous when it is time to talk to the CEO, but now
-it goes much more smoothly.
+二十多年后的今天，我仍会运用这些技能。它们依然有效，我也不断发现新的应用场景。是的，与CEO交谈时仍会紧张，但现在过程顺利多了。
+ 
+.. toggle::
 
-.. admonition:: Thumb Rules
+   Though it will get easier each time you go into a specific situation, these are not
+   skills you can learn once and then forget about. They require repetition, a lot of
+   repetition, not unlike learning to play an instrument or speak a different
+   language. The more you use them, the better you will become at them. Find
+   out the way these skills work best for you and practice them.
 
-   - To the engineer, many management decisions don’t make sense unless they know the why behind the what.
-   - Managers have difficulty understanding techno-speak.
-   - Talk it out’til you understand each other.
-   - Visualize the situation, what is going to happen, and what you will say.
-   - Write your goals down 30 times a day’til you achieve them.
-   - Break out of your shell one step at a time.
-   - Practice makes perfect; keep working on these skills forever more.
+   I still encounter situations today where I use these skills that are more than
+   20 years old for me. They still work, and I keep finding new ways to apply
+   them. And yes, I still get nervous when it is time to talk to the CEO, but now
+   it goes much more smoothly.
 
-COMMUNICATION SKILLS
+.. admonition:: 经验法则(Thumb Rules)
+
+   - 对工程师而言，不了解决策背后的原因，很多管理决定就难以理解。
+   - 经理们难以理解技术术语。
+   - 只有充分沟通才能相互理解。
+   - 预演情境、预期发展和应对方案。
+   - 每天书写目标30遍直至实现。
+   - 循序渐进突破自我。
+   - 熟能生巧，终身练习这些技能。
+
+   .. toggle:: 
+
+      - To the engineer, many management decisions don’t make sense unless they know the why behind the what.
+      - Managers have difficulty understanding techno-speak.
+      - Talk it out’til you understand each other.
+      - Visualize the situation, what is going to happen, and what you will say.
+      - Write your goals down 30 times a day’til you achieve them.
+      - Break out of your shell one step at a time.
+      - Practice makes perfect; keep working on these skills forever more.
+
+沟通技巧
 ----------------------
+COMMUNICATION SKILLS
 
-Engineers are notorious for their poor communication skills. I was once asked
-why it is that engineers who deal in logic that is either true or false have such a
-hard time answering yes or no to a simple question.
+工程师们糟糕的沟通能力是出了名的。曾有人问我：为什么那些处理非真即假逻辑问题的工程师，面对简单的是非问题却如此难以回答？
 
-It is something that I myself am plagued with. Given a typical question, for
-example,“Will such and such project take long?” my answer usually begins
-with,“It depends…” If I’m not careful from that point on, it can quickly lead
-to my listener’s eyes glazing over.
+这个问题同样困扰着我。比如当被问到"某某项目会耗时很久吗？"，我的回答通常以"这取决于..."开头。如果不及时打住，听众的眼神很快就会变得呆滞。
 
-When you are a better communicator, you will be more successful. Simply put,
-everything we do in the world today requires communication. It is somewhat
-ironic that things that enable communication to be better (like the Internet,
-for example) are designed by engineers who could often use a course on the
-subject themselves. So here are some pointers.
+提升沟通能力将助你更成功。简言之，当今世界的一切活动都离不开沟通。颇具讽刺意味的是，那些旨在改善沟通的技术（比如互联网）往往是由工程师设计的——而他们自己却最需要这方面的培训。以下是一些建议。
+
+.. toggle::
+
+   Engineers are notorious for their poor communication skills. I was once asked
+   why it is that engineers who deal in logic that is either true or false have such a
+   hard time answering yes or no to a simple question.
+
+   It is something that I myself am plagued with. Given a typical question, for
+   example,“Will such and such project take long?” my answer usually begins
+   with,“It depends…” If I’m not careful from that point on, it can quickly lead
+   to my listener’s eyes glazing over.
+
+   When you are a better communicator, you will be more successful. Simply put,
+   everything we do in the world today requires communication. It is somewhat
+   ironic that things that enable communication to be better (like the Internet,
+   for example) are designed by engineers who could often use a course on the
+   subject themselves. So here are some pointers.
 
 Verbal
 ~~~~~~~
+口头沟通
 
-The brunt of day-to-day communication is verbal. It is also the hardest kind for
-engineering types to handle well. (I think it goes back to that shy thing we were
-talking about earlier.) However, it is also the most important communication
-skill to have. Face-to-face verbal communication is the best situation in which
-you can (a) make sure you are understood, and (b) make sure you understand.
+日常沟通主要通过口头进行。这对工程师来说也是最难掌握的技能（我想这又与我们之前讨论的羞怯性格有关）。然而它却是最重要的沟通技能。面对面交流能让你：(a)确保自己被理解；(b)确保理解对方。
+
+
+.. toggle::
+
+   The brunt of day-to-day communication is verbal. It is also the hardest kind for
+   engineering types to handle well. (I think it goes back to that shy thing we were
+   talking about earlier.) However, it is also the most important communication
+   skill to have. Face-to-face verbal communication is the best situation in which
+   you can (a) make sure you are understood, and (b) make sure you understand.
 
 WATCH FOR BODY LANGUAGE
 ''''''''''''''''''''''''''
+注意肢体语言
 
-Some say as much as 90% of what we communicate in a verbal conversation is
-in fact not verbal at all. If you really want to get deep into it, there are whole
-books on this topic that tell you the meaning of things like glancing right or
-left, up or down, and all sorts of looks. Most of the time, however, I believe that
-if you simply pay attention, you can get a lot out of how a person presents him-
-self and the way he acts. You have been doing this from a very young age and it
-comes naturally if you give it a chance. Too often we get so rushed or distracted
-that we don’t notice simple signs. For example, let’s say that a person on your
-staff looks uncomfortable when he agrees to a deadline. If you don’t notice and
-dig deeper, you could have a nasty surprise coming later.
+有人说口头交流中高达90%的信息其实并非通过语言传递。若深入研究，有整本书专门解读眼神左右上下扫视等各种表情的含义。但多数时候，我认为只要留心观察，就能从对方的举止神态中获取很多信息。这种能力我们从小就会，只要愿意尝试就能自然掌握。只是我们常常因匆忙或分心而忽略这些细微信号。例如，当团队成员同意某个截止日期时流露出不安，若你没察觉并深入询问，日后可能会遭遇大麻烦。
+
+
+.. toggle::
+
+   Some say as much as 90% of what we communicate in a verbal conversation is
+   in fact not verbal at all. If you really want to get deep into it, there are whole
+   books on this topic that tell you the meaning of things like glancing right or
+   left, up or down, and all sorts of looks. Most of the time, however, I believe that
+   if you simply pay attention, you can get a lot out of how a person presents him-
+   self and the way he acts. You have been doing this from a very young age and it
+   comes naturally if you give it a chance. Too often we get so rushed or distracted
+   that we don’t notice simple signs. For example, let’s say that a person on your
+   staff looks uncomfortable when he agrees to a deadline. If you don’t notice and
+   dig deeper, you could have a nasty surprise coming later.
 
 CONSIDER WHO YOU ARE TALKING TO
 ''''''''''''''''''''''''''''''''''
+考虑沟通对象
 
-The background of the person you are talking to should be considered as you
-communicate. Don’t get caught in the trap of trying to explain details of
-quantum theory to the CEO who has an MBA. You should try to distill what
-you are communicating to the points that matter to the person you are talking
-to. Take note of one important point, though: Don’t ever treat the person like
-he is dumb! You can distill information without talking down to a person. If
-invited to, you can elaborate. You might be surprised at what your boss can
-understand—especially if he has read this book!
+沟通时要考虑对方背景。别陷入向MBA毕业的CEO解释量子理论细节的误区。应将信息提炼到对听者最重要的要点。但要注意：绝不要把对方当傻瓜！简化信息不等于居高临下。如果对方要求，你可以展开详述。你可能会惊讶于老板的理解力——尤其是他读过本书之后！
 
-If you are dealing with a person from a different culture or who speaks a different
-first language, it helps to simplify your phrases to be sure you are understood.
-Don’t get into vocabulary words that they might not know without being sure
-they understand what you are referring to. This particularly applies to words that
-have meaning only in your corporate culture. Everyone perceives the world
-through experiences they have based on the culture they come from. You don’t
-need to speak louder. It doesn’t help. Try to enunciate your words, though; if
-you are like me, you are probably carrying some hick accent that would cause
-you communication problems in your own native tongue.
+面对不同文化背景或母语非英语的人，简化表达有助于确保理解。不确定对方是否理解专业词汇时，不要贸然使用公司文化特有的术语。每个人都是基于自身文化经验来认知世界的。你不需要提高音量——这毫无帮助。但要注意吐字清晰，像我这种可能带有乡音的人更要注意。
+
+.. toggle::
+
+   The background of the person you are talking to should be considered as you
+   communicate. Don’t get caught in the trap of trying to explain details of
+   quantum theory to the CEO who has an MBA. You should try to distill what
+   you are communicating to the points that matter to the person you are talking
+   to. Take note of one important point, though: Don’t ever treat the person like
+   he is dumb! You can distill information without talking down to a person. If
+   invited to, you can elaborate. You might be surprised at what your boss can
+   understand—especially if he has read this book!
+
+   If you are dealing with a person from a different culture or who speaks a different
+   first language, it helps to simplify your phrases to be sure you are understood.
+   Don’t get into vocabulary words that they might not know without being sure
+   they understand what you are referring to. This particularly applies to words that
+   have meaning only in your corporate culture. Everyone perceives the world
+   through experiences they have based on the culture they come from. You don’t
+   need to speak louder. It doesn’t help. Try to enunciate your words, though; if
+   you are like me, you are probably carrying some hick accent that would cause
+   you communication problems in your own native tongue.
 
 SHOULD YOU GET ANGRY?
 ''''''''''''''''''''''''''
+该发火吗？
 
-Sometimes getting angry is a correct response. There are occasions when that is
-what it takes for the person or people to whom you are talking to understand
-the seriousness of the point you are trying to communicate. You might have
-no other resort to get the point across. However, it should be rare, and if it is
-rare, it will carry a lot more weight than if you are someone who pops a cork
-every time something goes wrong.
+有时发怒是恰当的反应。当需要让对方严肃对待你的观点时，愤怒可能是唯一有效的沟通方式。你可能别无他法来传达重点。但发怒应该很罕见，正因为罕见，它的效果才会比动不动就暴跳如雷的人强烈得多。
+
+
+.. toggle::
+
+   Sometimes getting angry is a correct response. There are occasions when that is
+   what it takes for the person or people to whom you are talking to understand
+   the seriousness of the point you are trying to communicate. You might have
+   no other resort to get the point across. However, it should be rare, and if it is
+   rare, it will carry a lot more weight than if you are someone who pops a cork
+   every time something goes wrong.
 
 REFLECTIVE LISTENING
 ''''''''''''''''''''''''''
+积极倾听
 
-A great way to improve verbal communication is to use a technique called
-reflective listening. The idea behind this type of communication is to further your
-understanding of what is being said by repeating it back to the person you are
-talking to. Take care, however, not to be annoying. No one likes a copycat.
-The trick is to rephrase it in terms you understand and see if the other party
-agrees with you. This is particularly useful in dealing with persons from a different culture, say, a guy from engineering talking to a guy from management, for
-example.
+提升口头沟通能力的绝佳方法是运用"积极倾听"技巧。其核心是通过复述对方的话来加深理解。但要注意别惹人厌烦——没人喜欢复读机。诀窍是用自己的话重新表述并确认对方是否认同。这在跨文化交流中尤其有用，比如工程师与管理层的对话。
+
+.. toggle::
+
+
+   A great way to improve verbal communication is to use a technique called
+   reflective listening. The idea behind this type of communication is to further your
+   understanding of what is being said by repeating it back to the person you are
+   talking to. Take care, however, not to be annoying. No one likes a copycat.
+   The trick is to rephrase it in terms you understand and see if the other party
+   agrees with you. This is particularly useful in dealing with persons from a different culture, say, a guy from engineering talking to a guy from management, for
+   example.
 
 READ
 '''''''''
+阅读
 
-I believe that the single best way to improve your verbal skills is by reading.
-When you read, you experience how others communicate. It works with spy
-novels to white papers—the more you read, the better you will communicate
-with others. You will add to your vocabulary, you will understand cultural
-differences, and you will be able to order your thoughts in a way that is easier
-for others to understand.
+我认为提升口头表达能力的最佳途径就是阅读。阅读能让你体验他人的沟通方式。无论是间谍小说还是白皮书——读得越多，沟通能力就越强。这能扩充词汇量，增进文化理解，并帮助你更有条理地表达思想。
 
+.. toggle::
+
+   I believe that the single best way to improve your verbal skills is by reading.
+   When you read, you experience how others communicate. It works with spy
+   novels to white papers—the more you read, the better you will communicate
+   with others. You will add to your vocabulary, you will understand cultural
+   differences, and you will be able to order your thoughts in a way that is easier
+   for others to understand.
+
+写作
+~~~~~~~~~~~~
 Written
 ~~~~~~~~~~~~
 
-Whether for emails, reports, or very official-type documents, writing skills are
-extremely important in the field of engineering. Considering that nearly every
-engineer I have ever dealt with has had some issue or another with writing,
-I figure this is an often-overlooked skill.
+无论是撰写邮件、报告还是正式文件，写作技能在工程领域都至关重要。鉴于我接触过的几乎每位工程师都存在不同程度的写作问题，我认为这项技能常常被忽视。
 
-PROOFREAD IT
+.. toggle::
+
+
+   Whether for emails, reports, or very official-type documents, writing skills are
+   extremely important in the field of engineering. Considering that nearly every
+   engineer I have ever dealt with has had some issue or another with writing,
+   I figure this is an often-overlooked skill.
+
+校对
 '''''''''''''''
+PROOFREAD IT
 
-Writing has one distinct advantage over verbal communication: You can look it
-over before you print it, send it, post it, or publish it. You should proof every
-written communication you create. The only question is how much. If it is
-short and you are going to follow up verbally, a quick glance will be enough.
-On the contrary, if it is going to be read by a superior or someone who might
-have reason to pick it apart, go over it a few times.
+写作相比口头沟通有一个显著优势：你可以在打印、发送、发布或出版前进行审阅。你应该校对所有书面沟通内容。唯一的问题是校对程度。如果是简短内容且后续会口头跟进，快速浏览即可。反之，若内容将被上级或可能吹毛求疵的人阅读，则需反复检查。
 
-The most basic skill that I think should be used to proof writing is to read it out
-loud to yourself to see how it sounds. Don’t forget to pause at commas and
-stop at periods, as you were told to in grade school. This technique will help
-you root out all sorts of odd-sounding phrases.
+我认为最基本的校对技巧是大声朗读，感受文字的流畅度。别忘了像小学老师教的那样，在逗号处停顿，在句号处结束。这种方法能帮你找出各种拗口的表达。
 
-If you are particularly concerned, try it out on someone else and see whether they
-understand it. Make sure the person has a similar background to the audience for
-which the document is intended.
+若特别在意，可先让背景相似的同事试读，确认他们能否理解。注意选择与目标读者背景相近的测试对象。
 
-USE APPROPRIATE EMPHASIS
+.. toggle::
+
+
+   Writing has one distinct advantage over verbal communication: You can look it
+   over before you print it, send it, post it, or publish it. You should proof every
+   written communication you create. The only question is how much. If it is
+   short and you are going to follow up verbally, a quick glance will be enough.
+   On the contrary, if it is going to be read by a superior or someone who might
+   have reason to pick it apart, go over it a few times.
+
+   The most basic skill that I think should be used to proof writing is to read it out
+   loud to yourself to see how it sounds. Don’t forget to pause at commas and
+   stop at periods, as you were told to in grade school. This technique will help
+   you root out all sorts of odd-sounding phrases.
+
+   If you are particularly concerned, try it out on someone else and see whether they
+   understand it. Make sure the person has a similar background to the audience for
+   which the document is intended.
+
+适当强调
 '''''''''''''''''''''''''''
+USE APPROPRIATE EMPHASIS
 
-In written communication you lose the ability to create inflection with your
-voice, and you can’t tie body language to what you are saying. This can be com-
-pensated for by emphasizing what you are saying with fonts, capitals, italics,
-boldface, bullet points, and numerous other options. If you SAY SOMETHING
-IN CAPS, you create the idea of yelling or raising your voice. Boldface words
-can imply importance, and italics can help you draw attention to something in
-particular.
+书面沟通失去了通过语调变化和肢体语言辅助表达的能力。但可以通过字体、大写、斜体、粗体、项目符号等多种方式来强调重点。全大写会给人吼叫的感觉，粗体暗示重要性，斜体则能突出特定内容。
 
-There is, of course, a whole world of winks, smiles, and other punctuation types
-of communication out there, but I believe, although most will get the smile, the
-rest is a code that is known to only a few.
+当然，还有表情符号等非文字沟通方式。但我认为，虽然多数人能理解笑脸符号，其他符号代码可能只有少数人懂。
 
-Note that I said appropriate emphasis. It is easy to get carried away. Don’t
-cause death by bullets. Use too many bullet points and they no longer have
-meaning; too much boldface and it does no good; too many caps and people
-will think you are always angry. The trick is to be skillful in applying these
-skills.
+注意强调要适度。过度使用效果适得其反：项目符号太多会失去意义，粗体滥用适得其反，全大写过多会让人觉得你总是在生气。关键在于巧妙运用这些技巧。
 
+.. toggle::
+
+
+   In written communication you lose the ability to create inflection with your
+   voice, and you can’t tie body language to what you are saying. This can be com-
+   pensated for by emphasizing what you are saying with fonts, capitals, italics,
+   boldface, bullet points, and numerous other options. If you SAY SOMETHING
+   IN CAPS, you create the idea of yelling or raising your voice. Boldface words
+   can imply importance, and italics can help you draw attention to something in
+   particular.
+
+   There is, of course, a whole world of winks, smiles, and other punctuation types
+   of communication out there, but I believe, although most will get the smile, the
+   rest is a code that is known to only a few.
+
+   Note that I said appropriate emphasis. It is easy to get carried away. Don’t
+   cause death by bullets. Use too many bullet points and they no longer have
+   meaning; too much boldface and it does no good; too many caps and people
+   will think you are always angry. The trick is to be skillful in applying these
+   skills.
+
+在写作中运用口头表达技巧
+'''''''''''''''''''''''''''''''
 USE VERBAL SKILLS IN WRITING
+
+部分口头沟通技巧同样适用于提升写作能力。考虑受众需求、积极倾听（此处指阅读/写作时的换位思考）等方法能帮助你更好地传达观点。
+
+.. toggle::
+
+
+   Some of these verbal skills are a great way to improve your writing skills. Things
+   such as considering your audience and reflective listening (or reading/writing in
+   this case) can help you understand and get your point across.
+
+电子邮件详情
 '''''''''''''''''''''''''''''''
-
-Some of these verbal skills are a great way to improve your writing skills. Things
-such as considering your audience and reflective listening (or reading/writing in
-this case) can help you understand and get your point across.
-
 EMAIL SPECIFICS
-'''''''''''''''''''''''''''''''
 
-Watch out for flame-mail. In the realm of email, it is very easy to be misunder-
-stood, and people often respond with less tact than they might have in person.
-If you see a flame war starting, I think the best thing to do is talk to the person
-in person.
+警惕"火焰邮件"。在电子邮件领域，误解极易发生，人们往往比当面交流时更缺乏分寸。若发现争论升级，最好当面沟通解决。
 
-Watch the CC list on your emails, take care to whom you forward what, and
-always consider that what you have written can be easily forwarded to an unin-
-tended audience.
+注意邮件的抄送名单，谨慎选择转发对象，并始终牢记：你写的内容可能被轻易转发给非目标读者。
 
-Get to the Point
+.. toggle::
+
+   Watch out for flame-mail. In the realm of email, it is very easy to be misunder-
+   stood, and people often respond with less tact than they might have in person.
+   If you see a flame war starting, I think the best thing to do is talk to the person
+   in person.
+
+   Watch the CC list on your emails, take care to whom you forward what, and
+   always consider that what you have written can be easily forwarded to an unin-
+   tended audience.
+
+直奔主题
 ~~~~~~~~~~~~~~~~~~~
+Get to the Point
 
-Written and verbal communications have a few things in common. One of
-them is the importance of getting to the point. Use what you need to create
-understanding, but don’t overelaborate. If 10 words will do, don’t use 100.
-Here are some other ways to get to the point.
+书面沟通和口头交流有几个共同点，其中之一就是直奔主题的重要性。用必要的内容达成理解即可，避免过度展开。能用十个词表达清楚的事，就不要用一百个词。以下是几种直奔主题的方法。
 
+.. toggle::
+
+
+   Written and verbal communications have a few things in common. One of
+   them is the importance of getting to the point. Use what you need to create
+   understanding, but don’t overelaborate. If 10 words will do, don’t use 100.
+   Here are some other ways to get to the point.
+
+类比
+'''''''''''''''''''''''''''''''
 USE ANALOGY
+
+类比是最有力的沟通方式之一，特别适合解释问题、概念或理论。它能帮助信息接收者具象化理解内容。例如，类比就像望远镜能帮助你看清月球表面细节一样（或者隔壁公寓的细节）。
+
+说到这，我刚刚用类比解释了类比，可能还带点幽默。类比的本质是将新概念与已知事物进行比较，这种方法非常有效。
+
+.. toggle::
+
+
+   One of the most powerful methods of communication is the use of analogy.
+   This works well for trying to explain a problem, concept, or theory. Analogy
+   helps the person receiving information visualize what is being talked about.
+   For example, analogy can help a person understand the details of a topic the
+   same way that a telescope can help you see details of the moon. (Or maybe
+   the apartment next door.)
+
+   There you go. I just used an analogy to explain analogy, and possibly a little
+   humor too. Analogy is the art of comparing the new idea to something already
+   known. It works very well.
+
+一图胜千言
 '''''''''''''''''''''''''''''''
-
-One of the most powerful methods of communication is the use of analogy.
-This works well for trying to explain a problem, concept, or theory. Analogy
-helps the person receiving information visualize what is being talked about.
-For example, analogy can help a person understand the details of a topic the
-same way that a telescope can help you see details of the moon. (Or maybe
-the apartment next door.)
-
-There you go. I just used an analogy to explain analogy, and possibly a little
-humor too. Analogy is the art of comparing the new idea to something already
-known. It works very well.
-
 SKETCH A PICTURE
-'''''''''''''''''''''''''''''''
 
-You’ve all heard the phrase“A picture is worth 1000 words.” Engineers typically
-get this; after all, they use schematics, which are simply pictures to represent
-ideas. In the world of email, however, we often ignore what we know so well.
-We will spend three paragraphs trying to explain what we want when a simple
-sketch will get the point across. Get yourself a scanner and use it to send a
-sketch with that email!
+大家都听过"一图胜千言"这句话。工程师们对此深有体会——毕竟他们日常使用的原理图就是用图形表达思想的工具。但在电子邮件沟通中，我们常常忘记这个基本常识。花三段文字解释的内容，往往一张草图就能说清楚。赶紧配个扫描仪，下次发邮件时附上草图吧！
 
-WATCH OUT FOR CORPORATE CULTURE CODE WORDS
+.. toggle::
+
+   You’ve all heard the phrase“A picture is worth 1000 words.” Engineers typically
+   get this; after all, they use schematics, which are simply pictures to represent
+   ideas. In the world of email, however, we often ignore what we know so well.
+   We will spend three paragraphs trying to explain what we want when a simple
+   sketch will get the point across. Get yourself a scanner and use it to send a
+   sketch with that email!
+
+警惕企业文化中的暗语
 '''''''''''''''''''''''''''''''''''''''''''''
+WATCH OUT FOR CORPORATE CULTURE CODE WORDS
 
-Every conglomeration of people will develop code words to speed their com-
-munication. In a corporation, everyday words will take on completely different
-meanings. When you are dealing with people outside the company, be sure you
-don’t assume that they know what you’re talking about if you use a corporate
-word or phrase.
+每一个人群聚集的地方都会发展出一些暗语来加快彼此的沟通。在公司中，日常用语会被赋予完全不同的含义。当你在与公司外的人打交道时，如果你使用了某些公司内部的术语或短语，请务必不要假设对方能明白你在说什么。
 
-.. admonition:: Thumb Rules
+.. toggle::
 
-    - Watch body language.
-    - Consider who you are talking to.
-    - Anger is sometimes appropriate, but it should be rare.
-    - Listen reflectively.
-    - Read.
-    - Proofread your written communication.
-    - Use appropriate emphasis.
-    - Use analogy.
-    - Sketch a picture.
-    - Explain corporate culture code words to those not of your culture.
 
-ESPECIALLY FOR MANAGERS
+   Every conglomeration of people will develop code words to speed their com-
+   munication. In a corporation, everyday words will take on completely different
+   meanings. When you are dealing with people outside the company, be sure you
+   don’t assume that they know what you’re talking about if you use a corporate
+   word or phrase.
+
+.. admonition:: 拇指法则(Thumb Rules)
+
+   - 观察身体语言。
+   - 考虑你在和谁说话。
+   - 愤怒有时是合适的，但应当罕见。
+   - 反思式地倾听。
+   - 阅读。
+   - 校对你的书面沟通。
+   - 使用适当的强调。
+   - 使用类比。
+   - 画张图。
+   - 向非你文化圈子的人解释企业文化中的暗语。
+
+   .. toggle:: 
+
+      - Watch body language.
+      - Consider who you are talking to.
+      - Anger is sometimes appropriate, but it should be rare.
+      - Listen reflectively.
+      - Read.
+      - Proofread your written communication.
+      - Use appropriate emphasis.
+      - Use analogy.
+      - Sketch a picture.
+      - Explain corporate culture code words to those not of your culture.
+
+特别给管理者的话
 ------------------------
+ESPECIALLY FOR MANAGERS
 
-Early in my career, I developed an outlook on management that can be summed
-up in a single phrase I wrote in my day planner in a boring meeting many years
-ago:“Management is an unnecessary evil.” Years later I got my own“pointy
-hairs” and I discovered a few reasons for management to exist. (They might be
-good and true reasons or simply an attempt to justify my own existence; you will
-have to decide which.)
+在我职业生涯的早期，我对管理有一个看法，可以用我多年前在一个无聊会议中写在日程本上的一句话来概括：“管理是一种不必要的恶。”多年之后，当我也长出了自己的“尖头发”时，我发现管理的存在确实有一些理由。（这些理由可能是正当和真实的，也可能只是为了证明我存在的合理性；你得自己判断。）
 
+.. toggle::
+
+
+   Early in my career, I developed an outlook on management that can be summed
+   up in a single phrase I wrote in my day planner in a boring meeting many years
+   ago:“Management is an unnecessary evil.” Years later I got my own“pointy
+   hairs” and I discovered a few reasons for management to exist. (They might be
+   good and true reasons or simply an attempt to justify my own existence; you will
+   have to decide which.)
+
+促进者
+~~~~~~~~~~~~~~~~
 The Facilitator
-~~~~~~~~~~~~~~~~
-To facilitate is to make easy or easier. Management should be a facilitator; it is
-up to you to create the environment in which an engineer can succeed. You
-need to get your engineers the tools they need to succeed. You need to help
-translate to your superiors the techno garble that engineers are so fond of. Most
-engineers just like to design stuff and really don’t want to be in charge and
-manage things. They like to leave that up to you.
 
+Facilitate（促进）意味着让事情变得容易或更容易。管理者应当是促进者；由你来创造一个工程师能够成功的环境。你需要为工程师提供他们成功所需的工具。你还需要帮助将工程师们热衷的技术术语翻译给你的上级听懂。大多数工程师只是喜欢设计东西，并不想负责管理事务。他们希望由你来处理这些事情。
+
+.. toggle::
+
+
+   To facilitate is to make easy or easier. Management should be a facilitator; it is
+   up to you to create the environment in which an engineer can succeed. You
+   need to get your engineers the tools they need to succeed. You need to help
+   translate to your superiors the techno garble that engineers are so fond of. Most
+   engineers just like to design stuff and really don’t want to be in charge and
+   manage things. They like to leave that up to you.
+
+缓冲器
+~~~~~~~~~~~~~~~~
 The Buffer
-~~~~~~~~~~~~~~~~
-The best managers are a buffer between the top-level antics of illogical requests
-with unreasonable timelines and the real world of actual schedules and needs.
-They bring some order to the world of the engineer out of the chaos of pointy-
-hair decisions. This is something the engineer needs to be successful. Don’t
-forget that in their world, it helps considerably if things make sense.
 
+最好的管理者是高层那些不合逻辑的请求和不合理的时间安排，与实际日程和需求之间的缓冲器。他们从“尖头发”决策带来的混乱中，为工程师的世界带来一些秩序。这是工程师成功所需的东西。别忘了，在工程师的世界中，如果事情是有逻辑的，是非常有帮助的。
+
+
+.. toggle::
+
+   The best managers are a buffer between the top-level antics of illogical requests
+   with unreasonable timelines and the real world of actual schedules and needs.
+   They bring some order to the world of the engineer out of the chaos of pointy-
+   hair decisions. This is something the engineer needs to be successful. Don’t
+   forget that in their world, it helps considerably if things make sense.
+
+代言人
+~~~~~~~~~~~~~~~~
 The Advocate
-~~~~~~~~~~~~~~~~
 
-Good managers understand their employees and are their advocates. If an
-employee always has to beg for a raise, he will soon be looking elsewhere for
-a job. If he or she is a shooting star or even an average Joe, you will find that
-a reasonable show of appreciation raise-wise is much cheaper than hiring and
-training a new guy. It is not only right to be the advocate for your employees;
-it is good for the interests of the company as well. I get sick of hearing managers
-over-hype recognition and promotion as a way to make an employee happy in
-lieu of a raise. It is true that these things are nice, but that only matters if basic
-needs are being met—needs like food and shelter. If you are underpaying too
-much, no amount of awards will keep employees around.
+好的管理者了解他们的员工，并是他们的代言人。如果一个员工总是得为加薪而哀求，那么他很快就会另谋高就。无论他是一个闪耀的新星，还是一个平凡的普通人，你会发现，加薪时表现出合理的欣赏，比起雇佣和培训新员工要便宜得多。为员工做代言人不仅是正确的行为，对公司的利益也有好处。我已经厌倦听到管理者过度夸大表彰和晋升，以此来取代加薪来让员工高兴。诚然，这些事情不错，但那只有在基本需求被满足的情况下才有意义——比如食物和住所。如果你的薪酬过低，再多的奖项也留不住员工。
 
+
+.. toggle::
+
+   Good managers understand their employees and are their advocates. If an
+   employee always has to beg for a raise, he will soon be looking elsewhere for
+   a job. If he or she is a shooting star or even an average Joe, you will find that
+   a reasonable show of appreciation raise-wise is much cheaper than hiring and
+   training a new guy. It is not only right to be the advocate for your employees;
+   it is good for the interests of the company as well. I get sick of hearing managers
+   over-hype recognition and promotion as a way to make an employee happy in
+   lieu of a raise. It is true that these things are nice, but that only matters if basic
+   needs are being met—needs like food and shelter. If you are underpaying too
+   much, no amount of awards will keep employees around.
+
+专注的天赋
+''''''''''''''''''''
 The Gift of Focus
-''''''''''''''''''''
 
-Good managers will develop the gift of focus. I find that this often comes
-naturally to an engineering type; they sometimes get so focused on the task at
-hand they might forget to even eat. For managers, though, their day is typically
-one of continuous and repetitive interruption. You can even get a false sense of
-accomplishment due to the fact that you are so busy being interrupted. To top
-it off, interruptions can spill over onto your engineering staff. Take caution that
-you don’t find yourself constantly interrupting your engineers’ focus. Be sure to
-find time to focus on your tasks; take advantage of that office door and close it
-on occasion to allow you to focus on things that need to get done. Keep meetings
-focused on the topic. Keep your team focused on your goals. Remember, the
-more difficult tasks require focus to complete. In today’s information-rich world,
-focus can be hard to come by, so make it a priority in everything you do.
+好的管理者会培养出专注的天赋。我发现这在工程师类型中往往是天生的；他们有时会专注到连吃饭都忘了。然而对管理者来说，他们的一天通常是不断而重复的打断。你甚至会因为一直在被打断而产生一种虚假的成就感。更糟的是，这些打断会波及到你的工程师团队。要小心，不要总是打断工程师的专注。一定要为自己找时间专注于任务；利用你的办公室门，偶尔关上它，让你能专心处理需要完成的事情。让会议专注于主题。让你的团队专注于目标。记住，越是困难的任务，就越需要专注才能完成。在当今信息过载的世界里，专注难能可贵，因此要把专注作为你所做一切的优先事项。
 
-Understanding Engineers
+.. toggle::
+
+   Good managers will develop the gift of focus. I find that this often comes
+   naturally to an engineering type; they sometimes get so focused on the task at
+   hand they might forget to even eat. For managers, though, their day is typically
+   one of continuous and repetitive interruption. You can even get a false sense of
+   accomplishment due to the fact that you are so busy being interrupted. To top
+   it off, interruptions can spill over onto your engineering staff. Take caution that
+   you don’t find yourself constantly interrupting your engineers’ focus. Be sure to
+   find time to focus on your tasks; take advantage of that office door and close it
+   on occasion to allow you to focus on things that need to get done. Keep meetings
+   focused on the topic. Keep your team focused on your goals. Remember, the
+   more difficult tasks require focus to complete. In today’s information-rich world,
+   focus can be hard to come by, so make it a priority in everything you do.
+
+理解工程师
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
+Understanding Engineers
 
-Here are a couple of things you might or might not know about engineers but
-that will help you be a better manager of engineers.
+以下是一些你可能了解也可能不了解的关于工程师的事情，但它们将有助于你成为更好的工程师管理者。
 
+
+.. toggle::
+
+   Here are a couple of things you might or might not know about engineers but
+   that will help you be a better manager of engineers.
+
+回旋余地
+''''''''''''''''''''
 WEASEL ROOM
+
+工程师需要一点回旋余地。你有没有问过工程师他是否 100% 确信已经找到了解决方案？如果你问过，你可能会看到他露出一副完全迷茫的表情。对于工程师来说，不可能对任何事情都 100% 确信。在这个领域中，你会不断地被提醒自己并不知道也不可能知道一切。你每天都会发现事情出错的新方式，并不断努力去修复和预防这些问题。如果一个工程师给了你一个范围，那你在估算时就采用保守的那个数字。给这个人一点回旋余地。试图逼得太紧，可能会适得其反。
+
+
+.. toggle::
+
+   Engineers need a little weasel room. Have you ever asked an engineer if he is 100%
+   confident he has the solution? If you have, you were likely treated to a look of
+   complete loss. It is not possible for an engineer to be 100% confident in anything.
+   In this discipline you are constantly assaulted with the fact that you don’t and can’t
+   know everything. You discover new ways for things to go wrong daily and are
+   constantly working to fix and prevent them from happening. If an engineer gives
+   you a range, take the conservative number for your estimate. Give the guy a little
+   weasel room. Try to pin him down too hard and it could backfire on you.
+
+永远的乐观主义者
 ''''''''''''''''''''
-
-Engineers need a little weasel room. Have you ever asked an engineer if he is 100%
-confident he has the solution? If you have, you were likely treated to a look of
-complete loss. It is not possible for an engineer to be 100% confident in anything.
-In this discipline you are constantly assaulted with the fact that you don’t and can’t
-know everything. You discover new ways for things to go wrong daily and are
-constantly working to fix and prevent them from happening. If an engineer gives
-you a range, take the conservative number for your estimate. Give the guy a little
-weasel room. Try to pin him down too hard and it could backfire on you.
-
 THE ETERNAL OPTIMIST
+
+我还没有遇到过一个好的工程师不是经常低估完成某件事所需时间的。这是一个事实：优秀的工程师天生乐观，而真正伟大的工程师会给自己施加极大的压力，以实现他们为自己设定的乐观进度。我曾听过一个关于编写软件的拇指法则，而我发现它很准确：把工程师对工作所需时间的估计乘以三。
+
+
+.. toggle::
+
+   I haven’t met a good engineer yet who didn’t regularly underestimate how long
+   it takes to do something. This is simply a fact: Good engineers by nature are
+   optimistic, and the really great engineers will push themselves so hard that they
+   will meet the optimistic schedules they set for themselves. I heard a rule of
+   thumb once about writing software that I have found to be true: Take the
+   engineering estimate of time a job will take and multiply by three.
+
+成长的渴望
 ''''''''''''''''''''
-
-I haven’t met a good engineer yet who didn’t regularly underestimate how long
-it takes to do something. This is simply a fact: Good engineers by nature are
-optimistic, and the really great engineers will push themselves so hard that they
-will meet the optimistic schedules they set for themselves. I heard a rule of
-thumb once about writing software that I have found to be true: Take the
-engineering estimate of time a job will take and multiply by three.
-
 DESIRE TO GROW
-''''''''''''''''''''
 
-The better you understand the“sparky” viewpoint, the more successful you
-will be at managing engineers. If you take this to the next level you can help
-your engineers take on more and more, literally turning an average Joe into a
-shooting star or even possibly rescuing someone from dudsville. [12]_ Most engineers want to grow and become better at what they do, but they need a little
-encouragement, a chance, and maybe a bit of a buffer against failure.
+你越是了解“火花型”工程师的视角，你就越能成功地管理工程师。如果你能更进一步，你就可以帮助你的工程师承担更多责任，真的能把一个普通人变成一颗闪亮的明星，甚至可能从“失败者之地”中挽救出一个人。[12]_ 大多数工程师都希望成长并提升自己的能力，但他们需要一点鼓励、一个机会，也许还需要一点对失败的缓冲。
 
-The Best Manager is Right Most of the Time
+
+.. toggle::
+
+   The better you understand the“sparky” viewpoint, the more successful you
+   will be at managing engineers. If you take this to the next level you can help
+   your engineers take on more and more, literally turning an average Joe into a
+   shooting star or even possibly rescuing someone from dudsville. [12]_ Most engineers want to grow and become better at what they do, but they need a little
+   encouragement, a chance, and maybe a bit of a buffer against failure.
+
+最好的管理者多数时候是对的
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The Best Manager is Right Most of the Time
 
-Some time after I decided that management is an unnecessary evil and then
-later found some purpose in life after being inducted into management, I came
-up with a formula that describes a good manager. Remember, a manager
-spends nearly all his time making decisions—what tools to buy, what people
-to hire, what to do about a particular problem, what to eat for lunch, [13]_ and
-so on. How good he is depends on how often he is right. If he is right more
-often than not, the company makes money. If he is wrong too much, down
-the tubes it goes. So without further ado….
+在我认为管理是一种不必要的恶之后，又在进入管理岗位后找到了人生的一些意义之后，我想出了一个描述好管理者的公式。请记住，管理者几乎花全部时间在做决策——买什么工具、雇什么人、如何处理某个问题、中午吃什么，[13]_ 等等。他的能力取决于他有多少次是对的。如果他多数时候是对的，公司就能盈利；如果他错误太多，公司就会走下坡。所以，长话短说……
 
-.. [13] I believe there is a correlation here: The further up the corporate ladder a person climbs, the longer it takes him or her to decide what to have for lunch.
+.. [13] 我相信这之间存在某种关联：一个人爬得越高，决定午餐吃什么所花的时间就越长。
 
-A good manager is right 51% of the time. A great manager is right 70%, 80%, even
-90% of the time. If your decisions are right most of the time, you will succeed.
+一个好的管理者有 51% 的时候是正确的。一个伟大的管理者在 70%、80% 甚至 90% 的时间是正确的。如果你的决策大多数时候是对的，你就会成功。
 
-Remember this when faced with a decision. You don’t have to be right all the
-time. Don’t let indecision and too much worry prevent you from making a
-choice. Often that in itself can cause you to fail. Consider the situation, take
-action, and watch the results. Don’t be afraid to admit you were wrong if you
-see you’ve made a mistake. Learn from the mistakes and don’t repeat them.
+在面对决策时记住这一点。你不需要一直都是对的。不要让优柔寡断和过多担忧阻碍你做出选择。很多时候，这本身就会导致失败。考虑情况，采取行动，观察结果。如果你发现自己犯了错，不要害怕承认。要从错误中学习并避免重蹈覆辙。
 
-Finding the Shooting Star in a Forest of Average Joes
+
+.. toggle::
+
+   Some time after I decided that management is an unnecessary evil and then
+   later found some purpose in life after being inducted into management, I came
+   up with a formula that describes a good manager. Remember, a manager
+   spends nearly all his time making decisions—what tools to buy, what people
+   to hire, what to do about a particular problem, what to eat for lunch, [13]_ and
+   so on. How good he is depends on how often he is right. If he is right more
+   often than not, the company makes money. If he is wrong too much, down
+   the tubes it goes. So without further ado….
+
+   .. [13] I believe there is a correlation here: The further up the corporate ladder a person climbs, the longer it takes him or her to decide what to have for lunch.
+
+   A good manager is right 51% of the time. A great manager is right 70%, 80%, even
+   90% of the time. If your decisions are right most of the time, you will succeed.
+
+   Remember this when faced with a decision. You don’t have to be right all the
+   time. Don’t let indecision and too much worry prevent you from making a
+   choice. Often that in itself can cause you to fail. Consider the situation, take
+   action, and watch the results. Don’t be afraid to admit you were wrong if you
+   see you’ve made a mistake. Learn from the mistakes and don’t repeat them.
+
+在普通人森林中找到那颗闪耀的星
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Finding the Shooting Star in a Forest of Average Joes
 
-One of the most challenging things a manager has to do, after spending an
-hour or so with someone, is to decide whether that person would be a good
-employee and hire him or her. As we learned in previous discussions, you really
-want to stock your group with shooting stars, but how do you find them? How
-do you weed out the duds so that you aren’t saddled with a problem down the
-road? Though there is no perfect solution, here are some key points to look for
-in a perspective engineer.
+管理者面临的最具挑战性的事情之一，就是在和某人接触一个小时左右后，就要判断这个人是否适合成为一名优秀的员工，并决定是否录用他或她。正如我们在之前的讨论中了解到的，你确实希望你的团队里充满闪耀之星，但你该如何找到他们？你如何筛除“哑炮”，以免今后被这个问题困扰？虽然没有完美的解决方案，但下面是一些你在考察工程师时需要关注的关键点。
 
-DRESS
+
+.. toggle::
+
+   One of the most challenging things a manager has to do, after spending an
+   hour or so with someone, is to decide whether that person would be a good
+   employee and hire him or her. As we learned in previous discussions, you really
+   want to stock your group with shooting stars, but how do you find them? How
+   do you weed out the duds so that you aren’t saddled with a problem down the
+   road? Though there is no perfect solution, here are some key points to look for
+   in a perspective engineer.
+
+着装
 ''''''''
+DRESS
 
-Don’t put a lot of value on how a person is dressed. Casual attire is the norm
-where I work, so unless someone comes in with serious hygiene problems, I
-don’t chalk up any negative points. Once, however, a potential employee asked
-what the dress code was. His consideration impressed me. However, it is of
-minor importance. Our company is interested in results and product, neither
-of which is significantly affected by the dress of R&D employees. [14]_
-12 If you don’t get the references to shooting stars, average Joes, and duds, you either skipped a few pages
-or have a serious memory problem.
+不要过于看重一个人的穿着。在我工作的地方，休闲着装是常态，所以除非某人存在严重的卫生问题，我不会因此而给负面评价。不过，有一次，一个求职者问我们的着装规范是什么，他的这个考虑让我印象深刻。然而，这只是个小事。我们公司关注的是成果和产品，而这两者都不会因研发员工的穿着而受到太大影响。[14]_
 
-.. [14] Okay, that’s not entirely true. When I think about it, the casual atmosphere we maintain makes us more productive, but that comes after the hiring decision, so it doesn’t count.
+.. [14] 好吧，也不完全正确。仔细想想，我们保持的轻松氛围确实让我们更高效，但这是在招聘之后的影响，所以不算数。
 
-FUNDAMENTAL KNOWLEDGE
+   Okay, that’s not entirely true. When I think about it, the casual atmosphere we maintain makes us more productive, but that comes after the hiring decision, so it doesn’t count.
+
+
+.. toggle::
+
+   Don’t put a lot of value on how a person is dressed. Casual attire is the norm
+   where I work, so unless someone comes in with serious hygiene problems, I
+   don’t chalk up any negative points. Once, however, a potential employee asked
+   what the dress code was. His consideration impressed me. However, it is of
+   minor importance. Our company is interested in results and product, neither
+   of which is significantly affected by the dress of R&D employees. [14]_
+   12 If you don’t get the references to shooting stars, average Joes, and duds, you either skipped a few pages
+   or have a serious memory problem.
+
+基础知识
 ''''''''''''''''''''''''
+FUNDAMENTAL KNOWLEDGE
 
-This is very important to me as a manager. There are some skills I don’t want to
-have to teach you, skills I expect you to know for this position. A degree or
-some type of schooling tips the scale favorably, but I do not consider it a
-shoe-in. I have seen too many college graduates who got through school by
-the“assimilate and regurgitate” method. They passed all their tests with great
-grades, but they didn’t focus on retaining the knowledge. I weed these people
-out with questions such as the one shown in :ref:`Figure 7.1 <Figure 7.1>`.
+这一点对我作为管理者来说非常重要。有些技能是我不想教的，我希望你自己就已经具备这些技能。拥有学位或接受过相关教育是加分项，但这并不是决定性因素。我见过太多靠“吸收再吐出”方法通过大学的毕业生。他们的成绩很好，所有考试都顺利通过，但他们并不专注于真正掌握知识。我会通过诸如 :ref:`图 7.1 <Figure 7.1>` 所示的问题来筛除这些人。
 
 .. _Figure 7.1:
 
 .. figure:: ./img/f7.1.png 
     :align: center
 
-    Given this circuit and a step input, please sketch the voltage output with respect to time.
+    给出此电路和阶跃输入，请画出电压随时间变化的输出图。
 
-    **FIGURE 7.1 Standard“sparky” interview test question.**
+    **图 7.1 标准“火花型”面试题**
 
-You might laugh, but being located right next to a major university with a
-reputation as a good engineering school, I constantly interview fresh graduates
-who should know this stuff. Fully half the applicants I see get this question
-wrong! The basics are important. If you don’t have them, you are just guessing
-when you design. Worse yet is if you think you know them and you really
-don’t. After all the hammering on basics at the beginning of this book, I hope
-the importance of this concept is understood. I’d rather hire someone with the
-basics down pat and a 2.9 grade point average than the person that has a 4.0
-and stumbles on basic understanding.
+你也许会笑，但由于我所在位置紧邻一所以工程学著称的大学，我经常会面试到刚毕业的新生，他们本应了解这些内容。而我看到有一半的求职者回答错了这道题！基础是非常重要的。如果你没有打好基础，那你在设计时只能靠猜。更糟的是你自以为掌握了基础，其实根本没有。考虑到本书开头反复强调基础知识的重要性，我希望你已经理解了这一点。我宁愿雇一个基础扎实 GPA 只有 2.9 的人，也不要一个 GPA 是 4.0 但连基础都搞不清楚的人。
 
-CAN YOU LEARN?
+
+.. toggle::
+
+   This is very important to me as a manager. There are some skills I don’t want to
+   have to teach you, skills I expect you to know for this position. A degree or
+   some type of schooling tips the scale favorably, but I do not consider it a
+   shoe-in. I have seen too many college graduates who got through school by
+   the“assimilate and regurgitate” method. They passed all their tests with great
+   grades, but they didn’t focus on retaining the knowledge. I weed these people
+   out with questions such as the one shown in :ref:`Figure 7.1 <Figure 7.1>`.
+
+   .. figure:: ./img/f7.1.png 
+      :align: center
+
+      Given this circuit and a step input, please sketch the voltage output with respect to time.
+
+      **FIGURE 7.1 Standard“sparky” interview test question.**
+
+   You might laugh, but being located right next to a major university with a
+   reputation as a good engineering school, I constantly interview fresh graduates
+   who should know this stuff. Fully half the applicants I see get this question
+   wrong! The basics are important. If you don’t have them, you are just guessing
+   when you design. Worse yet is if you think you know them and you really
+   don’t. After all the hammering on basics at the beginning of this book, I hope
+   the importance of this concept is understood. I’d rather hire someone with the
+   basics down pat and a 2.9 grade point average than the person that has a 4.0
+   and stumbles on basic understanding.
+
+你能学会吗？
 ''''''''''''''''
+CAN YOU LEARN?
 
-I have yet to see any employee get into a new job and not need to learn. Sometime
-during the interview, I will intentionally teach the candidate something new, and
-then hit the subject later in the interview, to see if he or she has picked it up. This
-ability to learn quickly and have it stick is important to the success of any engineer-
-ing group. Technology will quickly outstrip those who can’t learn.
+我还没见过哪个员工在进入新岗位后不需要学习的。在面试过程中，我会故意教候选人一些新知识，然后在面试的后半段再次问到这个话题，看他是否学会了。这种快速学习并记住的能力，对任何工程团队的成功都非常关键。技术发展迅猛，那些无法学习的人会迅速被淘汰。
 
+
+.. toggle::
+
+   I have yet to see any employee get into a new job and not need to learn. Sometime
+   during the interview, I will intentionally teach the candidate something new, and
+   then hit the subject later in the interview, to see if he or she has picked it up. This
+   ability to learn quickly and have it stick is important to the success of any engineer-
+   ing group. Technology will quickly outstrip those who can’t learn.
+
+你愿意学习吗？
+''''''''''''''''''''''''''
 ARE YOU WILLING TO LEARN?
-''''''''''''''''''''''''''
 
-You might think this was covered in the preceding question, but I consider it a
-separate point. I will often ask interviewees a question that I am fairly sure they
-do not know the answer to, simply to see how they respond. Do they try to BS
-their way through it? Or are they willing to admit that they don’t know and ask
-for help? In the rapid design cycles of today, there isn’t time to play games. That
-means “I don’t know, but I will find out” is an appropriate answer. You can
-take this to a higher level, too. On call-back interviews, ask a question again
-that stumped them the first time to see if they were interested enough to figure
-out the answer.
+你也许会以为这个问题在前一个问题中已经涵盖了，但我认为这是一个独立的点。我经常会问应聘者一个我确信他们不知道答案的问题，仅仅是为了观察他们的反应。他们是否试图胡编乱造？还是愿意承认自己不知道，并寻求帮助？在如今快速迭代的设计周期中，没有时间玩游戏。因此，“我不知道，但我会去找答案”是一个恰当的回答。你也可以把这个进一步提升：在回访面试中，重新问一个他们第一次没答上的问题，看看他们是否有足够的兴趣去找出答案。
 
+.. toggle::
+
+   You might think this was covered in the preceding question, but I consider it a
+   separate point. I will often ask interviewees a question that I am fairly sure they
+   do not know the answer to, simply to see how they respond. Do they try to BS
+   their way through it? Or are they willing to admit that they don’t know and ask
+   for help? In the rapid design cycles of today, there isn’t time to play games. That
+   means “I don’t know, but I will find out” is an appropriate answer. You can
+   take this to a higher level, too. On call-back interviews, ask a question again
+   that stumped them the first time to see if they were interested enough to figure
+   out the answer.
+
+人际交往技巧
+''''''''''''''
 PEOPLE SKILLS
-''''''''''''''
 
-Is there a job out there that requires zero contact with other human beings?
-I doubt it. The best engineering teams get along well, which is why I value peo-
-ple skills significantly. How do you handle pressure? Can you get along with
-people you don’t care for? This is a fairly tough item to evaluate in an interview.
-I invite my leads to fire questions at the candidate and watch how he or she
-responds under pressure.
+世上有没有完全不需要与人接触的工作？我表示怀疑。最好的工程团队成员之间关系融洽，这也是我非常重视人际交往技巧的原因。你在压力下的表现如何？你能和你不喜欢的人合作吗？这些在面试中很难评估。我会邀请我的团队负责人向候选人提问，观察他或她在压力下的反应。
 
-ATTITUDE/MOTIVATION
+.. toggle::
+
+   Is there a job out there that requires zero contact with other human beings?
+   I doubt it. The best engineering teams get along well, which is why I value peo-
+   ple skills significantly. How do you handle pressure? Can you get along with
+   people you don’t care for? This is a fairly tough item to evaluate in an interview.
+   I invite my leads to fire questions at the candidate and watch how he or she
+   responds under pressure.
+
+态度/动机
 ''''''''''''''''''''''
+ATTITUDE/MOTIVATION
 
-A positive attitude always impresses me. I quote my father:“Can’t is a sucker
-too lazy [15]_ to try.” I think it is important to believe that something can be done.
-Look for signs of giving up on a problem. Is the candidate persistent? Does he
-or she complain during the interview? Does he moan about his last job? I have
-seen all types. Whiners don’t get hired.
+积极的态度总是能打动我。我引用我父亲的一句话：“‘不能’是懒得去尝试的傻瓜。”[15]_ 我认为相信事情是可以完成的很重要。要观察是否有放弃问题的迹象。候选人是否坚持不懈？他或她在面试时是否抱怨？是否抱怨上一份工作？我见过各种类型。爱抱怨的人不会被录用。
 
-.. [15] Can laziness actually be an asset? If it motivates creativity, it can. Remember, if you give the hardest job to the laziest man, he will find the easiest way to do it. So I guess you could look for motivated lazy people, if that makes sense at all.
+.. [15] 懒惰真的可能是优点吗？如果它能激发创造力，那就有可能。记住，如果你把最难的工作交给最懒的人，他会找到最轻松的做法。所以也许你可以寻找有动力的懒人，如果你能理解这话的意思的话。
 
+   Can laziness actually be an asset? If it motivates creativity, it can. Remember, if you give the hardest job to the laziest man, he will find the easiest way to do it. So I guess you could look for motivated lazy people, if that makes sense at all.
+
+.. toggle::
+
+
+   A positive attitude always impresses me. I quote my father:“Can’t is a sucker
+   too lazy [15]_ to try.” I think it is important to believe that something can be done.
+   Look for signs of giving up on a problem. Is the candidate persistent? Does he
+   or she complain during the interview? Does he moan about his last job? I have
+   seen all types. Whiners don’t get hired.
+
+
+常识
+''''''''''''''
 COMMON SENSE
+
+这完全关乎如何用最少的时间完成任务。很多时候一个人“书本知识”丰富，但却无法应用所学。如果你没有常识，你就会在应用知识方面吃力。我常用一个脑筋急转弯来判断一个人的常识水平：[16]_
+
+    你站在一个房间里，天花板上垂着两根绳子。如果你抓住其中一根走向另一根，那第二根会因垂直悬挂而离你几英尺远，无法够到。你的任务是将两根绳子系在一起。你手边只有三样东西：一盒火柴、一小张卫生纸和一把螺丝刀。你该如何将绳子系在一起？
+
+.. [16] 我不确定我是否要揭晓答案。有些聪明但缺乏常识的人会过度思考。（你不会相信我听到过哪些答案！）如果你有很高的常识商数，你会立刻想到答案并觉得怎么这么简单。如果你卡住了可以发邮件问我提示！嘿，如果你觉得太明显了，也发封邮件给我，说不定我能在我们公司替你美言几句！
+
+   I’m not sure I want to reveal the answer. People who are smart but with less common sense will overthink it too much. (You wouldn’t believe some of the answers I’ve heard!) If you have a high common-sense quotient, you will get the solution in a second and wonder why it was so simple. Email me for a hint if you are struggling! Heck, email me if it is obvious, maybe I’ll put in a good word for you at my company!
+
+.. toggle::
+
+   This is all about getting the job done in the least amount of time. Too often a
+   person can be“book smart” but not be able to apply what he or she has
+   learned. If you don’t have common sense you will struggle with applying the
+   knowledge you have. Here is a brain teaser [16]_ I often use to determine a person’ s level of common sense:
+
+      You are standing in a room with two strings hanging from a high ceiling. If you grab just
+      one string and walk to the other, the second string is several feet out of reach (because it
+      is hanging straight down). Your task is to tie the two strings together. You have just three
+      things to perform this task: a book of matches, a single square of toilet paper, and a
+      screwdriver. How do you tie the strings together?
+
+总的来说
 ''''''''''''''
-
-This is all about getting the job done in the least amount of time. Too often a
-person can be“book smart” but not be able to apply what he or she has
-learned. If you don’t have common sense you will struggle with applying the
-knowledge you have. Here is a brain teaser [16]_ I often use to determine a person’ s level of common sense:
-
-    You are standing in a room with two strings hanging from a high ceiling. If you grab just
-    one string and walk to the other, the second string is several feet out of reach (because it
-    is hanging straight down). Your task is to tie the two strings together. You have just three
-    things to perform this task: a book of matches, a single square of toilet paper, and a
-    screwdriver. How do you tie the strings together?
-
-.. [16] I’m not sure I want to reveal the answer. People who are smart but with less common sense will overthink it too much. (You wouldn’t believe some of the answers I’ve heard!) If you have a high common-sense quotient, you will get the solution in a second and wonder why it was so simple. Email me for a hint if you are struggling! Heck, email me if it is obvious, maybe I’ll put in a good word for you at my company!
-
 IN GENERAL
-''''''''''''''
 
-Should you be looking for the person who can do differential equations in his
-head? I don’t think so. I will buy Mathcad for that. I want to know if the
-candidate has the fundamentals and if he can and will learn the rest.
+你是不是应该寻找那种能在脑中做微分方程的人？我不这么认为。我会去买 Mathcad 来解决这种事。我想知道的是这个人是否掌握了基础，并且他是否能够并愿意学会其余的知识。
 
-Remember, great managers are rare; mediocre managers are commonplace. You
-don’t have to be a great manager for a company to be successful. Why stop
-there, though? Great managers are huge assets to any company; great managers
-can turn average Joes into shooting stars who can make incredible things
-happen.
+记住，优秀的管理者是稀有的；平庸的管理者比比皆是。一个公司要成功不必非得有伟大的管理者。但为什么不更进一步呢？伟大的管理者对任何公司都是巨大的财富；伟大的管理者能将普通人转变为能创造奇迹的明星。
 
-Being a great manager isn’t all that hard. Listen, look, and learn until you are
-right most of the time. Then you won’t be unnecessary or evil!
+成为一个伟大的管理者并不那么难。倾听、观察、学习，直到你多数时候是正确的。那时你就不会是“不必要的”或“邪恶的”！
 
-.. admonition:: Thumb Rules
+.. toggle::
 
-   - Management is an unnecessary evil?
-   - Be a facilitator.
-   - Be the buffer.
-   - Be an advocate.
-   - Develop the gift of focus.
-   - Understand your engineers.
-   - Be right most of the time.
-   - Hire shooting stars; make shooting stars from average Joes.
-   - Don’t be unnecessary.
-   - Don’t be evil.
 
-ESPECIALLY FOR EMPLOYEES
+   Should you be looking for the person who can do differential equations in his
+   head? I don’t think so. I will buy Mathcad for that. I want to know if the
+   candidate has the fundamentals and if he can and will learn the rest.
+
+   Remember, great managers are rare; mediocre managers are commonplace. You
+   don’t have to be a great manager for a company to be successful. Why stop
+   there, though? Great managers are huge assets to any company; great managers
+   can turn average Joes into shooting stars who can make incredible things
+   happen.
+
+   Being a great manager isn’t all that hard. Listen, look, and learn until you are
+   right most of the time. Then you won’t be unnecessary or evil!
+
+.. admonition:: 拇指法则(Thumb Rules)
+
+   - 管理是种不必要的邪恶？
+   - 成为促进者。
+   - 成为缓冲器。
+   - 成为代言人。
+   - 培养专注的天赋。
+   - 理解你的工程师。
+   - 多数时候做出正确判断。
+   - 招募明星；从普通人中培养出明星。
+   - 不要成为“多余的”。
+   - 不要成为“邪恶的”。
+
+   .. toggle:: 
+
+      - Management is an unnecessary evil?
+      - Be a facilitator.
+      - Be the buffer.
+      - Be an advocate.
+      - Develop the gift of focus.
+      - Understand your engineers.
+      - Be right most of the time.
+      - Hire shooting stars; make shooting stars from average Joes.
+      - Don’t be unnecessary.
+      - Don’t be evil.
+
+特别写给员工的话
 ---------------------------
+ESPECIALLY FOR EMPLOYEES
 
-As an employee your motivation, like the pointy-hair boss you work for,
-eventually boils down to money. You want to do a job and get paid for it. True,
-job satisfaction is important, but that comes as a far second to the need to buy
-food to eat and have a dry place to sleep. This means that an employee needs to
-know two things: how to get a job and how to keep a job. This chapter is a
-guideline to those things.
+作为一名员工，你的动力就像你那位“尖头发”老板一样，归根结底还是钱。你想工作并拿到报酬。诚然，工作满意度很重要，但和买得起饭吃、能有个干燥的睡觉地方相比，那只能排在第二位。这意味着员工需要知道两件事：如何找到一份工作，以及如何保住一份工作。本章就是这两方面的指南。
 
-How to Get a Job
+.. toggle::
+
+
+   As an employee your motivation, like the pointy-hair boss you work for,
+   eventually boils down to money. You want to do a job and get paid for it. True,
+   job satisfaction is important, but that comes as a far second to the need to buy
+   food to eat and have a dry place to sleep. This means that an employee needs to
+   know two things: how to get a job and how to keep a job. This chapter is a
+   guideline to those things.
+
+如何找到工作
 ~~~~~~~~~~~~~~~~~~~
+How to Get a Job
 
-It all starts with the interview. Having interviewed more engineers than I care to
-remember, I have compiled seven definite no-nos [17]_ extracted from real interviews. Giggle, laugh, and snicker if you will, but please do not try these during
-your next interview. The people described in the following paragraphs are
+一切都从面试开始。我面试过的工程师多得记不清了，因此我整理出了七条绝对不要做的事 [17]_，都来自真实的面试经历。你可以笑、可以偷乐，但请在下次面试时千万别照做。下面这些人可都是“专业人士”。
 
-.. [17] Come to think of it, these don’ts aren’t just for engineering interviews; you could make a pretty good case for each one as a rule of thumb in almost any job interview.
-professionals.
+.. [17] 说起来，这些“不要做”的事并不只是针对工程面试；几乎适用于任何职业面试都成立。
 
-DON’T BE CONDESCENDING
+   Come to think of it, these don’ts aren’t just for engineering interviews; you could make a pretty good case for each one as a rule of thumb in almost any job interview.
+   professionals.
+
+.. toggle::
+
+
+   It all starts with the interview. Having interviewed more engineers than I care to
+   remember, I have compiled seven definite no-nos [17]_ extracted from real interviews. Giggle, laugh, and snicker if you will, but please do not try these during
+   your next interview. The people described in the following paragraphs are
+
+不要居高临下
 ''''''''''''''''''''''''''
+DON’T BE CONDESCENDING
 
-Be careful how you come across to your potential employer. One candidate
-I interviewed seemed to really disdain coming to us for a job. It was as though
-he would work for us if he really had to, but he sure wasn’t going to like it. The
-“you don’t have anything to teach me” vibe was very strong. Being an engineer
-who believes the ratio of what we know to what we don’t know is extremely
-small, I have a tough time with that. This is especially disconcerting when some
-simple circuit diagrams are requested and you get the response,“Everyone
-knows that,” a little hand waving, and then nothing is written down and no
-answer is forthcoming. I immediately think you don’t actually know it, and this
-is all an act to cover up the lack of knowledge.
+注意你给潜在雇主留下的印象。有一位我面试的候选人似乎对来我们公司找工作感到不屑。他的态度就像是“如果实在没办法了，我可以勉强来你们这干”，但他显然不会喜欢这份工作。他全身上下散发出“你们没什么能教我的”这种气场。作为一个深知“我们所知和所不知之间的比例非常小”的工程师，我很难接受这种态度。尤其是在你要他画个简单电路图时，他说“这谁都知道”，手一挥，既没写下答案也没解释时，我立刻就会觉得你其实并不懂，这是在装。
 
+.. toggle::
+
+
+   Be careful how you come across to your potential employer. One candidate
+   I interviewed seemed to really disdain coming to us for a job. It was as though
+   he would work for us if he really had to, but he sure wasn’t going to like it. The
+   “you don’t have anything to teach me” vibe was very strong. Being an engineer
+   who believes the ratio of what we know to what we don’t know is extremely
+   small, I have a tough time with that. This is especially disconcerting when some
+   simple circuit diagrams are requested and you get the response,“Everyone
+   knows that,” a little hand waving, and then nothing is written down and no
+   answer is forthcoming. I immediately think you don’t actually know it, and this
+   is all an act to cover up the lack of knowledge.
+
+不要害怕说“我不知道”
+''''''''''''''''''''''''''''''''''''''''''''''''''''
 DON’T WORRY ABOUT SAYING“I DON’T KNOW”
-''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-The stress of an interview might make it the toughest place to say“I don’t
-know,” but that is not a bad answer. Especially if you follow up with,“I’ll find
-out, though.” One of the best impressions I had from a potential employee was
-when he sent me an email afterward that explained the answer to one of our
-questions in the interview that he didn’t know at the time. The fact that he took
-the effort to look it up showed perseverance and a desire to learn. That alone
-will many times make up for a current lack in knowledge.
+面试的压力可能让“我不知道”这句话变得难以启齿，但这并不是一个糟糕的回答。尤其是如果你能补上一句“不过我会去找出来”。我遇到过一个印象极好的应聘者，在面试后发邮件给我，解释了当时不知道如何回答的一个问题的答案。他花时间去查资料，这显示出他有毅力、有求知欲。光凭这点就能弥补他当前知识上的不足。
 
+.. toggle::
+
+
+   The stress of an interview might make it the toughest place to say“I don’t
+   know,” but that is not a bad answer. Especially if you follow up with,“I’ll find
+   out, though.” One of the best impressions I had from a potential employee was
+   when he sent me an email afterward that explained the answer to one of our
+   questions in the interview that he didn’t know at the time. The fact that he took
+   the effort to look it up showed perseverance and a desire to learn. That alone
+   will many times make up for a current lack in knowledge.
+
+不要失控
+''''''''''''''''''''''
 DON’T LOSE YOUR COOL
-''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-One person I interviewed was clearly thrown a bit off balance by some of the
-questions I asked. What really put marks in the cons column was when he
-got so upset trying to solve the problem that he threw down his pencil and
-repeatedly smacked the table. Our work environment can be much more stressful than an interview; I really don’t want to worry about someone going mental
-on the job.
+我曾经面试过一个人，被我问的一些问题明显打乱了阵脚。他真正让我打上负分的，是他因为太沮丧，试图解题时猛地把铅笔摔下，还连续拍桌子。我们的工作环境可能比面试压力还大，我可不想担心某个人在工作中失控。
 
+.. toggle::
+
+
+   One person I interviewed was clearly thrown a bit off balance by some of the
+   questions I asked. What really put marks in the cons column was when he
+   got so upset trying to solve the problem that he threw down his pencil and
+   repeatedly smacked the table. Our work environment can be much more stressful than an interview; I really don’t want to worry about someone going mental
+   on the job.
+
+不要轻言放弃
+''''''''''''''''''''''''
 DON’T GIVE UP EASILY
-''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-If you don’t know the answer to a particular problem, try to figure it out if you
-can. I will often ask questions that I know the candidate won’t know, just to see
-how he or she handles it. Someone who takes one look and walks away has
-never impressed me. Remember, while someone is standing there saying it can’t
-be done, someone else is out there doing it.
+如果你不知道某个问题的答案，尽可能地试着去解决。我常常会问一些我知道候选人不会知道的问题，只是为了看看他或她如何应对。有人一看就转身走开，从来没能给我留下好印象。记住，当有人站着说“这做不到”时，总会有人正在外面把它做出来。
 
+.. toggle::
+
+
+   If you don’t know the answer to a particular problem, try to figure it out if you
+   can. I will often ask questions that I know the candidate won’t know, just to see
+   how he or she handles it. Someone who takes one look and walks away has
+   never impressed me. Remember, while someone is standing there saying it can’t
+   be done, someone else is out there doing it.
+
+不要害怕提问
+''''''''''''''''''''''''''''''''''
 DON’T BE AFRAID TO ASK QUESTIONS
-''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Along with the preceding point, you are not expected to know it all. If a person
-asks a question about a particular task or problem I’ve given him or her in an
-interview, it usually shows that a person who doesn’t know is willing to find
-out. That is a very important trait in the engineering world. Also use the inter-
-view as a chance to find out about your prospective workplace.
+接着上面那点说：没人指望你无所不知。如果面试中有人对我提出的任务或问题有疑问，这通常表明这个人虽然不懂，但愿意搞明白。在工程领域，这是一项非常重要的品质。也要把面试当作你了解未来工作环境的机会。
 
+.. toggle::
+
+
+   Along with the preceding point, you are not expected to know it all. If a person
+   asks a question about a particular task or problem I’ve given him or her in an
+   interview, it usually shows that a person who doesn’t know is willing to find
+   out. That is a very important trait in the engineering world. Also use the inter-
+   view as a chance to find out about your prospective workplace.
+
+不要把头趴在桌上
+'''''''''''''''''''''''''''''''''
 DON’T LAY YOUR HEAD ON THE TABLE
-''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-Yep, it really happened and I have witnesses to prove it. This potential employee
-laid his head on the table several times during the interview. I couldn’t figure
-out whether he was tired or just listening for some type of table vibration that
-might indicate how well the interview was going. This would never be my
-only reason for not hiring someone. (I get some of my best ideas in that twilight between almost asleep and almost awake.) However, this was coupled
-with some other blatant problems. I just knew it wouldn’t work. Let’s just say
-this particular interviewee will have plenty of time to nap now.
+没错，这真的发生过，还有人作证。这位候选人在面试中多次把头趴在桌上。我搞不清他是太累了，还是在听桌子震动来判断面试效果。这不会是我不录用某人的唯一原因。（我自己也常在半睡半醒之间有灵感。）但这事加上他身上的其他明显问题，我立刻就知道这人不合适。我们就说，这位面试者以后应该有很多时间打盹了。
 
+.. toggle::
+
+   Yep, it really happened and I have witnesses to prove it. This potential employee
+   laid his head on the table several times during the interview. I couldn’t figure
+   out whether he was tired or just listening for some type of table vibration that
+   might indicate how well the interview was going. This would never be my
+   only reason for not hiring someone. (I get some of my best ideas in that twilight between almost asleep and almost awake.) However, this was coupled
+   with some other blatant problems. I just knew it wouldn’t work. Let’s just say
+   this particular interviewee will have plenty of time to nap now.
+
+不要自称愚蠢
+''''''''''''''''''''''''''''''
 DON’T CALL YOURSELF STUPID
-''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-I wouldn’t have believed it if it hadn’t happened to me. One applicant we had
-got a little flustered with a couple of basic questions, but that wasn’t what did
-him in. The first time he said“Man, I am stupid,” I didn’t think much of it;
-however, as the interview wore on, I heard,“Oh, I’m an idiot,” and,“I am soooo
-stupid,” probably a dozen times or more. By the end of the interview, I was sure
-of one thing: I definitely didn’t want to hire an idiot, especially one so stupid.
+如果不是亲身经历，我是不会相信的。有个应聘者被几个基础问题搞得有点慌神，但这并不是致命的。他第一次说“天啊，我太蠢了”的时候我没太在意；但随着面试进行，我听到了“我是个白痴”、“我真是太笨了”之类的自我贬低，可能超过十二次。到面试结束时，我唯一确信的事就是：我绝不会雇一个自己都觉得自己愚蠢的人，特别是这么蠢的。
 
+.. toggle::
+
+   I wouldn’t have believed it if it hadn’t happened to me. One applicant we had
+   got a little flustered with a couple of basic questions, but that wasn’t what did
+   him in. The first time he said“Man, I am stupid,” I didn’t think much of it;
+   however, as the interview wore on, I heard,“Oh, I’m an idiot,” and,“I am soooo
+   stupid,” probably a dozen times or more. By the end of the interview, I was sure
+   of one thing: I definitely didn’t want to hire an idiot, especially one so stupid.
+
+最后的一点建议
+''''''''''''''''''''''
 A FINAL THOUGHT
-''''''''''''''''''''''''''''''''''''''''''''''''''''
 
-There are a lot of guides out there on getting an interview and getting through
-an interview. They are even a bit more conventional than my seven don’ts. It
-can’t hurt to study up on some of these pointers. I also think it helps to know
-a bit about the company you are interviewing with. Take advantage of today’s ability to look up anything on the Internet. It will help you decide where you
-want to be, and it also doesn’t hurt to have a little background before going
-into an interview.
+关于如何获得和通过面试的指南多得很，它们比我这七条“不做”更传统一些。学习这些技巧不会有坏处。我还认为，了解一些你要面试的公司的背景信息会有帮助。充分利用今天的互联网，能帮你决定自己想去哪家公司，也能在面试前建立一些背景知识储备。
 
+.. toggle::
+
+
+   There are a lot of guides out there on getting an interview and getting through
+   an interview. They are even a bit more conventional than my seven don’ts. It
+   can’t hurt to study up on some of these pointers. I also think it helps to know
+   a bit about the company you are interviewing with. Take advantage of today’s ability to look up anything on the Internet. It will help you decide where you
+   want to be, and it also doesn’t hurt to have a little background before going
+   into an interview.
+
+如何保住工作
+~~~~~~~~~~~~~~~~~~~~
 How to Keep a Job
-~~~~~~~~~~~~~~~~~~~~~
 
-When the ax falls, will you be the one to get chopped? How do you increase
-your stability in a given company? What makes an employer keep one person
-and let another go? Here are five key areas that can give you a little more secur-
-ity in this layoff-prone world—things you can do besides simply being good at
-your job.
+当裁员来临时，你会是被砍的那个吗？你该如何提升自己在公司的稳定性？是什么让雇主留下某人、裁掉另一个人？以下是五个关键点，可以在这个容易被裁员的世界中提升你的安全感——这些都是除了干好本职工作之外你能做到的事情。
 
-VALUE
+.. toggle::
+
+
+   When the ax falls, will you be the one to get chopped? How do you increase
+   your stability in a given company? What makes an employer keep one person
+   and let another go? Here are five key areas that can give you a little more secur-
+   ity in this layoff-prone world—things you can do besides simply being good at
+   your job.
+
+价值
 '''''''''''
+VALUE
 
-Here’s a Thumb Rule: Companies exist to make money. Even non-profit companies
-need to bring in money to cover their salaries and expenses. When your employ-
-ers start reviewing you and your coworkers, you need to realize that this is fore-
-most in their mind.
+这里有个拇指法则：公司存在的目的是赚钱。即使是非营利机构，也需要收入来支付薪水和开销。当你的雇主开始评估你和你的同事时，他们脑海中最先考虑的就是这个。
 
-This is the question the manager must ask himself: If I had to start all over with
-just one employee, who would it be? Or in other words, who would most likely
-make this company a success? In my analysis, this person is the“shooting star.”
-He or she works hard, has great talent, can handle pressure, and works well
-with others. If you ask him for something, you get it. You don’t have to keep
-checking up on him. You know she is going places. He very directly affects
-the profitability of the company.
+这是管理者必须问自己的问题：如果我只能从头开始，只带一个员工，那会是谁？换句话说，谁最有可能让这个公司成功？在我的分析中，这个人就是“明星员工”。他或她工作努力、有出色的才能、能承受压力、与人合作融洽。你要他做事，他就会做完。你不用时常检查。你知道她前途无量。他对公司的盈利有直接影响。
 
-Therefore, you must remember that your total value is of top importance. What
-if you add value, though, and no one notices? This can happen, especially in
-larger companies. My answer is this: It is not bad to toot your own horn a
-bit. A good way to do this, both for you and your employer, is to do a regular
-self-evaluation. List the things you accomplished last year and compare them to
-what you did this year. Do you show improvement? If not, commit yourself
-until you do. Then give that to your boss. He’ll appreciate that you look at
-yourself critically and it’s a good chance for him to see what you have done
-for the company.
+因此你必须记住，你的“整体价值”是最重要的。但如果你确实在创造价值，却没人注意到呢？这在大公司中很容易发生。我的建议是：适度地“自吹自擂”没有坏处。一个对你和雇主都有好处的方式是定期进行自我评估。列出你去年完成的事情，再与今年的比较。有没有进步？如果没有，就下决心直到有进步为止。然后把这份自评交给你的上司。他会欣赏你对自己的批判态度，这也是他了解你为公司做了哪些贡献的好机会。
 
+.. toggle::
+
+
+   Here’s a Thumb Rule: Companies exist to make money. Even non-profit companies
+   need to bring in money to cover their salaries and expenses. When your employ-
+   ers start reviewing you and your coworkers, you need to realize that this is fore-
+   most in their mind.
+
+   This is the question the manager must ask himself: If I had to start all over with
+   just one employee, who would it be? Or in other words, who would most likely
+   make this company a success? In my analysis, this person is the“shooting star.”
+   He or she works hard, has great talent, can handle pressure, and works well
+   with others. If you ask him for something, you get it. You don’t have to keep
+   checking up on him. You know she is going places. He very directly affects
+   the profitability of the company.
+
+   Therefore, you must remember that your total value is of top importance. What
+   if you add value, though, and no one notices? This can happen, especially in
+   larger companies. My answer is this: It is not bad to toot your own horn a
+   bit. A good way to do this, both for you and your employer, is to do a regular
+   self-evaluation. List the things you accomplished last year and compare them to
+   what you did this year. Do you show improvement? If not, commit yourself
+   until you do. Then give that to your boss. He’ll appreciate that you look at
+   yourself critically and it’s a good chance for him to see what you have done
+   for the company.
+
+职位
+'''''''''''''''
 POSITION
-''''''''''''''''''''''''
 
-Repeat the thumb rule we just learned: Companies exist to make money. They
-don’t do that without a product. So the most important job you can have is one
-that is directly related to the product. Don’t get stuck in a one-off job. What is a
-one-off job, you ask? A one-off job is one you can eliminate and still sell
-product. It is one level removed from delivering a product to the customer.
-The ISO 9000“Corporate Coordinator” might sound like a pretty neat title,
-but when you get right down to it, the company could do without it. If you find
-yourself in a one-off job, it’s time to start looking for a transfer.
+重复刚才学到的拇指法则：公司存在是为了赚钱。如果没有产品，公司就赚不到钱。因此，你能拥有的最重要的职位是与产品直接相关的。不要陷入“一次性岗位”。你问什么是一次性岗位？就是即便你不在了，公司仍然能卖出产品的岗位。它和客户实际收到的产品之间还有一层间隔。比如“ISO 9000 企业协调员”这个职位听起来不错，但实际上公司是可以没有它的。如果你发现自己身处这样的岗位，是时候寻找调动了。
 
+.. toggle::
+
+
+   Repeat the thumb rule we just learned: Companies exist to make money. They
+   don’t do that without a product. So the most important job you can have is one
+   that is directly related to the product. Don’t get stuck in a one-off job. What is a
+   one-off job, you ask? A one-off job is one you can eliminate and still sell
+   product. It is one level removed from delivering a product to the customer.
+   The ISO 9000“Corporate Coordinator” might sound like a pretty neat title,
+   but when you get right down to it, the company could do without it. If you find
+   yourself in a one-off job, it’s time to start looking for a transfer.
+
+忠诚
+''''''''''
 LOYALTY
+
+人之常情，都会抱怨。也因此，很容易就会陷入“饮水机旁的陷阱”：在那里你讨论最新的关于老板的闲言碎语。我遇到过的每一个领导都很重视忠诚。如果你参与传播流言，不管是真是假，都会让你处于不稳定状态。我并不是说“尖头发”们不会犯错。事实上，正如你所知，我认为一个经理只需 51% 的判断正确率就能成功。所以请记住：他们或许有缺点，但你也一样。如果你对老板有严重的不满，无法忽视也无法不谈论，那你最好开始找新工作了，因为以当前的市场形势，你很快就得换了。
+
+.. toggle::
+
+   It’s human nature to complain. Because of that, an easy yet subtle trap to fall
+   into is right by the water cooler. In this trap you discuss the latest smack about
+   the boss. Every leader I have ever met appreciates loyalty. If you succumb to
+   spreading rumors, whether true or false, you put yourself on shaky ground.
+   I am not saying the pointy hairs don’t make mistakes. In fact, I believe that a
+   manager only needs to be right 51% of the time to be successful, as you already
+   know. So remember this: They might have their faults, but so do you. If you
+   have a serious issue with your boss that you can’t overlook and can’t help talk-
+   ing about, you’d better start looking for a new job, because in today’s market,
+   you soon will be.
+
+努力
 ''''''''''''''''''''''''
-
-It’s human nature to complain. Because of that, an easy yet subtle trap to fall
-into is right by the water cooler. In this trap you discuss the latest smack about
-the boss. Every leader I have ever met appreciates loyalty. If you succumb to
-spreading rumors, whether true or false, you put yourself on shaky ground.
-I am not saying the pointy hairs don’t make mistakes. In fact, I believe that a
-manager only needs to be right 51% of the time to be successful, as you already
-know. So remember this: They might have their faults, but so do you. If you
-have a serious issue with your boss that you can’t overlook and can’t help talk-
-ing about, you’d better start looking for a new job, because in today’s market,
-you soon will be.
-
 EFFORT
+
+努力之所以重要有两个原因。首先，巨大的努力可以弥补技能的不足。记住，那些在实验室里鼓捣几个小时的人，往往能比那个早上在网上冲浪的天才工程师更快地完成任务。如今，一切都在于谁能更快地将产品推向市场。这正是 :term:`MAMA` [18]_ 存在的全部原因。所有尖头发的管理层想做的就是交付产品、完成销售——总之，就是做生意。因此，极大的努力通常会被注意到。记住，你自己应该避免的八卦传言圈，也可能对你产生巨大影响。你可以因为努力工作而出名，也可以因为偷懒而出名。选择权在你手中。
+
+.. [18] 查阅术语表；我保证你会在那儿找到本书中一些最有趣的部分。
+
+   Look it up in the glossary; I promise you will find some of the more entertaining parts of the book there.
+
+
+.. toggle::
+
+   Effort is important for two reasons. First, a great effort can compensate for a
+   lack of skill. Remember that the guy who tinkers in the lab for hours on end
+   can get to the finish line faster than the brilliant engineer who spent the morn-
+   ing surfing the’Net. It’s all about getting to the market the fastest these days. It
+   is the entire reason that :term:`MAMA` [18]_ exists. All the pointy hairs want to do is to
+   deliver product, make the sale—in general, to do business. So a supreme effort
+   is usually noticed. Remember, the same rumor mill you should avoid yourself
+   can have a tremendous effect on you. You can be known for hard work, or you
+   can be known as a slacker. The choice is up to you.
+
+如果最坏的情况发生
 ''''''''''''''''''''''''
-
-Effort is important for two reasons. First, a great effort can compensate for a
-lack of skill. Remember that the guy who tinkers in the lab for hours on end
-can get to the finish line faster than the brilliant engineer who spent the morn-
-ing surfing the’Net. It’s all about getting to the market the fastest these days. It
-is the entire reason that MAMA [18]_ exists. All the pointy hairs want to do is to
-deliver product, make the sale—in general, to do business. So a supreme effort
-is usually noticed. Remember, the same rumor mill you should avoid yourself
-can have a tremendous effect on you. You can be known for hard work, or you
-can be known as a slacker. The choice is up to you.
-
-.. [18] Look it up in the glossary; I promise you will find some of the more entertaining parts of the book there.
-
 IF THE WORST HAPPENS
-''''''''''''''''''''''''
 
-It is possible that no matter what you do, you still get laid off. At times when a
-company has to cut deep, there is nothing that can be done. I suggest you take
-this as best you can and leave on a good note. If things pick up again, it is a lot
-easier for a boss to rehire someone he knows will do a good job rather than any
-Joe off the street. So don’t burn any bridges.
+无论你做什么，都有可能被裁员。在公司需要大幅裁员的时候，什么都做不了。我建议你尽可能平静地接受这个现实，并以积极的态度离开。如果情况好转，老板更容易重新雇用一个他知道工作靠谱的人，而不是随便找个路人。所以，不要烧掉退路。
 
-A Final, Final Thought
+
+.. toggle::
+
+   It is possible that no matter what you do, you still get laid off. At times when a
+   company has to cut deep, there is nothing that can be done. I suggest you take
+   this as best you can and leave on a good note. If things pick up again, it is a lot
+   easier for a boss to rehire someone he knows will do a good job rather than any
+   Joe off the street. So don’t burn any bridges.
+
+最后、最后的想法
 ~~~~~~~~~~~~~~~~~~~~~~~~
+A Final, Final Thought
 
-By no means do I consider this list comprehensive. There can definitely be more
-to it. People skills, attitude, and other things are considered by an employer
-when making this tough decision. To make it worse, the world is not all sugar
-and spice. There are sadistic pointy hairs out there who give the rest of us a
-bad name (I just hope they are the exception, not the rule). If you have one of
-those, don’t complain, just start looking.
+我绝不认为这个清单是全面的。肯定还有更多内容。人际交往能力、态度等，在雇主做出这个艰难决定时都会被考虑。更糟的是，这个世界并不都是糖果和香料。总有一些虐待成性的尖头发管理层让我们其他人背黑锅（我只希望他们是个例外，而不是普遍现象）。如果你碰到这种人，不要抱怨，直接开始另找出路。
 
-Remember, dealing with people is not a very exact science. There is no Ohm’ s
-Law for corporate culture. These are things that I have found that generally
-work. You can sum it all up by referring to the different types of employees
-we have previously discussed: the shooting stars, average Joes, and duds. When
-it comes time for layoffs, you don’t want to be a dud, and if you can, try to be a
-shooting star.
+记住，处理人与人之间的关系不是一门精确的科学。企业文化没有欧姆定律。这些是我发现一般比较有效的方法。你可以把它们总结为我们之前讨论过的几种员工类型：闪耀之星、普通人和废物。等到裁员的时候，你不想成为废物，如果可以的话，尽量成为闪耀之星。
 
-.. admonition:: Thumb Rules
 
-   - Avoid the seven interview don’ts.
-   - Companies exist to make money.
-   - Companies exist to make money (duplicated to indicate importance).
-   - Take care of the five key areas.
-   - It isn’t a perfect science.
-   - Don’t be a dud.
-   - Be a shooting star.
+.. toggle::
 
-HOW TO MAKE A GREAT PRODUCT
+   By no means do I consider this list comprehensive. There can definitely be more
+   to it. People skills, attitude, and other things are considered by an employer
+   when making this tough decision. To make it worse, the world is not all sugar
+   and spice. There are sadistic pointy hairs out there who give the rest of us a
+   bad name (I just hope they are the exception, not the rule). If you have one of
+   those, don’t complain, just start looking.
+
+   Remember, dealing with people is not a very exact science. There is no Ohm’ s
+   Law for corporate culture. These are things that I have found that generally
+   work. You can sum it all up by referring to the different types of employees
+   we have previously discussed: the shooting stars, average Joes, and duds. When
+   it comes time for layoffs, you don’t want to be a dud, and if you can, try to be a
+   shooting star.
+
+.. admonition:: 指南法则(Thumb Rules)
+
+   - 避免七大面试禁忌。
+   - 公司存在是为了赚钱。
+   - 公司存在是为了赚钱（重复是为了强调其重要性）。
+   - 关注五个关键领域。
+   - 这不是一门精确科学。
+   - 不要做个废物。
+   - 要做闪耀之星。
+
+   .. toggle:: 
+
+      - Avoid the seven interview don’ts.
+      - Companies exist to make money.
+      - Companies exist to make money (duplicated to indicate importance).
+      - Take care of the five key areas.
+      - It isn’t a perfect science.
+      - Don’t be a dud.
+      - Be a shooting star.
+
+如何打造一款伟大的产品
 -----------------------------
+HOW TO MAKE A GREAT PRODUCT
 
-The Slinky, Legos, the PC, Silly Putty, weed eaters, Velcro, cell phones, DVDs,
-pet rocks, and the microwave—the list of killer products seems endless. How
-do you go about designing a great product? What makes a product successful?
-Believe you me, the list of great ideas that never went anywhere is much larger
-than the list of things that made it! For those of you with a more entrepreneurial spirit, here some pointers on how great products come into existence.
+弹簧玩具、乐高、个人电脑、傻泥、割草机、魔术贴、手机、DVD、宠物石头、微波炉——杀手级产品的名单看似无穷无尽。那么，如何设计出一款伟大的产品？是什么让一款产品成功？相信我，没能成功的好主意远比真正成功的产品多得多！对于那些具有更强创业精神的人来说，下面是一些关于伟大产品诞生的提示。
 
-The Idea
+
+.. toggle::
+
+   The Slinky, Legos, the PC, Silly Putty, weed eaters, Velcro, cell phones, DVDs,
+   pet rocks, and the microwave—the list of killer products seems endless. How
+   do you go about designing a great product? What makes a product successful?
+   Believe you me, the list of great ideas that never went anywhere is much larger
+   than the list of things that made it! For those of you with a more entrepreneurial spirit, here some pointers on how great products come into existence.
+
+创意
 ~~~~~~~~~~~~
+The Idea
 
-Usually the core of a great product addresses a need or desire. The more people
-who share that need or desire, the more success potential an idea has. Here is a
-real live example. My car windows are always frosty during the winter here in
-Logan, Utah. I don’t have the patience to start my car early and wait for the
-defroster to clean the window, so I scrape. Scraping is not much fun, and last
-year I had a great idea for an invention. Why not put a heater in the windshield
-washer fluid so that I could have a quickly defrosted window without having to
-scrape? I am sure there are other people like me who would want this product.
+通常，一款伟大产品的核心是满足一种需求或欲望。共享这种需求或欲望的人越多，这个创意就越有成功的潜力。下面是一个真实的例子。在犹他州洛根的冬天，我的汽车车窗总是结霜。我没有耐心提前启动车辆等除霜器工作，所以只能刮。刮霜一点都不好玩，去年我想到一个发明的好主意。为什么不在挡风玻璃的清洗液中加入加热装置，这样就可以迅速除霜而不必动手刮了？我相信肯定还有像我一样想要这种产品的人。
 
-Let’s evaluate this idea for a second: first, the buyer of such a product would
-need to own a car. That limits the primary market to Canada, the United States,
-and Europe. Then it has to get cold enough to frost your windows where you
-live. There goes half the United States. Next, to be like me, you can’t afford to
-park your car in a garage, and that eliminates a bunch of people. I figure that
-Canadians like to scrape, knocking off another large part of the market. So will
-this idea make me a million? Probably not, but if I worked hard enough at it, it
-might generate a decent income for a while.
+让我们评估一下这个创意：首先，产品购买者得有辆车。这就将主要市场限制在加拿大、美国和欧洲。然后还得你所住的地方足够冷，才会结霜。这又排除掉一半的美国。再者，像我一样的人，没钱把车停在车库里，这又排除一大批人。我猜加拿大人喜欢刮霜，又剔除了一大部分市场。所以这个创意能让我赚百万吗？可能不能，但如果我努力推进，也许可以带来一段时间不错的收入。
 
-Compare that to the market of the weed eater (string trimmer, to be more correct).
-When George C. Ballas stuck some twine in an old tin can and spun it on his
-electric drill, he was addressing a need that many a man felt. Not only did it chop
-those pesky weeds, it involved a motor as well and, oh, the power rush!
+对比一下割草机（更准确地说是割线机）的市场。当 George C. Ballas 把绳子塞进一个旧罐头中，并用电钻旋转时，他满足了很多男人的需求。它不仅能铲除那些讨厌的杂草，还带电机，而且充满力量！
 
-His market was anyone who had ever wished for an easier way to trim those hard-to-reach places in his lawn. To top it off, it also stroked the male ego. I think it had
-a larger success potential than my defroster idea, don’t you? Notice that I said
-potential. A lot more than potential is needed to make a product a success.
+他的市场是所有希望用更简单的方法修剪草坪边角的人。更棒的是，这也迎合了男性的自尊心。我认为它的成功潜力比我那个除霜器的创意大，你觉得呢？注意，我说的是“潜力”。仅有潜力还远远不够。
 
-Design
+
+.. toggle::
+
+   Usually the core of a great product addresses a need or desire. The more people
+   who share that need or desire, the more success potential an idea has. Here is a
+   real live example. My car windows are always frosty during the winter here in
+   Logan, Utah. I don’t have the patience to start my car early and wait for the
+   defroster to clean the window, so I scrape. Scraping is not much fun, and last
+   year I had a great idea for an invention. Why not put a heater in the windshield
+   washer fluid so that I could have a quickly defrosted window without having to
+   scrape? I am sure there are other people like me who would want this product.
+
+   Let’s evaluate this idea for a second: first, the buyer of such a product would
+   need to own a car. That limits the primary market to Canada, the United States,
+   and Europe. Then it has to get cold enough to frost your windows where you
+   live. There goes half the United States. Next, to be like me, you can’t afford to
+   park your car in a garage, and that eliminates a bunch of people. I figure that
+   Canadians like to scrape, knocking off another large part of the market. So will
+   this idea make me a million? Probably not, but if I worked hard enough at it, it
+   might generate a decent income for a while.
+
+   Compare that to the market of the weed eater (string trimmer, to be more correct).
+   When George C. Ballas stuck some twine in an old tin can and spun it on his
+   electric drill, he was addressing a need that many a man felt. Not only did it chop
+   those pesky weeds, it involved a motor as well and, oh, the power rush!
+
+   His market was anyone who had ever wished for an easier way to trim those hard-to-reach places in his lawn. To top it off, it also stroked the male ego. I think it had
+   a larger success potential than my defroster idea, don’t you? Notice that I said
+   potential. A lot more than potential is needed to make a product a success.
+
+设计
 ~~~~~~~~~
+Design
 
-The product needs to work well. This means that the design needs to do what
-the customer expects from it. If everyone sends the product back, it won’t be
-a success for long. There is one all-too-evident exception to this rule: software!
-Sometimes people will deal with glaring product faults (also known as GPFs) if
-that is the only game in town. It is that or you really need a particular feature
-and are willing to deal with the bugs. [19]_ It bothers me, though, that you can’t
-send it back because you clicked“I accept” on the 40-page EULA that no one
-reads, which prohibited you from even taking Bill’s name in vain, let alone
-returning a product. But… here I am using that same popular word-processing
-program because of the features I like. [20]_
+产品必须要好用。这意味着它的设计要实现用户的期望。如果大家都把产品退回，那它不会成功太久。有一个显而易见的例外：软件！有时人们会忍受明显的产品缺陷（也叫 GPF），因为别无选择。或者你特别需要某个功能，愿意忍受其 bug。 [19]_ 但这让我很困扰，因为你点击“我接受”那份没人读的 40 页的 EULA 后，就不能退货了，不仅不能诅咒比尔的名字，连退货都不行。但……我还是在用那个流行的文字处理软件，因为它有我喜欢的功能。 [20]_
 
-It also needs to look good. Ever since the 1950s, industrial designers have
-convinced the consumer that you can have a functional product that looks
-good as well. There are successful ugly products out there, but if they looked
-good they would be even more successful. Have you ever said,“That’s a sweet
-little package,” in reference to something other than the opposite sex? [21]_
+它还必须要好看。自从 1950 年代起，工业设计师就说服消费者，产品不仅可以实用，还可以好看。有些丑产品也成功了，但如果它们更好看，可能会更成功。你有没有说过“这是个漂亮的包装”，而指的不是异性？ [21]_
 
-.. [19] Okay, I’m slamming on a certain large software company here. To be fair I will say that my more current versions of this software are significantly better than the versions I learned on many years ago. The best thing that ever happened to software was the ability to update it. Yes, they can lock out the hackers and pirates who believe that all IP should be free, but for me and most of the world it is nice to get a free update that fixes that pesky bug.
-.. [20] I still hate EULAs though. Software, unlike every other consumer product, carries no responsibility for any damage it may cause. Someday this may change, but it would likely drive the cost of software up and I’m a cheapskate, so I guess I’d better stop complaining.
-.. [21] Possibly a bad analogy, since I have heard an engineer say exactly those words in reference to an IC, but you get the point.
+.. [19] 好吧，我确实在批评某家大型软件公司。公平地说，我现在用的该软件版本比我多年前学的版本好多了。软件史上最好的事就是能更新。是的，他们可以封杀黑客和盗版者，但对我和世界上大多数人来说，能免费获得修复 bug 的更新真的很不错。
 
+   Okay, I’m slamming on a certain large software company here. To be fair I will say that my more current versions of this software are significantly better than the versions I learned on many years ago. The best thing that ever happened to software was the ability to update it. Yes, they can lock out the hackers and pirates who believe that all IP should be free, but for me and most of the world it is nice to get a free update that fixes that pesky bug.
+
+.. [20] 不过我还是讨厌 EULA。软件不像其他消费品，对其造成的任何损害都不负责任。也许有一天会改变，但那会让软件变贵，而我是个小气鬼，所以我还是别抱怨了。
+
+   I still hate EULAs though. Software, unlike every other consumer product, carries no responsibility for any damage it may cause. Someday this may change, but it would likely drive the cost of software up and I’m a cheapskate, so I guess I’d better stop complaining.
+
+.. [21] 这可能是个不太好的类比，因为我确实听过一个工程师用这话形容一个芯片，但你懂我意思。
+
+   Possibly a bad analogy, since I have heard an engineer say exactly those words in reference to an IC, but you get the point.
+
+
+.. toggle::
+
+   The product needs to work well. This means that the design needs to do what
+   the customer expects from it. If everyone sends the product back, it won’t be
+   a success for long. There is one all-too-evident exception to this rule: software!
+   Sometimes people will deal with glaring product faults (also known as GPFs) if
+   that is the only game in town. It is that or you really need a particular feature
+   and are willing to deal with the bugs. [19]_ It bothers me, though, that you can’t
+   send it back because you clicked“I accept” on the 40-page EULA that no one
+   reads, which prohibited you from even taking Bill’s name in vain, let alone
+   returning a product. But… here I am using that same popular word-processing
+   program because of the features I like. [20]_
+
+   It also needs to look good. Ever since the 1950s, industrial designers have
+   convinced the consumer that you can have a functional product that looks
+   good as well. There are successful ugly products out there, but if they looked
+   good they would be even more successful. Have you ever said,“That’s a sweet
+   little package,” in reference to something other than the opposite sex? [21]_
+
+时机
+~~~~~~~~~~
 Timing
+
+啊……时机……它对产品发布的重要性就像讲笑话的时机一样。我不认为割草机会在美国搬到郊区之前就热卖。弹簧玩具如果晚于任天堂问世可能也没戏。我曾工作的某公司有个创意彻底改变了市场环境。它被 30 多个新闻频道报道，成了爆款。但这创意直到第三次尝试才成功。前两次完全失败了。它需要互联网这个全球社区才能成功。第一次和第二次尝试时，全球数据社区还不具备传播的基础。时机非常重要。
+
+
+.. toggle::
+
+   Ahhhh, timing… it is as important in launching a product as it is in telling a joke.
+   I don’t think the weed eater would have sold before America moved into the sub-
+   urbs and the lawn wars began. The Slinky wouldn’t have made it very far if it came
+   after the Nintendo. A company I worked for had an idea that changed our market-
+   place. It was featured on some 30 different news channels and became a raging
+   success. It didn’t stick until the third time it was tried. The first two times were utter
+   failures. It needed the Internet as a global community to be a success. The first two
+   times it was tried, the global data community just wasn’t there to give it the buzz it
+   needed. Timing is important.
+
+资金
 ~~~~~~~~~~
-
-Ahhhh, timing… it is as important in launching a product as it is in telling a joke.
-I don’t think the weed eater would have sold before America moved into the sub-
-urbs and the lawn wars began. The Slinky wouldn’t have made it very far if it came
-after the Nintendo. A company I worked for had an idea that changed our market-
-place. It was featured on some 30 different news channels and became a raging
-success. It didn’t stick until the third time it was tried. The first two times were utter
-failures. It needed the Internet as a global community to be a success. The first two
-times it was tried, the global data community just wasn’t there to give it the buzz it
-needed. Timing is important.
-
 Funding
+
+要赚一百万，先得有一百万，是吧？通常确实如此，除非你相信深夜电视节目。如果你信那些，我有本书可以卖你，教你如何让一个陌生人给你 50 美元。我只卖你 47.95 美元，加运费。
+
+我认为，资金（或缺乏资金）比其他任何因素都更阻碍伟大产品的诞生。你必须承担某种财务风险。一种方法是 OPM：用别人的钱。不幸的是，说服别人掏钱需要三寸不烂之舌，所以你可能要刷爆信用卡，或动用你的积蓄。有很多融资方式，但要把你的创意推向市场，总要花点钱。某个时候，你必须承担风险才能实现目标。
+
+
+.. toggle::
+
+   It takes a million to make a million, right? This is usually the case unless you
+   listen to late-night TV. Now, if you believe that stuff, I have a book on how
+   to get a perfect stranger to give you 50 bucks. I will sell it to you for only
+   $47.95 plus shipping and handling.
+
+   I think that funding (or lack of ) stops more great products from coming into
+   being than most other reasons combined. You have to take some type of financial risk. One way is the OPM method: Use Other People’s Money. Unfortunately, it takes a smooth talker to get other people to part with their money,
+   so you might have to run up your credit card or go deep into your savings.
+   There are many ways to get the money, but it will cost money to get your idea
+   to market. You will have to take some risk at some point to make it happen.
+
+市场营销
 ~~~~~~~~~~
-
-It takes a million to make a million, right? This is usually the case unless you
-listen to late-night TV. Now, if you believe that stuff, I have a book on how
-to get a perfect stranger to give you 50 bucks. I will sell it to you for only
-$47.95 plus shipping and handling.
-
-I think that funding (or lack of ) stops more great products from coming into
-being than most other reasons combined. You have to take some type of finan-
-cial risk. One way is the OPM method: Use Other People’s Money. Unfortu-
-nately, it takes a smooth talker to get other people to part with their money,
-so you might have to run up your credit card or go deep into your savings.
-There are many ways to get the money, but it will cost money to get your idea
-to market. You will have to take some risk at some point to make it happen.
-
 Marketing
-~~~~~~~~~~
 
-You have to sell your product. No one will buy a product that isn’t sold. That
-takes marketing.‘Nuff said’.
+你必须推销你的产品。没人会买没人知道的产品。这就需要市场营销。说完了。
 
-Okay, maybe not. I used to think this was pretty obvious, but when I started a
-business helping people get stuff to market, I found that marketing is often the
-most ignored part of getting a business off the ground.
+好吧，也许还没说完。我曾认为这很明显，但当我创办公司帮助他人将产品推向市场时，我发现市场营销往往是创业中最被忽视的一环。
 
-If you build a better mouse trap, the world will not pound a path to your door
-without an infomercial, a store, or a way to know it exists. You will need to be a
-salesman of some type to get your idea off the ground. If someone doesn’t buy
-it, you don’t have a product—just another idea that didn’t go anywhere. The
-patent libraries are full of mouse traps that you can’t buy.
+就算你发明了更好的捕鼠器，没有广告、商店或其他传播方式，世界也不会主动找上门。你必须以某种方式推销你的创意。如果没人买，它就不是产品——只不过是另一个无疾而终的点子。专利图书馆里堆满了你买不到的捕鼠器。
 
-Making a Great Product Summary
+
+.. toggle::
+
+   You have to sell your product. No one will buy a product that isn’t sold. That
+   takes marketing.‘Nuff said’.
+
+   Okay, maybe not. I used to think this was pretty obvious, but when I started a
+   business helping people get stuff to market, I found that marketing is often the
+   most ignored part of getting a business off the ground.
+
+   If you build a better mouse trap, the world will not pound a path to your door
+   without an infomercial, a store, or a way to know it exists. You will need to be a
+   salesman of some type to get your idea off the ground. If someone doesn’t buy
+   it, you don’t have a product—just another idea that didn’t go anywhere. The
+   patent libraries are full of mouse traps that you can’t buy.
+
+打造伟大产品总结
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Making a Great Product Summary
 
-So, will you be the next Bill Gates? Just think of a product that everyone wants.
-Get a couple of rich relatives to put in a good word and pitch in a few bucks,
-and who knows. If your timing is right, it just might happen. If not, I still have
-that book for sale….
+那么，你会成为下一个比尔·盖茨吗？只要想出一个人人都想要的产品，找几个有钱亲戚说几句好话并投点钱，谁知道呢？如果时机对了，说不定就成了。如果不行，我那本书还在卖……
 
-.. admonition:: Thumb Rules
+.. toggle::
 
-   - Have a good idea (this is the easy part).
-   - Consider the market potential.
-   - Your product needs to work well.
-   - Looking good helps.
-   - Timing is everything.
-   - It won’t happen without risk.
-   - You need to sell it.
+   So, will you be the next Bill Gates? Just think of a product that everyone wants.
+   Get a couple of rich relatives to put in a good word and pitch in a few bucks,
+   and who knows. If your timing is right, it just might happen. If not, I still have
+   that book for sale….
+
+.. admonition:: 指南法则(Thumb Rules)
+
+   - 要有个好点子（这是最容易的部分）。
+   - 考虑市场潜力。
+   - 你的产品要好用。
+   - 好看更好。
+   - 时机决定一切。
+   - 没有风险就不会成功。
+   - 你必须卖得出去。
+
+   .. toggle:: 
+
+      - Have a good idea (this is the easy part).
+      - Consider the market potential.
+      - Your product needs to work well.
+      - Looking good helps.
+      - Timing is everything.
+      - It won’t happen without risk.
+      - You need to sell it.
