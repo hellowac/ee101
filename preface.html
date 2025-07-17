@@ -1,0 +1,577 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="zh-CN" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.19: https://docutils.sourceforge.io/" />
+
+    <title>前言 &#8212; 电气工程(Electrical Engineering)101</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/tabs.css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="_static/tabs.js"></script>
+    <script>let toggleHintShow = '原文';</script>
+    <script>let toggleHintHide = '收起';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/scripts/sphinx-book-theme.js"></script>
+    <script src="_static/translations.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'preface';</script>
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="搜索" href="search.html" />
+    <link rel="next" title="关于作者" href="about_author.html" />
+    <link rel="prev" title="电气工程101: 你在学校应该学到的一切……但可能没有学到" href="index.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="zh-CN"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search..."
+         aria-label="Search..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="index.html">
+  
+  
+  
+  
+  
+  
+    <p class="title logo__title">电气工程(Electrical Engineering)101</p>
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="搜索" aria-label="搜索" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">搜索</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">内容</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">前言</a></li>
+<li class="toctree-l1"><a class="reference internal" href="about_author.html">关于作者</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c0.html">第0章 电到底是什么?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c1.html">第1章 工程101课本该教的三件事</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c2.html">第2章 基本理论</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c3.html">第3章 零件元件</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c4.html">第四章 真实世界</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c5.html">第 5 章 工具</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c6.html">第6章 故障排除</a></li>
+<li class="toctree-l1"><a class="reference internal" href="c7.html">第7章 感人至深的东西</a></li>
+<li class="toctree-l1"><a class="reference internal" href="glossary.html">术语表</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+<a href="https://github.com/hellowac/ee101" target="_blank"
+   class="btn btn-sm btn-source-repository-button"
+   title="源码库"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="下载此页面">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="_sources/preface.rst" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="下载源文件"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.rst</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="列印成 PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="全屏模式"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="搜索" aria-label="搜索" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>前言</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> 目录 </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">第一句话</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">培养“内部创业者”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">工程师 = 成功</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">概述</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">给工程师</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">给学生</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">给管理者</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">给教师</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">给所有人</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section id="id1">
+<h1>前言<a class="headerlink" href="#id1" title="此标题的永久链接">#</a></h1>
+<p>Preface</p>
+<p>前言</p>
+<section id="id2">
+<h2>第一句话<a class="headerlink" href="#id2" title="此标题的永久链接">#</a></h2>
+<p>THE FIRST WORD</p>
+<p>在我的本职工作中，我有幸参与了技术领域中最伟大的企业成功故事之一。对一个充满热情的技术迷来说，仅仅走进 Google™ 校园就像是朝圣一般。我还记得第一次参观那里时，享受了一顿“免费午餐”。我们的企业联系人当时说了一句话：“他们在这里搞了个工程师的天堂。”我当时对这句话有些好奇。这些年我时常回想起那句话。在之后与这个搜索之王的进一步接触中，我对这个“天堂”有了更多了解。他们确实提供免费食物和各种福利，但从我第一次听说时最让我印象深刻的还是“20%时间”。简单搜索一下 Google 就能找到关于 20% 时间的详细解释。原理很简单：你可以将 20% 的工作时间用于你个人感兴趣的项目。项目由你选择。唯一的附加条件是：如果你搞出什么酷东西，Google 可以将其用来赚钱。通过与那边的联系人交谈，我了解到这段时间是神圣不可侵犯的；你的管理层不能强迫你放弃这段时间来做主要工作。你可以自愿放弃，但完全由你自己决定。在一般的工作计划中，你和你的上司会规划好每周四天用于指定任务，剩下一天完全属于你。</p>
+<div class="toggle docutils container">
+<p>In my day job I have been lucky enough to work with one of the greatest corporate success stories in the technical field ever. For a sparky tech nut just going to the GoogleTM campus was a bit like traipsing to mecca. I remember my first tour there, and getting a “free lunch.” Our corporate contact made a comment. He said, “They’ve created some kind of engineers’ paradise over here.” I kind of wondered about that comment. Over the last couple of years I have pondered it quite a bit. I learned a lot more about what this paradise was in sub- sequent dealings with the king of search. They had the free food and all these other perks but the thing that stood out most to me from the first time I heard it was 20% time. A quick Google search will tell you the details of 20% time. The principle is simple: You are given 20% of your time to work on a pet project. The project is your choice. The only caveat is that if you come up with something cool Google gets to use it to make more money. In talking to contacts there I found out that time is sacrosanct; your management cannot demand you give up that time for your main goals. You can volunteer it if you want to but it is up to you. In general planning, however, you and your boss plan four days a week on your main assigned tasks and one day every week is yours.</p>
+</div>
+<section id="id3">
+<h3>培养“内部创业者”<a class="headerlink" href="#id3" title="此标题的永久链接">#</a></h3>
+<p>Build Intrepreneurs</p>
+<p>我最近学到了一个新术语，我觉得对企业成长与成功非常重要，那就是“内部创业者（intrepreneur）”。内部创业者就像是创业者的小弟。他们有改变世界的重大想法，也有相应的心态，只是缺乏资源。事实上，他们与创业者唯一的不同就是资源的有无。创业者会想办法获取资源，而内部创业者可能因为动机或环境的限制，始终跨不过这道坎。这类人在组织中往往像流星般闪耀。关键是要让他们有能力去实现目标。给他们资源，让他们自由发挥。上面提到的 20% 时间就是发现这类人的绝佳方式。成功的内部创业者会吸引其他人，并一起用各自的 20% 时间做出一些很酷的东西。你认识哪个工程师不认为这简直就是天堂？</p>
+<div class="toggle docutils container">
+<p>I learned a new term recently that I think is very relevant in corporate growth and success, intrepreneur. The intrepreneur is the baby brother to the entrepreneur. This is the guy who has that big idea and wants to change the world; he has the men- tality to do so but doesn’t have the resources. Resources, in fact, is the only way in which they differ. The entrepreneur finds a way to resource his idea, but whether due to motivation or circumstance, the intrepreneur can’t quite get over that issue. Often times these are the shooting stars in your organization. The trick is to enable these guys to make things happen. Give them the resources and turn them loose. The 20% time mentioned above is a great way of finding these individuals. The successful intrepreneur will gather others and use their 20% time to make some- thing cool. What engineer do you know that wouldn’t consider that paradise?</p>
+</div>
+</section>
+<section id="id4">
+<h3>工程师 = 成功<a class="headerlink" href="#id4" title="此标题的永久链接">#</a></h3>
+<p>Engineers = Success</p>
+<p>为什么工程师对美国的成功如此重要？这里有两个有趣的事实：Google 雇佣的员工中 50% 是工程师，另 50% 是其他岗位。从麻省理工学院毕业的学生创办初创公司的数量是哈佛商学院毕业生的两倍（而这两所学校实际上是邻居）。我还没遇到过哪个工程师不喜欢创造酷东西；这是他们的思维方式，是他们的天性；优秀的工程师通常能赚到比美国普通人高很多的收入，因为他们的技能太宝贵了。问题是，即使他们的贡献比上层管理层更为关键，他们通常也不是薪资最高的。我认为这是因为他们从“创造”中获得了极大的满足感，只要生活过得去，他们就心满意足。这种人对美国经济来说是巨大的财富。他们不被贪婪驱使，而是被发明驱动，而发明是推动经济进步最重要的力量。新技术的发明可以提高所有人的生活水平，这是唯一能够做到这一点的方式。</p>
+<p>Google 从无到有只用了 11 年时间达到巅峰；他们自己也将这一切归功于聘请了优秀的工程师并让他们自由地改变世界。我们需要更多这种模式。人类天生具有工程基因；我们喜欢建造和创造。从小孩子开始，每个人都会玩积木、创造事物、构思创意。那么，为什么工程师不更多一些？成为一名工程师真的那么难吗？真的该这么难吗？我希望有人读完这本书会想：“去他们的那些看不起我的人吧——我还是要改变这个世界！”</p>
+<div class="toggle docutils container">
+<p>Why are engineers so important to America’s success? Here is an interesting fact or two: Google hires 50% engineers and 50% everyone else. Twice as many start-up businesses are from new MIT grads than from Harvard Business School graduates (and the schools are practically right next to each other). I haven’t met an engineer who doesn’t like to make cool things; it is in their mindset; it is in their nature; great engineers usually make pretty good money relative to the average Joe in America, simply because their skill set is so valued. Thing is, they aren’t always the top-paid people, even though their contributions are often much more critical to success than that of all the management above them. I think this is because they get so much satisfaction out of making stuff that, as long as they feel like they are making ends meet, things are good. This type of person is a huge asset to the American economy. Greed doesn’t drive them, invention does, and invention leads to an improved economy more than any- thing else. Invention of new technology improves the standard of living for everyone. It is the only thing that does.</p>
+<p>Google went from nothing to the top in 11 years; they themselves credit this to hiring great engineers and cutting them loose to change the world. We need more of this. We humans have a built-in engineering gene; we love to build and make stuff. Every kid plays with blocks, creates things, and imagines things. So why aren’t there more engineers? Is it really that hard to become one? Should it be? I hope that somebody out there reads this book and thinks, “Screw all those guys who think I’m not smart enough—I’m gonna change the world anyway!”</p>
+</div>
+</section>
+</section>
+<section id="id5">
+<h2>概述<a class="headerlink" href="#id5" title="此标题的永久链接">#</a></h2>
+<p>OVERVIEW</p>
+<section id="id6">
+<h3>给工程师<a class="headerlink" href="#id6" title="此标题的永久链接">#</a></h3>
+<p>For Engineers</p>
+<p>诚然，有很多优秀的老师，你可能已经掌握了基础知识，但时间的流逝和无数“状态报告”早已磨损了你的基础知识储备。如果你像我一样，你应该找到过几本真正优秀的书，每当需要时都会把它们从书架上抽出来。这些书通常会对某个具体话题做出文字清晰、易于理解的解释。我希望这本书对你来说也是其中之一。</p>
+<p>你也可能是个“格格不入”的人，比如一个机械工程师被丢进了电气工程的世界，希望能够获得一些基础理解，好与身边的电气工程师协作。如果你能真正理解这些原理，我保证你至少能让一些“电火花们”（我喜欢这么称呼他们）对你直觉性的洞察力感到惊讶。</p>
+<div class="toggle docutils container">
+<p>Granted, there are many good teachers out there and you might have gotten the basics, but time and too many “status reports” have dulled the finish on your basic knowledge set. If you are like me, you have found a few really good books that you often pull off the shelf in times of need. They usually have a well-written, easy-to-understand explanation of the particular topic you need to apply. I hope this will be one of those books for you.</p>
+<p>You might also be a fish out of water, an ME thrown into the world of electrical engineering, who would really like a basic understanding to work with the EEs around you. If you get a really good understanding of these principles, I guar- antee you will surprise at least some of the “sparkies” (as I like to call them) with your intuitive insights into the problems at hand.</p>
+</div>
+</section>
+<section id="id7">
+<h3>给学生<a class="headerlink" href="#id7" title="此标题的永久链接">#</a></h3>
+<p>For Students</p>
+<p>我并不是想贬低高等教育系统，但我觉得我们太容易通过“吸收和复述”的方式来通过一门课。你知道我在说什么：上课，吸收老师要求掌握的所有内容，考试时在恰当的时间说出恰当的话，课程结束后却没有任何可应用的知识。我认为，当老师没有花时间打好课程基础时，学生就不得不被迫进入这种模式。学生们忙于赶进度，根本感受不到那种“灵光一闪”的顿悟时刻，也不会说出“啊哈，我明白了！”的喜悦。现实是，如果你在课后能对一个话题有扎实的理解，并且牢记于心，那么你将比那些仅仅背完课程大纲末尾内容的人更加擅长将其应用到实际中。</p>
+<div class="toggle docutils container">
+<p>I don’t mean to knock the collegiate educational system, but it seems to me that too often we can pass a class in school with the “assimilate and regurgitate” method. You know what I mean: Go to class, soak up all the things the teacher wants you to know, take the test, say the right things at the right time, and leave the class without an ounce of applicable knowledge. I think many students are forced into this mode when teachers do not take the time to lay the ground- work for the subject they are covering. Students are so hard-pressed to simply keep up that they do not feel the light bulb go on over their heads or say, “A-ha, now I get it!” The reality is, if you leave the class with a fundamental understanding of the topic and you know that topic by heart, you will be emi- nently more successful at applying that basic knowledge than anything from the end of the syllabus for that class.</p>
+</div>
+</section>
+<section id="id8">
+<h3>给管理者<a class="headerlink" href="#id8" title="此标题的永久链接">#</a></h3>
+<p>For Managers</p>
+<p>工程管理者的职责 <a class="footnote-reference brackets" href="#id10" id="id9" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> 应该比《呆伯特》漫画中那个尖头老板形象更丰富一些。很多管理者不了解的是：工程师们非常欢迎真正富有洞察力的见解。请注意我说的是“真正的洞察力”；你不能只是重复食堂里听到的某个缩写就期待工程师会认真对待。但如果你能理解这些基础知识，我相信总会有那么几次，你能够帮你的工程师指明方向。你会乐于推进项目，他们也会对老板产生新的尊重。（他们可能甚至会收起那个尖头老板玩偶！）</p>
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="id10" role="note">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id9">1</a><span class="fn-bracket">]</span></span>
+<p>读者 Travis Hayes 为本书建议的替代标题：“给傻瓜及其管理者的电气工程入门”。我很喜欢这个标题，但我觉得那些尖头人可能看不懂。</p>
+</aside>
+</aside>
+<div class="toggle docutils container">
+<p>The job of the engineering manager <a class="reference internal" href="#en" id="id11"><span>[1-en]</span></a> really should have more to it than is depicted by the pointy-haired boss you see in Dilbert cartoons. One thing many managers do not know about engineers is that they welcome truly insightful takes on whatever they might be working on. Please notice I said “truly insight- ful;” you can’t just spout off some acronym you heard in the lunchroom and expect engineers to pay attention. However, if you understand these basics, I am sure there will be times when you will be able to point your engineers in the right direction. You will be happy to keep the project moving forward, and they will gain a new respect for their boss. (They might even put away their pointy-haired doll!)</p>
+<div role="list" class="citation-list">
+<div class="citation" id="en" role="doc-biblioentry">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id11">1-en</a><span class="fn-bracket">]</span></span>
+<p>Suggested alternate title for this book from reader Travis Hayes: EE for Dummies and Those They Manage. I liked it, but I figured the pointy-haired types wouldn’t get it.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="id12">
+<h3>给教师<a class="headerlink" href="#id12" title="此标题的永久链接">#</a></h3>
+<p>For Teachers</p>
+<p>请不要误会，我并不是说所有老师都不好；事实上，我的大多数老师（除了一两个）都是很棒的教师。但有时我觉得这个体系本身是有缺陷的。在院长要求覆盖 X、Y、Z 主题的压力下，为了赶进度，有时不得不牺牲更基础的 X 和 Y，只为讲到 Z。</p>
+<p>我确实有机会在自己的母校教授了一个学期。这本书中的一些章节直接来自那门课程。我希望这本书能为老师们提供一个新的工具，让你们点亮学生脑中的“啊哈”灯泡。</p>
+<div class="toggle docutils container">
+<p>Please don’t get me wrong, I don’t mean to say that all teachers are bad; in fact, most of my teachers (barring one or two) were really good instructors. However, sometimes I think the system is flawed. Given pressures from the dean to cover X, Y, and Z topics, sometimes the more fundamental X and Y are sacrificed just to get to topic Z.</p>
+<p>I did get a chance to teach a semester at my own alma mater. Some of these chapters are directly from that class. My hope for teachers is to give you another tool that you can use to flip the switch on the “a-ha” light bulbs over your students’ heads.</p>
+</div>
+</section>
+<section id="id13">
+<h3>给所有人<a class="headerlink" href="#id13" title="此标题的永久链接">#</a></h3>
+<p>For Everyone</p>
+<p>在本书每个话题结束时，都会列出一些我称之为“拇指规则（Thumb Rules）”的要点。顾名思义，这些就是那些真正优秀的工程师看似天生就懂的“经验法则”概念。这些理念总能帮助他们得出正确的结论，解决问题。如果你对某一节内容感到乏味，也一定要看看“拇指规则”。那里浓缩了你真正应该掌握的核心理念。</p>
+<p>Darren Coy Ashby 自称是一个“留着尖头头发的技术怪咖”。他自认是个样样通但样样都不是专家的人。他认为自己从父亲那里得到了常识，从母亲那里得到了书本知识。他在农场长大，并在很久以前毕业于犹他州立大学。Darren 拥有超过 20 年在现实世界中作为技术员、工程师和管理者的工作经验。他曾涉足合规、生产、测试等多个领域，而他最钟爱的还是研发。</p>
+<p>数年前，Darren 抓住机会在母校教了几个学期的课程。他还曾在在线杂志 Chipcenter.com 上定期撰稿近两年。目前他是某年营收达十亿美元的消费品公司的电子研发主管。他的兴趣包括船只、雪地摩托、摩托车，以及几乎所有带马达的东西。下班后，他大多数时间都与家人共度，或投入到几年前创办的一家前景可期的研发顾问/制造公司中。</p>
+<p>Darren 与他美丽的妻子、四个健壮的儿子和一个可爱的女儿一起，住在犹他州里士满靠近群山的地方。他相信“纵火狂热”与成为伟大工程师密切相关，并专门为此在 Facebook™ 上建立了一个页面。你可以通过 <a class="reference external" href="mailto:dashby&#37;&#52;&#48;raddd&#46;com">dashby<span>&#64;</span>raddd<span>&#46;</span>com</a> 给他发邮件交流意见、投诉或闲聊；如果你只想看看他的一些智慧片段，也可以在 Twitter™ 上关注他，用户名是 sparkyguru。</p>
+<div class="toggle docutils container">
+<p>At the end of each topic discussed in this book are bullet points I like to call Thumb Rules. They are what they seem: those “rule-of-thumb” concepts that really good engineers seem to just know. These concepts are what always led them to the right conclusions and solutions to problems. If you get bored with a section, make sure to hit the Thumb Rules anyway. There you will get the distilled core concepts that you really should know.</p>
+<p>Darren Coy Ashby is a self-described “techno geek with pointy hair.” He considers himself a jack-of-all-trades, master of none. He figures his common sense came from his dad and his book sense from his mother. Raised on a farm and graduated from Utah State University seemingly ages ago, Darren has more than 20 years of experience in the real world as a technician, an engineer, and a manager. He has worked in diverse areas of compliance, production, testing, and his personal favorite, research and development.</p>
+<p>Darren jumped at a chance some years back to teach a couple of semesters at his alma mater. For about two years, he wrote regularly for the online magazine Chipcenter.com. He is currently the director of electronics R&amp;D at a billion- dollar consumer products company. His passions are boats, snowmobiles, motorcycles, and pretty much anything with a motor. When not at his day job, he spends most of his time with his family and a promising R&amp;D consulting/ manufacturing firm he started a couple of years ago.</p>
+<p>Darren lives with his beautiful wife, four strapping boys, and cute little daughter next to the mountains in Richmond, Utah. He believes pyromania goes hand in hand with becoming a great engineer and has dedicated a FacebookTM page to that topic. You can email him with comments, complaints, and general ruminations at <a class="reference external" href="mailto:dashby&#37;&#52;&#48;raddd&#46;com">dashby<span>&#64;</span>raddd<span>&#46;</span>com</a>; if all you want are tidbits of wisdom you can follow him on TwitterTM under sparkyguru.</p>
+</div>
+</section>
+</section>
+</section>
+
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="index.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">上一页</p>
+        <p class="prev-next-title">电气工程101: 你在学校应该学到的一切……但可能没有学到</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="about_author.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">下一页</p>
+        <p class="prev-next-title">关于作者</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> 目录
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2">第一句话</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">培养“内部创业者”</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">工程师 = 成功</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id5">概述</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6">给工程师</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7">给学生</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id8">给管理者</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id12">给教师</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id13">给所有人</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+作者： Darren Ashby
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2013, Darren Ashby.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
